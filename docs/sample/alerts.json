@@ -1,0 +1,118 @@
+{
+ "date": "2026-10-13",
+ "items": [
+  {
+   "id": "20261013-MEME5",
+   "symbol": "MEME5",
+   "name": "Meme Inc",
+   "market": "US",
+   "time": "2026-10-13T15:30:00+00:00",
+   "price": 230.37,
+   "change_pct": 45.0,
+   "rel_vol": 12.0,
+   "score": 39,
+   "ampel": {
+    "farbe": "rot",
+    "label": "Finger weg",
+    "emoji": "🔴"
+   },
+   "grund": "Spekulation / Short Squeeze",
+   "horizonte": {
+    "kurzfristig": 41,
+    "mittelfristig": 58,
+    "langfristig": 16
+   },
+   "live": {
+    "price": 230.37,
+    "change_pct": 45.0,
+    "rel_vol": 12.0,
+    "time": "2026-10-13T15:35:00+00:00"
+   }
+  },
+  {
+   "id": "20261013-TAKE4",
+   "symbol": "TAKE4",
+   "name": "TAKE4 Holding",
+   "market": "US",
+   "time": "2026-10-13T15:30:00+00:00",
+   "price": 281.76,
+   "change_pct": 31.0,
+   "rel_vol": 9.0,
+   "score": 55,
+   "ampel": {
+    "farbe": "gelb",
+    "label": "beobachten",
+    "emoji": "🟡"
+   },
+   "grund": "Übernahme / Fusion",
+   "horizonte": {
+    "kurzfristig": 43,
+    "mittelfristig": 68,
+    "langfristig": 88
+   },
+   "live": {
+    "price": 281.76,
+    "change_pct": 31.0,
+    "rel_vol": 9.0,
+    "time": "2026-10-13T15:35:00+00:00"
+   }
+  },
+  {
+   "id": "20261013-HOT2",
+   "symbol": "HOT2",
+   "name": "HOT2 Holding",
+   "market": "US",
+   "time": "2026-10-13T15:30:00+00:00",
+   "price": 408.22,
+   "change_pct": 22.0,
+   "rel_vol": 6.0,
+   "score": 83,
+   "ampel": {
+    "farbe": "gruen",
+    "label": "interessant",
+    "emoji": "🟢"
+   },
+   "grund": "Quartalszahlen / Prognose",
+   "horizonte": {
+    "kurzfristig": 69,
+    "mittelfristig": 94,
+    "langfristig": 88
+   },
+   "live": {
+    "price": 408.22,
+    "change_pct": 22.0,
+    "rel_vol": 6.0,
+    "time": "2026-10-13T15:35:00+00:00"
+   }
+  },
+  {
+   "id": "20261013-HOT1.DE",
+   "symbol": "HOT1.DE",
+   "name": "HOT1.DE Holding",
+   "market": "DE",
+   "time": "2026-10-13T13:00:00+00:00",
+   "price": 54.22,
+   "change_pct": 14.0,
+   "rel_vol": 4.0,
+   "score": 82,
+   "ampel": {
+    "farbe": "gruen",
+    "label": "interessant",
+    "emoji": "🟢"
+   },
+   "grund": "Quartalszahlen / Prognose",
+   "horizonte": {
+    "kurzfristig": 76,
+    "mittelfristig": 84,
+    "langfristig": 88
+   },
+   "live": {
+    "price": 54.22,
+    "change_pct": 14.0,
+    "rel_vol": 4.0,
+    "time": "2026-10-13T13:00:00+00:00"
+   }
+  }
+ ],
+ "updated": "2026-10-13T15:35:00+00:00"
+}

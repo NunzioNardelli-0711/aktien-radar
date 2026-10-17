@@ -1,0 +1,31 @@
+name: Selbstprüfung
+
+on:
+  schedule:
+    - cron: "7 12 * * 1-5"    # mittags (Xetra offen)
+    - cron: "37 19 * * 1-5"   # abends (US offen)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radar-store
+  cancel-in-progress: false
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Prüfen und bei Problemen per Push melden
+        run: bash .github/scripts/with-store.sh selfcheck --push
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

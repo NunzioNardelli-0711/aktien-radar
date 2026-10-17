@@ -1,0 +1,143 @@
+{
+ "updated": "2026-10-13T15:35:00+00:00",
+ "markets": [
+  "US"
+ ],
+ "items": [
+  {
+   "symbol": "MEME5",
+   "name": "MEME5 Testwert",
+   "market": "US",
+   "price": 230.37,
+   "change_pct": 45.0,
+   "rel_vol": 12.0,
+   "alarm": true
+  },
+  {
+   "symbol": "TAKE4",
+   "name": "TAKE4 Testwert",
+   "market": "US",
+   "price": 281.76,
+   "change_pct": 31.0,
+   "rel_vol": 9.0,
+   "alarm": true
+  },
+  {
+   "symbol": "HOT2",
+   "name": "HOT2 Testwert",
+   "market": "US",
+   "price": 408.22,
+   "change_pct": 22.0,
+   "rel_vol": 6.0,
+   "alarm": true
+  },
+  {
+   "symbol": "US025",
+   "name": "US Company 25",
+   "market": "US",
+   "price": 235.97,
+   "change_pct": 3.83,
+   "rel_vol": 1.0,
+   "alarm": false
+  },
+  {
+   "symbol": "US129",
+   "name": "US Company 129",
+   "market": "US",
+   "price": 226.79,
+   "change_pct": 3.49,
+   "rel_vol": 1.0,
+   "alarm": false
+  },
+  {
+   "symbol": "US058",
+   "name": "US Company 58",
+   "market": "US",
+   "price": 355.04,
+   "change_pct": 3.44,
+   "rel_vol": 1.0,
+   "alarm": false
+  },
+  {
+   "symbol": "US182",
+   "name": "US Company 182",
+   "market": "US",
+   "price": 158.0,
+   "change_pct": 3.38,
+   "rel_vol": 1.0,
+   "alarm": false
+  },
+  {
+   "symbol": "US017",
+   "name": "US Company 17",
+   "market": "US",
+   "price": 304.92,
+   "change_pct": 3.25,
+   "rel_vol": 1.0,
+   "alarm": false
+  },
+  {
+   "symbol": "US292",
+   "name": "US Company 292",
+   "market": "US",
+   "price": 32.32,
+   "change_pct": 3.16,
+   "rel_vol": 1.0,
+   "alarm": false
+  },
+  {
+   "symbol": "US026",
+   "name": "US Company 26",
+   "market": "US",
+   "price": 41.29,
+   "change_pct": 3.07,
+   "rel_vol": 1.0,
+   "alarm": false
+  },
+  {
+   "symbol": "US039",
+   "name": "US Company 39",
+   "market": "US",
+   "price": 180.65,
+   "change_pct": 2.96,
+   "rel_vol": 1.0,
+   "alarm": false
+  },
+  {
+   "symbol": "US217",
+   "name": "US Company 217",
+   "market": "US",
+   "price": 216.33,
+   "change_pct": 2.84,
+   "rel_vol": 1.0,
+   "alarm": false
+  },
+  {
+   "symbol": "US077",
+   "name": "US Company 77",
+   "market": "US",
+   "price": 90.79,
+   "change_pct": 2.83,
+   "rel_vol": 1.0,
+   "alarm": false
+  },
+  {
+   "symbol": "US124",
+   "name": "US Company 124",
+   "market": "US",
+   "price": 97.7,
+   "change_pct": 2.68,
+   "rel_vol": 1.0,
+   "alarm": false
+  },
+  {
+   "symbol": "US267",
+   "name": "US Company 267",
+   "market": "US",
+   "price": 253.16,
+   "change_pct": 2.66,
+   "rel_vol": 1.0,
+   "alarm": false
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "id": "20261013-MEME5",
+ "symbol": "MEME5",
+ "name": "Meme Inc",
+ "market": "US",
+ "indices": [
+  "Nasdaq 100"
+ ],
+ "time": "2026-10-13T15:30:00+00:00",
+ "price": 230.37,
+ "change_pct": 45.0,
+ "rel_vol": 12.0,
+ "score": 39,
+ "ampel": {
+  "farbe": "rot",
+  "label": "Finger weg",
+  "emoji": "🔴"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 41,
+   "label": "ungünstig",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 58,
+   "label": "neutral",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 16,
+   "label": "ungünstig",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "squeeze",
+  "label": "Spekulation / Short Squeeze",
+  "headline": "Retail traders pile into stock",
+  "source": "Testwire"
+ },
+ "begruendung": "Meme Inc steigt um +45.0 % bei 12.0-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Spekulation / Short Squeeze („Retail traders pile into stock“). Pro: Sehr hohes Handelsvolumen (12.0× normal) – breites Interesse. Contra: Spekulativer Short Squeeze – starke Rückschläge typisch. Gesamtbild: die Risiken überwiegen – eher Finger weg.",
+ "chancen": [
+  "Sehr hohes Handelsvolumen (12.0× normal) – breites Interesse",
+  "Neues 52-Wochen-Hoch – kein Widerstand durch frühere Höchststände",
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)"
+ ],
+ "risiken": [
+  "Spekulativer Short Squeeze – starke Rückschläge typisch",
+  "Stark überkauft (RSI 88) – Gewinnmitnahmen wahrscheinlich",
+  "Extremer Tagessprung (+45 %) – hohes Rücksetzer-Risiko",
+  "Umsatz schrumpft (-20 %)",
+  "Unternehmen schreibt Verluste",
+  "Hohe Verschuldung (Verschuldungsgrad 3.2×)"
+ ],
+ "fundamental": {
+  "kgv": -3.0,
+  "kgv_erwartet": null,
+  "umsatzwachstum": -0.2,
+  "gewinnwachstum": null,
+  "marge": -0.4,
+  "verschuldung": 320.0,
+  "marktkap": null,
+  "kursziel_analysten": null,
+  "analysten": null,
+  "sektor": "Technology",
+  "branche": "",
+  "waehrung": "",
+  "beschreibung": "",
+  "branche_median": {
+   "kgv": 28.0,
+   "umsatzwachstum": 0.08,
+   "marge": 0.12,
+   "verschuldung": 60,
+   "n": 120
+  }
+ },
+ "technik": {
+  "kurs": 230.37,
+  "vortag": 158.8778,
+  "rsi": 87.7,
+  "sma50": 148.0185,
+  "sma200": 133.0322,
+  "ueber_sma50": true,
+  "ueber_sma200": true,
+  "high52": 164.2105,
+  "low52": 114.7117,
+  "abstand_high52_pct": 40.3,
+  "rel_volumen": 12.0,
+  "volumen": 4733747.254067077,
+  "avg_volumen20": 1282057.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": null,
+ "news": [
+  {
+   "title": "Retail traders pile into stock",
+   "url": "https://example.com/news",
+   "publisher": "Testwire",
+   "time": "2026-10-13T13:30:00+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 230.37,
+  "change_pct": 45.0,
+  "rel_vol": 12.0,
+  "time": "2026-10-13T15:30:00+00:00"
+ },
+ "pushed": true
+}

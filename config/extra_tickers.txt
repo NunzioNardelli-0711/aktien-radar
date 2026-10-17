@@ -1,0 +1,5 @@
+# Zusätzliche Aktien, die immer mit überwacht werden sollen.
+# Format: Kürzel;Name;Markt (DE oder US) – deutsche Kürzel mit .DE
+# Beispiel:
+# NVDA;NVIDIA;US
+# SAP.DE;SAP;DE

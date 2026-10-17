@@ -1,0 +1,112 @@
+{
+ "id": "20261013-TAKE4",
+ "symbol": "TAKE4",
+ "name": "TAKE4 Holding",
+ "market": "US",
+ "indices": [
+  "Nasdaq 100"
+ ],
+ "time": "2026-10-13T15:30:00+00:00",
+ "price": 281.76,
+ "change_pct": 31.0,
+ "rel_vol": 9.0,
+ "score": 55,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 43,
+   "label": "ungünstig",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 68,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 88,
+   "label": "chancenreich",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "takeover",
+  "label": "Übernahme / Fusion",
+  "headline": "Bigco agrees to acquire Target Inc in $5bn takeover",
+  "source": "Testwire"
+ },
+ "begruendung": "TAKE4 Holding steigt um +31.0 % bei 9.0-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Übernahme / Fusion („Bigco agrees to acquire Target Inc in $5bn takeover“). Pro: Sehr hohes Handelsvolumen (9.0× normal) – breites Interesse. Contra: Übernahmefantasie: weiterer Anstieg meist durch den Angebotspreis begrenzt. Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [
+  "Sehr hohes Handelsvolumen (9.0× normal) – breites Interesse",
+  "Neues 52-Wochen-Hoch – kein Widerstand durch frühere Höchststände",
+  "Starkes Umsatzwachstum (+21 %)",
+  "Gewinn wächst stark (+30 %)",
+  "Günstig bewertet: KGV 18 vs. Branche 28",
+  "Hohe Gewinnmarge (19 %)",
+  "Geringe Verschuldung"
+ ],
+ "risiken": [
+  "Übernahmefantasie: weiterer Anstieg meist durch den Angebotspreis begrenzt",
+  "Überkauft (RSI 82)",
+  "Extremer Tagessprung (+31 %) – hohes Rücksetzer-Risiko"
+ ],
+ "fundamental": {
+  "kgv": 18.5,
+  "kgv_erwartet": 16.0,
+  "umsatzwachstum": 0.21,
+  "gewinnwachstum": 0.3,
+  "marge": 0.19,
+  "verschuldung": 45.0,
+  "marktkap": 12000000000.0,
+  "kursziel_analysten": 150.0,
+  "analysten": "buy",
+  "sektor": "Technology",
+  "branche": "Software",
+  "waehrung": "USD",
+  "beschreibung": "Testunternehmen für den Offline-Test.",
+  "branche_median": {
+   "kgv": 28.0,
+   "umsatzwachstum": 0.08,
+   "marge": 0.12,
+   "verschuldung": 60,
+   "n": 120
+  }
+ },
+ "technik": {
+  "kurs": 281.76,
+  "vortag": 215.0815,
+  "rsi": 82.3,
+  "sma50": 215.2127,
+  "sma200": 221.5202,
+  "ueber_sma50": true,
+  "ueber_sma200": true,
+  "high52": 258.0926,
+  "low52": 190.9902,
+  "abstand_high52_pct": 9.2,
+  "rel_volumen": 9.0,
+  "volumen": 3081655.979746458,
+  "avg_volumen20": 1112820.0,
+  "trend": "Abwärtstrend"
+ },
+ "naechste_zahlen": null,
+ "news": [
+  {
+   "title": "Bigco agrees to acquire Target Inc in $5bn takeover",
+   "url": "https://example.com/news",
+   "publisher": "Testwire",
+   "time": "2026-10-13T13:30:00+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 281.76,
+  "change_pct": 31.0,
+  "rel_vol": 9.0,
+  "time": "2026-10-13T15:30:00+00:00"
+ },
+ "pushed": true
+}

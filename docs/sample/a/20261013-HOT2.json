@@ -1,0 +1,114 @@
+{
+ "id": "20261013-HOT2",
+ "symbol": "HOT2",
+ "name": "HOT2 Holding",
+ "market": "US",
+ "indices": [
+  "Nasdaq 100"
+ ],
+ "time": "2026-10-13T15:30:00+00:00",
+ "price": 408.22,
+ "change_pct": 22.0,
+ "rel_vol": 6.0,
+ "score": 83,
+ "ampel": {
+  "farbe": "gruen",
+  "label": "interessant",
+  "emoji": "🟢"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 69,
+   "label": "chancenreich",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 94,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 88,
+   "label": "chancenreich",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "earnings",
+  "label": "Quartalszahlen / Prognose",
+  "headline": "Example Corp beats Q3 earnings estimates, raises guidance",
+  "source": "Testwire"
+ },
+ "begruendung": "HOT2 Holding steigt um +22.0 % bei 6.0-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Quartalszahlen / Prognose („Example Corp beats Q3 earnings estimates, raises guidance“). Pro: Sehr hohes Handelsvolumen (6.0× normal) – breites Interesse. Contra: Überkauft (RSI 75). Gesamtbild: interessant – eine nähere Prüfung lohnt sich.",
+ "chancen": [
+  "Sehr hohes Handelsvolumen (6.0× normal) – breites Interesse",
+  "Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge",
+  "Neues 52-Wochen-Hoch – kein Widerstand durch frühere Höchststände",
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)",
+  "Starkes Umsatzwachstum (+21 %)",
+  "Gewinn wächst stark (+30 %)",
+  "Günstig bewertet: KGV 18 vs. Branche 28",
+  "Hohe Gewinnmarge (19 %)",
+  "Geringe Verschuldung"
+ ],
+ "risiken": [
+  "Überkauft (RSI 75)",
+  "Sehr großer Tagessprung (+22 %)",
+  "Quartalszahlen in 4 Tag(en) – erhöhte Schwankung möglich"
+ ],
+ "fundamental": {
+  "kgv": 18.5,
+  "kgv_erwartet": 16.0,
+  "umsatzwachstum": 0.21,
+  "gewinnwachstum": 0.3,
+  "marge": 0.19,
+  "verschuldung": 45.0,
+  "marktkap": 12000000000.0,
+  "kursziel_analysten": 150.0,
+  "analysten": "buy",
+  "sektor": "Technology",
+  "branche": "Software",
+  "waehrung": "USD",
+  "beschreibung": "Testunternehmen für den Offline-Test.",
+  "branche_median": {
+   "kgv": 28.0,
+   "umsatzwachstum": 0.08,
+   "marge": 0.12,
+   "verschuldung": 60,
+   "n": 120
+  }
+ },
+ "technik": {
+  "kurs": 408.22,
+  "vortag": 334.6103,
+  "rsi": 75.2,
+  "sma50": 353.7711,
+  "sma200": 353.6476,
+  "ueber_sma50": true,
+  "ueber_sma200": true,
+  "high52": 389.642,
+  "low52": 303.1372,
+  "abstand_high52_pct": 4.8,
+  "rel_volumen": 6.0,
+  "volumen": 2177410.686514191,
+  "avg_volumen20": 1179431.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": "2026-10-17",
+ "news": [
+  {
+   "title": "Example Corp beats Q3 earnings estimates, raises guidance",
+   "url": "https://example.com/news",
+   "publisher": "Testwire",
+   "time": "2026-10-13T13:30:00+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 408.22,
+  "change_pct": 22.0,
+  "rel_vol": 6.0,
+  "time": "2026-10-13T15:30:00+00:00"
+ },
+ "pushed": true
+}

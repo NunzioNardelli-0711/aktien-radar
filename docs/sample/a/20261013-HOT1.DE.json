@@ -1,0 +1,108 @@
+{
+ "id": "20261013-HOT1.DE",
+ "symbol": "HOT1.DE",
+ "name": "HOT1.DE Holding",
+ "market": "DE",
+ "indices": [
+  "DAX"
+ ],
+ "time": "2026-10-13T13:00:00+00:00",
+ "price": 54.22,
+ "change_pct": 14.0,
+ "rel_vol": 4.0,
+ "score": 82,
+ "ampel": {
+  "farbe": "gruen",
+  "label": "interessant",
+  "emoji": "🟢"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 76,
+   "label": "chancenreich",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 84,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 88,
+   "label": "chancenreich",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "earnings",
+  "label": "Quartalszahlen / Prognose",
+  "headline": "Musterwerk AG hebt Prognose nach starkem Quartal an",
+  "source": "Testwire"
+ },
+ "begruendung": "HOT1.DE Holding steigt um +14.0 % bei 4.0-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Quartalszahlen / Prognose („Musterwerk AG hebt Prognose nach starkem Quartal an“). Pro: Deutlich erhöhtes Volumen (4.0× normal). Gesamtbild: interessant – eine nähere Prüfung lohnt sich.",
+ "chancen": [
+  "Deutlich erhöhtes Volumen (4.0× normal)",
+  "Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge",
+  "Starkes Umsatzwachstum (+21 %)",
+  "Gewinn wächst stark (+30 %)",
+  "Günstig bewertet: KGV 18 vs. Branche 28",
+  "Hohe Gewinnmarge (19 %)",
+  "Geringe Verschuldung"
+ ],
+ "risiken": [],
+ "fundamental": {
+  "kgv": 18.5,
+  "kgv_erwartet": 16.0,
+  "umsatzwachstum": 0.21,
+  "gewinnwachstum": 0.3,
+  "marge": 0.19,
+  "verschuldung": 45.0,
+  "marktkap": 12000000000.0,
+  "kursziel_analysten": 150.0,
+  "analysten": "buy",
+  "sektor": "Technology",
+  "branche": "Software",
+  "waehrung": "USD",
+  "beschreibung": "Testunternehmen für den Offline-Test.",
+  "branche_median": {
+   "kgv": 28.0,
+   "umsatzwachstum": 0.08,
+   "marge": 0.12,
+   "verschuldung": 60,
+   "n": 120
+  }
+ },
+ "technik": {
+  "kurs": 54.22,
+  "vortag": 47.5651,
+  "rsi": 67.0,
+  "sma50": 49.3562,
+  "sma200": 51.7958,
+  "ueber_sma50": true,
+  "ueber_sma200": true,
+  "high52": 58.0515,
+  "low52": 45.9748,
+  "abstand_high52_pct": -6.6,
+  "rel_volumen": 4.0,
+  "volumen": 2657869.624940732,
+  "avg_volumen20": 941329.0,
+  "trend": "Abwärtstrend"
+ },
+ "naechste_zahlen": null,
+ "news": [
+  {
+   "title": "Musterwerk AG hebt Prognose nach starkem Quartal an",
+   "url": "https://example.com/news",
+   "publisher": "Testwire",
+   "time": "2026-10-13T11:00:00+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 54.22,
+  "change_pct": 14.0,
+  "rel_vol": 4.0,
+  "time": "2026-10-13T13:00:00+00:00"
+ },
+ "pushed": true
+}

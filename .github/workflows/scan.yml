@@ -1,0 +1,32 @@
+name: Scan (alle 5 Minuten)
+
+on:
+  schedule:
+    # Mo–Fr 06:00–21:55 UTC deckt Xetra und US-Börsen in Sommer- und Winterzeit ab.
+    # Der Code prüft selbst, welche Börse gerade offen ist.
+    - cron: "*/5 6-21 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radar-store
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Scan
+        run: bash .github/scripts/with-store.sh scan
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

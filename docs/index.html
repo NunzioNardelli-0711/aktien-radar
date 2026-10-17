@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aktien-Radar</title>
+<meta name="description" content="Alarme bei starken Kursanstiegen mit Analyse">
+<meta name="theme-color" content="#0b0f14">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Radar">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <img src="icons/icon-192.png" alt="" width="28" height="28">
+    <span>Aktien-Radar</span>
+  </div>
+  <button id="statusPill" class="pill" type="button" aria-label="Systemstatus">…</button>
+</header>
+
+<main id="view" aria-live="polite"></main>
+
+<nav class="tabs" aria-label="Navigation">
+  <a href="#/" data-tab="home"><span class="ico">⚡</span><span>Alarme</span></a>
+  <a href="#/watch" data-tab="watch"><span class="ico">🔭</span><span>Watchlist</span></a>
+  <a href="#/history" data-tab="history"><span class="ico">🕘</span><span>Verlauf</span></a>
+  <a href="#/status" data-tab="status"><span class="ico">⚙️</span><span>Status</span></a>
+</nav>
+
+<script src="app.js"></script>
+</body>
+</html>

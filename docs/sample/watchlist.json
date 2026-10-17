@@ -1,0 +1,317 @@
+{
+ "updated": "2026-10-13T05:20:00+00:00",
+ "items": [
+  {
+   "symbol": "BRK1.DE",
+   "name": "Ausbruch AG",
+   "market": "DE",
+   "price": 161.2001,
+   "last_change_pct": 4.6,
+   "rsi14": 71.4,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase",
+    "Quartalszahlen in 4 Tag(en) (17.10.)"
+   ],
+   "points": 5,
+   "earnings": "2026-10-17"
+  },
+  {
+   "symbol": "US095",
+   "name": "US Company 95",
+   "market": "US",
+   "price": 351.4554,
+   "last_change_pct": 3.03,
+   "rsi14": 69.0,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase",
+    "Schlusskurs auf neuem 52-Wochen-Hoch"
+   ],
+   "points": 5
+  },
+  {
+   "symbol": "US218",
+   "name": "US Company 218",
+   "market": "US",
+   "price": 71.6437,
+   "last_change_pct": 1.81,
+   "rsi14": 69.3,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase",
+    "Schlusskurs auf neuem 52-Wochen-Hoch"
+   ],
+   "points": 5
+  },
+  {
+   "symbol": "US102",
+   "name": "US Company 102",
+   "market": "US",
+   "price": 43.0219,
+   "last_change_pct": 2.92,
+   "rsi14": 73.2,
+   "signals": [
+    "Schlusskurs auf neuem 52-Wochen-Hoch",
+    "Starkes relatives Momentum (+14 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 4
+  },
+  {
+   "symbol": "US109",
+   "name": "US Company 109",
+   "market": "US",
+   "price": 39.4734,
+   "last_change_pct": 2.79,
+   "rsi14": 75.8,
+   "signals": [
+    "Schlusskurs auf neuem 52-Wochen-Hoch",
+    "Starkes relatives Momentum (+13 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 4
+  },
+  {
+   "symbol": "US295",
+   "name": "US Company 295",
+   "market": "US",
+   "price": 214.7989,
+   "last_change_pct": 2.72,
+   "rsi14": 73.1,
+   "signals": [
+    "Schlusskurs auf neuem 52-Wochen-Hoch",
+    "Starkes relatives Momentum (+17 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 4
+  },
+  {
+   "symbol": "DE137.DE",
+   "name": "Deutsche Firma 137",
+   "market": "DE",
+   "price": 35.228,
+   "last_change_pct": 2.49,
+   "rsi14": 80.0,
+   "signals": [
+    "Schlusskurs auf neuem 52-Wochen-Hoch",
+    "Starkes relatives Momentum (+11 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 4
+  },
+  {
+   "symbol": "DE038.DE",
+   "name": "Deutsche Firma 38",
+   "market": "DE",
+   "price": 231.5761,
+   "last_change_pct": 1.33,
+   "rsi14": 77.8,
+   "signals": [
+    "Schlusskurs auf neuem 52-Wochen-Hoch",
+    "Starkes relatives Momentum (+14 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 4
+  },
+  {
+   "symbol": "US202",
+   "name": "US Company 202",
+   "market": "US",
+   "price": 279.6378,
+   "last_change_pct": 1.18,
+   "rsi14": 78.1,
+   "signals": [
+    "Schlusskurs auf neuem 52-Wochen-Hoch",
+    "Starkes relatives Momentum (+12 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 4
+  },
+  {
+   "symbol": "US106",
+   "name": "US Company 106",
+   "market": "US",
+   "price": 293.1296,
+   "last_change_pct": 0.42,
+   "rsi14": 84.1,
+   "signals": [
+    "Ungewöhnliches Volumen (2.3×) ohne große Kursbewegung",
+    "Starkes relatives Momentum (+14 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 4
+  },
+  {
+   "symbol": "US043",
+   "name": "US Company 43",
+   "market": "US",
+   "price": 40.9324,
+   "last_change_pct": 4.77,
+   "rsi14": 67.4,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase"
+   ],
+   "points": 3
+  },
+  {
+   "symbol": "US011",
+   "name": "US Company 11",
+   "market": "US",
+   "price": 150.367,
+   "last_change_pct": 4.41,
+   "rsi14": 67.1,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase"
+   ],
+   "points": 3
+  },
+  {
+   "symbol": "DE049.DE",
+   "name": "Deutsche Firma 49",
+   "market": "DE",
+   "price": 100.7479,
+   "last_change_pct": 3.75,
+   "rsi14": 72.5,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase"
+   ],
+   "points": 3
+  },
+  {
+   "symbol": "US053",
+   "name": "US Company 53",
+   "market": "US",
+   "price": 257.8776,
+   "last_change_pct": 3.15,
+   "rsi14": 61.4,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase"
+   ],
+   "points": 3
+  },
+  {
+   "symbol": "DE091.DE",
+   "name": "Deutsche Firma 91",
+   "market": "DE",
+   "price": 100.9775,
+   "last_change_pct": 2.69,
+   "rsi14": 69.5,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase"
+   ],
+   "points": 3
+  },
+  {
+   "symbol": "DE011.DE",
+   "name": "Deutsche Firma 11",
+   "market": "DE",
+   "price": 31.4134,
+   "last_change_pct": 2.5,
+   "rsi14": 60.4,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase"
+   ],
+   "points": 3
+  },
+  {
+   "symbol": "DE106.DE",
+   "name": "Deutsche Firma 106",
+   "market": "DE",
+   "price": 459.9228,
+   "last_change_pct": 2.41,
+   "rsi14": 59.3,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase"
+   ],
+   "points": 3
+  },
+  {
+   "symbol": "DE083.DE",
+   "name": "Deutsche Firma 83",
+   "market": "DE",
+   "price": 173.5398,
+   "last_change_pct": 2.36,
+   "rsi14": 52.2,
+   "signals": [
+    "Ungewöhnliches Volumen (2.1×) ohne große Kursbewegung"
+   ],
+   "points": 3
+  },
+  {
+   "symbol": "DE058.DE",
+   "name": "Deutsche Firma 58",
+   "market": "DE",
+   "price": 24.2153,
+   "last_change_pct": 1.77,
+   "rsi14": 61.2,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase"
+   ],
+   "points": 3
+  },
+  {
+   "symbol": "US147",
+   "name": "US Company 147",
+   "market": "US",
+   "price": 293.947,
+   "last_change_pct": 1.55,
+   "rsi14": 68.7,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase"
+   ],
+   "points": 3
+  },
+  {
+   "symbol": "US185",
+   "name": "US Company 185",
+   "market": "US",
+   "price": 161.0363,
+   "last_change_pct": 1.45,
+   "rsi14": 65.2,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase"
+   ],
+   "points": 3
+  },
+  {
+   "symbol": "US066",
+   "name": "US Company 66",
+   "market": "US",
+   "price": 272.1256,
+   "last_change_pct": 1.34,
+   "rsi14": 60.7,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase"
+   ],
+   "points": 3
+  },
+  {
+   "symbol": "US020",
+   "name": "US Company 20",
+   "market": "US",
+   "price": 197.8293,
+   "last_change_pct": 0.92,
+   "rsi14": 53.3,
+   "signals": [
+    "Ungewöhnliches Volumen (2.0×) ohne große Kursbewegung"
+   ],
+   "points": 3
+  },
+  {
+   "symbol": "DE157.DE",
+   "name": "Deutsche Firma 157",
+   "market": "DE",
+   "price": 58.4276,
+   "last_change_pct": 0.48,
+   "rsi14": 44.5,
+   "signals": [
+    "Ungewöhnliches Volumen (2.2×) ohne große Kursbewegung"
+   ],
+   "points": 3
+  },
+  {
+   "symbol": "US125",
+   "name": "US Company 125",
+   "market": "US",
+   "price": 143.1561,
+   "last_change_pct": -0.21,
+   "rsi14": 49.3,
+   "signals": [
+    "Ungewöhnliches Volumen (2.0×) ohne große Kursbewegung"
+   ],
+   "points": 3
+  }
+ ],
+ "hinweis": "Frühwarn-Signale sind Hinweise auf erhöhte Bewegungswahrscheinlichkeit, keine Prognose und keine Kaufempfehlung."
+}
