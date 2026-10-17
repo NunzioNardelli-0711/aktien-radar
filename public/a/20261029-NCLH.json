@@ -1,0 +1,102 @@
+{
+ "id": "20261029-NCLH",
+ "symbol": "NCLH",
+ "name": "Norwegian Cruise Line Holdings Ltd.",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-10-29T13:35:17.500052+00:00",
+ "price": 17.8,
+ "change_pct": 10.83,
+ "rel_vol": 3.38,
+ "score": 53,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 49,
+   "label": "neutral",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 56,
+   "label": "neutral",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 54,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "none",
+  "label": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "headline": null,
+  "source": ""
+ },
+ "begruendung": "Norwegian Cruise Line Holdings Ltd. steigt um +10.8 % bei 3.4-fachem Handelsvolumen. In den aktuellen Nachrichten findet sich kein klarer Auslöser. Pro: Deutlich erhöhtes Volumen (3.4× normal). Contra: Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein. Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [
+  "Deutlich erhöhtes Volumen (3.4× normal)",
+  "Gewinn wächst stark (+616 %)",
+  "Günstig bewertet: KGV 11 vs. Branche 20"
+ ],
+ "risiken": [
+  "Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein",
+  "Quartalszahlen in 0 Tag(en) – erhöhte Schwankung möglich",
+  "Langfristiger Abwärtstrend – Kurs trotz Sprung unter der 200-Tage-Linie",
+  "Hohe Verschuldung (Verschuldungsgrad 6.2×)"
+ ],
+ "fundamental": {
+  "kgv": 11.0,
+  "kgv_erwartet": 12.0677,
+  "umsatzwachstum": 0.049,
+  "gewinnwachstum": 6.163,
+  "marge": 0.0749,
+  "verschuldung": 621.051,
+  "marktkap": 8182727168.0,
+  "kursziel_analysten": 18.625,
+  "analysten": "buy",
+  "sektor": "Consumer Cyclical",
+  "branche": "Travel Services",
+  "waehrung": "USD",
+  "beschreibung": "Norwegian Cruise Line Holdings Ltd., together with its subsidiaries, operates as a cruise company in North America, Europe, the Asia-Pacific, and internationally. It offers itineraries to destinations, such as Europe, Asia, Australia, New Zealand, South America, Africa, Canada, Bermuda, the Caribbean, and Alaska; and inter-island itinerary in Hawaii. The company also provides features, amenities, ",
+  "branche_median": {
+   "kgv": 19.6857,
+   "umsatzwachstum": 0.056,
+   "marge": 0.07,
+   "verschuldung": 110.88,
+   "n": 74
+  }
+ },
+ "technik": {
+  "kurs": 17.8,
+  "vortag": 16.06,
+  "rsi": 70.2,
+  "sma50": 15.3562,
+  "sma200": 18.7483,
+  "ueber_sma50": true,
+  "ueber_sma200": false,
+  "high52": 25.13,
+  "low52": 13.63,
+  "abstand_high52_pct": -29.2,
+  "rel_volumen": 3.38,
+  "volumen": 10007674.0,
+  "avg_volumen20": 19722015.0,
+  "trend": "Abwärtstrend"
+ },
+ "naechste_zahlen": "2026-10-29",
+ "news": [],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 17.8,
+  "change_pct": 10.83,
+  "rel_vol": 3.38,
+  "time": "2026-10-29T13:35:17.500052+00:00"
+ },
+ "pushed": true
+}

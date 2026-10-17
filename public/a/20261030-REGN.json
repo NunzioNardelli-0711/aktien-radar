@@ -1,0 +1,106 @@
+{
+ "id": "20261030-REGN",
+ "symbol": "REGN",
+ "name": "Regeneron Pharmaceuticals, Inc.",
+ "market": "US",
+ "indices": [
+  "S&P 500",
+  "Nasdaq 100"
+ ],
+ "time": "2026-10-30T14:26:12.445893+00:00",
+ "price": 915.34,
+ "change_pct": 11.79,
+ "rel_vol": 10.58,
+ "score": 66,
+ "ampel": {
+  "farbe": "gruen",
+  "label": "interessant",
+  "emoji": "🟢"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 48,
+   "label": "neutral",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 72,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 80,
+   "label": "chancenreich",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "none",
+  "label": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "headline": null,
+  "source": ""
+ },
+ "begruendung": "Regeneron Pharmaceuticals, Inc. steigt um +11.8 % bei 10.6-fachem Handelsvolumen. In den aktuellen Nachrichten findet sich kein klarer Auslöser. Pro: Sehr hohes Handelsvolumen (10.6× normal) – breites Interesse. Contra: Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein. Gesamtbild: interessant – eine nähere Prüfung lohnt sich.",
+ "chancen": [
+  "Sehr hohes Handelsvolumen (10.6× normal) – breites Interesse",
+  "Neues 52-Wochen-Hoch – kein Widerstand durch frühere Höchststände",
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)",
+  "Starkes Umsatzwachstum (+17 %)",
+  "Hohe Gewinnmarge (28 %)",
+  "Geringe Verschuldung"
+ ],
+ "risiken": [
+  "Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein",
+  "Überkauft (RSI 78)",
+  "Quartalszahlen in 0 Tag(en) – erhöhte Schwankung möglich",
+  "Gewinn rückläufig (-4 %)"
+ ],
+ "fundamental": {
+  "kgv": 22.6135,
+  "kgv_erwartet": 14.5575,
+  "umsatzwachstum": 0.167,
+  "gewinnwachstum": -0.045,
+  "marge": 0.2787,
+  "verschuldung": 8.535,
+  "marktkap": 94151311360.0,
+  "kursziel_analysten": 869.0741,
+  "analysten": "buy",
+  "sektor": "Healthcare",
+  "branche": "Biotechnology",
+  "waehrung": "USD",
+  "beschreibung": "Regeneron Pharmaceuticals, Inc. discovers, invents, develops, manufactures, and commercializes medicines to treat various diseases worldwide. The company develops product candidates to treat eye, allergic and inflammatory, cardiovascular, metabolic, neurological, infectious, and rare diseases; and cancer, hematologic conditions. It also offers EYLEA injections for wet age-related macular degenerat",
+  "branche_median": {
+   "kgv": 27.291,
+   "umsatzwachstum": 0.067,
+   "marge": 0.0951,
+   "verschuldung": 68.74,
+   "n": 76
+  }
+ },
+ "technik": {
+  "kurs": 915.34,
+  "vortag": 818.77,
+  "rsi": 78.1,
+  "sma50": 791.2782,
+  "sma200": 736.6675,
+  "ueber_sma50": true,
+  "ueber_sma200": true,
+  "high52": 859.34,
+  "low52": 591.52,
+  "abstand_high52_pct": 6.5,
+  "rel_volumen": 10.58,
+  "volumen": 1003322.0,
+  "avg_volumen20": 632115.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": "2026-10-30",
+ "news": [],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 915.34,
+  "change_pct": 11.79,
+  "rel_vol": 10.58,
+  "time": "2026-10-30T14:26:12.445893+00:00"
+ },
+ "pushed": true
+}

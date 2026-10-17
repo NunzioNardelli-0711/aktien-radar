@@ -1,0 +1,90 @@
+{
+ "date": "2026-10-30",
+ "items": [
+  {
+   "id": "20261030-GPN",
+   "symbol": "GPN",
+   "name": "Global Payments Inc.",
+   "market": "US",
+   "time": "2026-10-30T18:19:08.802885+00:00",
+   "price": 95.68,
+   "change_pct": 11.62,
+   "rel_vol": 8.2,
+   "score": 57,
+   "ampel": {
+    "farbe": "gelb",
+    "label": "beobachten",
+    "emoji": "🟡"
+   },
+   "grund": "Kein eindeutiger Grund in den Nachrichten gefunden",
+   "horizonte": {
+    "kurzfristig": 53,
+    "mittelfristig": 72,
+    "langfristig": 44
+   },
+   "live": {
+    "price": 97.01,
+    "change_pct": 13.17,
+    "rel_vol": 7.8,
+    "time": "2026-10-30T19:57:09.283076+00:00"
+   }
+  },
+  {
+   "id": "20261030-FDXF",
+   "symbol": "FDXF",
+   "name": "FedEx Freight Holding Company, Inc.",
+   "market": "US",
+   "time": "2026-10-30T14:26:12.445893+00:00",
+   "price": 124.94,
+   "change_pct": 13.91,
+   "rel_vol": 2.97,
+   "score": 51,
+   "ampel": {
+    "farbe": "gelb",
+    "label": "beobachten",
+    "emoji": "🟡"
+   },
+   "grund": "Kein eindeutiger Grund in den Nachrichten gefunden",
+   "horizonte": {
+    "kurzfristig": 45,
+    "mittelfristig": 50,
+    "langfristig": 58
+   },
+   "live": {
+    "price": 126.57,
+    "change_pct": 15.38,
+    "rel_vol": 2.22,
+    "time": "2026-10-30T19:57:09.283076+00:00"
+   }
+  },
+  {
+   "id": "20261030-REGN",
+   "symbol": "REGN",
+   "name": "Regeneron Pharmaceuticals, Inc.",
+   "market": "US",
+   "time": "2026-10-30T14:26:12.445893+00:00",
+   "price": 915.34,
+   "change_pct": 11.79,
+   "rel_vol": 10.58,
+   "score": 66,
+   "ampel": {
+    "farbe": "gruen",
+    "label": "interessant",
+    "emoji": "🟢"
+   },
+   "grund": "Kein eindeutiger Grund in den Nachrichten gefunden",
+   "horizonte": {
+    "kurzfristig": 48,
+    "mittelfristig": 72,
+    "langfristig": 80
+   },
+   "live": {
+    "price": 925.85,
+    "change_pct": 13.08,
+    "rel_vol": 3.86,
+    "time": "2026-10-30T19:57:09.283076+00:00"
+   }
+  }
+ ],
+ "updated": "2026-10-30T19:57:09.283076+00:00"
+}

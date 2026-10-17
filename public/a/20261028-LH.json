@@ -1,0 +1,101 @@
+{
+ "id": "20261028-LH",
+ "symbol": "LH",
+ "name": "Labcorp Holdings Inc.",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-10-28T15:13:29.113407+00:00",
+ "price": 365.7,
+ "change_pct": 10.43,
+ "rel_vol": 2.98,
+ "score": 61,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 40,
+   "label": "ungünstig",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 82,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 62,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "none",
+  "label": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "headline": null,
+  "source": ""
+ },
+ "begruendung": "Labcorp Holdings Inc. steigt um +10.4 % bei 3.0-fachem Handelsvolumen. In den aktuellen Nachrichten findet sich kein klarer Auslöser. Pro: Neues 52-Wochen-Hoch – kein Widerstand durch frühere Höchststände. Contra: Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein. Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [
+  "Neues 52-Wochen-Hoch – kein Widerstand durch frühere Höchststände",
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)",
+  "Gewinn wächst stark (+28 %)"
+ ],
+ "risiken": [
+  "Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein",
+  "Überkauft (RSI 82)",
+  "Quartalszahlen in 0 Tag(en) – erhöhte Schwankung möglich"
+ ],
+ "fundamental": {
+  "kgv": 30.2337,
+  "kgv_erwartet": 18.484,
+  "umsatzwachstum": 0.058,
+  "gewinnwachstum": 0.282,
+  "marge": 0.0699,
+  "verschuldung": 79.124,
+  "marktkap": 29644077056.0,
+  "kursziel_analysten": 345.125,
+  "analysten": "buy",
+  "sektor": "Healthcare",
+  "branche": "Diagnostics & Research",
+  "waehrung": "USD",
+  "beschreibung": "Labcorp Holdings Inc. provides laboratory services. It operates in Diagnostics Laboratories and Biopharma Laboratory Services segments. The company offers various tests, such as blood chemistry analyses, urinalyses, blood cell counts, thyroid tests, PAP tests, hemoglobin A1C, PSA, tests for sexually transmitted diseases, vitamin D testing, microbiology cultures and procedures, and alcohol and othe",
+  "branche_median": {
+   "kgv": 27.291,
+   "umsatzwachstum": 0.067,
+   "marge": 0.0951,
+   "verschuldung": 68.74,
+   "n": 76
+  }
+ },
+ "technik": {
+  "kurs": 365.7,
+  "vortag": 331.17,
+  "rsi": 81.7,
+  "sma50": 321.1342,
+  "sma200": 285.9326,
+  "ueber_sma50": true,
+  "ueber_sma200": true,
+  "high52": 341.8,
+  "low52": 244.52,
+  "abstand_high52_pct": 7.0,
+  "rel_volumen": 2.98,
+  "volumen": 510574.0,
+  "avg_volumen20": 645715.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": "2026-10-28",
+ "news": [],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 365.7,
+  "change_pct": 10.43,
+  "rel_vol": 2.98,
+  "time": "2026-10-28T15:13:29.113407+00:00"
+ },
+ "pushed": true
+}

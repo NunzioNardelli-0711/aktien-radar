@@ -1,0 +1,143 @@
+{
+ "updated": "2026-10-30T19:57:09.283076+00:00",
+ "markets": [
+  "US"
+ ],
+ "items": [
+  {
+   "symbol": "FDXF",
+   "name": "FedEx Freight",
+   "market": "US",
+   "price": 126.57,
+   "change_pct": 15.38,
+   "rel_vol": 2.22,
+   "alarm": true
+  },
+  {
+   "symbol": "GPN",
+   "name": "Global Payments",
+   "market": "US",
+   "price": 97.01,
+   "change_pct": 13.17,
+   "rel_vol": 7.8,
+   "alarm": true
+  },
+  {
+   "symbol": "REGN",
+   "name": "Regeneron Pharmaceuticals",
+   "market": "US",
+   "price": 925.85,
+   "change_pct": 13.08,
+   "rel_vol": 3.86,
+   "alarm": true
+  },
+  {
+   "symbol": "GDDY",
+   "name": "GoDaddy",
+   "market": "US",
+   "price": 117.58,
+   "change_pct": 11.04,
+   "rel_vol": 1.61,
+   "alarm": false
+  },
+  {
+   "symbol": "CSGP",
+   "name": "CoStar Group",
+   "market": "US",
+   "price": 30.12,
+   "change_pct": 7.05,
+   "rel_vol": 1.1,
+   "alarm": false
+  },
+  {
+   "symbol": "VLTO",
+   "name": "Veralto",
+   "market": "US",
+   "price": 111.34,
+   "change_pct": 7.0,
+   "rel_vol": 1.69,
+   "alarm": false
+  },
+  {
+   "symbol": "CBOE",
+   "name": "Cboe Global Markets",
+   "market": "US",
+   "price": 335.09,
+   "change_pct": 6.63,
+   "rel_vol": 1.66,
+   "alarm": false
+  },
+  {
+   "symbol": "TMUS",
+   "name": "T-Mobile US",
+   "market": "US",
+   "price": 156.45,
+   "change_pct": 6.22,
+   "rel_vol": 1.31,
+   "alarm": false
+  },
+  {
+   "symbol": "TYL",
+   "name": "Tyler Technologies",
+   "market": "US",
+   "price": 394.2,
+   "change_pct": 5.42,
+   "rel_vol": 1.57,
+   "alarm": false
+  },
+  {
+   "symbol": "LYB",
+   "name": "LyondellBasell",
+   "market": "US",
+   "price": 68.36,
+   "change_pct": 4.57,
+   "rel_vol": 0.96,
+   "alarm": false
+  },
+  {
+   "symbol": "CMCSA",
+   "name": "Comcast",
+   "market": "US",
+   "price": 23.27,
+   "change_pct": 4.51,
+   "rel_vol": 1.13,
+   "alarm": false
+  },
+  {
+   "symbol": "CF",
+   "name": "CF Industries",
+   "market": "US",
+   "price": 123.21,
+   "change_pct": 4.34,
+   "rel_vol": 0.51,
+   "alarm": false
+  },
+  {
+   "symbol": "ACN",
+   "name": "Accenture",
+   "market": "US",
+   "price": 257.87,
+   "change_pct": 4.31,
+   "rel_vol": 0.93,
+   "alarm": false
+  },
+  {
+   "symbol": "CTSH",
+   "name": "Cognizant",
+   "market": "US",
+   "price": 65.19,
+   "change_pct": 4.27,
+   "rel_vol": 0.79,
+   "alarm": false
+  },
+  {
+   "symbol": "ERIE",
+   "name": "Erie Indemnity",
+   "market": "US",
+   "price": 260.6,
+   "change_pct": 3.91,
+   "rel_vol": 1.7,
+   "alarm": false
+  }
+ ]
+}

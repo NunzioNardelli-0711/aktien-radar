@@ -1,0 +1,101 @@
+{
+ "id": "20261021-SMCI",
+ "symbol": "SMCI",
+ "name": "Super Micro Computer, Inc.",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-10-21T13:42:58.540538+00:00",
+ "price": 36.29,
+ "change_pct": 11.77,
+ "rel_vol": 3.85,
+ "score": 68,
+ "ampel": {
+  "farbe": "gruen",
+  "label": "interessant",
+  "emoji": "🟢"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 49,
+   "label": "neutral",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 80,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 76,
+   "label": "chancenreich",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "none",
+  "label": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "headline": null,
+  "source": ""
+ },
+ "begruendung": "Super Micro Computer, Inc. steigt um +11.8 % bei 3.9-fachem Handelsvolumen. In den aktuellen Nachrichten findet sich kein klarer Auslöser. Pro: Deutlich erhöhtes Volumen (3.9× normal). Contra: Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein. Gesamtbild: interessant – eine nähere Prüfung lohnt sich.",
+ "chancen": [
+  "Deutlich erhöhtes Volumen (3.9× normal)",
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)",
+  "Starkes Umsatzwachstum (+93 %)",
+  "Gewinn wächst stark (+435 %)",
+  "Günstig bewertet: KGV 11 vs. Branche 30"
+ ],
+ "risiken": [
+  "Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein"
+ ],
+ "fundamental": {
+  "kgv": 11.1304,
+  "kgv_erwartet": 6.691,
+  "umsatzwachstum": 0.932,
+  "gewinnwachstum": 4.347,
+  "marge": 0.0571,
+  "verschuldung": 63.951,
+  "marktkap": 23838054400.0,
+  "kursziel_analysten": 42.2667,
+  "analysten": "hold",
+  "sektor": "Technology",
+  "branche": "Computer Hardware",
+  "waehrung": "USD",
+  "beschreibung": "Super Micro Computer, Inc., together with its subsidiaries, develops and sells server and storage solutions based on modular and open-standard architecture in the United States, Asia, Europe, and internationally. The company offers liquid and air-cooled AI servers for training and inferencing with integrated graphics processing units (GPUs) or PCIe based architectures; SuperBlade, MicroBlade, Flex",
+  "branche_median": {
+   "kgv": 30.4158,
+   "umsatzwachstum": 0.166,
+   "marge": 0.1637,
+   "verschuldung": 47.906,
+   "n": 109
+  }
+ },
+ "technik": {
+  "kurs": 36.29,
+  "vortag": 32.47,
+  "rsi": 44.3,
+  "sma50": 38.7068,
+  "sma200": 32.49,
+  "ueber_sma50": false,
+  "ueber_sma200": true,
+  "high52": 55.35,
+  "low52": 19.48,
+  "abstand_high52_pct": -34.4,
+  "rel_volumen": 3.85,
+  "volumen": 19516961.0,
+  "avg_volumen20": 33785525.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": "2026-11-03",
+ "news": [],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 36.29,
+  "change_pct": 11.77,
+  "rel_vol": 3.85,
+  "time": "2026-10-21T13:42:58.540538+00:00"
+ },
+ "pushed": true
+}

@@ -1,0 +1,35 @@
+{
+ "errors": [],
+ "version": "1.1.0",
+ "universe_size": 658,
+ "universe_updated": "2026-10-31T07:44:02.421620+00:00",
+ "universe_report": {
+  "S&P 500": 503,
+  "Nasdaq 100": 100,
+  "DAX": 40,
+  "MDAX": 50,
+  "SDAX": 57
+ },
+ "fundamentals_updated": "2026-10-31T07:49:09.442051+00:00",
+ "last_digest": "2026-10-30",
+ "baseline_built": "2026-10-30T05:55:24.940275+00:00",
+ "baseline_count": 653,
+ "baseline_failed": 5,
+ "watchlist_updated": "2026-10-30T05:55:24.940275+00:00",
+ "watchlist_count": 25,
+ "app_url": "https://nunzionardelli-0711.github.io/aktien-radar/",
+ "ok": true,
+ "last_run": "2026-10-30T22:29:00.876770+00:00",
+ "markets_open": [],
+ "last_scan_result": "Börsen geschlossen – kein Scan nötig",
+ "last_scan": "2026-10-30T19:57:09.283076+00:00",
+ "scanned": 515,
+ "quotes": 515,
+ "hits": 3,
+ "new_alerts": 0,
+ "scan_seconds": 33.5,
+ "selfcheck": {
+  "time": "2026-10-30T18:46:25.688882+00:00",
+  "problems": []
+ }
+}

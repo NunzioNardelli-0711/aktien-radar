@@ -1,0 +1,341 @@
+{
+ "updated": "2026-10-30T05:55:24.940275+00:00",
+ "items": [
+  {
+   "symbol": "TRGP",
+   "name": "Targa Resources",
+   "market": "US",
+   "price": 312.37,
+   "last_change_pct": 2.12,
+   "rsi14": 66.9,
+   "signals": [
+    "Schlusskurs auf neuem 52-Wochen-Hoch",
+    "Starkes relatives Momentum (+11 %-Punkte ggü. Index in 20 Tagen)",
+    "Quartalszahlen in 6 Tag(en) (05.11.)"
+   ],
+   "points": 6,
+   "earnings": "2026-11-05"
+  },
+  {
+   "symbol": "AMGN",
+   "name": "Amgen",
+   "market": "US",
+   "price": 460.73,
+   "last_change_pct": 1.97,
+   "rsi14": 69.6,
+   "signals": [
+    "Schlusskurs auf neuem 52-Wochen-Hoch",
+    "Starkes relatives Momentum (+12 %-Punkte ggü. Index in 20 Tagen)",
+    "Quartalszahlen in 4 Tag(en) (03.11.)"
+   ],
+   "points": 6,
+   "earnings": "2026-11-03"
+  },
+  {
+   "symbol": "TXT",
+   "name": "Textron",
+   "market": "US",
+   "price": 87.46,
+   "last_change_pct": 11.67,
+   "rsi14": 76.2,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase",
+    "Starkes relatives Momentum (+13 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 5
+  },
+  {
+   "symbol": "TDG",
+   "name": "TransDigm Group",
+   "market": "US",
+   "price": 1175.91,
+   "last_change_pct": 3.46,
+   "rsi14": 63.4,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase",
+    "Quartalszahlen in 6 Tag(en) (05.11.)"
+   ],
+   "points": 5,
+   "earnings": "2026-11-05"
+  },
+  {
+   "symbol": "LYV",
+   "name": "Live Nation Entertainment",
+   "market": "US",
+   "price": 177.83,
+   "last_change_pct": 3.09,
+   "rsi14": 62.3,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase",
+    "Quartalszahlen in 6 Tag(en) (05.11.)"
+   ],
+   "points": 5,
+   "earnings": "2026-11-05"
+  },
+  {
+   "symbol": "FRT",
+   "name": "Federal Realty Investment Trust",
+   "market": "US",
+   "price": 111.44,
+   "last_change_pct": 2.96,
+   "rsi14": 59.9,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase",
+    "Quartalszahlen in 0 Tag(en) (30.10.)"
+   ],
+   "points": 5,
+   "earnings": "2026-10-30"
+  },
+  {
+   "symbol": "IRM",
+   "name": "Iron Mountain",
+   "market": "US",
+   "price": 118.38,
+   "last_change_pct": 2.34,
+   "rsi14": 59.4,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase",
+    "Quartalszahlen in 6 Tag(en) (05.11.)"
+   ],
+   "points": 5,
+   "earnings": "2026-11-05"
+  },
+  {
+   "symbol": "SPG",
+   "name": "Simon Property Group",
+   "market": "US",
+   "price": 215.72,
+   "last_change_pct": 2.12,
+   "rsi14": 66.1,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase",
+    "Quartalszahlen in 6 Tag(en) (05.11.)"
+   ],
+   "points": 5,
+   "earnings": "2026-11-05"
+  },
+  {
+   "symbol": "PEG",
+   "name": "Public Service Enterprise Group",
+   "market": "US",
+   "price": 73.63,
+   "last_change_pct": 1.6,
+   "rsi14": 62.5,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase",
+    "Quartalszahlen in 3 Tag(en) (02.11.)"
+   ],
+   "points": 5,
+   "earnings": "2026-11-02"
+  },
+  {
+   "symbol": "PPL",
+   "name": "PPL Corporation",
+   "market": "US",
+   "price": 35.63,
+   "last_change_pct": 1.54,
+   "rsi14": 64.4,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase",
+    "Quartalszahlen in 7 Tag(en) (06.11.)"
+   ],
+   "points": 5,
+   "earnings": "2026-11-06"
+  },
+  {
+   "symbol": "DD",
+   "name": "DuPont",
+   "market": "US",
+   "price": 140.58,
+   "last_change_pct": 1.37,
+   "rsi14": 69.5,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase",
+    "Quartalszahlen in 4 Tag(en) (03.11.)"
+   ],
+   "points": 5,
+   "earnings": "2026-11-03"
+  },
+  {
+   "symbol": "AES",
+   "name": "AES Corporation",
+   "market": "US",
+   "price": 15.05,
+   "last_change_pct": 0.47,
+   "rsi14": 68.8,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase",
+    "Quartalszahlen in 5 Tag(en) (04.11.)"
+   ],
+   "points": 5,
+   "earnings": "2026-11-04"
+  },
+  {
+   "symbol": "LLY",
+   "name": "Lilly (Eli)",
+   "market": "US",
+   "price": 1373.7,
+   "last_change_pct": 6.63,
+   "rsi14": 74.4,
+   "signals": [
+    "Schlusskurs auf neuem 52-Wochen-Hoch",
+    "Starkes relatives Momentum (+19 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 4
+  },
+  {
+   "symbol": "MLM",
+   "name": "Martin Marietta Materials",
+   "market": "US",
+   "price": 534.39,
+   "last_change_pct": 4.78,
+   "rsi14": 68.4,
+   "signals": [
+    "Starkes relatives Momentum (+11 %-Punkte ggü. Index in 20 Tagen)",
+    "Quartalszahlen in 5 Tag(en) (04.11.)"
+   ],
+   "points": 4,
+   "earnings": "2026-11-04"
+  },
+  {
+   "symbol": "GD",
+   "name": "General Dynamics",
+   "market": "US",
+   "price": 370.82,
+   "last_change_pct": 4.65,
+   "rsi14": 72.5,
+   "signals": [
+    "Starkes relatives Momentum (+11 %-Punkte ggü. Index in 20 Tagen)",
+    "Quartalszahlen in 0 Tag(en) (30.10.)"
+   ],
+   "points": 4,
+   "earnings": "2026-10-30"
+  },
+  {
+   "symbol": "MA",
+   "name": "Mastercard",
+   "market": "US",
+   "price": 635.7,
+   "last_change_pct": 4.16,
+   "rsi14": 69.9,
+   "signals": [
+    "Schlusskurs auf neuem 52-Wochen-Hoch",
+    "Starkes relatives Momentum (+15 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 4
+  },
+  {
+   "symbol": "GILD",
+   "name": "Gilead Sciences",
+   "market": "US",
+   "price": 165.61,
+   "last_change_pct": 4.03,
+   "rsi14": 70.0,
+   "signals": [
+    "Schlusskurs auf neuem 52-Wochen-Hoch",
+    "Starkes relatives Momentum (+12 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 4
+  },
+  {
+   "symbol": "URI",
+   "name": "United Rentals",
+   "market": "US",
+   "price": 1198.6801,
+   "last_change_pct": 2.05,
+   "rsi14": 73.2,
+   "signals": [
+    "Schlusskurs auf neuem 52-Wochen-Hoch",
+    "Starkes relatives Momentum (+15 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 4
+  },
+  {
+   "symbol": "KIM",
+   "name": "Kimco Realty",
+   "market": "US",
+   "price": 24.42,
+   "last_change_pct": 4.36,
+   "rsi14": 70.3,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase"
+   ],
+   "points": 3
+  },
+  {
+   "symbol": "VICI",
+   "name": "Vici Properties",
+   "market": "US",
+   "price": 24.52,
+   "last_change_pct": 4.25,
+   "rsi14": 60.3,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase"
+   ],
+   "points": 3
+  },
+  {
+   "symbol": "ALLE",
+   "name": "Allegion",
+   "market": "US",
+   "price": 187.06,
+   "last_change_pct": 3.54,
+   "rsi14": 83.0,
+   "signals": [
+    "Schlusskurs auf neuem 52-Wochen-Hoch",
+    "Starkes relatives Momentum (+21 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 3
+  },
+  {
+   "symbol": "WST",
+   "name": "West Pharmaceutical Services",
+   "market": "US",
+   "price": 416.67,
+   "last_change_pct": 3.23,
+   "rsi14": 80.8,
+   "signals": [
+    "Schlusskurs auf neuem 52-Wochen-Hoch",
+    "Starkes relatives Momentum (+13 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 3
+  },
+  {
+   "symbol": "BXP",
+   "name": "BXP, Inc.",
+   "market": "US",
+   "price": 63.02,
+   "last_change_pct": 2.5,
+   "rsi14": 56.9,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase"
+   ],
+   "points": 3
+  },
+  {
+   "symbol": "SYF",
+   "name": "Synchrony Financial",
+   "market": "US",
+   "price": 76.97,
+   "last_change_pct": 2.14,
+   "rsi14": 61.4,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase"
+   ],
+   "points": 3
+  },
+  {
+   "symbol": "ITW",
+   "name": "Illinois Tool Works",
+   "market": "US",
+   "price": 281.4,
+   "last_change_pct": 1.93,
+   "rsi14": 64.2,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase"
+   ],
+   "points": 3
+  }
+ ],
+ "hinweis": "Frühwarn-Signale sind Hinweise auf erhöhte Bewegungswahrscheinlichkeit, keine Prognose und keine Kaufempfehlung."
+}

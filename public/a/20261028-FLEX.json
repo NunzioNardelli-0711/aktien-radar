@@ -1,0 +1,100 @@
+{
+ "id": "20261028-FLEX",
+ "symbol": "FLEX",
+ "name": "Flex Ltd.",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-10-28T16:06:09.190839+00:00",
+ "price": 92.39,
+ "change_pct": 10.84,
+ "rel_vol": 2.87,
+ "score": 62,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 45,
+   "label": "neutral",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 80,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 60,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "none",
+  "label": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "headline": null,
+  "source": ""
+ },
+ "begruendung": "Flex Ltd. steigt um +10.8 % bei 2.9-fachem Handelsvolumen. In den aktuellen Nachrichten findet sich kein klarer Auslöser. Pro: Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie). Contra: Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein. Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)",
+  "Starkes Umsatzwachstum (+21 %)",
+  "Gewinn wächst stark (+52 %)"
+ ],
+ "risiken": [
+  "Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein",
+  "Quartalszahlen in 0 Tag(en) – erhöhte Schwankung möglich"
+ ],
+ "fundamental": {
+  "kgv": 35.5734,
+  "kgv_erwartet": 12.4844,
+  "umsatzwachstum": 0.206,
+  "gewinnwachstum": 0.52,
+  "marge": 0.0333,
+  "verschuldung": 107.818,
+  "marktkap": 34040240128.0,
+  "kursziel_analysten": 155.9,
+  "analysten": "strong_buy",
+  "sektor": "Technology",
+  "branche": "Electronic Components",
+  "waehrung": "USD",
+  "beschreibung": "Flex Ltd. provides technology innovation, supply chain, and manufacturing solutions to data center, communications, enterprise, consumer, automotive, healthcare, industrial, and power industries in the Americas, Asia, and Europe. The company operates through three segments: Integrated Technology Solutions (ITS), Regulated Manufacturing Solutions (RMS), and Cloud and Power Infrastructure (CPI). The",
+  "branche_median": {
+   "kgv": 31.7105,
+   "umsatzwachstum": 0.166,
+   "marge": 0.1637,
+   "verschuldung": 47.906,
+   "n": 109
+  }
+ },
+ "technik": {
+  "kurs": 92.39,
+  "vortag": 83.35,
+  "rsi": 43.2,
+  "sma50": 107.1116,
+  "sma200": 102.7092,
+  "ueber_sma50": false,
+  "ueber_sma200": false,
+  "high52": 166.86,
+  "low52": 53.07,
+  "abstand_high52_pct": -44.6,
+  "rel_volumen": 2.87,
+  "volumen": 6006211.0,
+  "avg_volumen20": 5219945.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": "2026-10-28",
+ "news": [],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 92.39,
+  "change_pct": 10.84,
+  "rel_vol": 2.87,
+  "time": "2026-10-28T16:06:09.190839+00:00"
+ },
+ "pushed": true
+}

@@ -1,0 +1,618 @@
+[
+ {
+  "id": "20261030-GPN",
+  "symbol": "GPN",
+  "name": "Global Payments Inc.",
+  "market": "US",
+  "time": "2026-10-30T18:19:08.802885+00:00",
+  "price": 95.68,
+  "change_pct": 11.62,
+  "rel_vol": 8.2,
+  "score": 57,
+  "ampel": {
+   "farbe": "gelb",
+   "label": "beobachten",
+   "emoji": "🟡"
+  },
+  "grund": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "horizonte": {
+   "kurzfristig": 53,
+   "mittelfristig": 72,
+   "langfristig": 44
+  },
+  "live": {
+   "price": 97.01,
+   "change_pct": 13.17,
+   "rel_vol": 7.8,
+   "time": "2026-10-30T19:57:09.283076+00:00"
+  }
+ },
+ {
+  "id": "20261030-REGN",
+  "symbol": "REGN",
+  "name": "Regeneron Pharmaceuticals, Inc.",
+  "market": "US",
+  "time": "2026-10-30T14:26:12.445893+00:00",
+  "price": 915.34,
+  "change_pct": 11.79,
+  "rel_vol": 10.58,
+  "score": 66,
+  "ampel": {
+   "farbe": "gruen",
+   "label": "interessant",
+   "emoji": "🟢"
+  },
+  "grund": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "horizonte": {
+   "kurzfristig": 48,
+   "mittelfristig": 72,
+   "langfristig": 80
+  },
+  "live": {
+   "price": 925.85,
+   "change_pct": 13.08,
+   "rel_vol": 3.86,
+   "time": "2026-10-30T19:57:09.283076+00:00"
+  }
+ },
+ {
+  "id": "20261030-FDXF",
+  "symbol": "FDXF",
+  "name": "FedEx Freight Holding Company, Inc.",
+  "market": "US",
+  "time": "2026-10-30T14:26:12.445893+00:00",
+  "price": 124.94,
+  "change_pct": 13.91,
+  "rel_vol": 2.97,
+  "score": 51,
+  "ampel": {
+   "farbe": "gelb",
+   "label": "beobachten",
+   "emoji": "🟡"
+  },
+  "grund": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "horizonte": {
+   "kurzfristig": 45,
+   "mittelfristig": 50,
+   "langfristig": 58
+  },
+  "live": {
+   "price": 126.57,
+   "change_pct": 15.38,
+   "rel_vol": 2.22,
+   "time": "2026-10-30T19:57:09.283076+00:00"
+  }
+ },
+ {
+  "id": "20261029-HII",
+  "symbol": "HII",
+  "name": "Huntington Ingalls Industries, Inc.",
+  "market": "US",
+  "time": "2026-10-29T15:25:19.930691+00:00",
+  "price": 312.19,
+  "change_pct": 11.79,
+  "rel_vol": 5.68,
+  "score": 63,
+  "ampel": {
+   "farbe": "gelb",
+   "label": "beobachten",
+   "emoji": "🟡"
+  },
+  "grund": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "horizonte": {
+   "kurzfristig": 53,
+   "mittelfristig": 62,
+   "langfristig": 76
+  },
+  "live": {
+   "price": 317.22,
+   "change_pct": 13.59,
+   "rel_vol": 2.71,
+   "time": "2026-10-29T19:39:30.986161+00:00"
+  }
+ },
+ {
+  "id": "20261029-GEN",
+  "symbol": "GEN",
+  "name": "Gen Digital Inc.",
+  "market": "US",
+  "time": "2026-10-29T14:29:55.768371+00:00",
+  "price": 26.98,
+  "change_pct": 10.78,
+  "rel_vol": 2.48,
+  "score": 62,
+  "ampel": {
+   "farbe": "gelb",
+   "label": "beobachten",
+   "emoji": "🟡"
+  },
+  "grund": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "horizonte": {
+   "kurzfristig": 45,
+   "mittelfristig": 82,
+   "langfristig": 60
+  },
+  "live": {
+   "price": 28.02,
+   "change_pct": 15.09,
+   "rel_vol": 1.05,
+   "time": "2026-10-29T19:39:30.986161+00:00"
+  }
+ },
+ {
+  "id": "20261029-TXT",
+  "symbol": "TXT",
+  "name": "Textron Inc.",
+  "market": "US",
+  "time": "2026-10-29T14:29:55.768371+00:00",
+  "price": 87.81,
+  "change_pct": 12.12,
+  "rel_vol": 2.85,
+  "score": 50,
+  "ampel": {
+   "farbe": "gelb",
+   "label": "beobachten",
+   "emoji": "🟡"
+  },
+  "grund": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "horizonte": {
+   "kurzfristig": 34,
+   "mittelfristig": 48,
+   "langfristig": 70
+  },
+  "live": {
+   "price": 87.49,
+   "change_pct": 11.71,
+   "rel_vol": 1.94,
+   "time": "2026-10-29T19:39:30.986161+00:00"
+  }
+ },
+ {
+  "id": "20261029-CVNA",
+  "symbol": "CVNA",
+  "name": "Carvana Co.",
+  "market": "US",
+  "time": "2026-10-29T14:29:55.768371+00:00",
+  "price": 68.77,
+  "change_pct": 16.46,
+  "rel_vol": 5.52,
+  "score": 59,
+  "ampel": {
+   "farbe": "gelb",
+   "label": "beobachten",
+   "emoji": "🟡"
+  },
+  "grund": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "horizonte": {
+   "kurzfristig": 53,
+   "mittelfristig": 68,
+   "langfristig": 54
+  },
+  "live": {
+   "price": 68.34,
+   "change_pct": 15.73,
+   "rel_vol": 2.21,
+   "time": "2026-10-29T19:39:30.986161+00:00"
+  }
+ },
+ {
+  "id": "20261029-NCLH",
+  "symbol": "NCLH",
+  "name": "Norwegian Cruise Line Holdings Ltd.",
+  "market": "US",
+  "time": "2026-10-29T13:35:17.500052+00:00",
+  "price": 17.8,
+  "change_pct": 10.83,
+  "rel_vol": 3.38,
+  "score": 53,
+  "ampel": {
+   "farbe": "gelb",
+   "label": "beobachten",
+   "emoji": "🟡"
+  },
+  "grund": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "horizonte": {
+   "kurzfristig": 49,
+   "mittelfristig": 56,
+   "langfristig": 54
+  },
+  "live": {
+   "price": 18.24,
+   "change_pct": 13.57,
+   "rel_vol": 2.85,
+   "time": "2026-10-29T19:39:30.986161+00:00"
+  }
+ },
+ {
+  "id": "20261029-AIXA.DE",
+  "symbol": "AIXA.DE",
+  "name": "AIXTRON SE",
+  "market": "DE",
+  "time": "2026-10-29T09:25:50.515308+00:00",
+  "price": 34.08,
+  "change_pct": 11.92,
+  "rel_vol": 2.63,
+  "score": 38,
+  "ampel": {
+   "farbe": "rot",
+   "label": "Finger weg",
+   "emoji": "🔴"
+  },
+  "grund": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "horizonte": {
+   "kurzfristig": 45,
+   "mittelfristig": 22,
+   "langfristig": 50
+  },
+  "live": {
+   "price": 33.98,
+   "change_pct": 11.59,
+   "rel_vol": 1.13,
+   "time": "2026-10-29T16:21:50.373306+00:00"
+  }
+ },
+ {
+  "id": "20261028-ORCL",
+  "symbol": "ORCL",
+  "name": "Oracle Corporation",
+  "market": "US",
+  "time": "2026-10-28T19:18:10.461695+00:00",
+  "price": 146.41,
+  "change_pct": 12.17,
+  "rel_vol": 2.26,
+  "score": 59,
+  "ampel": {
+   "farbe": "gelb",
+   "label": "beobachten",
+   "emoji": "🟡"
+  },
+  "grund": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "horizonte": {
+   "kurzfristig": 45,
+   "mittelfristig": 68,
+   "langfristig": 66
+  },
+  "live": {
+   "price": 146.41,
+   "change_pct": 12.17,
+   "rel_vol": 2.26,
+   "time": "2026-10-28T19:18:10.461695+00:00"
+  }
+ },
+ {
+  "id": "20261028-FLEX",
+  "symbol": "FLEX",
+  "name": "Flex Ltd.",
+  "market": "US",
+  "time": "2026-10-28T16:06:09.190839+00:00",
+  "price": 92.39,
+  "change_pct": 10.84,
+  "rel_vol": 2.87,
+  "score": 62,
+  "ampel": {
+   "farbe": "gelb",
+   "label": "beobachten",
+   "emoji": "🟡"
+  },
+  "grund": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "horizonte": {
+   "kurzfristig": 45,
+   "mittelfristig": 80,
+   "langfristig": 60
+  },
+  "live": {
+   "price": 92.79,
+   "change_pct": 11.33,
+   "rel_vol": 2.09,
+   "time": "2026-10-28T19:18:10.461695+00:00"
+  }
+ },
+ {
+  "id": "20261028-LH",
+  "symbol": "LH",
+  "name": "Labcorp Holdings Inc.",
+  "market": "US",
+  "time": "2026-10-28T15:13:29.113407+00:00",
+  "price": 365.7,
+  "change_pct": 10.43,
+  "rel_vol": 2.98,
+  "score": 61,
+  "ampel": {
+   "farbe": "gelb",
+   "label": "beobachten",
+   "emoji": "🟡"
+  },
+  "grund": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "horizonte": {
+   "kurzfristig": 40,
+   "mittelfristig": 82,
+   "langfristig": 62
+  },
+  "live": {
+   "price": 361.55,
+   "change_pct": 9.17,
+   "rel_vol": 2.03,
+   "time": "2026-10-28T19:18:10.461695+00:00"
+  }
+ },
+ {
+  "id": "20261028-BFSA.DE",
+  "symbol": "BFSA.DE",
+  "name": "Befesa S.A.",
+  "market": "DE",
+  "time": "2026-10-28T14:18:40.421675+00:00",
+  "price": 36.4,
+  "change_pct": 10.81,
+  "rel_vol": 2.11,
+  "score": 61,
+  "ampel": {
+   "farbe": "gelb",
+   "label": "beobachten",
+   "emoji": "🟡"
+  },
+  "grund": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "horizonte": {
+   "kurzfristig": 45,
+   "mittelfristig": 68,
+   "langfristig": 70
+  },
+  "live": {
+   "price": 35.2,
+   "change_pct": 7.15,
+   "rel_vol": 2.37,
+   "time": "2026-10-28T16:06:09.190839+00:00"
+  }
+ },
+ {
+  "id": "20261028-VRT",
+  "symbol": "VRT",
+  "name": "Vertiv Holdings Co",
+  "market": "US",
+  "time": "2026-10-28T14:18:40.421675+00:00",
+  "price": 236.82,
+  "change_pct": 13.55,
+  "rel_vol": 7.6,
+  "score": 56,
+  "ampel": {
+   "farbe": "gelb",
+   "label": "beobachten",
+   "emoji": "🟡"
+  },
+  "grund": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "horizonte": {
+   "kurzfristig": 53,
+   "mittelfristig": 60,
+   "langfristig": 56
+  },
+  "live": {
+   "price": 244.66,
+   "change_pct": 17.31,
+   "rel_vol": 3.02,
+   "time": "2026-10-28T19:18:10.461695+00:00"
+  }
+ },
+ {
+  "id": "20261027-PNR",
+  "symbol": "PNR",
+  "name": "Pentair plc",
+  "market": "US",
+  "time": "2026-10-27T14:46:41.517327+00:00",
+  "price": 61.37,
+  "change_pct": 11.14,
+  "rel_vol": 4.13,
+  "score": 48,
+  "ampel": {
+   "farbe": "gelb",
+   "label": "beobachten",
+   "emoji": "🟡"
+  },
+  "grund": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "horizonte": {
+   "kurzfristig": 38,
+   "mittelfristig": 30,
+   "langfristig": 82
+  },
+  "live": {
+   "price": 61.63,
+   "change_pct": 11.61,
+   "rel_vol": 2.36,
+   "time": "2026-10-27T19:23:15.908762+00:00"
+  }
+ },
+ {
+  "id": "20261023-CCI",
+  "symbol": "CCI",
+  "name": "Crown Castle Inc.",
+  "market": "US",
+  "time": "2026-10-23T14:06:55.203955+00:00",
+  "price": 88.13,
+  "change_pct": 11.8,
+  "rel_vol": 5.08,
+  "score": 49,
+  "ampel": {
+   "farbe": "gelb",
+   "label": "beobachten",
+   "emoji": "🟡"
+  },
+  "grund": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "horizonte": {
+   "kurzfristig": 53,
+   "mittelfristig": 40,
+   "langfristig": 54
+  },
+  "live": {
+   "price": 85.34,
+   "change_pct": 8.26,
+   "rel_vol": 3.03,
+   "time": "2026-10-23T19:30:36.287204+00:00"
+  }
+ },
+ {
+  "id": "20261022-ROP",
+  "symbol": "ROP",
+  "name": "Roper Technologies, Inc.",
+  "market": "US",
+  "time": "2026-10-22T19:15:07.893908+00:00",
+  "price": 438.24,
+  "change_pct": 10.23,
+  "rel_vol": 2.12,
+  "score": 63,
+  "ampel": {
+   "farbe": "gelb",
+   "label": "beobachten",
+   "emoji": "🟡"
+  },
+  "grund": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "horizonte": {
+   "kurzfristig": 34,
+   "mittelfristig": 82,
+   "langfristig": 76
+  },
+  "live": {
+   "price": 438.92,
+   "change_pct": 10.4,
+   "rel_vol": 2.16,
+   "time": "2026-10-22T19:52:19.162528+00:00"
+  }
+ },
+ {
+  "id": "20261021-CRL",
+  "symbol": "CRL",
+  "name": "Charles River Laboratories International, Inc.",
+  "market": "US",
+  "time": "2026-10-21T19:40:23.502150+00:00",
+  "price": 347.48,
+  "change_pct": 10.15,
+  "rel_vol": 2.16,
+  "score": 43,
+  "ampel": {
+   "farbe": "rot",
+   "label": "Finger weg",
+   "emoji": "🔴"
+  },
+  "grund": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "horizonte": {
+   "kurzfristig": 40,
+   "mittelfristig": 58,
+   "langfristig": 28
+  },
+  "live": {
+   "price": 347.48,
+   "change_pct": 10.15,
+   "rel_vol": 2.16,
+   "time": "2026-10-21T19:40:23.502150+00:00"
+  }
+ },
+ {
+  "id": "20261021-SPCX",
+  "symbol": "SPCX",
+  "name": "Space Exploration Technologies Corp.",
+  "market": "US",
+  "time": "2026-10-21T14:20:01.052434+00:00",
+  "price": 162.72,
+  "change_pct": 10.11,
+  "rel_vol": 6.52,
+  "score": 56,
+  "ampel": {
+   "farbe": "gelb",
+   "label": "beobachten",
+   "emoji": "🟡"
+  },
+  "grund": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "horizonte": {
+   "kurzfristig": 53,
+   "mittelfristig": 70,
+   "langfristig": 44
+  },
+  "live": {
+   "price": 158.44,
+   "change_pct": 7.21,
+   "rel_vol": 2.48,
+   "time": "2026-10-21T19:40:23.502150+00:00"
+  }
+ },
+ {
+  "id": "20261021-SMCI",
+  "symbol": "SMCI",
+  "name": "Super Micro Computer, Inc.",
+  "market": "US",
+  "time": "2026-10-21T13:42:58.540538+00:00",
+  "price": 36.29,
+  "change_pct": 11.77,
+  "rel_vol": 3.85,
+  "score": 68,
+  "ampel": {
+   "farbe": "gruen",
+   "label": "interessant",
+   "emoji": "🟢"
+  },
+  "grund": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "horizonte": {
+   "kurzfristig": 49,
+   "mittelfristig": 80,
+   "langfristig": 76
+  },
+  "live": {
+   "price": 35.65,
+   "change_pct": 9.81,
+   "rel_vol": 2.24,
+   "time": "2026-10-21T19:40:23.502150+00:00"
+  }
+ },
+ {
+  "id": "20261020-HAS",
+  "symbol": "HAS",
+  "name": "Hasbro, Inc.",
+  "market": "US",
+  "time": "2026-10-20T18:00:33.924425+00:00",
+  "price": 108.42,
+  "change_pct": 10.08,
+  "rel_vol": 4.14,
+  "score": 61,
+  "ampel": {
+   "farbe": "gelb",
+   "label": "beobachten",
+   "emoji": "🟡"
+  },
+  "grund": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "horizonte": {
+   "kurzfristig": 44,
+   "mittelfristig": 80,
+   "langfristig": 58
+  },
+  "live": {
+   "price": 109.42,
+   "change_pct": 11.1,
+   "rel_vol": 3.67,
+   "time": "2026-10-20T19:51:49.295091+00:00"
+  }
+ },
+ {
+  "id": "20261020-EFX",
+  "symbol": "EFX",
+  "name": "Equifax Inc.",
+  "market": "US",
+  "time": "2026-10-20T15:07:10.157689+00:00",
+  "price": 176.19,
+  "change_pct": 11.11,
+  "rel_vol": 2.69,
+  "score": 54,
+  "ampel": {
+   "farbe": "gelb",
+   "label": "beobachten",
+   "emoji": "🟡"
+  },
+  "grund": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "horizonte": {
+   "kurzfristig": 45,
+   "mittelfristig": 54,
+   "langfristig": 64
+  },
+  "live": {
+   "price": 177.09,
+   "change_pct": 11.68,
+   "rel_vol": 1.65,
+   "time": "2026-10-20T19:51:49.295091+00:00"
+  }
+ }
+]

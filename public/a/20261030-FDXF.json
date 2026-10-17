@@ -1,0 +1,96 @@
+{
+ "id": "20261030-FDXF",
+ "symbol": "FDXF",
+ "name": "FedEx Freight Holding Company, Inc.",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-10-30T14:26:12.445893+00:00",
+ "price": 124.94,
+ "change_pct": 13.91,
+ "rel_vol": 2.97,
+ "score": 51,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 45,
+   "label": "neutral",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 50,
+   "label": "neutral",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 58,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "none",
+  "label": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "headline": null,
+  "source": ""
+ },
+ "begruendung": "FedEx Freight Holding Company, Inc. steigt um +13.9 % bei 3.0-fachem Handelsvolumen. In den aktuellen Nachrichten findet sich kein klarer Auslöser. Contra: Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein. Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [],
+ "risiken": [
+  "Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein",
+  "Gewinn rückläufig (-61 %)"
+ ],
+ "fundamental": {
+  "kgv": 28.5017,
+  "kgv_erwartet": 24.2403,
+  "umsatzwachstum": 0.048,
+  "gewinnwachstum": -0.611,
+  "marge": 0.0745,
+  "verschuldung": null,
+  "marktkap": 18665469952.0,
+  "kursziel_analysten": 145.4286,
+  "analysten": "buy",
+  "sektor": "Industrials",
+  "branche": "Integrated Freight & Logistics",
+  "waehrung": "USD",
+  "beschreibung": "FedEx Freight Holding Company, Inc. provides less-than-truckload freight transportation services in the United States and internationally. The company offers FedEx Freight Priority services, including next-business-day service for shipments traveling up to 600 miles and second-business-day service for shipments traveling up to 1,600 miles and backed by a money-back service guarantee if published d",
+  "branche_median": {
+   "kgv": 26.0329,
+   "umsatzwachstum": 0.094,
+   "marge": 0.0817,
+   "verschuldung": 66.425,
+   "n": 117
+  }
+ },
+ "technik": {
+  "kurs": 124.94,
+  "vortag": 109.69,
+  "rsi": 66.0,
+  "sma50": 119.0358,
+  "sma200": null,
+  "ueber_sma50": true,
+  "ueber_sma200": false,
+  "high52": 200.0,
+  "low52": 103.48,
+  "abstand_high52_pct": -37.5,
+  "rel_volumen": 2.97,
+  "volumen": 615655.0,
+  "avg_volumen20": 1382380.0,
+  "trend": "unklar"
+ },
+ "naechste_zahlen": "2026-10-29",
+ "news": [],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 124.94,
+  "change_pct": 13.91,
+  "rel_vol": 2.97,
+  "time": "2026-10-30T14:26:12.445893+00:00"
+ },
+ "pushed": true
+}

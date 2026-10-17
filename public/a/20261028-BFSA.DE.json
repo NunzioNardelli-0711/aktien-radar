@@ -1,0 +1,100 @@
+{
+ "id": "20261028-BFSA.DE",
+ "symbol": "BFSA.DE",
+ "name": "Befesa S.A.",
+ "market": "DE",
+ "indices": [
+  "MDAX",
+  "SDAX"
+ ],
+ "time": "2026-10-28T14:18:40.421675+00:00",
+ "price": 36.4,
+ "change_pct": 10.81,
+ "rel_vol": 2.11,
+ "score": 61,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 45,
+   "label": "neutral",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 68,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 70,
+   "label": "chancenreich",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "none",
+  "label": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "headline": null,
+  "source": ""
+ },
+ "begruendung": "Befesa S.A. steigt um +10.8 % bei 2.1-fachem Handelsvolumen. In den aktuellen Nachrichten findet sich kein klarer Auslöser. Pro: Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie). Contra: Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein. Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)",
+  "Günstig bewertet: KGV 17 vs. Branche 26"
+ ],
+ "risiken": [
+  "Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein",
+  "Quartalszahlen in 1 Tag(en) – erhöhte Schwankung möglich"
+ ],
+ "fundamental": {
+  "kgv": 16.8519,
+  "kgv_erwartet": 12.9865,
+  "umsatzwachstum": 0.038,
+  "gewinnwachstum": 0.13,
+  "marge": 0.073,
+  "verschuldung": 92.114,
+  "marktkap": 1456000000.0,
+  "kursziel_analysten": 42.7,
+  "analysten": "strong_buy",
+  "sektor": "Industrials",
+  "branche": "Waste Management",
+  "waehrung": "EUR",
+  "beschreibung": "Befesa S.A. offers environmental recycling services to the steel and aluminum industries in the European, Asian, and North American markets. It operates in two segments, Steel Dust Recycling Services and Aluminium Salt Slags Recycling Services. The Steel Dust Recycling Services segment collects and recycles crude steel dust; sells waelz oxide to zinc smelters; and treats crude steel dust; produces",
+  "branche_median": {
+   "kgv": 26.0329,
+   "umsatzwachstum": 0.094,
+   "marge": 0.0817,
+   "verschuldung": 66.425,
+   "n": 117
+  }
+ },
+ "technik": {
+  "kurs": 36.4,
+  "vortag": 32.85,
+  "rsi": 61.0,
+  "sma50": 35.03,
+  "sma200": 33.4756,
+  "ueber_sma50": true,
+  "ueber_sma200": true,
+  "high52": 38.1,
+  "low52": 26.6,
+  "abstand_high52_pct": -4.5,
+  "rel_volumen": 2.11,
+  "volumen": 105405.0,
+  "avg_volumen20": 67180.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": "2026-10-29",
+ "news": [],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 36.4,
+  "change_pct": 10.81,
+  "rel_vol": 2.11,
+  "time": "2026-10-28T14:18:40.421675+00:00"
+ },
+ "pushed": true
+}
