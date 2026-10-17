@@ -1,0 +1,136 @@
+{
+ "id": "20261110-DEZ.DE",
+ "symbol": "DEZ.DE",
+ "name": "DEUTZ Aktiengesellschaft",
+ "market": "DE",
+ "indices": [
+  "SDAX"
+ ],
+ "time": "2026-11-10T09:53:02.733478+00:00",
+ "price": 10.25,
+ "change_pct": 10.81,
+ "rel_vol": 2.44,
+ "score": 57,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 45,
+   "label": "neutral",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 58,
+   "label": "neutral",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 70,
+   "label": "chancenreich",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "none",
+  "label": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "headline": "Deutz shares gain 5% as Deutsche Bank sees defense-driven upside",
+  "source": "Investing.com"
+ },
+ "begruendung": "DEUTZ Aktiengesellschaft steigt um +10.8 % bei 2.4-fachem Handelsvolumen. In den aktuellen Nachrichten findet sich kein klarer Auslöser. Pro: Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie). Contra: Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein. Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)",
+  "Geringe Verschuldung"
+ ],
+ "risiken": [
+  "Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein",
+  "Gewinn rückläufig (-42 %)"
+ ],
+ "fundamental": {
+  "kgv": 20.9184,
+  "kgv_erwartet": 7.9933,
+  "umsatzwachstum": 0.123,
+  "gewinnwachstum": -0.421,
+  "marge": 0.0331,
+  "verschuldung": 38.482,
+  "marktkap": 1720994688.0,
+  "kursziel_analysten": 15.4429,
+  "analysten": "strong_buy",
+  "sektor": "Industrials",
+  "branche": "Specialty Industrial Machinery",
+  "waehrung": "EUR",
+  "beschreibung": "DEUTZ Aktiengesellschaft engages in the development, production, distribution, maintenance, and servicing of diesel and gas engines in Germany, Rest of Europe, the Middle East, Africa, the Asia Pacific, and the United States. It operates through five segments: Services, Engines, NewTech, Energy, and Defense & Other. The company offers engine finder, diesel engines, gas and gasoline engines, and hy",
+  "branche_median": {
+   "kgv": 24.1983,
+   "umsatzwachstum": 0.0995,
+   "marge": 0.0824,
+   "verschuldung": 67.983,
+   "n": 116
+  }
+ },
+ "technik": {
+  "kurs": 10.25,
+  "vortag": 9.25,
+  "rsi": 49.5,
+  "sma50": 11.1742,
+  "sma200": 10.3813,
+  "ueber_sma50": false,
+  "ueber_sma200": false,
+  "high52": 13.35,
+  "low52": 7.33,
+  "abstand_high52_pct": -23.2,
+  "rel_volumen": 2.44,
+  "volumen": 534879.0,
+  "avg_volumen20": 988950.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": "2026-11-05",
+ "news": [
+  {
+   "title": "Deutz shares gain 5% as Deutsche Bank sees defense-driven upside",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/deutz-shares-gain-5-deutsche-131908848.html",
+   "publisher": "Investing.com",
+   "time": "2026-11-09T13:19:08+00:00"
+  },
+  {
+   "title": "Deutz AG (DEUZF) (Q3 2026) Earnings Call Highlights: FFG Acquisition Closes Early as Orders ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/deutz-ag-deuzf-q3-2026-171023683.html",
+   "publisher": "GuruFocus.com",
+   "time": "2026-11-05T17:10:23+00:00"
+  },
+  {
+   "title": "What DEUTZ Aktiengesellschaft (DEZ) Said on Its Q3 Earnings Call",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/deutz-aktiengesellschaft-dez-said-q3-121423335.html",
+   "publisher": "MarketBeat",
+   "time": "2026-11-05T12:14:23+00:00"
+  },
+  {
+   "title": "DEUTZ (XTRA:DEZ) Stock May Be Below Fair Value On Earnings",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/deutz-xtra-dez-stock-may-101033470.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-11-03T10:10:33+00:00"
+  },
+  {
+   "title": "DEUTZ (XTRA:DEZ) Stock May Be Below Fair Value On Earnings",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/deutz-xtra-dez-stock-may-032217277.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-10-18T03:22:17+00:00"
+  },
+  {
+   "title": "DEUTZ’s Growth Spree Comes With a Dilution Bill",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/deutz-growth-spree-comes-dilution-191755723.html",
+   "publisher": "Moby",
+   "time": "2026-09-15T19:17:55+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 10.25,
+  "change_pct": 10.81,
+  "rel_vol": 2.44,
+  "time": "2026-11-10T09:53:02.733478+00:00"
+ },
+ "pushed": true
+}

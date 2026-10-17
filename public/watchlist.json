@@ -1,0 +1,316 @@
+{
+ "updated": "2026-11-27T06:01:13.949739+00:00",
+ "items": [
+  {
+   "symbol": "WTW",
+   "name": "Willis Towers Watson",
+   "market": "US",
+   "price": 352.56,
+   "last_change_pct": 1.67,
+   "rsi14": 70.2,
+   "signals": [
+    "Ungewöhnliches Volumen (2.1×) ohne große Kursbewegung",
+    "Schlusskurs auf neuem 52-Wochen-Hoch",
+    "Starkes relatives Momentum (+17 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 7
+  },
+  {
+   "symbol": "AZO",
+   "name": "AutoZone",
+   "market": "US",
+   "price": 3404.46,
+   "last_change_pct": 1.45,
+   "rsi14": 67.9,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase",
+    "Starkes relatives Momentum (+15 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 5
+  },
+  {
+   "symbol": "ESS",
+   "name": "Essex Property Trust",
+   "market": "US",
+   "price": 279.21,
+   "last_change_pct": 1.32,
+   "rsi14": 60.2,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase",
+    "Starkes relatives Momentum (+14 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 5
+  },
+  {
+   "symbol": "O",
+   "name": "Realty Income",
+   "market": "US",
+   "price": 60.25,
+   "last_change_pct": 1.18,
+   "rsi14": 65.4,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase",
+    "Starkes relatives Momentum (+14 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 5
+  },
+  {
+   "symbol": "DIS",
+   "name": "Walt Disney Company (The)",
+   "market": "US",
+   "price": 125.6,
+   "last_change_pct": 2.52,
+   "rsi14": 68.9,
+   "signals": [
+    "Schlusskurs auf neuem 52-Wochen-Hoch",
+    "Starkes relatives Momentum (+22 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 4
+  },
+  {
+   "symbol": "ADP",
+   "name": "Automatic Data Processing",
+   "market": "US",
+   "price": 316.72,
+   "last_change_pct": 1.91,
+   "rsi14": 66.5,
+   "signals": [
+    "Schlusskurs auf neuem 52-Wochen-Hoch",
+    "Starkes relatives Momentum (+18 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 4
+  },
+  {
+   "symbol": "OMC",
+   "name": "Omnicom Group",
+   "market": "US",
+   "price": 90.7,
+   "last_change_pct": 1.65,
+   "rsi14": 65.9,
+   "signals": [
+    "Schlusskurs auf neuem 52-Wochen-Hoch",
+    "Starkes relatives Momentum (+24 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 4
+  },
+  {
+   "symbol": "MRSH",
+   "name": "Marsh McLennan",
+   "market": "US",
+   "price": 216.66,
+   "last_change_pct": 1.64,
+   "rsi14": 71.6,
+   "signals": [
+    "Schlusskurs auf neuem 52-Wochen-Hoch",
+    "Starkes relatives Momentum (+20 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 4
+  },
+  {
+   "symbol": "DRI",
+   "name": "Darden Restaurants",
+   "market": "US",
+   "price": 241.16,
+   "last_change_pct": 0.4,
+   "rsi14": 65.4,
+   "signals": [
+    "Schlusskurs auf neuem 52-Wochen-Hoch",
+    "Starkes relatives Momentum (+19 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 4
+  },
+  {
+   "symbol": "DELL",
+   "name": "Dell Technologies",
+   "market": "US",
+   "price": 297.06,
+   "last_change_pct": 0.6,
+   "rsi14": 36.9,
+   "signals": [
+    "Ungewöhnliches Volumen (2.9×) ohne große Kursbewegung"
+   ],
+   "points": 3
+  },
+  {
+   "symbol": "TECH",
+   "name": "Bio-Techne",
+   "market": "US",
+   "price": 72.65,
+   "last_change_pct": -0.22,
+   "rsi14": 48.1,
+   "signals": [
+    "Ungewöhnliches Volumen (2.2×) ohne große Kursbewegung"
+   ],
+   "points": 3
+  },
+  {
+   "symbol": "NDA.DE",
+   "name": "Aurubis",
+   "market": "DE",
+   "price": 107.1,
+   "last_change_pct": -0.74,
+   "rsi14": 23.1,
+   "signals": [
+    "Ungewöhnliches Volumen (2.0×) ohne große Kursbewegung"
+   ],
+   "points": 3
+  },
+  {
+   "symbol": "CI",
+   "name": "Cigna",
+   "market": "US",
+   "price": 271.42,
+   "last_change_pct": -1.3,
+   "rsi14": 35.8,
+   "signals": [
+    "Ungewöhnliches Volumen (2.3×) ohne große Kursbewegung"
+   ],
+   "points": 3
+  },
+  {
+   "symbol": "RDC.DE",
+   "name": "Redcare Pharmacy",
+   "market": "DE",
+   "price": 59.3,
+   "last_change_pct": -2.47,
+   "rsi14": 32.4,
+   "signals": [
+    "Ungewöhnliches Volumen (3.0×) ohne große Kursbewegung"
+   ],
+   "points": 3
+  },
+  {
+   "symbol": "CHTR",
+   "name": "Charter Communications",
+   "market": "US",
+   "price": 147.27,
+   "last_change_pct": 8.39,
+   "rsi14": 67.5,
+   "signals": [
+    "Starkes relatives Momentum (+47 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 2
+  },
+  {
+   "symbol": "CDW",
+   "name": "CDW Corporation",
+   "market": "US",
+   "price": 174.97,
+   "last_change_pct": 6.59,
+   "rsi14": 59.4,
+   "signals": [
+    "Starkes relatives Momentum (+15 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 2
+  },
+  {
+   "symbol": "HFG.DE",
+   "name": "HelloFresh",
+   "market": "DE",
+   "price": 3.318,
+   "last_change_pct": 5.3,
+   "rsi14": 63.4,
+   "signals": [
+    "Starkes relatives Momentum (+22 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 2
+  },
+  {
+   "symbol": "GYC.DE",
+   "name": "Grand City Properties S.A.",
+   "market": "DE",
+   "price": 8.05,
+   "last_change_pct": 5.23,
+   "rsi14": 66.8,
+   "signals": [
+    "Starkes relatives Momentum (+17 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 2
+  },
+  {
+   "symbol": "AT1.DE",
+   "name": "Aroundtown",
+   "market": "DE",
+   "price": 1.664,
+   "last_change_pct": 4.92,
+   "rsi14": 59.1,
+   "signals": [
+    "Starkes relatives Momentum (+19 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 2
+  },
+  {
+   "symbol": "SW",
+   "name": "Smurfit Westrock",
+   "market": "US",
+   "price": 41.65,
+   "last_change_pct": 4.26,
+   "rsi14": 49.6,
+   "signals": [
+    "Starkes relatives Momentum (+11 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 2
+  },
+  {
+   "symbol": "CSGP",
+   "name": "CoStar Group",
+   "market": "US",
+   "price": 34.02,
+   "last_change_pct": 4.23,
+   "rsi14": 62.0,
+   "signals": [
+    "Starkes relatives Momentum (+31 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 2
+  },
+  {
+   "symbol": "UHS",
+   "name": "Universal Health Services",
+   "market": "US",
+   "price": 190.57,
+   "last_change_pct": 4.02,
+   "rsi14": 54.1,
+   "signals": [
+    "Starkes relatives Momentum (+18 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 2
+  },
+  {
+   "symbol": "CRH",
+   "name": "CRH plc",
+   "market": "US",
+   "price": 97.3,
+   "last_change_pct": 3.89,
+   "rsi14": 60.7,
+   "signals": [
+    "Starkes relatives Momentum (+20 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 2
+  },
+  {
+   "symbol": "CLX",
+   "name": "Clorox",
+   "market": "US",
+   "price": 110.94,
+   "last_change_pct": 3.86,
+   "rsi14": 70.9,
+   "signals": [
+    "Starkes relatives Momentum (+35 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 2
+  },
+  {
+   "symbol": "KHC",
+   "name": "Kraft Heinz",
+   "market": "US",
+   "price": 26.51,
+   "last_change_pct": 3.68,
+   "rsi14": 66.6,
+   "signals": [
+    "Starkes relatives Momentum (+18 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 2
+  }
+ ],
+ "hinweis": "Frühwarn-Signale sind Hinweise auf erhöhte Bewegungswahrscheinlichkeit, keine Prognose und keine Kaufempfehlung."
+}

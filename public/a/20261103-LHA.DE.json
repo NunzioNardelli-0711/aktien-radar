@@ -1,0 +1,100 @@
+{
+ "id": "20261103-LHA.DE",
+ "symbol": "LHA.DE",
+ "name": "Deutsche Lufthansa AG",
+ "market": "DE",
+ "indices": [
+  "MDAX"
+ ],
+ "time": "2026-11-03T14:36:48.668547+00:00",
+ "price": 7.9,
+ "change_pct": 10.09,
+ "rel_vol": 2.03,
+ "score": 50,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 45,
+   "label": "neutral",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 46,
+   "label": "neutral",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 62,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "none",
+  "label": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "headline": null,
+  "source": ""
+ },
+ "begruendung": "Deutsche Lufthansa AG steigt um +10.1 % bei 2.0-fachem Handelsvolumen. In den aktuellen Nachrichten findet sich kein klarer Auslöser. Pro: Günstig bewertet: KGV 14 vs. Branche 26. Contra: Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein. Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [
+  "Günstig bewertet: KGV 14 vs. Branche 26"
+ ],
+ "risiken": [
+  "Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein",
+  "Quartalszahlen in 0 Tag(en) – erhöhte Schwankung möglich",
+  "Langfristiger Abwärtstrend – Kurs trotz Sprung unter der 200-Tage-Linie",
+  "Gewinn rückläufig (-88 %)"
+ ],
+ "fundamental": {
+  "kgv": 14.0821,
+  "kgv_erwartet": 6.5728,
+  "umsatzwachstum": 0.079,
+  "gewinnwachstum": -0.881,
+  "marge": 0.0163,
+  "verschuldung": 121.939,
+  "marktkap": 9479601152.0,
+  "kursziel_analysten": 9.2333,
+  "analysten": "hold",
+  "sektor": "Industrials",
+  "branche": "Airlines",
+  "waehrung": "EUR",
+  "beschreibung": "Deutsche Lufthansa AG operates as an aviation company in Europe, North America, Central and South America, Aisa/Pacific, the Middle East, and Africa. It operates in three segments: Passenger Airlines; Logistics; and Maintenance, Repair and Overhaul (MRO). The Passenger Airlines segment offers products and services to passengers of Lufthansa Airlines, SWISS, Austrian Airlines, Brussels Airlines, an",
+  "branche_median": {
+   "kgv": 25.5638,
+   "umsatzwachstum": 0.096,
+   "marge": 0.0823,
+   "verschuldung": 61.977,
+   "n": 117
+  }
+ },
+ "technik": {
+  "kurs": 7.9,
+  "vortag": 7.172,
+  "rsi": 64.9,
+  "sma50": 7.5269,
+  "sma200": 8.2185,
+  "ueber_sma50": true,
+  "ueber_sma200": false,
+  "high52": 10.285,
+  "low52": 6.936,
+  "abstand_high52_pct": -23.2,
+  "rel_volumen": 2.03,
+  "volumen": 6416076.0,
+  "avg_volumen20": 4053645.0,
+  "trend": "Abwärtstrend"
+ },
+ "naechste_zahlen": "2026-11-03",
+ "news": [],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 7.9,
+  "change_pct": 10.09,
+  "rel_vol": 2.03,
+  "time": "2026-11-03T14:36:48.668547+00:00"
+ },
+ "pushed": true
+}

@@ -1,0 +1,137 @@
+{
+ "id": "20261125-HPQ",
+ "symbol": "HPQ",
+ "name": "HP Inc.",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-11-25T14:55:20.000150+00:00",
+ "price": 30.99,
+ "change_pct": 10.92,
+ "rel_vol": 3.25,
+ "score": 72,
+ "ampel": {
+  "farbe": "gruen",
+  "label": "interessant",
+  "emoji": "🟢"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 76,
+   "label": "chancenreich",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 72,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 68,
+   "label": "chancenreich",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "earnings",
+  "label": "Quartalszahlen / Prognose",
+  "headline": "HP Shares Decline 1.65% as PC Margin Pressure and Cautious Earnings Outlook Overshadow Quarterly Beat",
+  "source": "InvestorsHub"
+ },
+ "begruendung": "HP Inc. steigt um +10.9 % bei 3.2-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Quartalszahlen / Prognose („HP Shares Decline 1.65% as PC Margin Pressure and Cautious Earnings Outlook Overshadow Quarterly Beat“). Pro: Deutlich erhöhtes Volumen (3.2× normal). Contra: Gewinn rückläufig (-11 %). Gesamtbild: interessant – eine nähere Prüfung lohnt sich.",
+ "chancen": [
+  "Deutlich erhöhtes Volumen (3.2× normal)",
+  "Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge",
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)",
+  "Günstig bewertet: KGV 12 vs. Branche 24"
+ ],
+ "risiken": [
+  "Gewinn rückläufig (-11 %)"
+ ],
+ "fundamental": {
+  "kgv": 11.7786,
+  "kgv_erwartet": 9.157,
+  "umsatzwachstum": 0.125,
+  "gewinnwachstum": -0.113,
+  "marge": 0.0414,
+  "verschuldung": null,
+  "marktkap": 27829270528.0,
+  "kursziel_analysten": 27.5529,
+  "analysten": "hold",
+  "sektor": "Technology",
+  "branche": "Computer Hardware",
+  "waehrung": "USD",
+  "beschreibung": "HP Inc. provides personal computing, printing, 3D printing, hybrid work, gaming, and other related technologies in the United States and internationally. The company operates through three segments: Personal Systems, Printing, and Corporate Investments. The Personal Systems segment offers commercial and consumer desktops and notebooks, workstations, thin clients, retail point-of-sale systems, disp",
+  "branche_median": {
+   "kgv": 24.3281,
+   "umsatzwachstum": 0.193,
+   "marge": 0.1636,
+   "verschuldung": 43.768,
+   "n": 111
+  }
+ },
+ "technik": {
+  "kurs": 30.99,
+  "vortag": 27.94,
+  "rsi": 57.2,
+  "sma50": 30.7332,
+  "sma200": 25.3043,
+  "ueber_sma50": true,
+  "ueber_sma200": true,
+  "high52": 36.23,
+  "low52": 17.56,
+  "abstand_high52_pct": -14.5,
+  "rel_volumen": 3.25,
+  "volumen": 7002039.0,
+  "avg_volumen20": 14373000.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": "2027-02-23",
+ "news": [
+  {
+   "title": "Is Micron's Record Margin Squeezing Apple And HP?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/microns-record-margin-squeezing-apple-113809466.html",
+   "publisher": "Trefis",
+   "time": "2026-11-25T11:38:09+00:00"
+  },
+  {
+   "title": "HP Shares Decline 1.65% as PC Margin Pressure and Cautious Earnings Outlook Overshadow Quarterly Beat",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/hp-shares-decline-1-65-112105776.html",
+   "publisher": "InvestorsHub",
+   "time": "2026-11-25T11:21:05+00:00"
+  },
+  {
+   "title": "HP Stock Up Slightly as PC Maker Overcomes Down Market With Solid Earnings",
+   "url": "https://www.barrons.com/articles/hp-stock-earnings-low-pc-sales-1fce528b?siteid=yhoof2&yptr=yahoo",
+   "publisher": "Barrons.com",
+   "time": "2026-11-25T10:58:00+00:00"
+  },
+  {
+   "title": "HP Q4 Earnings Call Highlights",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/hp-q4-earnings-call-highlights-011315486.html",
+   "publisher": "MarketBeat",
+   "time": "2026-11-25T01:13:15+00:00"
+  },
+  {
+   "title": "HP (HPQ) Q4 Earnings: How Key Metrics Compare to Wall Street Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/hp-hpq-q4-earnings-key-000002163.html",
+   "publisher": "Zacks",
+   "time": "2026-11-25T00:00:02+00:00"
+  },
+  {
+   "title": "HP shares fall nearly 2% premarket as PC margin concerns overshadow earnings beat",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/hp-stock-reverses-course-hours-214554290.html",
+   "publisher": "Investing.com",
+   "time": "2026-11-24T21:45:54+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 30.99,
+  "change_pct": 10.92,
+  "rel_vol": 3.25,
+  "time": "2026-11-25T14:55:20.000150+00:00"
+ },
+ "pushed": true
+}

@@ -1,0 +1,138 @@
+{
+ "id": "20261119-COHR",
+ "symbol": "COHR",
+ "name": "Coherent Corp.",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-11-19T15:22:17.830689+00:00",
+ "price": 235.81,
+ "change_pct": 10.79,
+ "rel_vol": 2.74,
+ "score": 55,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 52,
+   "label": "neutral",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 50,
+   "label": "neutral",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 64,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "takeover",
+  "label": "Übernahme / Fusion",
+  "headline": "Lumentum Is Down 33% in a Month as Marvell’s Slide Shrinks Its Buyout Value. Can LITE Stock Get Back to Bernstein’s $700 Target?",
+  "source": "24/7 Wall St."
+ },
+ "begruendung": "Coherent Corp. steigt um +10.8 % bei 2.7-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Übernahme / Fusion („Lumentum Is Down 33% in a Month as Marvell’s Slide Shrinks Its Buyout Value. Can LITE Stock Get Back to Bernstein’s $700 Target?“). Pro: Starkes Umsatzwachstum (+50 %). Contra: Übernahmefantasie: weiterer Anstieg meist durch den Angebotspreis begrenzt. Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [
+  "Starkes Umsatzwachstum (+50 %)",
+  "Gewinn wächst stark (+60 %)",
+  "Geringe Verschuldung"
+ ],
+ "risiken": [
+  "Übernahmefantasie: weiterer Anstieg meist durch den Angebotspreis begrenzt",
+  "Langfristiger Abwärtstrend – Kurs trotz Sprung unter der 200-Tage-Linie",
+  "Teurer als die Branche: KGV 49 vs. 27"
+ ],
+ "fundamental": {
+  "kgv": 48.823,
+  "kgv_erwartet": 14.9446,
+  "umsatzwachstum": 0.499,
+  "gewinnwachstum": 0.601,
+  "marge": 0.1218,
+  "verschuldung": 37.276,
+  "marktkap": 46445809664.0,
+  "kursziel_analysten": 371.9185,
+  "analysten": "buy",
+  "sektor": "Technology",
+  "branche": "Scientific & Technical Instruments",
+  "waehrung": "USD",
+  "beschreibung": "Coherent Corp. develops, manufactures, and markets lasers, transceivers, other optical and optoelectronic devices, modules, and systems worldwide. Its products include critical components consisting of detectors, passive optics, thermal solutions, and PICS; silicon photonics and other advanced optical technologies; and coherent transmission components, transport products, optical amplifiers, passi",
+  "branche_median": {
+   "kgv": 27.4093,
+   "umsatzwachstum": 0.188,
+   "marge": 0.1636,
+   "verschuldung": 46.0995,
+   "n": 111
+  }
+ },
+ "technik": {
+  "kurs": 235.81,
+  "vortag": 212.84,
+  "rsi": 51.9,
+  "sma50": 260.0636,
+  "sma200": 296.6303,
+  "ueber_sma50": false,
+  "ueber_sma200": false,
+  "high52": 440.0,
+  "low52": 130.42,
+  "abstand_high52_pct": -46.4,
+  "rel_volumen": 2.74,
+  "volumen": 4116571.0,
+  "avg_volumen20": 10005695.0,
+  "trend": "Abwärtstrend"
+ },
+ "naechste_zahlen": "2027-02-03",
+ "news": [
+  {
+   "title": "Seagate Soars 6%, Coherent Up 8% as AI Stocks Rebound on Anthropic IPO Day",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/seagate-soars-6-coherent-8-143349467.html",
+   "publisher": "TIKR",
+   "time": "2026-11-19T14:33:49+00:00"
+  },
+  {
+   "title": "Applied Optoelectronics Rallies 5% Despite $550 Million Share Sale Plan; Coherent Jumps 8%, Lumentum Climbs 4%",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-rallies-5-despite-141356990.html",
+   "publisher": "24/7 Wall St.",
+   "time": "2026-11-19T14:13:56+00:00"
+  },
+  {
+   "title": "Is COHERENT CORP (COHR) Stock Outpacing Its Business Services Peers This Year?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/coherent-corp-cohr-stock-outpacing-134004491.html",
+   "publisher": "Zacks",
+   "time": "2026-11-19T13:40:04+00:00"
+  },
+  {
+   "title": "What Sent Applied Optoelectronics Stock Higher?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/sent-applied-optoelectronics-stock-higher-110438385.html",
+   "publisher": "Trefis",
+   "time": "2026-11-19T11:04:38+00:00"
+  },
+  {
+   "title": "Coherent And 2 AI Infrastructure Stocks To Own",
+   "url": "https://finance.yahoo.com/technology/ai/articles/coherent-2-ai-infrastructure-stocks-101352462.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-11-19T10:13:52+00:00"
+  },
+  {
+   "title": "Top 3 Growth Stocks To Watch In November 2026",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/top-3-growth-stocks-watch-001756660.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-11-19T00:17:56+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 235.81,
+  "change_pct": 10.79,
+  "rel_vol": 2.74,
+  "time": "2026-11-19T15:22:17.830689+00:00"
+ },
+ "pushed": true
+}

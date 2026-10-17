@@ -1,0 +1,143 @@
+{
+ "updated": "2026-11-27T20:55:20.000212+00:00",
+ "markets": [
+  "US"
+ ],
+ "items": [
+  {
+   "symbol": "COHR",
+   "name": "Coherent Corp.",
+   "market": "US",
+   "price": 223.79,
+   "change_pct": 14.07,
+   "rel_vol": 0.66,
+   "alarm": false
+  },
+  {
+   "symbol": "ALAB",
+   "name": "Astera Labs",
+   "market": "US",
+   "price": 206.84,
+   "change_pct": 8.67,
+   "rel_vol": 0.55,
+   "alarm": false
+  },
+  {
+   "symbol": "LITE",
+   "name": "Lumentum",
+   "market": "US",
+   "price": 514.63,
+   "change_pct": 7.98,
+   "rel_vol": 0.41,
+   "alarm": false
+  },
+  {
+   "symbol": "STX",
+   "name": "Seagate Technology",
+   "market": "US",
+   "price": 509.66,
+   "change_pct": 7.9,
+   "rel_vol": 0.47,
+   "alarm": false
+  },
+  {
+   "symbol": "MU",
+   "name": "Micron Technology",
+   "market": "US",
+   "price": 646.95,
+   "change_pct": 7.6,
+   "rel_vol": 0.73,
+   "alarm": false
+  },
+  {
+   "symbol": "GNRC",
+   "name": "Generac",
+   "market": "US",
+   "price": 219.17,
+   "change_pct": 7.44,
+   "rel_vol": 0.6,
+   "alarm": false
+  },
+  {
+   "symbol": "MRVL",
+   "name": "Marvell Technology",
+   "market": "US",
+   "price": 140.54,
+   "change_pct": 7.34,
+   "rel_vol": 0.52,
+   "alarm": false
+  },
+  {
+   "symbol": "WDC",
+   "name": "Western Digital",
+   "market": "US",
+   "price": 292.11,
+   "change_pct": 7.22,
+   "rel_vol": 0.48,
+   "alarm": false
+  },
+  {
+   "symbol": "P",
+   "name": "Everpure",
+   "market": "US",
+   "price": 101.46,
+   "change_pct": 7.15,
+   "rel_vol": 0.44,
+   "alarm": false
+  },
+  {
+   "symbol": "IP",
+   "name": "International Paper",
+   "market": "US",
+   "price": 34.29,
+   "change_pct": 6.89,
+   "rel_vol": 0.75,
+   "alarm": false
+  },
+  {
+   "symbol": "DELL",
+   "name": "Dell Technologies",
+   "market": "US",
+   "price": 316.96,
+   "change_pct": 6.7,
+   "rel_vol": 0.9,
+   "alarm": false
+  },
+  {
+   "symbol": "BE",
+   "name": "Bloom Energy",
+   "market": "US",
+   "price": 163.02,
+   "change_pct": 6.63,
+   "rel_vol": 0.55,
+   "alarm": false
+  },
+  {
+   "symbol": "ANET",
+   "name": "Arista Networks",
+   "market": "US",
+   "price": 174.73,
+   "change_pct": 6.55,
+   "rel_vol": 0.46,
+   "alarm": false
+  },
+  {
+   "symbol": "QCOM",
+   "name": "Qualcomm",
+   "market": "US",
+   "price": 179.27,
+   "change_pct": 6.29,
+   "rel_vol": 0.63,
+   "alarm": false
+  },
+  {
+   "symbol": "SHOP",
+   "name": "Shopify",
+   "market": "US",
+   "price": 141.78,
+   "change_pct": 6.28,
+   "rel_vol": 0.73,
+   "alarm": false
+  }
+ ]
+}

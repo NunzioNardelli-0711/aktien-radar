@@ -1,0 +1,140 @@
+{
+ "id": "20261105-HFG.DE",
+ "symbol": "HFG.DE",
+ "name": "HelloFresh SE",
+ "market": "DE",
+ "indices": [
+  "MDAX"
+ ],
+ "time": "2026-11-05T09:27:07.791505+00:00",
+ "price": 3.38,
+ "change_pct": 22.27,
+ "rel_vol": 8.71,
+ "score": 47,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 74,
+   "label": "chancenreich",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 36,
+   "label": "ungünstig",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 28,
+   "label": "ungünstig",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "earnings",
+  "label": "Quartalszahlen / Prognose",
+  "headline": "HelloFresh shares jump 12% as Q3 profit beats forecasts despite order slump",
+  "source": "Investing.com"
+ },
+ "begruendung": "HelloFresh SE steigt um +22.3 % bei 8.7-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Quartalszahlen / Prognose („HelloFresh shares jump 12% as Q3 profit beats forecasts despite order slump“). Pro: Sehr hohes Handelsvolumen (8.7× normal) – breites Interesse. Contra: Sehr großer Tagessprung (+22 %). Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [
+  "Sehr hohes Handelsvolumen (8.7× normal) – breites Interesse",
+  "Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge"
+ ],
+ "risiken": [
+  "Sehr großer Tagessprung (+22 %)",
+  "Quartalszahlen in 0 Tag(en) – erhöhte Schwankung möglich",
+  "Langfristiger Abwärtstrend – Kurs trotz Sprung unter der 200-Tage-Linie",
+  "Umsatz schrumpft (-9 %)",
+  "Gewinn rückläufig (-77 %)",
+  "Unternehmen schreibt Verluste"
+ ],
+ "fundamental": {
+  "kgv": null,
+  "kgv_erwartet": 8.5689,
+  "umsatzwachstum": -0.088,
+  "gewinnwachstum": -0.766,
+  "marge": -0.0055,
+  "verschuldung": 119.102,
+  "marktkap": 489521184.0,
+  "kursziel_analysten": 3.9364,
+  "analysten": "hold",
+  "sektor": "Consumer Defensive",
+  "branche": "Grocery Stores",
+  "waehrung": "EUR",
+  "beschreibung": "HelloFresh SE, together with its subsidiaries, operates as meal kit provider in the United States, Canada, and internationally. The company provides meal kits; add-on products including soups, desserts, bakery products, salads, and surcharge products; ready-to-eat meals; and other products. It operates under the HelloFresh, Chefs Plate, Good Chop, Pets Table, EveryPlate, Factor, Green Chef, and Yo",
+  "branche_median": {
+   "kgv": 21.8571,
+   "umsatzwachstum": 0.048,
+   "marge": 0.088,
+   "verschuldung": 103.6735,
+   "n": 36
+  }
+ },
+ "technik": {
+  "kurs": 3.38,
+  "vortag": 2.762,
+  "rsi": 65.7,
+  "sma50": 2.7171,
+  "sma200": 3.8589,
+  "ueber_sma50": true,
+  "ueber_sma200": false,
+  "high52": 6.862,
+  "low52": 2.156,
+  "abstand_high52_pct": -50.8,
+  "rel_volumen": 8.71,
+  "volumen": 1616793.0,
+  "avg_volumen20": 1086973.0,
+  "trend": "Abwärtstrend"
+ },
+ "naechste_zahlen": "2026-11-05",
+ "news": [
+  {
+   "title": "HelloFresh shares jump 12% as Q3 profit beats forecasts despite order slump",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/hellofresh-q3-core-profit-tops-070311677.html",
+   "publisher": "Investing.com",
+   "time": "2026-11-05T07:03:11+00:00"
+  },
+  {
+   "title": "HelloFresh (XTRA:HFG) Stock Sees Fair Value Cut After Weaker Guidance And Analyst Revisions",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/hellofresh-xtra-hfg-stock-sees-170922291.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-10-01T17:09:22+00:00"
+  },
+  {
+   "title": "Ex-Tesla team raises $12.5M to put supply chains on autopilot",
+   "url": "https://finance.yahoo.com/technology/ai/articles/ex-tesla-team-raises-12-090000861.html",
+   "publisher": "TechCrunch",
+   "time": "2026-09-29T09:00:00+00:00"
+  },
+  {
+   "title": "HelloFresh Finds Another Way to Disappoint",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/hellofresh-finds-another-way-disappoint-182345505.html",
+   "publisher": "Moby",
+   "time": "2026-09-25T18:23:45+00:00"
+  },
+  {
+   "title": "HelloFresh shares sink 14% after second profit warning",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/hellofresh-shares-sink-14-second-064212869.html",
+   "publisher": "Investing.com",
+   "time": "2026-09-25T06:42:12+00:00"
+  },
+  {
+   "title": "Review & Preview: It’s All About the Yields",
+   "url": "https://www.barrons.com/articles/stocks-today-s-and-p-500-flat-dow-falls-bond-fears-01ff8cbd?siteid=yhoof2&yptr=yahoo",
+   "publisher": "Barrons.com",
+   "time": "2026-09-24T23:55:00+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 3.38,
+  "change_pct": 22.27,
+  "rel_vol": 8.71,
+  "time": "2026-11-05T09:27:07.791505+00:00"
+ },
+ "pushed": true
+}

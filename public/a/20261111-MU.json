@@ -1,0 +1,139 @@
+{
+ "id": "20261111-MU",
+ "symbol": "MU",
+ "name": "Micron Technology, Inc.",
+ "market": "US",
+ "indices": [
+  "S&P 500",
+  "Nasdaq 100"
+ ],
+ "time": "2026-11-11T15:20:48.032434+00:00",
+ "price": 799.27,
+ "change_pct": 10.23,
+ "rel_vol": 2.33,
+ "score": 82,
+ "ampel": {
+  "farbe": "gruen",
+  "label": "interessant",
+  "emoji": "🟢"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 72,
+   "label": "chancenreich",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 86,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 88,
+   "label": "chancenreich",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "earnings",
+  "label": "Quartalszahlen / Prognose",
+  "headline": "Apple Slides 4% as Ternus Calls Memory Pricing “Unprecedented” Despite a Record $114.5 Billion Quarter",
+  "source": "TIKR"
+ },
+ "begruendung": "Micron Technology, Inc. steigt um +10.2 % bei 2.3-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Quartalszahlen / Prognose („Apple Slides 4% as Ternus Calls Memory Pricing “Unprecedented” Despite a Record $114.5 Billion Quarter“). Pro: Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge. Gesamtbild: interessant – eine nähere Prüfung lohnt sich.",
+ "chancen": [
+  "Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge",
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)",
+  "Starkes Umsatzwachstum (+379 %)",
+  "Gewinn wächst stark (+1060 %)",
+  "Günstig bewertet: KGV 11 vs. Branche 27",
+  "Hohe Gewinnmarge (64 %)",
+  "Geringe Verschuldung"
+ ],
+ "risiken": [],
+ "fundamental": {
+  "kgv": 10.7389,
+  "kgv_erwartet": 3.842,
+  "umsatzwachstum": 3.793,
+  "gewinnwachstum": 10.595,
+  "marge": 0.638,
+  "verschuldung": 3.743,
+  "marktkap": 903124615168.0,
+  "kursziel_analysten": 1561.9111,
+  "analysten": "strong_buy",
+  "sektor": "Technology",
+  "branche": "Semiconductors",
+  "waehrung": "USD",
+  "beschreibung": "Micron Technology, Inc. engages in the provision of semiconductor memory and storage products in the United States, Taiwan, Mainland China, other Asia Pacific countries, Japan, Europe, and internationally. It operates through Cloud Memory Business Unit, Core Data Center Business Unit, Mobile and Client Business Unit, and Automotive and Embedded Business Unit segments. The company provides dynamic ",
+  "branche_median": {
+   "kgv": 27.4323,
+   "umsatzwachstum": 0.184,
+   "marge": 0.1636,
+   "verschuldung": 43.8015,
+   "n": 111
+  }
+ },
+ "technik": {
+  "kurs": 799.27,
+  "vortag": 725.11,
+  "rsi": 43.8,
+  "sma50": 952.9692,
+  "sma200": 760.0728,
+  "ueber_sma50": false,
+  "ueber_sma200": true,
+  "high52": 1255.0,
+  "low52": 192.59,
+  "abstand_high52_pct": -36.3,
+  "rel_volumen": 2.33,
+  "volumen": 10820796.0,
+  "avg_volumen20": 30910980.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": "2026-12-23",
+ "news": [
+  {
+   "title": "Apple Slides 4% as Ternus Calls Memory Pricing “Unprecedented” Despite a Record $114.5 Billion Quarter",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/apple-slides-4-ternus-calls-145026703.html",
+   "publisher": "TIKR",
+   "time": "2026-11-11T14:50:26+00:00"
+  },
+  {
+   "title": "CoreWeave Boosts AI Trade. Bloom Energy, Other Power Stocks Are Big Winners.",
+   "url": "https://www.barrons.com/articles/coreweave-ai-bloom-energy-stock-power-addbb638?siteid=yhoof2&yptr=yahoo",
+   "publisher": "Barrons.com",
+   "time": "2026-11-11T14:37:00+00:00"
+  },
+  {
+   "title": "Seagate Spikes 9%, Sandisk Surges 8% as CoreWeave’s Results Revive AI Trade; Micron Climbs 7%",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/seagate-spikes-9-sandisk-surges-140842780.html",
+   "publisher": "24/7 Wall St.",
+   "time": "2026-11-11T14:08:42+00:00"
+  },
+  {
+   "title": "Applied Materials Is Up 59% in a Year, Even After Halving From Its High: “Double Our Output”",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-59-even-halving-135018958.html",
+   "publisher": "TIKR",
+   "time": "2026-11-11T13:50:18+00:00"
+  },
+  {
+   "title": "SK Hynix Crumbled 25% Over The Last Month: 200% Returns Are a Distinct Possibility According to This Wall Street Firm",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-crumbled-25-over-134504212.html",
+   "publisher": "24/7 Wall St.",
+   "time": "2026-11-11T13:45:04+00:00"
+  },
+  {
+   "title": "MU, AMD, AVGO, Other Chip Stocks Surge As CoreWeave Earnings Reignite AI Trade — Nasdaq-100 Futures Jump",
+   "url": "https://finance.yahoo.com/technology/ai/articles/mu-amd-avgo-other-chip-134142335.html",
+   "publisher": "Stocktwits",
+   "time": "2026-11-11T13:41:42+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 799.27,
+  "change_pct": 10.23,
+  "rel_vol": 2.33,
+  "time": "2026-11-11T15:20:48.032434+00:00"
+ },
+ "pushed": true
+}

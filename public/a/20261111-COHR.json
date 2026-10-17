@@ -1,0 +1,138 @@
+{
+ "id": "20261111-COHR",
+ "symbol": "COHR",
+ "name": "Coherent Corp.",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-11-11T16:22:20.100496+00:00",
+ "price": 240.74,
+ "change_pct": 12.15,
+ "rel_vol": 2.38,
+ "score": 68,
+ "ampel": {
+  "farbe": "gruen",
+  "label": "interessant",
+  "emoji": "🟢"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 72,
+   "label": "chancenreich",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 66,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 64,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "earnings",
+  "label": "Quartalszahlen / Prognose",
+  "headline": "Applied Optoelectronics Surges 12%, Lumentum Jumps 11% as CoreWeave’s Results Revive AI Trade; Coherent Climbs 7%",
+  "source": "24/7 Wall St."
+ },
+ "begruendung": "Coherent Corp. steigt um +12.2 % bei 2.4-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Quartalszahlen / Prognose („Applied Optoelectronics Surges 12%, Lumentum Jumps 11% as CoreWeave’s Results Revive AI Trade; Coherent Climbs 7%“). Pro: Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge. Contra: Langfristiger Abwärtstrend – Kurs trotz Sprung unter der 200-Tage-Linie. Gesamtbild: interessant – eine nähere Prüfung lohnt sich.",
+ "chancen": [
+  "Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge",
+  "Starkes Umsatzwachstum (+50 %)",
+  "Gewinn wächst stark (+60 %)",
+  "Geringe Verschuldung"
+ ],
+ "risiken": [
+  "Langfristiger Abwärtstrend – Kurs trotz Sprung unter der 200-Tage-Linie",
+  "Teurer als die Branche: KGV 50 vs. 27"
+ ],
+ "fundamental": {
+  "kgv": 49.7805,
+  "kgv_erwartet": 15.2285,
+  "umsatzwachstum": 0.499,
+  "gewinnwachstum": 0.601,
+  "marge": 0.1218,
+  "verschuldung": 37.276,
+  "marktkap": 47356743680.0,
+  "kursziel_analysten": 371.9185,
+  "analysten": "strong_buy",
+  "sektor": "Technology",
+  "branche": "Scientific & Technical Instruments",
+  "waehrung": "USD",
+  "beschreibung": "Coherent Corp. develops, manufactures, and markets lasers, transceivers, other optical and optoelectronic devices, modules, and systems worldwide. Its products include critical components consisting of detectors, passive optics, thermal solutions, and PICS; silicon photonics and other advanced optical technologies; and coherent transmission components, transport products, optical amplifiers, passi",
+  "branche_median": {
+   "kgv": 27.4323,
+   "umsatzwachstum": 0.184,
+   "marge": 0.1636,
+   "verschuldung": 43.8015,
+   "n": 111
+  }
+ },
+ "technik": {
+  "kurs": 240.74,
+  "vortag": 214.66,
+  "rsi": 50.6,
+  "sma50": 267.6722,
+  "sma200": 296.645,
+  "ueber_sma50": false,
+  "ueber_sma200": false,
+  "high52": 440.0,
+  "low52": 130.42,
+  "abstand_high52_pct": -45.3,
+  "rel_volumen": 2.38,
+  "volumen": 6472355.0,
+  "avg_volumen20": 9432090.0,
+  "trend": "Abwärtstrend"
+ },
+ "naechste_zahlen": "2027-02-03",
+ "news": [
+  {
+   "title": "Applied Optoelectronics Surges 12%, Lumentum Jumps 11% as CoreWeave’s Results Revive AI Trade; Coherent Climbs 7%",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-surges-12-lumentum-145758420.html",
+   "publisher": "24/7 Wall St.",
+   "time": "2026-11-11T14:57:58+00:00"
+  },
+  {
+   "title": "Coherent Rises 5% as CoreWeave’s Beat-and-Raise Revives the AI Trade: “A Breakout Quarter”",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/coherent-rises-5-coreweave-beat-144732456.html",
+   "publisher": "TIKR",
+   "time": "2026-11-11T14:47:32+00:00"
+  },
+  {
+   "title": "AMD and Coherent: What the Biggest Gainers Since the Midterms Selloff Say About the AI Trade",
+   "url": "https://www.barrons.com/articles/amd-stock-coherent-ai-selloff-e457aa02?siteid=yhoof2&yptr=yahoo",
+   "publisher": "Barrons.com",
+   "time": "2026-11-10T18:49:00+00:00"
+  },
+  {
+   "title": "Microsoft Pushes Trump to Halt a Ban on Chinese Optics. Coherent Is Already “Basically Booked Out”",
+   "url": "https://finance.yahoo.com/technology/articles/microsoft-pushes-trump-halt-ban-182245631.html",
+   "publisher": "TIKR",
+   "time": "2026-11-10T18:22:45+00:00"
+  },
+  {
+   "title": "The Demise of Data Center Stocks Has Been Greatly Exaggerated. These Earnings Show Why.",
+   "url": "https://www.barrons.com/articles/data-center-stocks-exaggerated-demise-csquare-earnings-dadaceb8?siteid=yhoof2&yptr=yahoo",
+   "publisher": "Barrons.com",
+   "time": "2026-11-10T17:51:00+00:00"
+  },
+  {
+   "title": "Lumentum Sinks 11% in a Week as Marvell’s All-Stock Offer Shrinks: “Our Demand Couldn’t Be Stronger”",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/lumentum-sinks-11-week-marvell-153530446.html",
+   "publisher": "TIKR",
+   "time": "2026-11-10T15:35:30+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 240.74,
+  "change_pct": 12.15,
+  "rel_vol": 2.38,
+  "time": "2026-11-11T16:22:20.100496+00:00"
+ },
+ "pushed": true
+}

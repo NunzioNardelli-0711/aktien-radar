@@ -1,0 +1,103 @@
+{
+ "id": "20261028-VRT",
+ "symbol": "VRT",
+ "name": "Vertiv Holdings Co",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-10-28T14:18:40.421675+00:00",
+ "price": 236.82,
+ "change_pct": 13.55,
+ "rel_vol": 7.6,
+ "score": 56,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 53,
+   "label": "neutral",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 60,
+   "label": "neutral",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 56,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "none",
+  "label": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "headline": null,
+  "source": ""
+ },
+ "begruendung": "Vertiv Holdings Co steigt um +13.6 % bei 7.6-fachem Handelsvolumen. In den aktuellen Nachrichten findet sich kein klarer Auslöser. Pro: Sehr hohes Handelsvolumen (7.6× normal) – breites Interesse. Contra: Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein. Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [
+  "Sehr hohes Handelsvolumen (7.6× normal) – breites Interesse",
+  "Starkes Umsatzwachstum (+24 %)",
+  "Gewinn wächst stark (+53 %)",
+  "Hohe Gewinnmarge (15 %)"
+ ],
+ "risiken": [
+  "Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein",
+  "Quartalszahlen in 0 Tag(en) – erhöhte Schwankung möglich",
+  "Langfristiger Abwärtstrend – Kurs trotz Sprung unter der 200-Tage-Linie",
+  "Sehr hoch bewertet: KGV 54 vs. Branche 26"
+ ],
+ "fundamental": {
+  "kgv": 53.5701,
+  "kgv_erwartet": 25.7524,
+  "umsatzwachstum": 0.241,
+  "gewinnwachstum": 0.53,
+  "marge": 0.1509,
+  "verschuldung": 70.166,
+  "marktkap": 91157495808.0,
+  "kursziel_analysten": 333.0,
+  "analysten": "strong_buy",
+  "sektor": "Industrials",
+  "branche": "Electrical Equipment & Parts",
+  "waehrung": "USD",
+  "beschreibung": "Vertiv Holdings Co designs, manufactures, and services critical digital infrastructure technologies and life cycle services for data centers, communication networks, and commercial and industrial environments in the Americas, the Asia Pacific, Europe, the Middle East, and Africa. The company offers AC and DC power management products, low/medium voltage switchgear, busbar, thermal management produ",
+  "branche_median": {
+   "kgv": 26.0329,
+   "umsatzwachstum": 0.094,
+   "marge": 0.0817,
+   "verschuldung": 66.425,
+   "n": 117
+  }
+ },
+ "technik": {
+  "kurs": 236.82,
+  "vortag": 208.56,
+  "rsi": 55.3,
+  "sma50": 244.1416,
+  "sma200": 269.4931,
+  "ueber_sma50": false,
+  "ueber_sma200": false,
+  "high52": 379.935,
+  "low52": 147.82,
+  "abstand_high52_pct": -37.7,
+  "rel_volumen": 7.6,
+  "volumen": 6686769.0,
+  "avg_volumen20": 5865670.0,
+  "trend": "Abwärtstrend"
+ },
+ "naechste_zahlen": "2026-10-28",
+ "news": [],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 236.82,
+  "change_pct": 13.55,
+  "rel_vol": 7.6,
+  "time": "2026-10-28T14:18:40.421675+00:00"
+ },
+ "pushed": true
+}

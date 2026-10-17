@@ -1,0 +1,138 @@
+{
+ "id": "20261124-DLTR",
+ "symbol": "DLTR",
+ "name": "Dollar Tree, Inc.",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-11-24T14:40:20.000130+00:00",
+ "price": 154.42,
+ "change_pct": 11.01,
+ "rel_vol": 2.34,
+ "score": 72,
+ "ampel": {
+  "farbe": "gruen",
+  "label": "interessant",
+  "emoji": "🟢"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 78,
+   "label": "chancenreich",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 88,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 46,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "earnings",
+  "label": "Quartalszahlen / Prognose",
+  "headline": "Dollar Tree Lifts Full-Year Earnings Outlook Following Fiscal Third-Quarter Beat",
+  "source": "MT Newswires"
+ },
+ "begruendung": "Dollar Tree, Inc. steigt um +11.0 % bei 2.3-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Quartalszahlen / Prognose („Dollar Tree Lifts Full-Year Earnings Outlook Following Fiscal Third-Quarter Beat“). Pro: Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge. Contra: Quartalszahlen in 0 Tag(en) – erhöhte Schwankung möglich. Gesamtbild: interessant – eine nähere Prüfung lohnt sich.",
+ "chancen": [
+  "Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge",
+  "Neues 52-Wochen-Hoch – kein Widerstand durch frühere Höchststände",
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)",
+  "Gewinn wächst stark (+197 %)"
+ ],
+ "risiken": [
+  "Quartalszahlen in 0 Tag(en) – erhöhte Schwankung möglich",
+  "Hohe Verschuldung (Verschuldungsgrad 2.2×)"
+ ],
+ "fundamental": {
+  "kgv": 18.6961,
+  "kgv_erwartet": 19.462,
+  "umsatzwachstum": 0.07,
+  "gewinnwachstum": 1.972,
+  "marge": 0.0804,
+  "verschuldung": 223.945,
+  "marktkap": 28800313344.0,
+  "kursziel_analysten": 137.6667,
+  "analysten": "hold",
+  "sektor": "Consumer Defensive",
+  "branche": "Discount Stores",
+  "waehrung": "USD",
+  "beschreibung": "Dollar Tree, Inc. operates retail discount stores under the Dollar Tree and Dollar Tree Canada brands in the United States and Canada. The company offers consumable merchandise comprising everyday consumables, such as household paper and chemicals, food, candy, health, personal care products, and frozen and refrigerated food; variety merchandise consisting of toys, durable housewares, gifts, stati",
+  "branche_median": {
+   "kgv": 21.1757,
+   "umsatzwachstum": 0.048,
+   "marge": 0.0935,
+   "verschuldung": 104.225,
+   "n": 36
+  }
+ },
+ "technik": {
+  "kurs": 154.42,
+  "vortag": 139.1,
+  "rsi": 68.9,
+  "sma50": 125.5112,
+  "sma200": 117.8098,
+  "ueber_sma50": true,
+  "ueber_sma200": true,
+  "high52": 148.54,
+  "low52": 85.88,
+  "abstand_high52_pct": 4.0,
+  "rel_volumen": 2.34,
+  "volumen": 813507.0,
+  "avg_volumen20": 2320455.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": "2026-11-24",
+ "news": [
+  {
+   "title": "Dollar Tree Lifts Full-Year Earnings Outlook Following Fiscal Third-Quarter Beat",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/dollar-tree-lifts-full-earnings-143123901.html",
+   "publisher": "MT Newswires",
+   "time": "2026-11-24T14:31:23+00:00"
+  },
+  {
+   "title": "Why Is Dollar Tree Stock Rising 6% Today?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/why-dollar-tree-stock-rising-134332768.html",
+   "publisher": "InvestorsHub",
+   "time": "2026-11-24T13:43:32+00:00"
+  },
+  {
+   "title": "DLTR Stock Rockets To Over 2-Year High After Q3 Beat And Raise: CEO Says Traffic Growth Drove Momentum",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/dltr-stock-rockets-over-2-132405745.html",
+   "publisher": "Stocktwits",
+   "time": "2026-11-24T13:24:05+00:00"
+  },
+  {
+   "title": "Dollar Tree stock jumps on earnings beat and raised outlook",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/dollar-tree-stock-jumps-earnings-121709851.html",
+   "publisher": "Investing.com",
+   "time": "2026-11-24T12:17:09+00:00"
+  },
+  {
+   "title": "Dollar Tree Lifts Outlook as Quarterly Sales Rise",
+   "url": "https://www.wsj.com/business/retail/dollar-tree-lifts-outlook-as-quarterly-sales-rise-80814dd2?siteid=yhoof2&yptr=yahoo",
+   "publisher": "The Wall Street Journal",
+   "time": "2026-11-24T12:09:00+00:00"
+  },
+  {
+   "title": "Dollar Tree Boosts Earnings Guidance as Discount Retail Meets Early Holiday Demand",
+   "url": "https://www.barrons.com/articles/dollar-tree-earnings-stock-price-0e1bd232?siteid=yhoof2&yptr=yahoo",
+   "publisher": "Barrons.com",
+   "time": "2026-11-24T12:05:00+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 154.42,
+  "change_pct": 11.01,
+  "rel_vol": 2.34,
+  "time": "2026-11-24T14:40:20.000130+00:00"
+ },
+ "pushed": true
+}

@@ -1,0 +1,137 @@
+{
+ "id": "20261104-BKNG",
+ "symbol": "BKNG",
+ "name": "Booking Holdings Inc.",
+ "market": "US",
+ "indices": [
+  "S&P 500",
+  "Nasdaq 100"
+ ],
+ "time": "2026-11-04T17:23:17.417605+00:00",
+ "price": 172.76,
+ "change_pct": 10.98,
+ "rel_vol": 2.09,
+ "score": 68,
+ "ampel": {
+  "farbe": "gruen",
+  "label": "interessant",
+  "emoji": "🟢"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 72,
+   "label": "chancenreich",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 68,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 64,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "earnings",
+  "label": "Quartalszahlen / Prognose",
+  "headline": "Booking Holdings Q3 Earnings Beat on Travel Growth, Revenues Miss",
+  "source": "Zacks"
+ },
+ "begruendung": "Booking Holdings Inc. steigt um +11.0 % bei 2.1-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Quartalszahlen / Prognose („Booking Holdings Q3 Earnings Beat on Travel Growth, Revenues Miss“). Pro: Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge. Contra: Langfristiger Abwärtstrend – Kurs trotz Sprung unter der 200-Tage-Linie. Gesamtbild: interessant – eine nähere Prüfung lohnt sich.",
+ "chancen": [
+  "Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge",
+  "Gewinn wächst stark (+130 %)",
+  "Hohe Gewinnmarge (26 %)"
+ ],
+ "risiken": [
+  "Langfristiger Abwärtstrend – Kurs trotz Sprung unter der 200-Tage-Linie"
+ ],
+ "fundamental": {
+  "kgv": 19.1563,
+  "kgv_erwartet": 13.9953,
+  "umsatzwachstum": 0.081,
+  "gewinnwachstum": 1.3,
+  "marge": 0.2553,
+  "verschuldung": null,
+  "marktkap": 133891244032.0,
+  "kursziel_analysten": 231.3143,
+  "analysten": "buy",
+  "sektor": "Consumer Cyclical",
+  "branche": "Travel Services",
+  "waehrung": "USD",
+  "beschreibung": "Booking Holdings Inc., together with its subsidiaries, provides online and traditional travel and restaurant reservations and related services in the United States, the Netherlands, the United Kingdom, and internationally. The company operates Booking.com, which offers online accommodation reservations; and Priceline, which provides discount travel reservations services, as well as online accommod",
+  "branche_median": {
+   "kgv": 19.4519,
+   "umsatzwachstum": 0.054,
+   "marge": 0.0704,
+   "verschuldung": 106.5555,
+   "n": 74
+  }
+ },
+ "technik": {
+  "kurs": 172.76,
+  "vortag": 155.67,
+  "rsi": 62.2,
+  "sma50": 168.9918,
+  "sma200": 176.3143,
+  "ueber_sma50": true,
+  "ueber_sma200": false,
+  "high52": 220.806,
+  "low52": 146.28,
+  "abstand_high52_pct": -21.8,
+  "rel_volumen": 2.09,
+  "volumen": 6632893.0,
+  "avg_volumen20": 7130190.0,
+  "trend": "Abwärtstrend"
+ },
+ "naechste_zahlen": "2026-11-03",
+ "news": [
+  {
+   "title": "Booking Holdings Q3 Earnings Beat on Travel Growth, Revenues Miss",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/booking-holdings-q3-earnings-beat-155300112.html",
+   "publisher": "Zacks",
+   "time": "2026-11-04T15:53:00+00:00"
+  },
+  {
+   "title": "Booking Holdings (BKNG) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/booking-holdings-bkng-q3-2026-152938861.html",
+   "publisher": "Motley Fool",
+   "time": "2026-11-04T15:29:38+00:00"
+  },
+  {
+   "title": "Booking Holdings Shares Little Changed as Revenue Miss and Weaker Q4 Outlook Offset Earnings Beat",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/booking-holdings-shares-little-changed-134842502.html",
+   "publisher": "InvestorsHub",
+   "time": "2026-11-04T13:48:42+00:00"
+  },
+  {
+   "title": "Booking Holdings’ Lowest Recent Target Still Implies 22% Upside. Airbnb’s Growth Tests the Estimates Behind It",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/booking-holdings-lowest-recent-target-120154362.html",
+   "publisher": "TIKR",
+   "time": "2026-11-04T12:01:54+00:00"
+  },
+  {
+   "title": "Booking Holdings Inc (BKNG) (Q3 2026) Earnings Call Highlights: Strong Beat, AI Momentum, and a ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/booking-holdings-inc-bkng-q3-071042725.html",
+   "publisher": "GuruFocus.com",
+   "time": "2026-11-04T07:10:42+00:00"
+  },
+  {
+   "title": "Booking Holdings Is Down 27% This Year. Four of Five Recent Analyst Calls Still Say Buy",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/booking-holdings-down-27-four-042040489.html",
+   "publisher": "TIKR",
+   "time": "2026-11-04T04:20:40+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 172.76,
+  "change_pct": 10.98,
+  "rel_vol": 2.09,
+  "time": "2026-11-04T17:23:17.417605+00:00"
+ },
+ "pushed": true
+}

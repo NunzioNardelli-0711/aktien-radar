@@ -1,0 +1,136 @@
+{
+ "id": "20261111-DELL",
+ "symbol": "DELL",
+ "name": "Dell Technologies Inc.",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-11-11T15:20:48.032434+00:00",
+ "price": 370.24,
+ "change_pct": 10.72,
+ "rel_vol": 2.26,
+ "score": 77,
+ "ampel": {
+  "farbe": "gruen",
+  "label": "interessant",
+  "emoji": "🟢"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 72,
+   "label": "chancenreich",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 86,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 72,
+   "label": "chancenreich",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "earnings",
+  "label": "Quartalszahlen / Prognose",
+  "headline": "Should You Buy, Sell, or Hold Cisco Systems Stock Before Q1 Earnings?",
+  "source": "Zacks"
+ },
+ "begruendung": "Dell Technologies Inc. steigt um +10.7 % bei 2.3-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Quartalszahlen / Prognose („Should You Buy, Sell, or Hold Cisco Systems Stock Before Q1 Earnings?“). Pro: Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge. Gesamtbild: interessant – eine nähere Prüfung lohnt sich.",
+ "chancen": [
+  "Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge",
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)",
+  "Starkes Umsatzwachstum (+58 %)",
+  "Gewinn wächst stark (+273 %)",
+  "Günstig bewertet: KGV 22 vs. Branche 27"
+ ],
+ "risiken": [],
+ "fundamental": {
+  "kgv": 21.5413,
+  "kgv_erwartet": 12.228,
+  "umsatzwachstum": 0.577,
+  "gewinnwachstum": 2.729,
+  "marge": 0.0752,
+  "verschuldung": null,
+  "marktkap": 235574984704.0,
+  "kursziel_analysten": 590.0,
+  "analysten": "buy",
+  "sektor": "Technology",
+  "branche": "Computer Hardware",
+  "waehrung": "USD",
+  "beschreibung": "Dell Technologies Inc. designs, develops, manufactures, markets, sells, and supports various comprehensive and integrated solutions, products, and services in the Americas, Europe, the Middle East, Asia, and internationally. The company operates through Infrastructure Solutions Group (ISG) and Client Solutions Group (CSG) segments. The ISG segment provides modern and traditional storage solutions,",
+  "branche_median": {
+   "kgv": 27.4323,
+   "umsatzwachstum": 0.184,
+   "marge": 0.1636,
+   "verschuldung": 43.8015,
+   "n": 111
+  }
+ },
+ "technik": {
+  "kurs": 370.24,
+  "vortag": 334.38,
+  "rsi": 38.4,
+  "sma50": 500.3844,
+  "sma200": 339.7058,
+  "ueber_sma50": false,
+  "ueber_sma200": true,
+  "high52": 595.51,
+  "low52": 110.22,
+  "abstand_high52_pct": -37.8,
+  "rel_volumen": 2.26,
+  "volumen": 2605442.0,
+  "avg_volumen20": 7699400.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": "2026-11-24",
+ "news": [
+  {
+   "title": "10 Stocks Rode Trump Era — What Happens As MAGA 'Disintegrates'?",
+   "url": "https://www.investors.com/etfs-and-funds/sectors/sp500-stocks-rode-trump-era-what-happens-as-maga-disintegrates/?src=A00220&yptr=yahoo",
+   "publisher": "Investor's Business Daily",
+   "time": "2026-11-11T13:00:00+00:00"
+  },
+  {
+   "title": "Nvidia, CoreWeave, Marvell, Dell, Costco, and More Stocks That Explain Today’s Market",
+   "url": "https://www.barrons.com/articles/stock-movers-e9c667c2?siteid=yhoof2&yptr=yahoo",
+   "publisher": "Barrons.com",
+   "time": "2026-11-11T11:27:00+00:00"
+  },
+  {
+   "title": "Exclusive-Military-linked Chinese university bought Nvidia H200 chips despite US blacklist, records show",
+   "url": "https://finance.yahoo.com/news/exclusive-pla-linked-chinese-university-051308504.html",
+   "publisher": "Reuters",
+   "time": "2026-11-11T08:40:44+00:00"
+  },
+  {
+   "title": "Is Seagate A Better Way Than Apple To Own AI Hardware Demand?",
+   "url": "https://finance.yahoo.com/technology/articles/seagate-better-way-apple-own-015049114.html",
+   "publisher": "Trefis",
+   "time": "2026-11-11T01:50:49+00:00"
+  },
+  {
+   "title": "Dell Sinks 12% in a Week on Texas Data Center Fears: “A Moratorium, a Ban”",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/dell-sinks-12-week-texas-233009122.html",
+   "publisher": "TIKR",
+   "time": "2026-11-10T23:30:09+00:00"
+  },
+  {
+   "title": "Dell Technologies (DELL) Registers a Bigger Fall Than the Market: Important Facts to Note",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/dell-technologies-dell-registers-bigger-214502778.html",
+   "publisher": "Zacks",
+   "time": "2026-11-10T21:45:02+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 370.24,
+  "change_pct": 10.72,
+  "rel_vol": 2.26,
+  "time": "2026-11-11T15:20:48.032434+00:00"
+ },
+ "pushed": true
+}

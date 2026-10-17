@@ -1,0 +1,137 @@
+{
+ "id": "20261123-HPE",
+ "symbol": "HPE",
+ "name": "Hewlett Packard Enterprise Company",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-11-23T17:33:12.279365+00:00",
+ "price": 47.15,
+ "change_pct": 15.24,
+ "rel_vol": 2.27,
+ "score": 76,
+ "ampel": {
+  "farbe": "gruen",
+  "label": "interessant",
+  "emoji": "🟢"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 72,
+   "label": "chancenreich",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 86,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 68,
+   "label": "chancenreich",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "earnings",
+  "label": "Quartalszahlen / Prognose",
+  "headline": "Dell Stock Jumps 20% Just Day Before Earnings",
+  "source": "GuruFocus.com"
+ },
+ "begruendung": "Hewlett Packard Enterprise Company steigt um +15.2 % bei 2.3-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Quartalszahlen / Prognose („Dell Stock Jumps 20% Just Day Before Earnings“). Pro: Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge. Contra: Quartalszahlen in 0 Tag(en) – erhöhte Schwankung möglich. Gesamtbild: interessant – eine nähere Prüfung lohnt sich.",
+ "chancen": [
+  "Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge",
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)",
+  "Starkes Umsatzwachstum (+34 %)",
+  "Gewinn wächst stark (+410 %)"
+ ],
+ "risiken": [
+  "Quartalszahlen in 0 Tag(en) – erhöhte Schwankung möglich"
+ ],
+ "fundamental": {
+  "kgv": 24.3557,
+  "kgv_erwartet": 9.9787,
+  "umsatzwachstum": 0.337,
+  "gewinnwachstum": 4.102,
+  "marge": 0.0667,
+  "verschuldung": 76.464,
+  "marktkap": 62722711552.0,
+  "kursziel_analysten": 70.5829,
+  "analysten": "buy",
+  "sektor": "Technology",
+  "branche": "Communication Equipment",
+  "waehrung": "USD",
+  "beschreibung": "Hewlett Packard Enterprise Company, together with its subsidiaries, develops intelligent solutions in the United States, the Americas, Europe, the Middle East, Africa, the Asia Pacific, Japan, and internationally. It operates in five segments: Server, Hybrid Cloud, Networking, Financial Services, and Corporate Investments and Other. The company offers general-purpose servers, workload-optimized se",
+  "branche_median": {
+   "kgv": 24.3281,
+   "umsatzwachstum": 0.193,
+   "marge": 0.1636,
+   "verschuldung": 43.768,
+   "n": 111
+  }
+ },
+ "technik": {
+  "kurs": 47.15,
+  "vortag": 40.91,
+  "rsi": 43.3,
+  "sma50": 57.6624,
+  "sma200": 42.714,
+  "ueber_sma50": false,
+  "ueber_sma200": true,
+  "high52": 73.56,
+  "low52": 19.84,
+  "abstand_high52_pct": -35.9,
+  "rel_volumen": 2.27,
+  "volumen": 15626258.0,
+  "avg_volumen20": 14682430.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": "2026-11-23",
+ "news": [
+  {
+   "title": "A battered stock market looks for the bottom: What to watch this week",
+   "url": "https://finance.yahoo.com/markets/article/a-battered-stock-market-looks-for-the-bottom-what-to-watch-this-week-100000117.html",
+   "publisher": "Yahoo Finance",
+   "time": "2026-11-22T10:00:00+00:00"
+  },
+  {
+   "title": "A $12 Billion Fund Dumps These 2 Stocks",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/12-billion-fund-dumps-2-165542690.html",
+   "publisher": "TIKR",
+   "time": "2026-11-23T16:55:42+00:00"
+  },
+  {
+   "title": "Dell Stock Jumps 20% Just Day Before Earnings",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/dell-stock-jumps-20-just-163045211.html",
+   "publisher": "GuruFocus.com",
+   "time": "2026-11-23T16:30:45+00:00"
+  },
+  {
+   "title": "HPE Earnings: Numbers on Its Side, Market Against It",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/hpe-earnings-numbers-side-market-154100028.html",
+   "publisher": "Zacks",
+   "time": "2026-11-23T15:41:00+00:00"
+  },
+  {
+   "title": "The Next $1 Trillion Technology Opportunity Could Be Hiding in Plain Sight",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/next-1-trillion-technology-opportunity-153430804.html",
+   "publisher": "24/7 Wall St.",
+   "time": "2026-11-23T15:34:30+00:00"
+  },
+  {
+   "title": "Super Micro Soars 20% on Report It’s Seeking Up to 45% More for AI Servers Already Sold",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/super-micro-soars-20-report-151820270.html",
+   "publisher": "TIKR",
+   "time": "2026-11-23T15:18:20+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 47.15,
+  "change_pct": 15.24,
+  "rel_vol": 2.27,
+  "time": "2026-11-23T17:33:12.279365+00:00"
+ },
+ "pushed": true
+}

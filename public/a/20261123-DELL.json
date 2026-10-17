@@ -1,0 +1,138 @@
+{
+ "id": "20261123-DELL",
+ "symbol": "DELL",
+ "name": "Dell Technologies Inc.",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-11-23T17:33:12.279365+00:00",
+ "price": 340.47,
+ "change_pct": 22.46,
+ "rel_vol": 2.74,
+ "score": 72,
+ "ampel": {
+  "farbe": "gruen",
+  "label": "interessant",
+  "emoji": "🟢"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 66,
+   "label": "chancenreich",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 86,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 64,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "earnings",
+  "label": "Quartalszahlen / Prognose",
+  "headline": "Dell Stock Jumps 20% Just Day Before Earnings",
+  "source": "GuruFocus.com"
+ },
+ "begruendung": "Dell Technologies Inc. steigt um +22.5 % bei 2.7-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Quartalszahlen / Prognose („Dell Stock Jumps 20% Just Day Before Earnings“). Pro: Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge. Contra: Sehr großer Tagessprung (+22 %). Gesamtbild: interessant – eine nähere Prüfung lohnt sich.",
+ "chancen": [
+  "Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge",
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)",
+  "Starkes Umsatzwachstum (+58 %)",
+  "Gewinn wächst stark (+273 %)"
+ ],
+ "risiken": [
+  "Sehr großer Tagessprung (+22 %)",
+  "Quartalszahlen in 1 Tag(en) – erhöhte Schwankung möglich"
+ ],
+ "fundamental": {
+  "kgv": 19.8177,
+  "kgv_erwartet": 11.1229,
+  "umsatzwachstum": 0.577,
+  "gewinnwachstum": 2.729,
+  "marge": 0.0752,
+  "verschuldung": null,
+  "marktkap": 216726306816.0,
+  "kursziel_analysten": 578.88,
+  "analysten": "buy",
+  "sektor": "Technology",
+  "branche": "Computer Hardware",
+  "waehrung": "USD",
+  "beschreibung": "Dell Technologies Inc. designs, develops, manufactures, markets, sells, and supports various comprehensive and integrated solutions, products, and services in the Americas, Europe, the Middle East, Asia, and internationally. The company operates through Infrastructure Solutions Group (ISG) and Client Solutions Group (CSG) segments. The ISG segment provides modern and traditional storage solutions,",
+  "branche_median": {
+   "kgv": 24.3281,
+   "umsatzwachstum": 0.193,
+   "marge": 0.1636,
+   "verschuldung": 43.768,
+   "n": 111
+  }
+ },
+ "technik": {
+  "kurs": 340.47,
+  "vortag": 278.02,
+  "rsi": 42.4,
+  "sma50": 471.0968,
+  "sma200": 348.1945,
+  "ueber_sma50": false,
+  "ueber_sma200": false,
+  "high52": 595.51,
+  "low52": 110.22,
+  "abstand_high52_pct": -42.8,
+  "rel_volumen": 2.74,
+  "volumen": 10135270.0,
+  "avg_volumen20": 7865950.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": "2026-11-24",
+ "news": [
+  {
+   "title": "Nvidia, Dell, Micron, Anthropic, CrowdStrike, UnitedHealth, and More Stocks That Explain Today’s Market",
+   "url": "https://www.barrons.com/articles/stock-movers-901d6342?siteid=yhoof2&yptr=yahoo",
+   "publisher": "Barrons.com",
+   "time": "2026-11-23T17:03:00+00:00"
+  },
+  {
+   "title": "Is Your AI Stock Healthy? Five Questions That Tell You",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ai-stock-healthy-five-questions-163318888.html",
+   "publisher": "Trefis",
+   "time": "2026-11-23T16:33:18+00:00"
+  },
+  {
+   "title": "Dell Stock Jumps 20% Just Day Before Earnings",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/dell-stock-jumps-20-just-163045211.html",
+   "publisher": "GuruFocus.com",
+   "time": "2026-11-23T16:30:45+00:00"
+  },
+  {
+   "title": "Week ahead: Wall Street looks for Thanksgiving lift as Nvidia rebound puts AI trade back in focus",
+   "url": "https://finance.yahoo.com/technology/ai/articles/week-ahead-wall-street-looks-163000773.html",
+   "publisher": "Proactive",
+   "time": "2026-11-23T16:30:00+00:00"
+  },
+  {
+   "title": "Nvidia’s Jensen Huang Returns. Tesla, Dell, and Many More Stocks Are Soaring.",
+   "url": "https://www.barrons.com/articles/nvidia-jensen-huang-ai-tesla-dell-stocks-d225998a?siteid=yhoof2&yptr=yahoo",
+   "publisher": "Barrons.com",
+   "time": "2026-11-23T16:30:00+00:00"
+  },
+  {
+   "title": "Dell Q3 earnings on deck: What to expect",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/dell-q3-earnings-deck-expect-160455855.html",
+   "publisher": "GuruFocus.com",
+   "time": "2026-11-23T16:04:55+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 340.47,
+  "change_pct": 22.46,
+  "rel_vol": 2.74,
+  "time": "2026-11-23T17:33:12.279365+00:00"
+ },
+ "pushed": true
+}

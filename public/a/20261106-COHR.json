@@ -1,0 +1,139 @@
+{
+ "id": "20261106-COHR",
+ "symbol": "COHR",
+ "name": "Coherent Corp.",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-11-06T15:16:17.092505+00:00",
+ "price": 188.91,
+ "change_pct": 11.28,
+ "rel_vol": 3.34,
+ "score": 69,
+ "ampel": {
+  "farbe": "gruen",
+  "label": "interessant",
+  "emoji": "🟢"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 76,
+   "label": "chancenreich",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 66,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 64,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "earnings",
+  "label": "Quartalszahlen / Prognose",
+  "headline": "Coherent (COHR) Stock Price Falls Despite Strong Q1 Earnings",
+  "source": "Simply Wall St."
+ },
+ "begruendung": "Coherent Corp. steigt um +11.3 % bei 3.3-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Quartalszahlen / Prognose („Coherent (COHR) Stock Price Falls Despite Strong Q1 Earnings“). Pro: Deutlich erhöhtes Volumen (3.3× normal). Contra: Langfristiger Abwärtstrend – Kurs trotz Sprung unter der 200-Tage-Linie. Gesamtbild: interessant – eine nähere Prüfung lohnt sich.",
+ "chancen": [
+  "Deutlich erhöhtes Volumen (3.3× normal)",
+  "Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge",
+  "Starkes Umsatzwachstum (+50 %)",
+  "Gewinn wächst stark (+60 %)",
+  "Geringe Verschuldung"
+ ],
+ "risiken": [
+  "Langfristiger Abwärtstrend – Kurs trotz Sprung unter der 200-Tage-Linie",
+  "Teurer als die Branche: KGV 39 vs. 31"
+ ],
+ "fundamental": {
+  "kgv": 38.8737,
+  "kgv_erwartet": 13.4385,
+  "umsatzwachstum": 0.499,
+  "gewinnwachstum": 0.601,
+  "marge": 0.1218,
+  "verschuldung": 37.276,
+  "marktkap": 36980957184.0,
+  "kursziel_analysten": 387.7985,
+  "analysten": "buy",
+  "sektor": "Technology",
+  "branche": "Scientific & Technical Instruments",
+  "waehrung": "USD",
+  "beschreibung": "Coherent Corp. develops, manufactures, and markets lasers, transceivers, other optical and optoelectronic devices, modules, and systems worldwide. Its products include critical components consisting of detectors, passive optics, thermal solutions, and PICS; silicon photonics and other advanced optical technologies; and coherent transmission components, transport products, optical amplifiers, passi",
+  "branche_median": {
+   "kgv": 30.9147,
+   "umsatzwachstum": 0.188,
+   "marge": 0.1637,
+   "verschuldung": 48.997,
+   "n": 109
+  }
+ },
+ "technik": {
+  "kurs": 188.91,
+  "vortag": 169.76,
+  "rsi": 35.5,
+  "sma50": 272.0674,
+  "sma200": 296.4688,
+  "ueber_sma50": false,
+  "ueber_sma200": false,
+  "high52": 440.0,
+  "low52": 130.42,
+  "abstand_high52_pct": -57.1,
+  "rel_volumen": 3.34,
+  "volumen": 4214483.0,
+  "avg_volumen20": 8402655.0,
+  "trend": "Abwärtstrend"
+ },
+ "naechste_zahlen": "2027-02-03",
+ "news": [
+  {
+   "title": "Coherent Signed a $20 Billion Deal. The Market Sold It Off 13% Anyway",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/coherent-signed-20-billion-deal-114344042.html",
+   "publisher": "TIKR",
+   "time": "2026-11-06T11:43:44+00:00"
+  },
+  {
+   "title": "Coherent (COHR) Stock Price Falls Despite Strong Q1 Earnings",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/coherent-cohr-stock-price-falls-231906614.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-11-05T23:19:06+00:00"
+  },
+  {
+   "title": "Chip Stocks Tumble After Arm, Qualcomm Reports",
+   "url": "https://www.investors.com/news/technology/chip-stocks-tumble-arm-qualcomm-reports/?src=A00220&yptr=yahoo",
+   "publisher": "Investor's Business Daily",
+   "time": "2026-11-05T21:43:43+00:00"
+  },
+  {
+   "title": "Coherent Corp (COHR) (Q1 2027) Earnings Call Highlights: Record $2. ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/coherent-corp-cohr-q1-2027-210806528.html",
+   "publisher": "GuruFocus.com",
+   "time": "2026-11-05T21:08:06+00:00"
+  },
+  {
+   "title": "Coherent earnings analysis: questions answered and next catalysts",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/coherent-earnings-analysis-questions-answered-204906865.html",
+   "publisher": "Investing.com",
+   "time": "2026-11-05T20:49:06+00:00"
+  },
+  {
+   "title": "Coherent Stocks Fall 13.72% Despite a Higher AI Optics Growth Target",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/coherent-stocks-fall-13-72-193156786.html",
+   "publisher": "GuruFocus.com",
+   "time": "2026-11-05T19:31:56+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 188.91,
+  "change_pct": 11.28,
+  "rel_vol": 3.34,
+  "time": "2026-11-06T15:16:17.092505+00:00"
+ },
+ "pushed": true
+}

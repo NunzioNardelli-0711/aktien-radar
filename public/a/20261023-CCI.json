@@ -1,0 +1,101 @@
+{
+ "id": "20261023-CCI",
+ "symbol": "CCI",
+ "name": "Crown Castle Inc.",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-10-23T14:06:55.203955+00:00",
+ "price": 88.13,
+ "change_pct": 11.8,
+ "rel_vol": 5.08,
+ "score": 49,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 53,
+   "label": "neutral",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 40,
+   "label": "ungünstig",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 54,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "none",
+  "label": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "headline": null,
+  "source": ""
+ },
+ "begruendung": "Crown Castle Inc. steigt um +11.8 % bei 5.1-fachem Handelsvolumen. In den aktuellen Nachrichten findet sich kein klarer Auslöser. Pro: Sehr hohes Handelsvolumen (5.1× normal) – breites Interesse. Contra: Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein. Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [
+  "Sehr hohes Handelsvolumen (5.1× normal) – breites Interesse",
+  "Hohe Gewinnmarge (20 %)"
+ ],
+ "risiken": [
+  "Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein",
+  "Umsatz schrumpft (-7 %)",
+  "Gewinn rückläufig (-10 %)",
+  "Teurer als die Branche: KGV 35 vs. 28"
+ ],
+ "fundamental": {
+  "kgv": 35.2972,
+  "kgv_erwartet": 29.8826,
+  "umsatzwachstum": -0.072,
+  "gewinnwachstum": -0.105,
+  "marge": 0.2013,
+  "verschuldung": null,
+  "marktkap": 37393276928.0,
+  "kursziel_analysten": 93.4952,
+  "analysten": "buy",
+  "sektor": "Real Estate",
+  "branche": "REIT - Specialty",
+  "waehrung": "USD",
+  "beschreibung": "Crown Castle owns, operates and leases approximately 40,000 cell towers across the U.S. This nationwide portfolio serves as the foundation of wireless connectivity that provides cities and communities access to essential data, technology and wireless service  bringing information, ideas, innovations and the connectivity of modern life to help people and businesses thrive. Crown Castle Inc. was es",
+  "branche_median": {
+   "kgv": 28.0951,
+   "umsatzwachstum": 0.039,
+   "marge": 0.2089,
+   "verschuldung": 101.674,
+   "n": 38
+  }
+ },
+ "technik": {
+  "kurs": 88.13,
+  "vortag": 78.83,
+  "rsi": 74.3,
+  "sma50": 74.2724,
+  "sma200": 82.218,
+  "ueber_sma50": true,
+  "ueber_sma200": true,
+  "high52": 100.5,
+  "low52": 65.32,
+  "abstand_high52_pct": -12.3,
+  "rel_volumen": 5.08,
+  "volumen": 3794957.0,
+  "avg_volumen20": 4977820.0,
+  "trend": "Abwärtstrend"
+ },
+ "naechste_zahlen": "2026-10-21",
+ "news": [],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 88.13,
+  "change_pct": 11.8,
+  "rel_vol": 5.08,
+  "time": "2026-10-23T14:06:55.203955+00:00"
+ },
+ "pushed": true
+}

@@ -1,0 +1,139 @@
+{
+ "id": "20261127-ELG.DE",
+ "symbol": "ELG.DE",
+ "name": "Elmos Semiconductor SE",
+ "market": "DE",
+ "indices": [
+  "SDAX"
+ ],
+ "time": "2026-11-27T09:05:20.000149+00:00",
+ "price": 106.2,
+ "change_pct": 13.95,
+ "rel_vol": 2.1,
+ "score": 63,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 45,
+   "label": "neutral",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 60,
+   "label": "neutral",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 88,
+   "label": "chancenreich",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "none",
+  "label": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "headline": null,
+  "source": ""
+ },
+ "begruendung": "Elmos Semiconductor SE steigt um +13.9 % bei 2.1-fachem Handelsvolumen. In den aktuellen Nachrichten findet sich kein klarer Auslöser. Pro: Starkes Umsatzwachstum (+18 %). Contra: Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein. Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [
+  "Starkes Umsatzwachstum (+18 %)",
+  "Gewinn wächst stark (+56 %)",
+  "Günstig bewertet: KGV 17 vs. Branche 24",
+  "Hohe Gewinnmarge (18 %)",
+  "Geringe Verschuldung"
+ ],
+ "risiken": [
+  "Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein",
+  "Langfristiger Abwärtstrend – Kurs trotz Sprung unter der 200-Tage-Linie"
+ ],
+ "fundamental": {
+  "kgv": 16.8038,
+  "kgv_erwartet": 12.4685,
+  "umsatzwachstum": 0.184,
+  "gewinnwachstum": 0.562,
+  "marge": 0.1775,
+  "verschuldung": 16.996,
+  "marktkap": 1821993856.0,
+  "kursziel_analysten": 180.0,
+  "analysten": "buy",
+  "sektor": "Technology",
+  "branche": "Semiconductors",
+  "waehrung": "EUR",
+  "beschreibung": "Elmos Semiconductor SE develops, manufactures, and distributes microelectronic components and system parts, and technological devices in Germany, other European Union countries, the United States, Asia/Pacific, and internationally. The company provides motor control IC solutions, which includes stepper motor controller IC, brushless DC motor controller IC, and DC motor controller IC; sensor ICs, s",
+  "branche_median": {
+   "kgv": 24.3281,
+   "umsatzwachstum": 0.193,
+   "marge": 0.1636,
+   "verschuldung": 43.768,
+   "n": 111
+  }
+ },
+ "technik": {
+  "kurs": 106.2,
+  "vortag": 93.2,
+  "rsi": 43.9,
+  "sma50": 130.028,
+  "sma200": 151.298,
+  "ueber_sma50": false,
+  "ueber_sma200": false,
+  "high52": 206.0,
+  "low52": 88.2,
+  "abstand_high52_pct": -48.4,
+  "rel_volumen": 2.1,
+  "volumen": 10619.0,
+  "avg_volumen20": 33712.0,
+  "trend": "Abwärtstrend"
+ },
+ "naechste_zahlen": "2027-02-23",
+ "news": [
+  {
+   "title": "Elmos Semiconductor SE (ELTTF) (Q3 2026) Earnings Call Highlights: Strong Revenue Growth and ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/elmos-semiconductor-se-elttf-q3-190527990.html",
+   "publisher": "GuruFocus.com",
+   "time": "2026-11-10T19:05:27+00:00"
+  },
+  {
+   "title": "What Early Elmos Semiconductor Buyers Saw",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/early-elmos-semiconductor-buyers-saw-121159510.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-11-07T12:11:59+00:00"
+  },
+  {
+   "title": "Can Elmos Semiconductor (XTRA:ELG) Justify Its Price Through Cash Flow?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/elmos-semiconductor-xtra-elg-justify-200922399.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-10-17T20:09:22+00:00"
+  },
+  {
+   "title": "Global chipmakers sink as inflation data fuels rate-hike fears, AI rout",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/global-chipmakers-sink-inflation-data-082242323.html",
+   "publisher": "Investing.com",
+   "time": "2026-10-15T08:22:42+00:00"
+  },
+  {
+   "title": "Elmos Semiconductor (XTRA:ELG) Just Gave Investors A Fresh Question",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/elmos-semiconductor-xtra-elg-just-020741599.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-09-26T02:07:41+00:00"
+  },
+  {
+   "title": "Elmos Semiconductor SE (ELTTF) (Q2 2026) Earnings Call Highlights: Strong H1 Growth and Raised ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/elmos-semiconductor-se-elttf-q2-030051153.html",
+   "publisher": "GuruFocus.com",
+   "time": "2026-08-11T03:00:51+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 106.2,
+  "change_pct": 13.95,
+  "rel_vol": 2.1,
+  "time": "2026-11-27T09:05:20.000149+00:00"
+ },
+ "pushed": true
+}

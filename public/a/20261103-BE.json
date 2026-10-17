@@ -1,0 +1,99 @@
+{
+ "id": "20261103-BE",
+ "symbol": "BE",
+ "name": "Bloom Energy Corporation",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-11-03T15:23:30.992831+00:00",
+ "price": 218.06,
+ "change_pct": 11.11,
+ "rel_vol": 2.46,
+ "score": 55,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 45,
+   "label": "neutral",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 72,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 46,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "none",
+  "label": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "headline": null,
+  "source": ""
+ },
+ "begruendung": "Bloom Energy Corporation steigt um +11.1 % bei 2.5-fachem Handelsvolumen. In den aktuellen Nachrichten findet sich kein klarer Auslöser. Pro: Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie). Contra: Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein. Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)",
+  "Starkes Umsatzwachstum (+138 %)"
+ ],
+ "risiken": [
+  "Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein",
+  "Sehr hoch bewertet: KGV 132 vs. Branche 26"
+ ],
+ "fundamental": {
+  "kgv": 131.9788,
+  "kgv_erwartet": 40.9015,
+  "umsatzwachstum": 1.381,
+  "gewinnwachstum": null,
+  "marge": 0.1353,
+  "verschuldung": 141.948,
+  "marktkap": 64357662720.0,
+  "kursziel_analysten": 284.8846,
+  "analysten": "buy",
+  "sektor": "Industrials",
+  "branche": "Electrical Equipment & Parts",
+  "waehrung": "USD",
+  "beschreibung": "Bloom Energy Corporation designs, manufactures, sells, and installs solid oxide fuel cell systems for on-site power generation in the United States and internationally. It offers Bloom Energy Server, an energy server platform to convert fuel, such as natural gas, biogas, hydrogen, or a blend of these fuels, into electricity through a non-combustion electrochemical process. The company also provide",
+  "branche_median": {
+   "kgv": 25.5638,
+   "umsatzwachstum": 0.096,
+   "marge": 0.0823,
+   "verschuldung": 61.977,
+   "n": 117
+  }
+ },
+ "technik": {
+  "kurs": 218.06,
+  "vortag": 196.25,
+  "rsi": 45.3,
+  "sma50": 248.1132,
+  "sma200": 221.6224,
+  "ueber_sma50": false,
+  "ueber_sma200": false,
+  "high52": 351.28,
+  "low52": 75.7,
+  "abstand_high52_pct": -37.9,
+  "rel_volumen": 2.46,
+  "volumen": 5713534.0,
+  "avg_volumen20": 15501230.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": "2026-10-22",
+ "news": [],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 218.06,
+  "change_pct": 11.11,
+  "rel_vol": 2.46,
+  "time": "2026-11-03T15:23:30.992831+00:00"
+ },
+ "pushed": true
+}

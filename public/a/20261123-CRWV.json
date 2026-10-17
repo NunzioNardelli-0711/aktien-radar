@@ -1,0 +1,138 @@
+{
+ "id": "20261123-CRWV",
+ "symbol": "CRWV",
+ "name": "CoreWeave, Inc.",
+ "market": "US",
+ "indices": [
+  "Nasdaq 100"
+ ],
+ "time": "2026-11-23T17:33:12.279365+00:00",
+ "price": 48.64,
+ "change_pct": 23.11,
+ "rel_vol": 2.03,
+ "score": 38,
+ "ampel": {
+  "farbe": "rot",
+  "label": "Finger weg",
+  "emoji": "🔴"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 39,
+   "label": "ungünstig",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 52,
+   "label": "neutral",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 22,
+   "label": "ungünstig",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "none",
+  "label": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "headline": "Jensen Huang back at Nvidia, stock soars; Anthropic slides",
+  "source": "Yahoo Finance Video"
+ },
+ "begruendung": "CoreWeave, Inc. steigt um +23.1 % bei 2.0-fachem Handelsvolumen. In den aktuellen Nachrichten findet sich kein klarer Auslöser. Pro: Starkes Umsatzwachstum (+168 %). Contra: Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein. Gesamtbild: die Risiken überwiegen – eher Finger weg.",
+ "chancen": [
+  "Starkes Umsatzwachstum (+168 %)"
+ ],
+ "risiken": [
+  "Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein",
+  "Sehr großer Tagessprung (+23 %)",
+  "Langfristiger Abwärtstrend – Kurs trotz Sprung unter der 200-Tage-Linie",
+  "Unternehmen schreibt Verluste",
+  "Hohe Verschuldung (Verschuldungsgrad 16.5×)"
+ ],
+ "fundamental": {
+  "kgv": null,
+  "kgv_erwartet": -27.3012,
+  "umsatzwachstum": 1.682,
+  "gewinnwachstum": null,
+  "marge": -0.2556,
+  "verschuldung": 1645.242,
+  "marktkap": 27033270272.0,
+  "kursziel_analysten": 115.079,
+  "analysten": "buy",
+  "sektor": "Technology",
+  "branche": "Software - Infrastructure",
+  "waehrung": "USD",
+  "beschreibung": "CoreWeave, Inc. operates as a cloud infrastructure technology company in the United States, Denmark, Middle East and Asia Pacific. The company offers CoreWeave Cloud platform that comprises proprietary software and cloud services that deliver the automation and efficiency needed to manage complex artificial intelligence (AI) infrastructure at scale. It also offers data and storage solutions, such ",
+  "branche_median": {
+   "kgv": 24.3281,
+   "umsatzwachstum": 0.193,
+   "marge": 0.1636,
+   "verschuldung": 43.768,
+   "n": 111
+  }
+ },
+ "technik": {
+  "kurs": 48.64,
+  "vortag": 39.51,
+  "rsi": 43.7,
+  "sma50": 67.9913,
+  "sma200": 88.0008,
+  "ueber_sma50": false,
+  "ueber_sma200": false,
+  "high52": 138.25,
+  "low52": 39.28,
+  "abstand_high52_pct": -64.8,
+  "rel_volumen": 2.03,
+  "volumen": 66608929.0,
+  "avg_volumen20": 69878460.0,
+  "trend": "Abwärtstrend"
+ },
+ "naechste_zahlen": "2026-11-10",
+ "news": [
+  {
+   "title": "Jensen Huang back at Nvidia, stock soars; Anthropic slides",
+   "url": "https://finance.yahoo.com/video/jensen-huang-back-at-nvidia-stock-soars-anthropic-slides-161339662.html",
+   "publisher": "Yahoo Finance Video",
+   "time": "2026-11-23T16:13:39+00:00"
+  },
+  {
+   "title": "Jensen Huang back as Nvidia CEO after 12 days: Shares surge 30%",
+   "url": "https://finance.yahoo.com/video/jensen-huang-back-as-nvidia-ceo-after-12-days-shares-surge-30-161302539.html",
+   "publisher": "Yahoo Finance Video",
+   "time": "2026-11-23T16:13:02+00:00"
+  },
+  {
+   "title": "CoreWeave, Nebius lead neocloud stocks higher as Jensen Huang's Nvidia return lifts AI trade",
+   "url": "https://finance.yahoo.com/markets/article/coreweave-nebius-lead-neocloud-stocks-higher-as-jensen-huang-is-reinstated-as-ceo-of-nvidia-151417634.html",
+   "publisher": "Yahoo Finance",
+   "time": "2026-11-23T15:14:17+00:00"
+  },
+  {
+   "title": "Anthropic stock falls, sitting out Monday's rally",
+   "url": "https://finance.yahoo.com/markets/stocks/article/anthropic-stock-falls-sitting-out-mondays-rally-172716604.html",
+   "publisher": "Yahoo Finance",
+   "time": "2026-11-23T17:27:16+00:00"
+  },
+  {
+   "title": "Bill Ackman Predicts “The Fed Will Put the U.S. and World in Recession” if It Hikes Rates after Thanksgiving",
+   "url": "https://finance.yahoo.com/economy/policy/articles/bill-ackman-predicts-fed-put-171856867.html",
+   "publisher": "TIKR",
+   "time": "2026-11-23T17:18:56+00:00"
+  },
+  {
+   "title": "CoreWeave Stock and Bonds Jump With Nvidia",
+   "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-23-2026/card/coreweave-stock-and-bonds-jump-with-nvidia-sEt77X2dGffX41xv7c9B?siteid=yhoof2&yptr=yahoo",
+   "publisher": "The Wall Street Journal",
+   "time": "2026-11-23T17:08:36+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 48.64,
+  "change_pct": 23.11,
+  "rel_vol": 2.03,
+  "time": "2026-11-23T17:33:12.279365+00:00"
+ },
+ "pushed": true
+}

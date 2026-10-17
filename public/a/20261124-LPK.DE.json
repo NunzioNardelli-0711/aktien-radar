@@ -1,0 +1,137 @@
+{
+ "id": "20261124-LPK.DE",
+ "symbol": "LPK.DE",
+ "name": "LPKF Laser & Electronics SE",
+ "market": "DE",
+ "indices": [
+  "SDAX"
+ ],
+ "time": "2026-11-24T09:00:20.000111+00:00",
+ "price": 7.7,
+ "change_pct": 11.27,
+ "rel_vol": 2.03,
+ "score": 49,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 72,
+   "label": "chancenreich",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 36,
+   "label": "ungünstig",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 38,
+   "label": "ungünstig",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "earnings",
+  "label": "Quartalszahlen / Prognose",
+  "headline": "Vopak (ENXTAM:VPK) Stock Looks Reasonable With Earnings In Focus",
+  "source": "Simply Wall St."
+ },
+ "begruendung": "LPKF Laser & Electronics SE steigt um +11.3 % bei 2.0-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Quartalszahlen / Prognose („Vopak (ENXTAM:VPK) Stock Looks Reasonable With Earnings In Focus“). Pro: Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge. Contra: Langfristiger Abwärtstrend – Kurs trotz Sprung unter der 200-Tage-Linie. Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [
+  "Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge",
+  "Geringe Verschuldung"
+ ],
+ "risiken": [
+  "Langfristiger Abwärtstrend – Kurs trotz Sprung unter der 200-Tage-Linie",
+  "Umsatz schrumpft (-3 %)",
+  "Unternehmen schreibt Verluste"
+ ],
+ "fundamental": {
+  "kgv": null,
+  "kgv_erwartet": 22.6471,
+  "umsatzwachstum": -0.031,
+  "gewinnwachstum": null,
+  "marge": -0.2451,
+  "verschuldung": 20.227,
+  "marktkap": 188623392.0,
+  "kursziel_analysten": 22.75,
+  "analysten": "none",
+  "sektor": "Industrials",
+  "branche": "Specialty Industrial Machinery",
+  "waehrung": "EUR",
+  "beschreibung": "LPKF Laser & Electronics SE, together with its subsidiaries, develops, manufactures, and sells laser-based solutions for the technology industry worldwide. The company operates through four segments: Development, Electronics, Welding, and Solar. The Development segment supplies electronic equipment for manufacturing and assembly of printed circuit board prototypes for public organizations, such as",
+  "branche_median": {
+   "kgv": 23.5408,
+   "umsatzwachstum": 0.1045,
+   "marge": 0.0865,
+   "verschuldung": 64.753,
+   "n": 116
+  }
+ },
+ "technik": {
+  "kurs": 7.7,
+  "vortag": 6.92,
+  "rsi": 32.2,
+  "sma50": 11.9524,
+  "sma200": 14.304,
+  "ueber_sma50": false,
+  "ueber_sma200": false,
+  "high52": 30.8,
+  "low52": 5.35,
+  "abstand_high52_pct": -75.0,
+  "rel_volumen": 2.03,
+  "volumen": 69124.0,
+  "avg_volumen20": 226622.0,
+  "trend": "Abwärtstrend"
+ },
+ "naechste_zahlen": "2026-10-29",
+ "news": [
+  {
+   "title": "Bekaert (ENXTBR:BEKB) Stock Still Looks Undervalued As Its 30% 5 Year Gain Continues",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/bekaert-enxtbr-bekb-stock-still-081317662.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-11-24T08:13:17+00:00"
+  },
+  {
+   "title": "Bayer Signals Next Pharma Deals Might Target More Midstage Assets",
+   "url": "https://www.wsj.com/health/pharma/bayer-signals-next-pharma-deals-might-target-more-midstage-assets-79709e97?siteid=yhoof2&yptr=yahoo",
+   "publisher": "The Wall Street Journal",
+   "time": "2026-11-24T07:26:00+00:00"
+  },
+  {
+   "title": "Is MLP (XTRA:MLP) Worth Its Price Given A 41% Value Gap?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/mlp-xtra-mlp-worth-price-071147587.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-11-24T07:11:47+00:00"
+  },
+  {
+   "title": "Woolrich Opens Milan Flagship, Plans January Milan Runway Show",
+   "url": "https://finance.yahoo.com/media-advertising/articles/woolrich-opens-milan-flagship-plans-060000108.html",
+   "publisher": "WWD",
+   "time": "2026-11-24T06:00:00+00:00"
+  },
+  {
+   "title": "Vopak (ENXTAM:VPK) Stock Looks Reasonable With Earnings In Focus",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/vopak-enxtam-vpk-stock-looks-031646186.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-11-24T03:16:46+00:00"
+  },
+  {
+   "title": "What Cegedim Bears Saw Before The Fall",
+   "url": "https://finance.yahoo.com/healthcare/articles/cegedim-bears-saw-fall-011201379.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-11-24T01:12:01+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 7.7,
+  "change_pct": 11.27,
+  "rel_vol": 2.03,
+  "time": "2026-11-24T09:00:20.000111+00:00"
+ },
+ "pushed": true
+}

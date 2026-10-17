@@ -1,0 +1,101 @@
+{
+ "id": "20261103-RVTY",
+ "symbol": "RVTY",
+ "name": "Revvity, Inc.",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-11-03T15:23:30.992831+00:00",
+ "price": 168.77,
+ "change_pct": 11.33,
+ "rel_vol": 3.56,
+ "score": 56,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 49,
+   "label": "neutral",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 68,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 50,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "none",
+  "label": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "headline": null,
+  "source": ""
+ },
+ "begruendung": "Revvity, Inc. steigt um +11.3 % bei 3.6-fachem Handelsvolumen. In den aktuellen Nachrichten findet sich kein klarer Auslöser. Pro: Deutlich erhöhtes Volumen (3.6× normal). Contra: Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein. Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [
+  "Deutlich erhöhtes Volumen (3.6× normal)",
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)",
+  "Geringe Verschuldung"
+ ],
+ "risiken": [
+  "Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein",
+  "Quartalszahlen in 0 Tag(en) – erhöhte Schwankung möglich",
+  "Sehr hoch bewertet: KGV 81 vs. Branche 28"
+ ],
+ "fundamental": {
+  "kgv": 80.6603,
+  "kgv_erwartet": 28.5999,
+  "umsatzwachstum": 0.013,
+  "gewinnwachstum": 0.012,
+  "marge": 0.0816,
+  "verschuldung": 46.225,
+  "marktkap": 18811236352.0,
+  "kursziel_analysten": 147.5333,
+  "analysten": "buy",
+  "sektor": "Healthcare",
+  "branche": "Diagnostics & Research",
+  "waehrung": "USD",
+  "beschreibung": "Revvity, Inc. provides health sciences solutions, technologies, and services. The company offers instruments, reagents, software, subscriptions, detection and imaging technologies, extended warranties, and training and services; and instruments, reagents, and assay platforms and software products for early detection of common and rare conditions, such as pregnancy and early childhood, as well as i",
+  "branche_median": {
+   "kgv": 27.7653,
+   "umsatzwachstum": 0.068,
+   "marge": 0.0951,
+   "verschuldung": 69.673,
+   "n": 76
+  }
+ },
+ "technik": {
+  "kurs": 168.77,
+  "vortag": 151.6,
+  "rsi": 64.4,
+  "sma50": 145.02,
+  "sma200": 112.0638,
+  "ueber_sma50": true,
+  "ueber_sma200": true,
+  "high52": 169.06,
+  "low52": 81.22,
+  "abstand_high52_pct": -0.2,
+  "rel_volumen": 3.56,
+  "volumen": 952455.0,
+  "avg_volumen20": 1785115.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": "2026-11-03",
+ "news": [],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 168.77,
+  "change_pct": 11.33,
+  "rel_vol": 3.56,
+  "time": "2026-11-03T15:23:30.992831+00:00"
+ },
+ "pushed": true
+}

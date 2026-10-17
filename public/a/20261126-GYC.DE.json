@@ -1,0 +1,134 @@
+{
+ "id": "20261126-GYC.DE",
+ "symbol": "GYC.DE",
+ "name": "Grand City Properties S.A.",
+ "market": "DE",
+ "indices": [
+  "SDAX"
+ ],
+ "time": "2026-11-26T09:10:20.000142+00:00",
+ "price": 8.47,
+ "change_pct": 10.72,
+ "rel_vol": 2.16,
+ "score": 48,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 45,
+   "label": "neutral",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 48,
+   "label": "neutral",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 50,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "none",
+  "label": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "headline": null,
+  "source": ""
+ },
+ "begruendung": "Grand City Properties S.A. steigt um +10.7 % bei 2.2-fachem Handelsvolumen. In den aktuellen Nachrichten findet sich kein klarer Auslöser. Contra: Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein. Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [],
+ "risiken": [
+  "Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein",
+  "Langfristiger Abwärtstrend – Kurs trotz Sprung unter der 200-Tage-Linie",
+  "Fundamentaldaten unvollständig – Einschätzung weniger belastbar"
+ ],
+ "fundamental": {
+  "kgv": null,
+  "kgv_erwartet": null,
+  "umsatzwachstum": null,
+  "gewinnwachstum": null,
+  "marge": null,
+  "verschuldung": null,
+  "marktkap": null,
+  "kursziel_analysten": null,
+  "analysten": null,
+  "sektor": "Real Estate",
+  "branche": "",
+  "waehrung": "",
+  "beschreibung": "",
+  "branche_median": {
+   "kgv": 26.2649,
+   "umsatzwachstum": 0.053,
+   "marge": 0.2097,
+   "verschuldung": 91.896,
+   "n": 38
+  }
+ },
+ "technik": {
+  "kurs": 8.47,
+  "vortag": 7.65,
+  "rsi": 74.1,
+  "sma50": 7.2902,
+  "sma200": 8.9847,
+  "ueber_sma50": true,
+  "ueber_sma200": false,
+  "high52": 11.22,
+  "low52": 6.39,
+  "abstand_high52_pct": -24.5,
+  "rel_volumen": 2.16,
+  "volumen": 33634.0,
+  "avg_volumen20": 103625.0,
+  "trend": "Abwärtstrend"
+ },
+ "naechste_zahlen": null,
+ "news": [
+  {
+   "title": "Grand City Properties SA (WBO:GYC) (Q3 2026) Earnings Call Highlights: Raised FFO Guidance and ...",
+   "url": "https://finance.yahoo.com/real-estate/articles/grand-city-properties-sa-wbo-170518536.html",
+   "publisher": "GuruFocus.com",
+   "time": "2026-11-11T17:05:18+00:00"
+  },
+  {
+   "title": "Grand City Properties (XTRA:GYC) Stock May Be 43% Below Fair Value On Cash Flow",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/grand-city-properties-xtra-gyc-002032328.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-11-09T00:20:32+00:00"
+  },
+  {
+   "title": "Does LEG Immobilien (XTRA:LEG) Trade At A Discount To Cash Flow?",
+   "url": "https://finance.yahoo.com/real-estate/articles/does-leg-immobilien-xtra-leg-032424259.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-10-21T03:24:24+00:00"
+  },
+  {
+   "title": "Grand City Properties (XTRA:GYC) Launches A €500 Million Bond, Is It A Bargain?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/grand-city-properties-xtra-gyc-121325092.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-10-10T12:13:25+00:00"
+  },
+  {
+   "title": "Aroundtown Q2 Earnings Call Highlights",
+   "url": "https://finance.yahoo.com/real-estate/articles/aroundtown-q2-earnings-call-highlights-100157036.html",
+   "publisher": "MarketBeat",
+   "time": "2026-08-26T10:01:57+00:00"
+  },
+  {
+   "title": "Grand City Properties SA (GRNNF) (H1 2026) Earnings Call Highlights: Solid Rental Growth and ...",
+   "url": "https://finance.yahoo.com/real-estate/articles/grand-city-properties-sa-grnnf-010529042.html",
+   "publisher": "GuruFocus.com",
+   "time": "2026-08-14T01:05:29+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 8.47,
+  "change_pct": 10.72,
+  "rel_vol": 2.16,
+  "time": "2026-11-26T09:10:20.000142+00:00"
+ },
+ "pushed": true
+}

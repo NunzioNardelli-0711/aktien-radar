@@ -1,0 +1,138 @@
+{
+ "id": "20261105-LXS.DE",
+ "symbol": "LXS.DE",
+ "name": "LANXESS Aktiengesellschaft",
+ "market": "DE",
+ "indices": [
+  "MDAX"
+ ],
+ "time": "2026-11-05T09:27:07.791505+00:00",
+ "price": 14.34,
+ "change_pct": 20.81,
+ "rel_vol": 11.39,
+ "score": 56,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 74,
+   "label": "chancenreich",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 60,
+   "label": "neutral",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 32,
+   "label": "ungünstig",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "earnings",
+  "label": "Quartalszahlen / Prognose",
+  "headline": "Nutrien (NTR) Misses Q3 Earnings Estimates",
+  "source": "Zacks"
+ },
+ "begruendung": "LANXESS Aktiengesellschaft steigt um +20.8 % bei 11.4-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Quartalszahlen / Prognose („Nutrien (NTR) Misses Q3 Earnings Estimates“). Pro: Sehr hohes Handelsvolumen (11.4× normal) – breites Interesse. Contra: Sehr großer Tagessprung (+21 %). Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [
+  "Sehr hohes Handelsvolumen (11.4× normal) – breites Interesse",
+  "Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge"
+ ],
+ "risiken": [
+  "Sehr großer Tagessprung (+21 %)",
+  "Quartalszahlen in 0 Tag(en) – erhöhte Schwankung möglich",
+  "Langfristiger Abwärtstrend – Kurs trotz Sprung unter der 200-Tage-Linie",
+  "Unternehmen schreibt Verluste"
+ ],
+ "fundamental": {
+  "kgv": null,
+  "kgv_erwartet": 17.578,
+  "umsatzwachstum": 0.065,
+  "gewinnwachstum": null,
+  "marge": -0.1206,
+  "verschuldung": 85.505,
+  "marktkap": null,
+  "kursziel_analysten": 15.2923,
+  "analysten": "none",
+  "sektor": "Basic Materials",
+  "branche": "Specialty Chemicals",
+  "waehrung": "EUR",
+  "beschreibung": "LANXESS Aktiengesellschaft, a specialty chemicals company, engages in the development, manufacture, and marketing of chemical intermediates, additives, and consumer protection products worldwide. It operates through three segments: Consumer Protection, Specialty Additives, and Advanced Intermediates. The company provides material protection products; disinfectant, hygiene, and preservative solutio",
+  "branche_median": {
+   "kgv": 24.5346,
+   "umsatzwachstum": 0.093,
+   "marge": 0.091,
+   "verschuldung": 52.249,
+   "n": 31
+  }
+ },
+ "technik": {
+  "kurs": 14.34,
+  "vortag": 11.87,
+  "rsi": 66.8,
+  "sma50": 13.1898,
+  "sma200": 15.8685,
+  "ueber_sma50": true,
+  "ueber_sma200": false,
+  "high52": 22.02,
+  "low52": 11.03,
+  "abstand_high52_pct": -34.9,
+  "rel_volumen": 11.39,
+  "volumen": 1015112.0,
+  "avg_volumen20": 521696.0,
+  "trend": "Abwärtstrend"
+ },
+ "naechste_zahlen": "2026-11-05",
+ "news": [
+  {
+   "title": "Nutrien (NTR) Misses Q3 Earnings Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nutrien-ntr-misses-q3-earnings-234507967.html",
+   "publisher": "Zacks",
+   "time": "2026-11-04T23:45:07+00:00"
+  },
+  {
+   "title": "Is LANXESS (XTRA:LXS) Undervalued Following Its Cost Cutting And Portfolio Reset?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/lanxess-xtra-lxs-undervalued-following-070945235.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-11-02T07:09:45+00:00"
+  },
+  {
+   "title": "LANXESS Fell While Sales Rose",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/lanxess-fell-while-sales-rose-191349308.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-10-29T19:13:49+00:00"
+  },
+  {
+   "title": "LANXESS (XTRA:LXS) Stock May Look Reasonable Given Its Sales Pressure",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/lanxess-xtra-lxs-stock-may-200906020.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-10-25T20:09:06+00:00"
+  },
+  {
+   "title": "LANXESS (XTRA:LXS) Trades Below Fair Value, Is It A Bargain?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/lanxess-xtra-lxs-trades-below-121812338.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-10-13T12:18:12+00:00"
+  },
+  {
+   "title": "LANXESS (XTRA:LXS) Stock Fair Value Moves Lower After Cautious Analyst Price Targets",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/lanxess-xtra-lxs-stock-fair-100835071.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-10-13T10:08:35+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 14.34,
+  "change_pct": 20.81,
+  "rel_vol": 11.39,
+  "time": "2026-11-05T09:27:07.791505+00:00"
+ },
+ "pushed": true
+}

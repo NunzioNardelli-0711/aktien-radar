@@ -1,0 +1,136 @@
+{
+ "id": "20261123-NBIS",
+ "symbol": "NBIS",
+ "name": "Nebius Group N.V.",
+ "market": "US",
+ "indices": [
+  "Nasdaq 100"
+ ],
+ "time": "2026-11-23T17:33:12.279365+00:00",
+ "price": 100.43,
+ "change_pct": 23.51,
+ "rel_vol": 2.58,
+ "score": 57,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 39,
+   "label": "ungünstig",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 72,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 60,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "none",
+  "label": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "headline": "CoreWeave, Nebius lead neocloud stocks higher as Jensen Huang's Nvidia return lifts AI trade",
+  "source": "Yahoo Finance"
+ },
+ "begruendung": "Nebius Group N.V. steigt um +23.5 % bei 2.6-fachem Handelsvolumen. In den aktuellen Nachrichten findet sich kein klarer Auslöser. Pro: Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie). Contra: Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein. Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)",
+  "Starkes Umsatzwachstum (+571 %)"
+ ],
+ "risiken": [
+  "Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein",
+  "Sehr großer Tagessprung (+24 %)"
+ ],
+ "fundamental": {
+  "kgv": null,
+  "kgv_erwartet": -32.9748,
+  "umsatzwachstum": 5.713,
+  "gewinnwachstum": null,
+  "marge": 0.0568,
+  "verschuldung": 130.875,
+  "marktkap": 29401542656.0,
+  "kursziel_analysten": 231.6,
+  "analysten": "buy",
+  "sektor": "Communication Services",
+  "branche": "Internet Content & Information",
+  "waehrung": "USD",
+  "beschreibung": "Nebius Group N.V., a technology company, engages in building full-stack infrastructure to service the global AI industry in the United States, the United Kingdom, and internationally. It offers Nebius builds full-stack infrastructure for AI, including large-scale GPU clusters, cloud platforms, and tools and services for developers. The company also provides TripleTen, an edtech platform for re-ski",
+  "branche_median": {
+   "kgv": 16.1825,
+   "umsatzwachstum": 0.083,
+   "marge": 0.0919,
+   "verschuldung": 59.88,
+   "n": 34
+  }
+ },
+ "technik": {
+  "kurs": 100.43,
+  "vortag": 81.31,
+  "rsi": 36.8,
+  "sma50": 181.2998,
+  "sma200": 179.7475,
+  "ueber_sma50": false,
+  "ueber_sma200": false,
+  "high52": 299.86,
+  "low52": 73.52,
+  "abstand_high52_pct": -66.5,
+  "rel_volumen": 2.58,
+  "volumen": 37787326.0,
+  "avg_volumen20": 31199275.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": "2027-02-11",
+ "news": [
+  {
+   "title": "CoreWeave, Nebius lead neocloud stocks higher as Jensen Huang's Nvidia return lifts AI trade",
+   "url": "https://finance.yahoo.com/markets/article/coreweave-nebius-lead-neocloud-stocks-higher-as-jensen-huang-is-reinstated-as-ceo-of-nvidia-151417634.html",
+   "publisher": "Yahoo Finance",
+   "time": "2026-11-23T15:14:17+00:00"
+  },
+  {
+   "title": "Situational Awareness Stock Portfolio: Leopold Aschenbrenner’s Top 5 Picks",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/situational-awareness-stock-portfolio-leopold-172648643.html",
+   "publisher": "Insider Monkey",
+   "time": "2026-11-23T17:26:48+00:00"
+  },
+  {
+   "title": "Stock Market Today: Dow Surges As Trump Says This On Huang's Nvidia Return; Chip Plays Rocket (Live Coverage)",
+   "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-nvidia-nvda-crowdstrike-zscaler/?src=A00220&yptr=yahoo",
+   "publisher": "Investor's Business Daily",
+   "time": "2026-11-23T16:49:30+00:00"
+  },
+  {
+   "title": "Nvidia’s Jensen Huang Returns. Tesla, Dell, and Many More Stocks Are Soaring.",
+   "url": "https://www.barrons.com/articles/nvidia-jensen-huang-ai-tesla-dell-stocks-d225998a?siteid=yhoof2&yptr=yahoo",
+   "publisher": "Barrons.com",
+   "time": "2026-11-23T16:30:00+00:00"
+  },
+  {
+   "title": "Nvidia and Anthropic Shares Rebound as AI Investors Return",
+   "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-anthropic-shares-rebound-ai-161916502.html",
+   "publisher": "GuruFocus.com",
+   "time": "2026-11-23T16:19:16+00:00"
+  },
+  {
+   "title": "Bad News for CoreWeave and IREN: GPU Lenders Now Want “50 to 60 Percent” Loan-to-Value, Down From 80%",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/bad-news-coreweave-iren-gpu-160609776.html",
+   "publisher": "TIKR",
+   "time": "2026-11-23T16:06:09+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 100.43,
+  "change_pct": 23.51,
+  "rel_vol": 2.58,
+  "time": "2026-11-23T17:33:12.279365+00:00"
+ },
+ "pushed": true
+}

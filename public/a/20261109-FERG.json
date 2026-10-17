@@ -1,0 +1,135 @@
+{
+ "id": "20261109-FERG",
+ "symbol": "FERG",
+ "name": "Ferguson Enterprises Inc.",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-11-09T15:40:42.713022+00:00",
+ "price": 263.8,
+ "change_pct": 12.88,
+ "rel_vol": 4.24,
+ "score": 66,
+ "ampel": {
+  "farbe": "gruen",
+  "label": "interessant",
+  "emoji": "🟢"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 76,
+   "label": "chancenreich",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 64,
+   "label": "neutral",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 58,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "earnings",
+  "label": "Quartalszahlen / Prognose",
+  "headline": "Ferguson Enterprises Lifts Sales Growth Outlook Following Third-Quarter Beat",
+  "source": "MT Newswires"
+ },
+ "begruendung": "Ferguson Enterprises Inc. steigt um +12.9 % bei 4.2-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Quartalszahlen / Prognose („Ferguson Enterprises Lifts Sales Growth Outlook Following Third-Quarter Beat“). Pro: Deutlich erhöhtes Volumen (4.2× normal). Contra: Quartalszahlen in 0 Tag(en) – erhöhte Schwankung möglich. Gesamtbild: interessant – eine nähere Prüfung lohnt sich.",
+ "chancen": [
+  "Deutlich erhöhtes Volumen (4.2× normal)",
+  "Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge"
+ ],
+ "risiken": [
+  "Quartalszahlen in 0 Tag(en) – erhöhte Schwankung möglich"
+ ],
+ "fundamental": {
+  "kgv": 25.9464,
+  "kgv_erwartet": 20.772,
+  "umsatzwachstum": 0.046,
+  "gewinnwachstum": 0.069,
+  "marge": 0.0632,
+  "verschuldung": 111.063,
+  "marktkap": 50997035008.0,
+  "kursziel_analysten": 283.3637,
+  "analysten": "buy",
+  "sektor": "Industrials",
+  "branche": "Industrial Distribution",
+  "waehrung": "USD",
+  "beschreibung": "Ferguson Enterprises Inc. distributes essential water and air solutions to specialized professional in the United States and Canada. The company provides various products and services, including plumbing; pipe, valves, and fittings; heating, ventilation, and air conditioning; appliances; lighting; and water and wastewater solutions to residential and non-residential customers. It also supplies spe",
+  "branche_median": {
+   "kgv": 24.1983,
+   "umsatzwachstum": 0.0995,
+   "marge": 0.0824,
+   "verschuldung": 67.983,
+   "n": 116
+  }
+ },
+ "technik": {
+  "kurs": 263.8,
+  "vortag": 233.7,
+  "rsi": 72.2,
+  "sma50": 225.3926,
+  "sma200": 237.2716,
+  "ueber_sma50": true,
+  "ueber_sma200": true,
+  "high52": 271.64,
+  "low52": 212.13,
+  "abstand_high52_pct": -2.9,
+  "rel_volumen": 4.24,
+  "volumen": 1098304.0,
+  "avg_volumen20": 1428530.0,
+  "trend": "Abwärtstrend"
+ },
+ "naechste_zahlen": "2026-11-09",
+ "news": [
+  {
+   "title": "Ferguson Enterprises Lifts Sales Growth Outlook Following Third-Quarter Beat",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ferguson-enterprises-lifts-sales-growth-151632604.html",
+   "publisher": "MT Newswires",
+   "time": "2026-11-09T15:16:32+00:00"
+  },
+  {
+   "title": "Ferguson Enterprises (FERG) Stock Looks Fairly Valued On Cash Flow",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ferguson-enterprises-ferg-stock-looks-002538163.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-11-05T00:25:38+00:00"
+  },
+  {
+   "title": "W.W. Grainger Earnings Ahead: What Past Reactions Say About The Stock",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/w-w-grainger-earnings-ahead-212509413.html",
+   "publisher": "Trefis",
+   "time": "2026-11-03T21:25:09+00:00"
+  },
+  {
+   "title": "Rockwell Automation Gears Up to Report Q4 Earnings: What to Expect?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/rockwell-automation-gears-report-q4-152000555.html",
+   "publisher": "Zacks",
+   "time": "2026-11-03T15:20:00+00:00"
+  },
+  {
+   "title": "Broadcom upgraded, HubSpot downgraded: Wall Street's top analyst calls",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-upgraded-ultragenyx-downgraded-wall-133157671.html",
+   "publisher": "The Fly",
+   "time": "2026-10-27T13:40:27+00:00"
+  },
+  {
+   "title": "What to Expect From Ferguson Enterprises’ Next Quarterly Earnings Report",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/expect-ferguson-enterprises-next-quarterly-132327753.html",
+   "publisher": "Barchart",
+   "time": "2026-10-27T13:23:27+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 263.8,
+  "change_pct": 12.88,
+  "rel_vol": 4.24,
+  "time": "2026-11-09T15:40:42.713022+00:00"
+ },
+ "pushed": true
+}

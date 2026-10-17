@@ -1,0 +1,138 @@
+{
+ "id": "20261104-S92.DE",
+ "symbol": "S92.DE",
+ "name": "SMA Solar Technology AG",
+ "market": "DE",
+ "indices": [
+  "SDAX"
+ ],
+ "time": "2026-11-04T09:17:19.776946+00:00",
+ "price": 54.35,
+ "change_pct": 11.28,
+ "rel_vol": 3.61,
+ "score": 46,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 49,
+   "label": "neutral",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 50,
+   "label": "neutral",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 38,
+   "label": "ungünstig",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "none",
+  "label": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "headline": null,
+  "source": ""
+ },
+ "begruendung": "SMA Solar Technology AG steigt um +11.3 % bei 3.6-fachem Handelsvolumen. In den aktuellen Nachrichten findet sich kein klarer Auslöser. Pro: Deutlich erhöhtes Volumen (3.6× normal). Contra: Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein. Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [
+  "Deutlich erhöhtes Volumen (3.6× normal)",
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)",
+  "Geringe Verschuldung"
+ ],
+ "risiken": [
+  "Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein",
+  "Umsatz schrumpft (-3 %)",
+  "Unternehmen schreibt Verluste"
+ ],
+ "fundamental": {
+  "kgv": null,
+  "kgv_erwartet": 13.3989,
+  "umsatzwachstum": -0.032,
+  "gewinnwachstum": null,
+  "marge": -0.0435,
+  "verschuldung": 21.344,
+  "marktkap": 1885944960.0,
+  "kursziel_analysten": 71.5,
+  "analysten": "buy",
+  "sektor": "Technology",
+  "branche": "Solar",
+  "waehrung": "EUR",
+  "beschreibung": "SMA Solar Technology AG, together with its subsidiaries, develops, produces, and sells PV and battery inverters, monitoring systems for PV systems, and charging solutions for electric vehicles in Germany and internationally. The company operates in two segments: Home & Business Solutions and Large Scale & Project Solutions. It offers solar and battery inverters, hybrid inverters, system solutions ",
+  "branche_median": {
+   "kgv": 30.9147,
+   "umsatzwachstum": 0.188,
+   "marge": 0.1637,
+   "verschuldung": 48.997,
+   "n": 109
+  }
+ },
+ "technik": {
+  "kurs": 54.35,
+  "vortag": 48.84,
+  "rsi": 51.7,
+  "sma50": 56.5444,
+  "sma200": 51.2036,
+  "ueber_sma50": false,
+  "ueber_sma200": true,
+  "high52": 70.7,
+  "low52": 25.04,
+  "abstand_high52_pct": -23.1,
+  "rel_volumen": 3.61,
+  "volumen": 59063.0,
+  "avg_volumen20": 108044.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": "2026-11-12",
+ "news": [
+  {
+   "title": "Eurozone Export Stocks With Low Debt as Higher Rates Test Industrials",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/eurozone-export-stocks-low-debt-171219767.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-10-29T17:12:19+00:00"
+  },
+  {
+   "title": "Is SMA Solar Technology (XTRA:S92) Trading Below Fair Value After A 127% Run?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/sma-solar-technology-xtra-s92-181240031.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-10-22T18:12:40+00:00"
+  },
+  {
+   "title": "3 Grid Resilience Stocks Retail Investors Are Watching After the IMF Energy Warning",
+   "url": "https://finance.yahoo.com/energy/articles/3-grid-resilience-stocks-retail-161120999.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-10-13T16:11:20+00:00"
+  },
+  {
+   "title": "3 Stocks Tied To Europe’s Critical Infrastructure Security Push",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-tied-europe-critical-120931201.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-09-28T12:09:31+00:00"
+  },
+  {
+   "title": "SMA Solar Technology Q1 Earnings Call Highlights",
+   "url": "https://finance.yahoo.com/sectors/energy/articles/sma-solar-technology-q1-earnings-080710736.html",
+   "publisher": "MarketBeat",
+   "time": "2026-05-18T08:07:10+00:00"
+  },
+  {
+   "title": "SMA Solar Technology AG Just Missed Earnings; Here's What Analysts Are Forecasting Now",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/sma-solar-technology-ag-just-070852168.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-05-16T07:08:52+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 54.35,
+  "change_pct": 11.28,
+  "rel_vol": 3.61,
+  "time": "2026-11-04T09:17:19.776946+00:00"
+ },
+ "pushed": true
+}

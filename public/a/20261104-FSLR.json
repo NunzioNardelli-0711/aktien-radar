@@ -1,0 +1,140 @@
+{
+ "id": "20261104-FSLR",
+ "symbol": "FSLR",
+ "name": "First Solar, Inc.",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-11-04T14:36:46.073860+00:00",
+ "price": 213.72,
+ "change_pct": 14.97,
+ "rel_vol": 5.33,
+ "score": 71,
+ "ampel": {
+  "farbe": "gruen",
+  "label": "interessant",
+  "emoji": "🟢"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 80,
+   "label": "chancenreich",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 52,
+   "label": "neutral",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 82,
+   "label": "chancenreich",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "earnings",
+  "label": "Quartalszahlen / Prognose",
+  "headline": "Top clean energy stocks to watch as Democratic sweep improves outlook",
+  "source": "Investing.com"
+ },
+ "begruendung": "First Solar, Inc. steigt um +15.0 % bei 5.3-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Quartalszahlen / Prognose („Top clean energy stocks to watch as Democratic sweep improves outlook“). Pro: Sehr hohes Handelsvolumen (5.3× normal) – breites Interesse. Contra: Langfristiger Abwärtstrend – Kurs trotz Sprung unter der 200-Tage-Linie. Gesamtbild: interessant – eine nähere Prüfung lohnt sich.",
+ "chancen": [
+  "Sehr hohes Handelsvolumen (5.3× normal) – breites Interesse",
+  "Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge",
+  "Gewinn wächst stark (+25 %)",
+  "Günstig bewertet: KGV 12 vs. Branche 31",
+  "Hohe Gewinnmarge (37 %)",
+  "Geringe Verschuldung"
+ ],
+ "risiken": [
+  "Langfristiger Abwärtstrend – Kurs trotz Sprung unter der 200-Tage-Linie",
+  "Umsatz schrumpft (-23 %)"
+ ],
+ "fundamental": {
+  "kgv": 12.3158,
+  "kgv_erwartet": 9.2264,
+  "umsatzwachstum": -0.228,
+  "gewinnwachstum": 0.25,
+  "marge": 0.3712,
+  "verschuldung": 2.987,
+  "marktkap": 22887036928.0,
+  "kursziel_analysten": 274.238,
+  "analysten": "buy",
+  "sektor": "Technology",
+  "branche": "Solar",
+  "waehrung": "USD",
+  "beschreibung": "First Solar, Inc., a solar technology company, provides photovoltaic (PV) solar energy solutions in the United States, France, India, Chile, and internationally. The company manufactures and sells PV solar modules with thin film semiconductor technology that provides conventional crystalline silicon PV solar modules. It also designs, manufactures, and sells cadmium telluride solar modules that con",
+  "branche_median": {
+   "kgv": 30.9147,
+   "umsatzwachstum": 0.188,
+   "marge": 0.1637,
+   "verschuldung": 48.997,
+   "n": 109
+  }
+ },
+ "technik": {
+  "kurs": 213.72,
+  "vortag": 185.9,
+  "rsi": 70.5,
+  "sma50": 187.6226,
+  "sma200": 215.3243,
+  "ueber_sma50": true,
+  "ueber_sma200": false,
+  "high52": 320.95,
+  "low52": 165.86,
+  "abstand_high52_pct": -33.4,
+  "rel_volumen": 5.33,
+  "volumen": 1784436.0,
+  "avg_volumen20": 2233790.0,
+  "trend": "Abwärtstrend"
+ },
+ "naechste_zahlen": "2026-10-29",
+ "news": [
+  {
+   "title": "First Solar Jumps 9% After Democratic Sweep, but Trump’s Tariffs Already Favor It",
+   "url": "https://finance.yahoo.com/energy/articles/first-solar-jumps-9-democratic-141525106.html",
+   "publisher": "Benzinga Prediction Markets",
+   "time": "2026-11-04T14:15:25+00:00"
+  },
+  {
+   "title": "Wall St loves gridlock: 5 AI-picked stocks primed for post-midterm rally",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-loves-gridlock-5-140737193.html",
+   "publisher": "Investing.com",
+   "time": "2026-11-04T14:07:37+00:00"
+  },
+  {
+   "title": "First Solar Shares Surge 8.1% as Democratic Midterm Victory Boosts Renewable Energy Stocks",
+   "url": "https://finance.yahoo.com/energy/articles/first-solar-shares-surge-8-134023936.html",
+   "publisher": "InvestorsHub",
+   "time": "2026-11-04T13:40:23+00:00"
+  },
+  {
+   "title": "The AI Data-Center Backlash Is Real. Why Bloom Energy Stock Is Surging.",
+   "url": "https://www.barrons.com/articles/bloom-energy-stock-ai-data-centers-midterm-elections-2eae1ed5?siteid=yhoof2&yptr=yahoo",
+   "publisher": "Barrons.com",
+   "time": "2026-11-04T13:36:00+00:00"
+  },
+  {
+   "title": "Which sectors will benefit most and face pressure after Democratic sweep?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/sectors-benefit-most-face-pressure-131755080.html",
+   "publisher": "Investing.com",
+   "time": "2026-11-04T13:17:55+00:00"
+  },
+  {
+   "title": "Top clean energy stocks to watch as Democratic sweep improves outlook",
+   "url": "https://finance.yahoo.com/energy/articles/top-clean-energy-stocks-watch-125922163.html",
+   "publisher": "Investing.com",
+   "time": "2026-11-04T12:59:22+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 213.72,
+  "change_pct": 14.97,
+  "rel_vol": 5.33,
+  "time": "2026-11-04T14:36:46.073860+00:00"
+ },
+ "pushed": true
+}
