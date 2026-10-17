@@ -1,0 +1,118 @@
+{
+ "date": "2026-11-06",
+ "items": [
+  {
+   "id": "20261106-ABNB",
+   "symbol": "ABNB",
+   "name": "Airbnb, Inc.",
+   "market": "US",
+   "time": "2026-11-06T16:57:16.876061+00:00",
+   "price": 190.08,
+   "change_pct": 11.73,
+   "rel_vol": 3.74,
+   "score": 78,
+   "ampel": {
+    "farbe": "gruen",
+    "label": "interessant",
+    "emoji": "🟢"
+   },
+   "grund": "Quartalszahlen / Prognose",
+   "horizonte": {
+    "kurzfristig": 76,
+    "mittelfristig": 94,
+    "langfristig": 62
+   },
+   "live": {
+    "price": 191.2,
+    "change_pct": 12.38,
+    "rel_vol": 2.59,
+    "time": "2026-11-06T20:20:06.694482+00:00"
+   }
+  },
+  {
+   "id": "20261106-VST",
+   "symbol": "VST",
+   "name": "Vistra Corp.",
+   "market": "US",
+   "time": "2026-11-06T16:57:16.876061+00:00",
+   "price": 124.42,
+   "change_pct": 10.21,
+   "rel_vol": 2.11,
+   "score": 49,
+   "ampel": {
+    "farbe": "gelb",
+    "label": "beobachten",
+    "emoji": "🟡"
+   },
+   "grund": "Quartalszahlen / Prognose",
+   "horizonte": {
+    "kurzfristig": 72,
+    "mittelfristig": 28,
+    "langfristig": 46
+   },
+   "live": {
+    "price": 125.11,
+    "change_pct": 10.82,
+    "rel_vol": 1.44,
+    "time": "2026-11-06T20:20:06.694482+00:00"
+   }
+  },
+  {
+   "id": "20261106-COHR",
+   "symbol": "COHR",
+   "name": "Coherent Corp.",
+   "market": "US",
+   "time": "2026-11-06T15:16:17.092505+00:00",
+   "price": 188.91,
+   "change_pct": 11.28,
+   "rel_vol": 3.34,
+   "score": 69,
+   "ampel": {
+    "farbe": "gruen",
+    "label": "interessant",
+    "emoji": "🟢"
+   },
+   "grund": "Quartalszahlen / Prognose",
+   "horizonte": {
+    "kurzfristig": 76,
+    "mittelfristig": 66,
+    "langfristig": 64
+   },
+   "live": {
+    "price": 194.78,
+    "change_pct": 14.74,
+    "rel_vol": 1.77,
+    "time": "2026-11-06T20:20:06.694482+00:00"
+   }
+  },
+  {
+   "id": "20261106-AMD",
+   "symbol": "AMD",
+   "name": "Advanced Micro Devices, Inc.",
+   "market": "US",
+   "time": "2026-11-06T15:16:17.092505+00:00",
+   "price": 448.89,
+   "change_pct": 11.0,
+   "rel_vol": 4.17,
+   "score": 71,
+   "ampel": {
+    "farbe": "gruen",
+    "label": "interessant",
+    "emoji": "🟢"
+   },
+   "grund": "Analysten-Hochstufung",
+   "horizonte": {
+    "kurzfristig": 71,
+    "mittelfristig": 80,
+    "langfristig": 62
+   },
+   "live": {
+    "price": 448.29,
+    "change_pct": 10.85,
+    "rel_vol": 1.56,
+    "time": "2026-11-06T20:20:06.694482+00:00"
+   }
+  }
+ ],
+ "updated": "2026-11-06T20:20:06.694482+00:00"
+}

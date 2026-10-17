@@ -1,0 +1,105 @@
+{
+ "id": "20261027-PNR",
+ "symbol": "PNR",
+ "name": "Pentair plc",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-10-27T14:46:41.517327+00:00",
+ "price": 61.37,
+ "change_pct": 11.14,
+ "rel_vol": 4.13,
+ "score": 48,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 38,
+   "label": "ungünstig",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 30,
+   "label": "ungünstig",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 82,
+   "label": "chancenreich",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "none",
+  "label": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "headline": null,
+  "source": ""
+ },
+ "begruendung": "Pentair plc steigt um +11.1 % bei 4.1-fachem Handelsvolumen. In den aktuellen Nachrichten findet sich kein klarer Auslöser. Pro: Deutlich erhöhtes Volumen (4.1× normal). Contra: Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein. Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [
+  "Deutlich erhöhtes Volumen (4.1× normal)",
+  "Günstig bewertet: KGV 16 vs. Branche 26",
+  "Hohe Gewinnmarge (16 %)",
+  "Geringe Verschuldung"
+ ],
+ "risiken": [
+  "Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein",
+  "Überkauft (RSI 76)",
+  "Quartalszahlen in 0 Tag(en) – erhöhte Schwankung möglich",
+  "Langfristiger Abwärtstrend – Kurs trotz Sprung unter der 200-Tage-Linie",
+  "Umsatz schrumpft (-17 %)",
+  "Gewinn rückläufig (-11 %)"
+ ],
+ "fundamental": {
+  "kgv": 15.826,
+  "kgv_erwartet": 11.6473,
+  "umsatzwachstum": -0.17,
+  "gewinnwachstum": -0.111,
+  "marge": 0.1624,
+  "verschuldung": 47.067,
+  "marktkap": 9800238080.0,
+  "kursziel_analysten": 70.8,
+  "analysten": "buy",
+  "sektor": "Industrials",
+  "branche": "Specialty Industrial Machinery",
+  "waehrung": "USD",
+  "beschreibung": "Pentair plc provides various water solutions in the United States, Western Europe, China, Latin America, the Middle East, Southeast Asia, Australia, and Canada. It operates through three segments: Flow, Water Solutions, and Pool. The Flow segment designs, manufactures, and sells fluid treatment and pump products and systems, including pressure vessels, gas recovery solutions, membrane bioreactors,",
+  "branche_median": {
+   "kgv": 26.0329,
+   "umsatzwachstum": 0.094,
+   "marge": 0.0817,
+   "verschuldung": 66.425,
+   "n": 117
+  }
+ },
+ "technik": {
+  "kurs": 61.37,
+  "vortag": 55.22,
+  "rsi": 76.4,
+  "sma50": 56.703,
+  "sma200": 76.9465,
+  "ueber_sma50": true,
+  "ueber_sma200": false,
+  "high52": 110.9,
+  "low52": 51.13,
+  "abstand_high52_pct": -44.7,
+  "rel_volumen": 4.13,
+  "volumen": 2193267.0,
+  "avg_volumen20": 2702415.0,
+  "trend": "Abwärtstrend"
+ },
+ "naechste_zahlen": "2026-10-27",
+ "news": [],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 61.37,
+  "change_pct": 11.14,
+  "rel_vol": 4.13,
+  "time": "2026-10-27T14:46:41.517327+00:00"
+ },
+ "pushed": true
+}

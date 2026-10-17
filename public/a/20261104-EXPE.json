@@ -1,0 +1,137 @@
+{
+ "id": "20261104-EXPE",
+ "symbol": "EXPE",
+ "name": "Expedia Group, Inc.",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-11-04T15:29:59.506557+00:00",
+ "price": 317.08,
+ "change_pct": 10.96,
+ "rel_vol": 2.46,
+ "score": 72,
+ "ampel": {
+  "farbe": "gruen",
+  "label": "interessant",
+  "emoji": "🟢"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 72,
+   "label": "chancenreich",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 88,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 52,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "earnings",
+  "label": "Quartalszahlen / Prognose",
+  "headline": "Booking, Expedia AI Initiatives to Dominate Earnings Calls, Truist Says",
+  "source": "MT Newswires"
+ },
+ "begruendung": "Expedia Group, Inc. steigt um +11.0 % bei 2.5-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Quartalszahlen / Prognose („Booking, Expedia AI Initiatives to Dominate Earnings Calls, Truist Says“). Pro: Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge. Contra: Quartalszahlen in 0 Tag(en) – erhöhte Schwankung möglich. Gesamtbild: interessant – eine nähere Prüfung lohnt sich.",
+ "chancen": [
+  "Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge",
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)",
+  "Gewinn wächst stark (+189 %)"
+ ],
+ "risiken": [
+  "Quartalszahlen in 0 Tag(en) – erhöhte Schwankung möglich",
+  "Hohe Verschuldung (Verschuldungsgrad 2.3×)"
+ ],
+ "fundamental": {
+  "kgv": 19.8061,
+  "kgv_erwartet": 12.9029,
+  "umsatzwachstum": 0.14,
+  "gewinnwachstum": 1.887,
+  "marge": 0.1297,
+  "verschuldung": 230.271,
+  "marktkap": 38058401792.0,
+  "kursziel_analysten": 337.1177,
+  "analysten": "buy",
+  "sektor": "Consumer Cyclical",
+  "branche": "Travel Services",
+  "waehrung": "USD",
+  "beschreibung": "Expedia Group, Inc. operates as an online travel company in the United States and internationally. The company operates through B2C, B2B, and trivago segments. The B2C segment includes Brand Expedia, a full-service online travel brand offers various travel products and services; Hotels.com for lodging accommodations; Vrbo, an online marketplace for the alternative accommodations; and Orbitz, Trave",
+  "branche_median": {
+   "kgv": 19.4519,
+   "umsatzwachstum": 0.054,
+   "marge": 0.0704,
+   "verschuldung": 106.5555,
+   "n": 74
+  }
+ },
+ "technik": {
+  "kurs": 317.08,
+  "vortag": 285.77,
+  "rsi": 63.8,
+  "sma50": 284.6558,
+  "sma200": 259.0867,
+  "ueber_sma50": true,
+  "ueber_sma200": true,
+  "high52": 342.0,
+  "low52": 185.34,
+  "abstand_high52_pct": -7.3,
+  "rel_volumen": 2.46,
+  "volumen": 564025.0,
+  "avg_volumen20": 1492780.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": "2026-11-04",
+ "news": [
+  {
+   "title": "Booking.com Sees Resilient Travel Demand Despite Disruptions",
+   "url": "https://www.barrons.com/articles/booking-holdings-earnings-stock-price-8c015195?siteid=yhoof2&yptr=yahoo",
+   "publisher": "Barrons.com",
+   "time": "2026-11-04T00:32:00+00:00"
+  },
+  {
+   "title": "Management Raised the Bar For Expedia Stock; Does The Chart Agree?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/management-raised-bar-expedia-stock-203901892.html",
+   "publisher": "Trefis",
+   "time": "2026-11-03T20:39:01+00:00"
+  },
+  {
+   "title": "Booking, Expedia AI Initiatives to Dominate Earnings Calls, Truist Says",
+   "url": "https://finance.yahoo.com/technology/ai/articles/booking-expedia-ai-initiatives-dominate-195314908.html",
+   "publisher": "MT Newswires",
+   "time": "2026-11-03T19:53:14+00:00"
+  },
+  {
+   "title": "Expedia's Q3 Earnings Ahead: What's in Store for the Stock?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/expedias-q3-earnings-ahead-whats-145100882.html",
+   "publisher": "Zacks",
+   "time": "2026-11-03T14:51:00+00:00"
+  },
+  {
+   "title": "5 Key Earnings Charts to Watch This Week",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/5-key-earnings-charts-watch-002000682.html",
+   "publisher": "Zacks",
+   "time": "2026-11-03T00:20:00+00:00"
+  },
+  {
+   "title": "What Are Wall Street Analysts' Target Price for Expedia Group Stock?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-target-price-151219385.html",
+   "publisher": "Barchart",
+   "time": "2026-11-02T15:12:19+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 317.08,
+  "change_pct": 10.96,
+  "rel_vol": 2.46,
+  "time": "2026-11-04T15:29:59.506557+00:00"
+ },
+ "pushed": true
+}

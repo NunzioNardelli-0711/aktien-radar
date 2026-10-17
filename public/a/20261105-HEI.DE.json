@@ -1,0 +1,135 @@
+{
+ "id": "20261105-HEI.DE",
+ "symbol": "HEI.DE",
+ "name": "Heidelberg Materials AG",
+ "market": "DE",
+ "indices": [
+  "DAX"
+ ],
+ "time": "2026-11-05T09:27:07.791505+00:00",
+ "price": 177.65,
+ "change_pct": 13.48,
+ "rel_vol": 2.07,
+ "score": 65,
+ "ampel": {
+  "farbe": "gruen",
+  "label": "interessant",
+  "emoji": "🟢"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 61,
+   "label": "neutral",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 64,
+   "label": "neutral",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 70,
+   "label": "chancenreich",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "earnings",
+  "label": "Quartalszahlen / Prognose",
+  "headline": "Heidelberg Materials Q3 Earnings Call Highlights",
+  "source": "MarketBeat"
+ },
+ "begruendung": "Heidelberg Materials AG steigt um +13.5 % bei 2.1-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Quartalszahlen / Prognose („Heidelberg Materials Q3 Earnings Call Highlights“). Pro: Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge. Contra: Überkauft (RSI 80). Gesamtbild: interessant – eine nähere Prüfung lohnt sich.",
+ "chancen": [
+  "Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge",
+  "Günstig bewertet: KGV 17 vs. Branche 25"
+ ],
+ "risiken": [
+  "Überkauft (RSI 80)"
+ ],
+ "fundamental": {
+  "kgv": 17.0144,
+  "kgv_erwartet": 12.3595,
+  "umsatzwachstum": 0.017,
+  "gewinnwachstum": 0.088,
+  "marge": 0.0917,
+  "verschuldung": 50.409,
+  "marktkap": 31257579520.0,
+  "kursziel_analysten": 205.2778,
+  "analysten": "buy",
+  "sektor": "Basic Materials",
+  "branche": "Building Materials",
+  "waehrung": "EUR",
+  "beschreibung": "Heidelberg Materials AG, together with its subsidiaries, produces and distributes cement, aggregates, ready-mixed concrete, and asphalt worldwide. The company provides cement products; natural stone aggregates, including sand and gravel; crushed aggregates comprising stone chippings and crushed stones; and ready-mixed concrete for use in the construction of tunnels or bridges, office buildings, or",
+  "branche_median": {
+   "kgv": 24.5346,
+   "umsatzwachstum": 0.093,
+   "marge": 0.091,
+   "verschuldung": 52.249,
+   "n": 31
+  }
+ },
+ "technik": {
+  "kurs": 177.65,
+  "vortag": 156.55,
+  "rsi": 80.4,
+  "sma50": 150.562,
+  "sma200": 174.319,
+  "ueber_sma50": true,
+  "ueber_sma200": true,
+  "high52": 241.8,
+  "low52": 137.2,
+  "abstand_high52_pct": -26.5,
+  "rel_volumen": 2.07,
+  "volumen": 141713.0,
+  "avg_volumen20": 400057.0,
+  "trend": "Abwärtstrend"
+ },
+ "naechste_zahlen": "2026-11-04",
+ "news": [
+  {
+   "title": "Heidelberg Materials Q3 Earnings Call Highlights",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/heidelberg-materials-q3-earnings-call-151424391.html",
+   "publisher": "MarketBeat",
+   "time": "2026-11-04T15:14:24+00:00"
+  },
+  {
+   "title": "Democrats’ Victory to Add Volatility to AI Trade",
+   "url": "https://www.wsj.com/finance/stocks/nikkei-flat-supported-by-financial-airline-stocks-87443383?siteid=yhoof2&yptr=yahoo",
+   "publisher": "The Wall Street Journal",
+   "time": "2026-11-04T10:27:00+00:00"
+  },
+  {
+   "title": "Can Heidelberg Materials (XTRA:HEI) Trade At A Discount After A 163% Run?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/heidelberg-materials-xtra-hei-trade-221912842.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-10-16T22:19:12+00:00"
+  },
+  {
+   "title": "NCC to sell Industry unit to Heidelberg Materials and CRH for $820m",
+   "url": "https://finance.yahoo.com/news/ncc-sell-industry-unit-heidelberg-104941026.html",
+   "publisher": "World Construction Network",
+   "time": "2026-10-08T10:49:41+00:00"
+  },
+  {
+   "title": "HDLMY or ROAD: Which Is the Better Value Stock Right Now?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/hdlmy-road-better-value-stock-144005173.html",
+   "publisher": "Zacks",
+   "time": "2026-09-30T14:40:05+00:00"
+  },
+  {
+   "title": "Are Investors Undervaluing Heidelberg Materials AG Unsponsored ADR (HDLMY) Right Now?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/investors-undervaluing-heidelberg-materials-ag-124002170.html",
+   "publisher": "Zacks",
+   "time": "2026-09-30T12:40:02+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 177.65,
+  "change_pct": 13.48,
+  "rel_vol": 2.07,
+  "time": "2026-11-05T09:27:07.791505+00:00"
+ },
+ "pushed": true
+}

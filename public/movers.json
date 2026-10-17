@@ -1,0 +1,143 @@
+{
+ "updated": "2026-11-06T20:20:06.694482+00:00",
+ "markets": [
+  "US"
+ ],
+ "items": [
+  {
+   "symbol": "COHR",
+   "name": "Coherent Corp.",
+   "market": "US",
+   "price": 194.78,
+   "change_pct": 14.74,
+   "rel_vol": 1.77,
+   "alarm": false
+  },
+  {
+   "symbol": "ABNB",
+   "name": "Airbnb",
+   "market": "US",
+   "price": 191.2,
+   "change_pct": 12.38,
+   "rel_vol": 2.59,
+   "alarm": true
+  },
+  {
+   "symbol": "APP",
+   "name": "AppLovin",
+   "market": "US",
+   "price": 396.29,
+   "change_pct": 11.28,
+   "rel_vol": 1.87,
+   "alarm": false
+  },
+  {
+   "symbol": "AMD",
+   "name": "Advanced Micro Devices",
+   "market": "US",
+   "price": 448.29,
+   "change_pct": 10.85,
+   "rel_vol": 1.56,
+   "alarm": false
+  },
+  {
+   "symbol": "VST",
+   "name": "Vistra Corp.",
+   "market": "US",
+   "price": 125.11,
+   "change_pct": 10.82,
+   "rel_vol": 1.44,
+   "alarm": false
+  },
+  {
+   "symbol": "NRG",
+   "name": "NRG Energy",
+   "market": "US",
+   "price": 89.16,
+   "change_pct": 10.69,
+   "rel_vol": 1.47,
+   "alarm": false
+  },
+  {
+   "symbol": "MRNA",
+   "name": "Moderna",
+   "market": "US",
+   "price": 262.75,
+   "change_pct": 8.82,
+   "rel_vol": 0.89,
+   "alarm": false
+  },
+  {
+   "symbol": "LRCX",
+   "name": "Lam Research",
+   "market": "US",
+   "price": 200.93,
+   "change_pct": 8.49,
+   "rel_vol": 1.09,
+   "alarm": false
+  },
+  {
+   "symbol": "INTC",
+   "name": "Intel",
+   "market": "US",
+   "price": 56.68,
+   "change_pct": 8.48,
+   "rel_vol": 1.03,
+   "alarm": false
+  },
+  {
+   "symbol": "SPCX",
+   "name": "SpaceX",
+   "market": "US",
+   "price": 134.01,
+   "change_pct": 8.4,
+   "rel_vol": 0.97,
+   "alarm": false
+  },
+  {
+   "symbol": "NBIS",
+   "name": "Nebius Group",
+   "market": "US",
+   "price": 130.21,
+   "change_pct": 8.17,
+   "rel_vol": 0.97,
+   "alarm": false
+  },
+  {
+   "symbol": "CRL",
+   "name": "Charles River Laboratories",
+   "market": "US",
+   "price": 336.68,
+   "change_pct": 7.56,
+   "rel_vol": 0.51,
+   "alarm": false
+  },
+  {
+   "symbol": "PWR",
+   "name": "Quanta Services",
+   "market": "US",
+   "price": 545.89,
+   "change_pct": 7.23,
+   "rel_vol": 1.36,
+   "alarm": false
+  },
+  {
+   "symbol": "AKAM",
+   "name": "Akamai Technologies",
+   "market": "US",
+   "price": 83.34,
+   "change_pct": 7.07,
+   "rel_vol": 1.62,
+   "alarm": false
+  },
+  {
+   "symbol": "ANET",
+   "name": "Arista Networks",
+   "market": "US",
+   "price": 170.13,
+   "change_pct": 6.89,
+   "rel_vol": 1.25,
+   "alarm": false
+  }
+ ]
+}

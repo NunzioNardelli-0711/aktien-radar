@@ -1,0 +1,101 @@
+{
+ "id": "20261021-CRL",
+ "symbol": "CRL",
+ "name": "Charles River Laboratories International, Inc.",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-10-21T19:40:23.502150+00:00",
+ "price": 347.48,
+ "change_pct": 10.15,
+ "rel_vol": 2.16,
+ "score": 43,
+ "ampel": {
+  "farbe": "rot",
+  "label": "Finger weg",
+  "emoji": "🔴"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 40,
+   "label": "ungünstig",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 58,
+   "label": "neutral",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 28,
+   "label": "ungünstig",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "none",
+  "label": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "headline": null,
+  "source": ""
+ },
+ "begruendung": "Charles River Laboratories International, Inc. steigt um +10.2 % bei 2.2-fachem Handelsvolumen. In den aktuellen Nachrichten findet sich kein klarer Auslöser. Pro: Neues 52-Wochen-Hoch – kein Widerstand durch frühere Höchststände. Contra: Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein. Gesamtbild: die Risiken überwiegen – eher Finger weg.",
+ "chancen": [
+  "Neues 52-Wochen-Hoch – kein Widerstand durch frühere Höchststände",
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)"
+ ],
+ "risiken": [
+  "Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein",
+  "Überkauft (RSI 76)",
+  "Umsatz schrumpft (-3 %)",
+  "Unternehmen schreibt Verluste"
+ ],
+ "fundamental": {
+  "kgv": null,
+  "kgv_erwartet": 27.2339,
+  "umsatzwachstum": -0.027,
+  "gewinnwachstum": null,
+  "marge": -0.0596,
+  "verschuldung": 105.047,
+  "marktkap": 16733468672.0,
+  "kursziel_analysten": 315.5333,
+  "analysten": "buy",
+  "sektor": "Healthcare",
+  "branche": "Diagnostics & Research",
+  "waehrung": "USD",
+  "beschreibung": "Charles River Laboratories International, Inc. provides drug discovery, non-clinical development, and safety testing services in the United States, Europe, Canada, the Asia Pacific, and internationally. The Research Models and Services segment produces and sells rodents, and purpose-bred rats and mice for use by researchers. This segment also provides a range of services to assist its clients in s",
+  "branche_median": {
+   "kgv": 26.6699,
+   "umsatzwachstum": 0.063,
+   "marge": 0.094,
+   "verschuldung": 68.84,
+   "n": 76
+  }
+ },
+ "technik": {
+  "kurs": 347.48,
+  "vortag": 315.45,
+  "rsi": 75.6,
+  "sma50": 290.299,
+  "sma200": 216.1637,
+  "ueber_sma50": true,
+  "ueber_sma200": true,
+  "high52": 333.3,
+  "low52": 146.2,
+  "abstand_high52_pct": 4.3,
+  "rel_volumen": 2.16,
+  "volumen": 2007762.0,
+  "avg_volumen20": 979720.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": "2026-11-04",
+ "news": [],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 347.48,
+  "change_pct": 10.15,
+  "rel_vol": 2.16,
+  "time": "2026-10-21T19:40:23.502150+00:00"
+ },
+ "pushed": true
+}

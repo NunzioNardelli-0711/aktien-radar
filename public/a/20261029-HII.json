@@ -1,0 +1,101 @@
+{
+ "id": "20261029-HII",
+ "symbol": "HII",
+ "name": "Huntington Ingalls Industries, Inc.",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-10-29T15:25:19.930691+00:00",
+ "price": 312.19,
+ "change_pct": 11.79,
+ "rel_vol": 5.68,
+ "score": 63,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 53,
+   "label": "neutral",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 62,
+   "label": "neutral",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 76,
+   "label": "chancenreich",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "none",
+  "label": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "headline": null,
+  "source": ""
+ },
+ "begruendung": "Huntington Ingalls Industries, Inc. steigt um +11.8 % bei 5.7-fachem Handelsvolumen. In den aktuellen Nachrichten findet sich kein klarer Auslöser. Pro: Sehr hohes Handelsvolumen (5.7× normal) – breites Interesse. Contra: Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein. Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [
+  "Sehr hohes Handelsvolumen (5.7× normal) – breites Interesse",
+  "Gewinn wächst stark (+36 %)",
+  "Günstig bewertet: KGV 19 vs. Branche 26"
+ ],
+ "risiken": [
+  "Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein",
+  "Quartalszahlen in 0 Tag(en) – erhöhte Schwankung möglich",
+  "Langfristiger Abwärtstrend – Kurs trotz Sprung unter der 200-Tage-Linie"
+ ],
+ "fundamental": {
+  "kgv": 18.6669,
+  "kgv_erwartet": 14.9072,
+  "umsatzwachstum": 0.109,
+  "gewinnwachstum": 0.365,
+  "marge": 0.0501,
+  "verschuldung": 55.252,
+  "marktkap": 12342703104.0,
+  "kursziel_analysten": 356.4167,
+  "analysten": "buy",
+  "sektor": "Industrials",
+  "branche": "Aerospace & Defense",
+  "waehrung": "USD",
+  "beschreibung": "Huntington Ingalls Industries, Inc. designs, builds, overhauls, and repairs military ships in the United States. It operates through three segments: Ingalls, Newport News, and Mission Technologies. The company is involved in the design and construction of non-nuclear ships comprising amphibious assault ships, surface combatants, and national security cutters for the U.S. Navy and U.S. Coast Guard.",
+  "branche_median": {
+   "kgv": 26.0329,
+   "umsatzwachstum": 0.094,
+   "marge": 0.0817,
+   "verschuldung": 66.425,
+   "n": 117
+  }
+ },
+ "technik": {
+  "kurs": 312.19,
+  "vortag": 279.26,
+  "rsi": 74.9,
+  "sma50": 277.6342,
+  "sma200": 336.6158,
+  "ueber_sma50": true,
+  "ueber_sma200": false,
+  "high52": 460.0,
+  "low52": 255.36,
+  "abstand_high52_pct": -32.1,
+  "rel_volumen": 5.68,
+  "volumen": 893623.0,
+  "avg_volumen20": 532295.0,
+  "trend": "Abwärtstrend"
+ },
+ "naechste_zahlen": "2026-10-29",
+ "news": [],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 312.19,
+  "change_pct": 11.79,
+  "rel_vol": 5.68,
+  "time": "2026-10-29T15:25:19.930691+00:00"
+ },
+ "pushed": true
+}

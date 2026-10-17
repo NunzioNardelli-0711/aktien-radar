@@ -1,0 +1,99 @@
+{
+ "id": "20261103-FISV",
+ "symbol": "FISV",
+ "name": "Fiserv, Inc.",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-11-03T16:20:58.382000+00:00",
+ "price": 58.24,
+ "change_pct": 12.14,
+ "rel_vol": 3.98,
+ "score": 51,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 38,
+   "label": "ungünstig",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 58,
+   "label": "neutral",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 58,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "none",
+  "label": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "headline": null,
+  "source": ""
+ },
+ "begruendung": "Fiserv, Inc. steigt um +12.1 % bei 4.0-fachem Handelsvolumen. In den aktuellen Nachrichten findet sich kein klarer Auslöser. Pro: Deutlich erhöhtes Volumen (4.0× normal). Contra: Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein. Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [
+  "Deutlich erhöhtes Volumen (4.0× normal)"
+ ],
+ "risiken": [
+  "Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein",
+  "Überkauft (RSI 78)",
+  "Quartalszahlen in 0 Tag(en) – erhöhte Schwankung möglich"
+ ],
+ "fundamental": {
+  "kgv": 11.1785,
+  "kgv_erwartet": 7.3423,
+  "umsatzwachstum": null,
+  "gewinnwachstum": null,
+  "marge": null,
+  "verschuldung": null,
+  "marktkap": 30970095616.0,
+  "kursziel_analysten": 57.5548,
+  "analysten": "hold",
+  "sektor": "Financials",
+  "branche": "",
+  "waehrung": "USD",
+  "beschreibung": "",
+  "branche_median": {
+   "kgv": null,
+   "umsatzwachstum": null,
+   "marge": null,
+   "verschuldung": null,
+   "n": null
+  }
+ },
+ "technik": {
+  "kurs": 58.24,
+  "vortag": 51.93,
+  "rsi": 77.8,
+  "sma50": 48.6288,
+  "sma200": 54.6346,
+  "ueber_sma50": true,
+  "ueber_sma200": true,
+  "high52": 70.41,
+  "low52": 43.87,
+  "abstand_high52_pct": -17.3,
+  "rel_volumen": 3.98,
+  "volumen": 6382126.0,
+  "avg_volumen20": 5640365.0,
+  "trend": "Abwärtstrend"
+ },
+ "naechste_zahlen": "2026-11-03",
+ "news": [],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 58.24,
+  "change_pct": 12.14,
+  "rel_vol": 3.98,
+  "time": "2026-11-03T16:20:58.382000+00:00"
+ },
+ "pushed": true
+}

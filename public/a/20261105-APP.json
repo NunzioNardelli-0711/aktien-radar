@@ -1,0 +1,141 @@
+{
+ "id": "20261105-APP",
+ "symbol": "APP",
+ "name": "AppLovin Corporation",
+ "market": "US",
+ "indices": [
+  "S&P 500",
+  "Nasdaq 100"
+ ],
+ "time": "2026-11-05T14:42:06.204593+00:00",
+ "price": 354.02,
+ "change_pct": 30.27,
+ "rel_vol": 7.57,
+ "score": 68,
+ "ampel": {
+  "farbe": "gruen",
+  "label": "interessant",
+  "emoji": "🟢"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 68,
+   "label": "chancenreich",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 74,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 60,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "earnings",
+  "label": "Quartalszahlen / Prognose",
+  "headline": "AppLovin stock soars after Q3 earnings, outlook beat",
+  "source": "Yahoo Finance"
+ },
+ "begruendung": "AppLovin Corporation steigt um +30.3 % bei 7.6-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Quartalszahlen / Prognose („AppLovin stock soars after Q3 earnings, outlook beat“). Pro: Sehr hohes Handelsvolumen (7.6× normal) – breites Interesse. Contra: Extremer Tagessprung (+30 %) – hohes Rücksetzer-Risiko. Gesamtbild: interessant – eine nähere Prüfung lohnt sich.",
+ "chancen": [
+  "Sehr hohes Handelsvolumen (7.6× normal) – breites Interesse",
+  "Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge",
+  "Starkes Umsatzwachstum (+53 %)",
+  "Gewinn wächst stark (+57 %)",
+  "Hohe Gewinnmarge (65 %)"
+ ],
+ "risiken": [
+  "Extremer Tagessprung (+30 %) – hohes Rücksetzer-Risiko",
+  "Langfristiger Abwärtstrend – Kurs trotz Sprung unter der 200-Tage-Linie",
+  "Teurer als die Branche: KGV 24 vs. 18"
+ ],
+ "fundamental": {
+  "kgv": 23.8983,
+  "kgv_erwartet": 17.7326,
+  "umsatzwachstum": 0.528,
+  "gewinnwachstum": 0.57,
+  "marge": 0.6458,
+  "verschuldung": 111.13,
+  "marktkap": 119221583872.0,
+  "kursziel_analysten": 448.4326,
+  "analysten": "buy",
+  "sektor": "Communication Services",
+  "branche": "Advertising Agencies",
+  "waehrung": "USD",
+  "beschreibung": "AppLovin Corporation provides end-to-end artificial intelligence-powered advertising solutions for businesses in the United States and internationally. It operates through two segments, Advertising and Apps. The company offers Axon Ads Manager, a suite of marketing solutions that enables developers to automate, optimize, and manage marketing efforts; MAX, an in-app bidding technology that optimize",
+  "branche_median": {
+   "kgv": 17.6382,
+   "umsatzwachstum": 0.101,
+   "marge": 0.0891,
+   "verschuldung": 67.92,
+   "n": 34
+  }
+ },
+ "technik": {
+  "kurs": 354.02,
+  "vortag": 271.75,
+  "rsi": 72.3,
+  "sma50": 290.8236,
+  "sma200": 410.84,
+  "ueber_sma50": true,
+  "ueber_sma200": false,
+  "high52": 738.01,
+  "low52": 225.19,
+  "abstand_high52_pct": -52.0,
+  "rel_volumen": 7.57,
+  "volumen": 4903222.0,
+  "avg_volumen20": 4319505.0,
+  "trend": "Abwärtstrend"
+ },
+ "naechste_zahlen": "2026-11-04",
+ "news": [
+  {
+   "title": "AppLovin stock soars after Q3 earnings, outlook beat",
+   "url": "https://finance.yahoo.com/markets/article/applovin-stock-soars-after-q3-earnings-outlook-beat-141507874.html",
+   "publisher": "Yahoo Finance",
+   "time": "2026-11-05T14:15:07+00:00"
+  },
+  {
+   "title": "AppLovin Soars 27% on Record Q3 Beat as CEO Calls Last Quarter’s Miss “Our Own Foot Fault”",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/applovin-soars-27-record-q3-143228519.html",
+   "publisher": "TIKR",
+   "time": "2026-11-05T14:32:28+00:00"
+  },
+  {
+   "title": "Stock Market Today: Dow Rises After Postelection Rally; Cava, Dutch Bros Plunge On Earnings News (Live Coverage)",
+   "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-election-rally-cava-dutch-bros/?src=A00220&yptr=yahoo",
+   "publisher": "Investor's Business Daily",
+   "time": "2026-11-05T14:04:48+00:00"
+  },
+  {
+   "title": "AppLovin delivers strong Q3 2026 numbers, stock jumps 24.9%",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/applovin-nasdaq-app-delivers-strong-223804244.html",
+   "publisher": "StockStory",
+   "time": "2026-11-04T22:38:04+00:00"
+  },
+  {
+   "title": "Qualcomm, AppLovin, Snap, Arm, Sony, and More Stocks That Explain Today’s Market",
+   "url": "https://www.barrons.com/articles/stock-movers-8b39c82b?siteid=yhoof2&yptr=yahoo",
+   "publisher": "Barrons.com",
+   "time": "2026-11-05T11:25:00+00:00"
+  },
+  {
+   "title": "Chip Dip Churns Wall Street Pre-Bell; Asia Off, Europe Up",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/chip-dip-churns-wall-street-111036926.html",
+   "publisher": "MT Newswires",
+   "time": "2026-11-05T11:10:36+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 354.02,
+  "change_pct": 30.27,
+  "rel_vol": 7.57,
+  "time": "2026-11-05T14:42:06.204593+00:00"
+ },
+ "pushed": true
+}

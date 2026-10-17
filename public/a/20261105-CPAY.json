@@ -1,0 +1,141 @@
+{
+ "id": "20261105-CPAY",
+ "symbol": "CPAY",
+ "name": "Corpay, Inc.",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-11-05T15:40:36.821169+00:00",
+ "price": 465.89,
+ "change_pct": 11.3,
+ "rel_vol": 6.45,
+ "score": 71,
+ "ampel": {
+  "farbe": "gruen",
+  "label": "interessant",
+  "emoji": "🟢"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 75,
+   "label": "chancenreich",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 78,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 58,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "earnings",
+  "label": "Quartalszahlen / Prognose",
+  "headline": "Corpay Q3 Earnings Call Highlights",
+  "source": "MarketBeat"
+ },
+ "begruendung": "Corpay, Inc. steigt um +11.3 % bei 6.5-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Quartalszahlen / Prognose („Corpay Q3 Earnings Call Highlights“). Pro: Sehr hohes Handelsvolumen (6.5× normal) – breites Interesse. Contra: Überkauft (RSI 79). Gesamtbild: interessant – eine nähere Prüfung lohnt sich.",
+ "chancen": [
+  "Sehr hohes Handelsvolumen (6.5× normal) – breites Interesse",
+  "Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge",
+  "Neues 52-Wochen-Hoch – kein Widerstand durch frühere Höchststände",
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)",
+  "Starkes Umsatzwachstum (+22 %)",
+  "Hohe Gewinnmarge (23 %)"
+ ],
+ "risiken": [
+  "Überkauft (RSI 79)",
+  "Gewinn rückläufig (-7 %)",
+  "Hohe Verschuldung (Verschuldungsgrad 2.8×)"
+ ],
+ "fundamental": {
+  "kgv": 28.3082,
+  "kgv_erwartet": 14.7414,
+  "umsatzwachstum": 0.215,
+  "gewinnwachstum": -0.07,
+  "marge": 0.2272,
+  "verschuldung": 275.291,
+  "marktkap": 30575706112.0,
+  "kursziel_analysten": 460.6667,
+  "analysten": "buy",
+  "sektor": "Technology",
+  "branche": "Software - Infrastructure",
+  "waehrung": "USD",
+  "beschreibung": "Corpay, Inc. operates as a payments company that helps businesses and consumers to manage and pay their expenses.\nIt operates through Corporate Payments, Vehicle Payments, Lodging Payments, and Other segments. The company offers vehicle payment solutions for fuel, tolls and parking, vehicle compliance, auto insurance and road assistance, fleet maintenance, and long-haul transportation services, as",
+  "branche_median": {
+   "kgv": 30.9147,
+   "umsatzwachstum": 0.188,
+   "marge": 0.1637,
+   "verschuldung": 48.997,
+   "n": 109
+  }
+ },
+ "technik": {
+  "kurs": 465.89,
+  "vortag": 418.6,
+  "rsi": 78.7,
+  "sma50": 403.0958,
+  "sma200": 356.8342,
+  "ueber_sma50": true,
+  "ueber_sma200": true,
+  "high52": 427.46,
+  "low52": 256.38,
+  "abstand_high52_pct": 9.0,
+  "rel_volumen": 6.45,
+  "volumen": 537608.0,
+  "avg_volumen20": 460065.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": "2027-02-03",
+ "news": [
+  {
+   "title": "Corpay Q3 Earnings Call Highlights",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/corpay-q3-earnings-call-highlights-101502479.html",
+   "publisher": "MarketBeat",
+   "time": "2026-11-05T10:15:02+00:00"
+  },
+  {
+   "title": "Corpay Inc (CPAY) (Q3 2026) Earnings Call Highlights: Sixth Straight Quarter of Double-Digit ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/corpay-inc-cpay-q3-2026-071608101.html",
+   "publisher": "GuruFocus.com",
+   "time": "2026-11-05T07:16:08+00:00"
+  },
+  {
+   "title": "Compared to Estimates, Corpay (CPAY) Q3 Earnings: A Look at Key Metrics",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/compared-estimates-corpay-cpay-q3-220002102.html",
+   "publisher": "Zacks",
+   "time": "2026-11-04T22:00:02+00:00"
+  },
+  {
+   "title": "Corpay’s (NYSE:CPAY) Q3 2026 sales beat estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/corpay-nyse-cpay-q3-2026-215704945.html",
+   "publisher": "StockStory",
+   "time": "2026-11-04T21:57:04+00:00"
+  },
+  {
+   "title": "Corpay: Q3 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/corpay-q3-earnings-snapshot-211754660.html",
+   "publisher": "Associated Press",
+   "time": "2026-11-04T21:17:54+00:00"
+  },
+  {
+   "title": "Corpay (CPAY) Q3 Earnings and Revenues Top Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/corpay-cpay-q3-earnings-revenues-211502399.html",
+   "publisher": "Zacks",
+   "time": "2026-11-04T21:15:02+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 465.89,
+  "change_pct": 11.3,
+  "rel_vol": 6.45,
+  "time": "2026-11-05T15:40:36.821169+00:00"
+ },
+ "pushed": true
+}
