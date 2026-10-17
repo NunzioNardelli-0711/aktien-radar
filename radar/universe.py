@@ -13,11 +13,16 @@ UA = {"User-Agent": "Mozilla/5.0 (AktienRadar; +https://github.com)"}
 
 SOURCES = {
     "S&P 500": ("https://en.wikipedia.org/wiki/List_of_S%26P_500_companies", "US"),
-    "Nasdaq 100": ("https://en.wikipedia.org/wiki/Nasdaq-100", "US"),
+    "Nasdaq 100": (["https://en.wikipedia.org/wiki/Nasdaq-100",
+                    "https://de.wikipedia.org/wiki/NASDAQ-100"], "US"),
     "DAX": ("https://en.wikipedia.org/wiki/DAX", "DE"),
     "MDAX": ("https://en.wikipedia.org/wiki/MDAX", "DE"),
     "SDAX": ("https://en.wikipedia.org/wiki/SDAX", "DE"),
 }
+
+# Nasdaq-100-Werte, die nicht im S&P 500 enthalten sind (Ersatz, falls keine Quelle lesbar ist)
+SEED_NDX_EXTRA = ["ASML", "AZN", "ARM", "PDD", "MELI", "CCEP", "TEAM", "ZS", "GFS", "SHOP",
+                  "MSTR", "TRI", "MDB", "BIDU", "JD", "NTES", "LULU", "ON", "CDW"]
 
 # Notfall-Liste, falls beim allerersten Lauf keine Quelle erreichbar ist.
 SEED_DAX = ["ADS.DE", "AIR.DE", "ALV.DE", "BAS.DE", "BAYN.DE", "BEI.DE", "BMW.DE", "BNR.DE",
@@ -39,7 +44,8 @@ def _tables(url: str) -> list[pd.DataFrame]:
 def _col(df: pd.DataFrame, *names: str) -> str | None:
     for n in names:
         for c in df.columns:
-            if c.strip().lower() == n.lower():
+            label = c.strip().lower()
+            if label == n.lower() or label.startswith(n.lower() + " ") or label.startswith(n.lower() + "["):
                 return c
     return None
 
@@ -80,16 +86,23 @@ def build(provider=None, fetch_tables=_tables) -> dict:
     by_index_old = old.get("by_index", {})
     by_index: dict[str, list[dict]] = {}
     report = {}
-    for index, (url, market) in SOURCES.items():
-        try:
-            rows = _parse(index, market, fetch_tables(url), provider, name_cache)
-            if len(rows) < 15:
-                raise ValueError(f"nur {len(rows)} Werte gefunden")
-            by_index[index] = rows
-            report[index] = len(rows)
-        except Exception as exc:
+    for index, (urls, market) in SOURCES.items():
+        errors = []
+        for url in (urls if isinstance(urls, list) else [urls]):
+            try:
+                rows = _parse(index, market, fetch_tables(url), provider, name_cache)
+                if len(rows) < 15:
+                    raise ValueError(f"nur {len(rows)} Werte gefunden")
+                by_index[index] = rows
+                report[index] = len(rows)
+                break
+            except Exception as exc:
+                errors.append(f"{url.split('/')[2]}: {exc}")
+        else:
             by_index[index] = by_index_old.get(index, [])
-            report[index] = f"Fehler ({exc}); alte Liste: {len(by_index[index])}"
+            if not by_index[index] and index == "Nasdaq 100":
+                by_index[index] = [{"symbol": s, "name": s, "market": "US", "sector": ""} for s in SEED_NDX_EXTRA]
+            report[index] = f"Fehler ({'; '.join(errors)}); verwendet: {len(by_index[index])}"
     if not by_index.get("DAX"):
         by_index["DAX"] = [{"symbol": s, "name": s, "market": "DE", "sector": ""} for s in SEED_DAX]
 

@@ -8,7 +8,7 @@
  "watchlist_updated": "2026-10-13T05:20:00+00:00",
  "watchlist_count": 25,
  "universe_size": 467,
- "universe_updated": "2026-10-17T13:41:00.333693+00:00",
+ "universe_updated": "2026-10-17T18:31:14.217276+00:00",
  "universe_report": {
   "Test": 467
  },
@@ -24,11 +24,11 @@
  "quotes": 303,
  "hits": 3,
  "new_alerts": 0,
- "scan_seconds": 0.9,
+ "scan_seconds": 1.4,
  "last_scan_result": "303 von 303 Aktien geprüft, 3 Treffer, 0 neue Alarme",
  "selfcheck": {
   "time": "2026-10-13T15:36:00+00:00",
   "problems": []
  },
- "last_error_push": "2026-10-17T13:41:04.933308+00:00"
+ "last_error_push": "2026-10-17T18:31:20.779419+00:00"
 }
