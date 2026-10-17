@@ -1,0 +1,366 @@
+{
+ "updated": "2026-10-23T05:43:35.601040+00:00",
+ "items": [
+  {
+   "symbol": "EG",
+   "name": "Everest Group",
+   "market": "US",
+   "price": 407.56,
+   "last_change_pct": 3.24,
+   "rsi14": 77.3,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase",
+    "Schlusskurs auf neuem 52-Wochen-Hoch",
+    "Starkes relatives Momentum (+10 %-Punkte ggü. Index in 20 Tagen)",
+    "Quartalszahlen in 5 Tag(en) (28.10.)"
+   ],
+   "points": 9,
+   "earnings": "2026-10-28"
+  },
+  {
+   "symbol": "EXC",
+   "name": "Exelon",
+   "market": "US",
+   "price": 44.85,
+   "last_change_pct": 4.18,
+   "rsi14": 68.7,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase",
+    "Starkes relatives Momentum (+12 %-Punkte ggü. Index in 20 Tagen)",
+    "Quartalszahlen in 7 Tag(en) (30.10.)"
+   ],
+   "points": 7,
+   "earnings": "2026-10-30"
+  },
+  {
+   "symbol": "WEC",
+   "name": "WEC Energy Group",
+   "market": "US",
+   "price": 112.15,
+   "last_change_pct": 3.36,
+   "rsi14": 71.1,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase",
+    "Starkes relatives Momentum (+12 %-Punkte ggü. Index in 20 Tagen)",
+    "Quartalszahlen in 6 Tag(en) (29.10.)"
+   ],
+   "points": 7,
+   "earnings": "2026-10-29"
+  },
+  {
+   "symbol": "LNT",
+   "name": "Alliant Energy",
+   "market": "US",
+   "price": 70.3,
+   "last_change_pct": 2.79,
+   "rsi14": 68.0,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase",
+    "Starkes relatives Momentum (+12 %-Punkte ggü. Index in 20 Tagen)",
+    "Quartalszahlen in 6 Tag(en) (29.10.)"
+   ],
+   "points": 7,
+   "earnings": "2026-10-29"
+  },
+  {
+   "symbol": "CINF",
+   "name": "Cincinnati Financial",
+   "market": "US",
+   "price": 178.28,
+   "last_change_pct": 2.68,
+   "rsi14": 72.3,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase",
+    "Starkes relatives Momentum (+10 %-Punkte ggü. Index in 20 Tagen)",
+    "Quartalszahlen in 3 Tag(en) (26.10.)"
+   ],
+   "points": 7,
+   "earnings": "2026-10-26"
+  },
+  {
+   "symbol": "AEP",
+   "name": "American Electric Power",
+   "market": "US",
+   "price": 130.64,
+   "last_change_pct": 2.55,
+   "rsi14": 69.6,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase",
+    "Starkes relatives Momentum (+12 %-Punkte ggü. Index in 20 Tagen)",
+    "Quartalszahlen in 5 Tag(en) (28.10.)"
+   ],
+   "points": 7,
+   "earnings": "2026-10-28"
+  },
+  {
+   "symbol": "KDP",
+   "name": "Keurig Dr Pepper",
+   "market": "US",
+   "price": 35.19,
+   "last_change_pct": 2.09,
+   "rsi14": 70.8,
+   "signals": [
+    "Ungewöhnliches Volumen (2.4×) ohne große Kursbewegung",
+    "Schlusskurs auf neuem 52-Wochen-Hoch",
+    "Starkes relatives Momentum (+14 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 7
+  },
+  {
+   "symbol": "UPS",
+   "name": "United Parcel Service",
+   "market": "US",
+   "price": 101.52,
+   "last_change_pct": 1.96,
+   "rsi14": 65.7,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase",
+    "Starkes relatives Momentum (+11 %-Punkte ggü. Index in 20 Tagen)",
+    "Quartalszahlen in 4 Tag(en) (27.10.)"
+   ],
+   "points": 7,
+   "earnings": "2026-10-27"
+  },
+  {
+   "symbol": "ADS.DE",
+   "name": "Adidas",
+   "market": "DE",
+   "price": 160.75,
+   "last_change_pct": 1.68,
+   "rsi14": 69.9,
+   "signals": [
+    "Ungewöhnliches Volumen (2.0×) ohne große Kursbewegung",
+    "Starkes relatives Momentum (+11 %-Punkte ggü. Index in 20 Tagen)",
+    "Quartalszahlen in 6 Tag(en) (29.10.)"
+   ],
+   "points": 7,
+   "earnings": "2026-10-29"
+  },
+  {
+   "symbol": "IQV",
+   "name": "IQVIA",
+   "market": "US",
+   "price": 278.32,
+   "last_change_pct": 0.61,
+   "rsi14": 64.7,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase",
+    "Schlusskurs auf neuem 52-Wochen-Hoch",
+    "Quartalszahlen in 4 Tag(en) (27.10.)"
+   ],
+   "points": 7,
+   "earnings": "2026-10-27"
+  },
+  {
+   "symbol": "BIIB",
+   "name": "Biogen",
+   "market": "US",
+   "price": 253.84,
+   "last_change_pct": 5.34,
+   "rsi14": 75.1,
+   "signals": [
+    "Schlusskurs auf neuem 52-Wochen-Hoch",
+    "Starkes relatives Momentum (+13 %-Punkte ggü. Index in 20 Tagen)",
+    "Quartalszahlen in 5 Tag(en) (28.10.)"
+   ],
+   "points": 6,
+   "earnings": "2026-10-28"
+  },
+  {
+   "symbol": "RSG",
+   "name": "Republic Services",
+   "market": "US",
+   "price": 241.9,
+   "last_change_pct": 5.03,
+   "rsi14": 75.6,
+   "signals": [
+    "Schlusskurs auf neuem 52-Wochen-Hoch",
+    "Starkes relatives Momentum (+14 %-Punkte ggü. Index in 20 Tagen)",
+    "Quartalszahlen in 6 Tag(en) (29.10.)"
+   ],
+   "points": 6,
+   "earnings": "2026-10-29"
+  },
+  {
+   "symbol": "ADP",
+   "name": "Automatic Data Processing",
+   "market": "US",
+   "price": 307.94,
+   "last_change_pct": 4.56,
+   "rsi14": 79.9,
+   "signals": [
+    "Schlusskurs auf neuem 52-Wochen-Hoch",
+    "Starkes relatives Momentum (+18 %-Punkte ggü. Index in 20 Tagen)",
+    "Quartalszahlen in 5 Tag(en) (28.10.)"
+   ],
+   "points": 6,
+   "earnings": "2026-10-28"
+  },
+  {
+   "symbol": "CHD",
+   "name": "Church & Dwight",
+   "market": "US",
+   "price": 108.86,
+   "last_change_pct": 3.68,
+   "rsi14": 79.2,
+   "signals": [
+    "Schlusskurs auf neuem 52-Wochen-Hoch",
+    "Starkes relatives Momentum (+15 %-Punkte ggü. Index in 20 Tagen)",
+    "Quartalszahlen in 7 Tag(en) (30.10.)"
+   ],
+   "points": 6,
+   "earnings": "2026-10-30"
+  },
+  {
+   "symbol": "MA",
+   "name": "Mastercard",
+   "market": "US",
+   "price": 633.21,
+   "last_change_pct": 1.7,
+   "rsi14": 79.5,
+   "signals": [
+    "Schlusskurs auf neuem 52-Wochen-Hoch",
+    "Starkes relatives Momentum (+12 %-Punkte ggü. Index in 20 Tagen)",
+    "Quartalszahlen in 6 Tag(en) (29.10.)"
+   ],
+   "points": 6,
+   "earnings": "2026-10-29"
+  },
+  {
+   "symbol": "HON",
+   "name": "Honeywell Technologies",
+   "market": "US",
+   "price": 218.31,
+   "last_change_pct": 1.67,
+   "rsi14": 62.6,
+   "signals": [
+    "Ungewöhnliches Volumen (2.4×) ohne große Kursbewegung",
+    "Ausbruch aus einer engen Seitwärtsphase"
+   ],
+   "points": 6
+  },
+  {
+   "symbol": "V",
+   "name": "Visa Inc.",
+   "market": "US",
+   "price": 414.34,
+   "last_change_pct": 1.59,
+   "rsi14": 79.1,
+   "signals": [
+    "Schlusskurs auf neuem 52-Wochen-Hoch",
+    "Starkes relatives Momentum (+13 %-Punkte ggü. Index in 20 Tagen)",
+    "Quartalszahlen in 4 Tag(en) (27.10.)"
+   ],
+   "points": 6,
+   "earnings": "2026-10-27"
+  },
+  {
+   "symbol": "NDAQ",
+   "name": "Nasdaq, Inc.",
+   "market": "US",
+   "price": 103.3,
+   "last_change_pct": 7.47,
+   "rsi14": 73.9,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase",
+    "Schlusskurs auf neuem 52-Wochen-Hoch"
+   ],
+   "points": 5
+  },
+  {
+   "symbol": "CSX",
+   "name": "CSX Corporation",
+   "market": "US",
+   "price": 51.67,
+   "last_change_pct": 6.76,
+   "rsi14": 73.3,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase",
+    "Starkes relatives Momentum (+11 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 5
+  },
+  {
+   "symbol": "AWK",
+   "name": "American Water Works",
+   "market": "US",
+   "price": 143.23,
+   "last_change_pct": 6.29,
+   "rsi14": 71.5,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase",
+    "Quartalszahlen in 5 Tag(en) (28.10.)"
+   ],
+   "points": 5,
+   "earnings": "2026-10-28"
+  },
+  {
+   "symbol": "DHI",
+   "name": "D. R. Horton",
+   "market": "US",
+   "price": 147.66,
+   "last_change_pct": 6.25,
+   "rsi14": 62.1,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase",
+    "Quartalszahlen in 6 Tag(en) (29.10.)"
+   ],
+   "points": 5,
+   "earnings": "2026-10-29"
+  },
+  {
+   "symbol": "D",
+   "name": "Dominion Energy",
+   "market": "US",
+   "price": 65.4,
+   "last_change_pct": 4.93,
+   "rsi14": 63.3,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase",
+    "Quartalszahlen in 7 Tag(en) (30.10.)"
+   ],
+   "points": 5,
+   "earnings": "2026-10-30"
+  },
+  {
+   "symbol": "STE",
+   "name": "Steris",
+   "market": "US",
+   "price": 232.22,
+   "last_change_pct": 4.85,
+   "rsi14": 68.6,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase",
+    "Starkes relatives Momentum (+12 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 5
+  },
+  {
+   "symbol": "ATO",
+   "name": "Atmos Energy",
+   "market": "US",
+   "price": 173.91,
+   "last_change_pct": 4.17,
+   "rsi14": 74.8,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase",
+    "Starkes relatives Momentum (+12 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 5
+  },
+  {
+   "symbol": "DUK",
+   "name": "Duke Energy",
+   "market": "US",
+   "price": 125.4,
+   "last_change_pct": 3.92,
+   "rsi14": 69.9,
+   "signals": [
+    "Ausbruch aus einer engen Seitwärtsphase",
+    "Starkes relatives Momentum (+11 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 5
+  }
+ ],
+ "hinweis": "Frühwarn-Signale sind Hinweise auf erhöhte Bewegungswahrscheinlichkeit, keine Prognose und keine Kaufempfehlung."
+}

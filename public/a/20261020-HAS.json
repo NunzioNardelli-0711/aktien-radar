@@ -1,0 +1,104 @@
+{
+ "id": "20261020-HAS",
+ "symbol": "HAS",
+ "name": "Hasbro, Inc.",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-10-20T18:00:33.924425+00:00",
+ "price": 108.42,
+ "change_pct": 10.08,
+ "rel_vol": 4.14,
+ "score": 61,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 44,
+   "label": "ungünstig",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 80,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 58,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "none",
+  "label": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "headline": null,
+  "source": ""
+ },
+ "begruendung": "Hasbro, Inc. steigt um +10.1 % bei 4.1-fachem Handelsvolumen. In den aktuellen Nachrichten findet sich kein klarer Auslöser. Pro: Deutlich erhöhtes Volumen (4.1× normal). Contra: Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein. Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [
+  "Deutlich erhöhtes Volumen (4.1× normal)",
+  "Neues 52-Wochen-Hoch – kein Widerstand durch frühere Höchststände",
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)",
+  "Starkes Umsatzwachstum (+16 %)",
+  "Hohe Gewinnmarge (16 %)"
+ ],
+ "risiken": [
+  "Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein",
+  "Überkauft (RSI 83)",
+  "Quartalszahlen in 0 Tag(en) – erhöhte Schwankung möglich",
+  "Hohe Verschuldung (Verschuldungsgrad 5.3×)"
+ ],
+ "fundamental": {
+  "kgv": 19.398,
+  "kgv_erwartet": 16.736,
+  "umsatzwachstum": 0.162,
+  "gewinnwachstum": null,
+  "marge": 0.1597,
+  "verschuldung": 531.042,
+  "marktkap": 15294155776.0,
+  "kursziel_analysten": 111.3846,
+  "analysten": "strong_buy",
+  "sektor": "Consumer Cyclical",
+  "branche": "Leisure",
+  "waehrung": "USD",
+  "beschreibung": "Hasbro, Inc. operates as a toy and game company in the United States, Europe, Canada, Mexico, Latin America, Australia, China, and Hong Kong. The company offers trading cards and collectibles, action figures, arts and crafts and creative play products, dolls, play sets, preschool toys, plush products, vehicles and toy-related specialty products, sports action products and accessories, and other co",
+  "branche_median": {
+   "kgv": 19.0787,
+   "umsatzwachstum": 0.057,
+   "marge": 0.07,
+   "verschuldung": 110.88,
+   "n": 74
+  }
+ },
+ "technik": {
+  "kurs": 108.42,
+  "vortag": 98.49,
+  "rsi": 83.2,
+  "sma50": 92.4556,
+  "sma200": 91.0746,
+  "ueber_sma50": true,
+  "ueber_sma200": true,
+  "high52": 106.98,
+  "low52": 69.5,
+  "abstand_high52_pct": 1.3,
+  "rel_volumen": 4.14,
+  "volumen": 5408191.0,
+  "avg_volumen20": 1884745.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": "2026-10-20",
+ "news": [],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 108.42,
+  "change_pct": 10.08,
+  "rel_vol": 4.14,
+  "time": "2026-10-20T18:00:33.924425+00:00"
+ },
+ "pushed": true
+}

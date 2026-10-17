@@ -1,0 +1,103 @@
+{
+ "id": "20261022-ROP",
+ "symbol": "ROP",
+ "name": "Roper Technologies, Inc.",
+ "market": "US",
+ "indices": [
+  "S&P 500",
+  "Nasdaq 100"
+ ],
+ "time": "2026-10-22T19:15:07.893908+00:00",
+ "price": 438.24,
+ "change_pct": 10.23,
+ "rel_vol": 2.12,
+ "score": 63,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 34,
+   "label": "ungünstig",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 82,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 76,
+   "label": "chancenreich",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "none",
+  "label": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "headline": null,
+  "source": ""
+ },
+ "begruendung": "Roper Technologies, Inc. steigt um +10.2 % bei 2.1-fachem Handelsvolumen. In den aktuellen Nachrichten findet sich kein klarer Auslöser. Pro: Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie). Contra: Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein. Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)",
+  "Gewinn wächst stark (+233 %)",
+  "Günstig bewertet: KGV 18 vs. Branche 30",
+  "Hohe Gewinnmarge (30 %)"
+ ],
+ "risiken": [
+  "Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein",
+  "Überkauft (RSI 78)",
+  "Quartalszahlen in 0 Tag(en) – erhöhte Schwankung möglich"
+ ],
+ "fundamental": {
+  "kgv": 18.2704,
+  "kgv_erwartet": 17.9753,
+  "umsatzwachstum": 0.085,
+  "gewinnwachstum": 2.33,
+  "marge": 0.3024,
+  "verschuldung": 60.531,
+  "marktkap": 43367043072.0,
+  "kursziel_analysten": 439.4286,
+  "analysten": "buy",
+  "sektor": "Technology",
+  "branche": "Software - Application",
+  "waehrung": "USD",
+  "beschreibung": "Roper Technologies, Inc. designs and develops vertical software and technology enabled products in the United States, Canada, Europe, Asia, and internationally. Its Application Software segment offers comprehensive management, diagnostic and laboratory information management, enterprise software and information solutions, K-12 school administration, transportation management, financial and complia",
+  "branche_median": {
+   "kgv": 30.4158,
+   "umsatzwachstum": 0.166,
+   "marge": 0.1637,
+   "verschuldung": 47.906,
+   "n": 109
+  }
+ },
+ "technik": {
+  "kurs": 438.24,
+  "vortag": 397.56,
+  "rsi": 78.1,
+  "sma50": 386.0652,
+  "sma200": 364.4595,
+  "ueber_sma50": true,
+  "ueber_sma200": true,
+  "high52": 519.1,
+  "low52": 305.96,
+  "abstand_high52_pct": -15.6,
+  "rel_volumen": 2.12,
+  "volumen": 1354978.0,
+  "avg_volumen20": 722305.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": "2026-10-22",
+ "news": [],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 438.24,
+  "change_pct": 10.23,
+  "rel_vol": 2.12,
+  "time": "2026-10-22T19:15:07.893908+00:00"
+ },
+ "pushed": true
+}

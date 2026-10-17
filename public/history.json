@@ -1,0 +1,198 @@
+[
+ {
+  "id": "20261023-CCI",
+  "symbol": "CCI",
+  "name": "Crown Castle Inc.",
+  "market": "US",
+  "time": "2026-10-23T14:06:55.203955+00:00",
+  "price": 88.13,
+  "change_pct": 11.8,
+  "rel_vol": 5.08,
+  "score": 49,
+  "ampel": {
+   "farbe": "gelb",
+   "label": "beobachten",
+   "emoji": "🟡"
+  },
+  "grund": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "horizonte": {
+   "kurzfristig": 53,
+   "mittelfristig": 40,
+   "langfristig": 54
+  },
+  "live": {
+   "price": 85.34,
+   "change_pct": 8.26,
+   "rel_vol": 3.03,
+   "time": "2026-10-23T19:30:36.287204+00:00"
+  }
+ },
+ {
+  "id": "20261022-ROP",
+  "symbol": "ROP",
+  "name": "Roper Technologies, Inc.",
+  "market": "US",
+  "time": "2026-10-22T19:15:07.893908+00:00",
+  "price": 438.24,
+  "change_pct": 10.23,
+  "rel_vol": 2.12,
+  "score": 63,
+  "ampel": {
+   "farbe": "gelb",
+   "label": "beobachten",
+   "emoji": "🟡"
+  },
+  "grund": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "horizonte": {
+   "kurzfristig": 34,
+   "mittelfristig": 82,
+   "langfristig": 76
+  },
+  "live": {
+   "price": 438.92,
+   "change_pct": 10.4,
+   "rel_vol": 2.16,
+   "time": "2026-10-22T19:52:19.162528+00:00"
+  }
+ },
+ {
+  "id": "20261021-CRL",
+  "symbol": "CRL",
+  "name": "Charles River Laboratories International, Inc.",
+  "market": "US",
+  "time": "2026-10-21T19:40:23.502150+00:00",
+  "price": 347.48,
+  "change_pct": 10.15,
+  "rel_vol": 2.16,
+  "score": 43,
+  "ampel": {
+   "farbe": "rot",
+   "label": "Finger weg",
+   "emoji": "🔴"
+  },
+  "grund": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "horizonte": {
+   "kurzfristig": 40,
+   "mittelfristig": 58,
+   "langfristig": 28
+  },
+  "live": {
+   "price": 347.48,
+   "change_pct": 10.15,
+   "rel_vol": 2.16,
+   "time": "2026-10-21T19:40:23.502150+00:00"
+  }
+ },
+ {
+  "id": "20261021-SPCX",
+  "symbol": "SPCX",
+  "name": "Space Exploration Technologies Corp.",
+  "market": "US",
+  "time": "2026-10-21T14:20:01.052434+00:00",
+  "price": 162.72,
+  "change_pct": 10.11,
+  "rel_vol": 6.52,
+  "score": 56,
+  "ampel": {
+   "farbe": "gelb",
+   "label": "beobachten",
+   "emoji": "🟡"
+  },
+  "grund": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "horizonte": {
+   "kurzfristig": 53,
+   "mittelfristig": 70,
+   "langfristig": 44
+  },
+  "live": {
+   "price": 158.44,
+   "change_pct": 7.21,
+   "rel_vol": 2.48,
+   "time": "2026-10-21T19:40:23.502150+00:00"
+  }
+ },
+ {
+  "id": "20261021-SMCI",
+  "symbol": "SMCI",
+  "name": "Super Micro Computer, Inc.",
+  "market": "US",
+  "time": "2026-10-21T13:42:58.540538+00:00",
+  "price": 36.29,
+  "change_pct": 11.77,
+  "rel_vol": 3.85,
+  "score": 68,
+  "ampel": {
+   "farbe": "gruen",
+   "label": "interessant",
+   "emoji": "🟢"
+  },
+  "grund": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "horizonte": {
+   "kurzfristig": 49,
+   "mittelfristig": 80,
+   "langfristig": 76
+  },
+  "live": {
+   "price": 35.65,
+   "change_pct": 9.81,
+   "rel_vol": 2.24,
+   "time": "2026-10-21T19:40:23.502150+00:00"
+  }
+ },
+ {
+  "id": "20261020-HAS",
+  "symbol": "HAS",
+  "name": "Hasbro, Inc.",
+  "market": "US",
+  "time": "2026-10-20T18:00:33.924425+00:00",
+  "price": 108.42,
+  "change_pct": 10.08,
+  "rel_vol": 4.14,
+  "score": 61,
+  "ampel": {
+   "farbe": "gelb",
+   "label": "beobachten",
+   "emoji": "🟡"
+  },
+  "grund": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "horizonte": {
+   "kurzfristig": 44,
+   "mittelfristig": 80,
+   "langfristig": 58
+  },
+  "live": {
+   "price": 109.42,
+   "change_pct": 11.1,
+   "rel_vol": 3.67,
+   "time": "2026-10-20T19:51:49.295091+00:00"
+  }
+ },
+ {
+  "id": "20261020-EFX",
+  "symbol": "EFX",
+  "name": "Equifax Inc.",
+  "market": "US",
+  "time": "2026-10-20T15:07:10.157689+00:00",
+  "price": 176.19,
+  "change_pct": 11.11,
+  "rel_vol": 2.69,
+  "score": 54,
+  "ampel": {
+   "farbe": "gelb",
+   "label": "beobachten",
+   "emoji": "🟡"
+  },
+  "grund": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "horizonte": {
+   "kurzfristig": 45,
+   "mittelfristig": 54,
+   "langfristig": 64
+  },
+  "live": {
+   "price": 177.09,
+   "change_pct": 11.68,
+   "rel_vol": 1.65,
+   "time": "2026-10-20T19:51:49.295091+00:00"
+  }
+ }
+]
