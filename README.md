@@ -46,7 +46,7 @@ GitHub führt geplante Läufe bei hoher Last manchmal ein paar Minuten verspäte
 ### 3. Starten und testen
 1. *Actions → Test-Alarm senden → Run workflow*: Auf dem iPhone muss eine Push-Nachricht ankommen.
 2. *Actions → Wochenlauf → Run workflow* (dauert 10–20 Min.), danach *Tageslauf → Run workflow*.
-3. Web-App öffnen: `https://<dein-github-name>.github.io/aktien-radar/`.
+3. Web-App öffnen: **https://nunzionardelli-0711.github.io/aktien-radar/**.
    - iPhone: in Safari öffnen → Teilen → **Zum Home-Bildschirm**.
    - PC: im Browser öffnen; Chrome/Edge bieten „Installieren“ an.
 
