@@ -1,0 +1,139 @@
+{
+ "id": "20261109-AMD",
+ "symbol": "AMD",
+ "name": "Advanced Micro Devices, Inc.",
+ "market": "US",
+ "indices": [
+  "S&P 500",
+  "Nasdaq 100"
+ ],
+ "time": "2026-11-09T16:46:45.590521+00:00",
+ "price": 496.98,
+ "change_pct": 10.67,
+ "rel_vol": 2.57,
+ "score": 70,
+ "ampel": {
+  "farbe": "gruen",
+  "label": "interessant",
+  "emoji": "🟢"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 67,
+   "label": "chancenreich",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 80,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 62,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "analyst",
+  "label": "Analysten-Hochstufung",
+  "headline": "AMD Soars 12% on “Undeniable” Data Center Success per Oppenheimer Upgrade",
+  "source": "TIKR"
+ },
+ "begruendung": "Advanced Micro Devices, Inc. steigt um +10.7 % bei 2.6-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Analysten-Hochstufung („AMD Soars 12% on “Undeniable” Data Center Success per Oppenheimer Upgrade“). Pro: Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie). Contra: Sehr hoch bewertet: KGV 106 vs. Branche 27. Gesamtbild: interessant – eine nähere Prüfung lohnt sich.",
+ "chancen": [
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)",
+  "Starkes Umsatzwachstum (+45 %)",
+  "Gewinn wächst stark (+94 %)",
+  "Hohe Gewinnmarge (17 %)",
+  "Geringe Verschuldung"
+ ],
+ "risiken": [
+  "Sehr hoch bewertet: KGV 106 vs. Branche 27"
+ ],
+ "fundamental": {
+  "kgv": 106.3237,
+  "kgv_erwartet": 28.188,
+  "umsatzwachstum": 0.447,
+  "gewinnwachstum": 0.938,
+  "marge": 0.1677,
+  "verschuldung": 13.469,
+  "marktkap": 816099229696.0,
+  "kursziel_analysten": 658.5292,
+  "analysten": "strong_buy",
+  "sektor": "Technology",
+  "branche": "Semiconductors",
+  "waehrung": "USD",
+  "beschreibung": "Advanced Micro Devices, Inc. operates as a semiconductor company internationally. It operates in three segments: Data Center, Client and Gaming, and Embedded. The company offers artificial intelligence (AI) accelerators, microprocessors, and graphics processing units (GPUs) as standalone devices or as incorporated into accelerated processing units, chipsets, and data center and professional GPUs; ",
+  "branche_median": {
+   "kgv": 27.4323,
+   "umsatzwachstum": 0.184,
+   "marge": 0.1636,
+   "verschuldung": 43.8015,
+   "n": 111
+  }
+ },
+ "technik": {
+  "kurs": 496.98,
+  "vortag": 449.04,
+  "rsi": 45.9,
+  "sma50": 546.8138,
+  "sma200": 415.9775,
+  "ueber_sma50": false,
+  "ueber_sma200": true,
+  "high52": 658.52,
+  "low52": 188.22,
+  "abstand_high52_pct": -24.5,
+  "rel_volumen": 2.57,
+  "volumen": 24894918.0,
+  "avg_volumen20": 27586460.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": "2027-02-02",
+ "news": [
+  {
+   "title": "Tech stocks rally as Nvidia stock and oil prices fall: AlphaCheck",
+   "url": "https://finance.yahoo.com/markets/article/tech-stocks-rally-as-nvidia-stock-and-oil-prices-fall-alphacheck-152208023.html",
+   "publisher": "Yahoo Finance",
+   "time": "2026-11-09T15:22:08+00:00"
+  },
+  {
+   "title": "Nvidia's shares slide as chip giant probes CEO over spy claims",
+   "url": "https://finance.yahoo.com/news/south-korea-says-nvidia-issues-022650481.html",
+   "publisher": "Reuters",
+   "time": "2026-11-09T16:34:16+00:00"
+  },
+  {
+   "title": "Nvidia stock sinks 5% as chipmaker investigates CEO Jensen Huang's relationship with alleged Chinese spy",
+   "url": "https://finance.yahoo.com/markets/article/nvidia-stock-sinks-as-chipmaker-investigates-ceo-jensen-huangs-relationship-with-alleged-chinese-spy-130346548.html",
+   "publisher": "Yahoo Finance",
+   "time": "2026-11-09T13:03:46+00:00"
+  },
+  {
+   "title": "AMD Soars 12% on “Undeniable” Data Center Success per Oppenheimer Upgrade",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/amd-soars-12-undeniable-data-160850436.html",
+   "publisher": "TIKR",
+   "time": "2026-11-09T16:08:50+00:00"
+  },
+  {
+   "title": "Alphabet Stock Rises as Google Adds Two New TPU Variants",
+   "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-stock-rises-google-adds-160513423.html",
+   "publisher": "GuruFocus.com",
+   "time": "2026-11-09T16:05:13+00:00"
+  },
+  {
+   "title": "AMD Just Eased Wall Street’s AI Spending Scare. Here’s What It Means for the Stock",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/amd-just-eased-wall-street-160339772.html",
+   "publisher": "24/7 Wall St.",
+   "time": "2026-11-09T16:03:39+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 496.98,
+  "change_pct": 10.67,
+  "rel_vol": 2.57,
+  "time": "2026-11-09T16:46:45.590521+00:00"
+ },
+ "pushed": true
+}

@@ -1,0 +1,137 @@
+{
+ "id": "20261113-GLJ.DE",
+ "symbol": "GLJ.DE",
+ "name": "Grenke AG",
+ "market": "DE",
+ "indices": [
+  "SDAX"
+ ],
+ "time": "2026-11-13T10:23:38.611775+00:00",
+ "price": 11.66,
+ "change_pct": 10.84,
+ "rel_vol": 3.01,
+ "score": 64,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 76,
+   "label": "chancenreich",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 60,
+   "label": "neutral",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 54,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "earnings",
+  "label": "Quartalszahlen / Prognose",
+  "headline": "What Grenke (GLJ) Said on Its Q3 Earnings Call",
+  "source": "MarketBeat"
+ },
+ "begruendung": "Grenke AG steigt um +10.8 % bei 3.0-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Quartalszahlen / Prognose („What Grenke (GLJ) Said on Its Q3 Earnings Call“). Pro: Deutlich erhöhtes Volumen (3.0× normal). Contra: Langfristiger Abwärtstrend – Kurs trotz Sprung unter der 200-Tage-Linie. Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [
+  "Deutlich erhöhtes Volumen (3.0× normal)",
+  "Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge",
+  "Günstig bewertet: KGV 9 vs. Branche 14"
+ ],
+ "risiken": [
+  "Langfristiger Abwärtstrend – Kurs trotz Sprung unter der 200-Tage-Linie",
+  "Hohe Verschuldung (Verschuldungsgrad 5.5×)"
+ ],
+ "fundamental": {
+  "kgv": 8.6222,
+  "kgv_erwartet": 7.2659,
+  "umsatzwachstum": 0.065,
+  "gewinnwachstum": 0.035,
+  "marge": 0.1038,
+  "verschuldung": 545.289,
+  "marktkap": 514230528.0,
+  "kursziel_analysten": 17.4,
+  "analysten": "buy",
+  "sektor": "Financial Services",
+  "branche": "Credit Services",
+  "waehrung": "EUR",
+  "beschreibung": "Grenke AG, together with its subsidiaries, provides financial services to small and medium-sized (SME) enterprises in Germany, France, Italy, and internationally. It is involved in the financing for commercial lessees; leasing, services, protection, and maintenance offers, as well as small-ticket leasing of IT products, such as PCs, notebooks, servers, monitors, and other peripheral devices. The c",
+  "branche_median": {
+   "kgv": 13.6099,
+   "umsatzwachstum": 0.078,
+   "marge": 0.2124,
+   "verschuldung": 52.087,
+   "n": 83
+  }
+ },
+ "technik": {
+  "kurs": 11.66,
+  "vortag": 10.52,
+  "rsi": 71.6,
+  "sma50": 10.627,
+  "sma200": 12.1959,
+  "ueber_sma50": true,
+  "ueber_sma200": false,
+  "high52": 16.08,
+  "low52": 9.73,
+  "abstand_high52_pct": -27.5,
+  "rel_volumen": 3.01,
+  "volumen": 53275.0,
+  "avg_volumen20": 62815.0,
+  "trend": "Abwärtstrend"
+ },
+ "naechste_zahlen": "2026-11-12",
+ "news": [
+  {
+   "title": "What Grenke (GLJ) Said on Its Q3 Earnings Call",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/grenke-glj-said-q3-earnings-131430987.html",
+   "publisher": "MarketBeat",
+   "time": "2026-11-12T13:14:30+00:00"
+  },
+  {
+   "title": "Grenke AG (WBO:GLJ) (Q2 2026) Earnings Call Highlights: Profit Surges 25% Amidst Elevated Loss Rates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/grenke-ag-wbo-glj-q2-010224523.html",
+   "publisher": "GuruFocus.com",
+   "time": "2026-08-19T01:02:24+00:00"
+  },
+  {
+   "title": "Grenke Q2 Earnings Call Highlights",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/grenke-q2-earnings-call-highlights-100436498.html",
+   "publisher": "MarketBeat",
+   "time": "2026-08-13T10:04:36+00:00"
+  },
+  {
+   "title": "Why The Grenke (XTRA:GLJ) Story Is Shifting As Analysts Recalibrate Price Targets And Assumptions",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/why-grenke-xtra-glj-story-071420136.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-05-22T07:14:20+00:00"
+  },
+  {
+   "title": "Grenke Q1 Earnings Call Highlights",
+   "url": "https://finance.yahoo.com/news/grenke-q1-earnings-call-highlights-090638490.html",
+   "publisher": "MarketBeat",
+   "time": "2026-05-13T09:06:38+00:00"
+  },
+  {
+   "title": "How The Grenke (XTRA:GLJ) Story Is Shifting As Analysts Refine Growth And Valuation Expectations",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/grenke-xtra-glj-story-shifting-042748258.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-03-20T04:27:48+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 11.66,
+  "change_pct": 10.84,
+  "rel_vol": 3.01,
+  "time": "2026-11-13T10:23:38.611775+00:00"
+ },
+ "pushed": true
+}

@@ -1,0 +1,102 @@
+{
+ "id": "20261029-AIXA.DE",
+ "symbol": "AIXA.DE",
+ "name": "AIXTRON SE",
+ "market": "DE",
+ "indices": [
+  "MDAX"
+ ],
+ "time": "2026-10-29T09:25:50.515308+00:00",
+ "price": 34.08,
+ "change_pct": 11.92,
+ "rel_vol": 2.63,
+ "score": 38,
+ "ampel": {
+  "farbe": "rot",
+  "label": "Finger weg",
+  "emoji": "🔴"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 45,
+   "label": "neutral",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 22,
+   "label": "ungünstig",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 50,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "none",
+  "label": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "headline": null,
+  "source": ""
+ },
+ "begruendung": "AIXTRON SE steigt um +11.9 % bei 2.6-fachem Handelsvolumen. In den aktuellen Nachrichten findet sich kein klarer Auslöser. Pro: Geringe Verschuldung. Contra: Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein. Gesamtbild: die Risiken überwiegen – eher Finger weg.",
+ "chancen": [
+  "Geringe Verschuldung"
+ ],
+ "risiken": [
+  "Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein",
+  "Quartalszahlen in 0 Tag(en) – erhöhte Schwankung möglich",
+  "Langfristiger Abwärtstrend – Kurs trotz Sprung unter der 200-Tage-Linie",
+  "Umsatz schrumpft (-16 %)",
+  "Gewinn rückläufig (-6 %)",
+  "Sehr hoch bewertet: KGV 66 vs. Branche 32"
+ ],
+ "fundamental": {
+  "kgv": 65.5769,
+  "kgv_erwartet": 24.3345,
+  "umsatzwachstum": -0.162,
+  "gewinnwachstum": -0.056,
+  "marge": 0.1208,
+  "verschuldung": 35.431,
+  "marktkap": 3845997568.0,
+  "kursziel_analysten": 48.54,
+  "analysten": "buy",
+  "sektor": "Technology",
+  "branche": "Semiconductor Equipment & Materials",
+  "waehrung": "EUR",
+  "beschreibung": "AIXTRON SE, together with its subsidiaries, manufactures and sells deposition equipment to the semiconductor industry in Asia, Europe, and the United States. The company offers G10-SiC, G10-GaN, G10-AsP, AIX G5+ C, Closed Coupled Showerhead systems for research and development, AIX 2800G4-TM, and AIX G5 WW C. It also develops, produces, and installs equipment for the deposition of semiconductor ma",
+  "branche_median": {
+   "kgv": 31.7105,
+   "umsatzwachstum": 0.166,
+   "marge": 0.1637,
+   "verschuldung": 47.906,
+   "n": 109
+  }
+ },
+ "technik": {
+  "kurs": 34.08,
+  "vortag": 30.45,
+  "rsi": 51.4,
+  "sma50": 35.4292,
+  "sma200": 38.4935,
+  "ueber_sma50": false,
+  "ueber_sma200": false,
+  "high52": 62.66,
+  "low52": 12.77,
+  "abstand_high52_pct": -45.6,
+  "rel_volumen": 2.63,
+  "volumen": 384813.0,
+  "avg_volumen20": 870296.0,
+  "trend": "Abwärtstrend"
+ },
+ "naechste_zahlen": "2026-10-29",
+ "news": [],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 34.08,
+  "change_pct": 11.92,
+  "rel_vol": 2.63,
+  "time": "2026-10-29T09:25:50.515308+00:00"
+ },
+ "pushed": true
+}

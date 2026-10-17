@@ -1,0 +1,139 @@
+{
+ "id": "20261104-APP",
+ "symbol": "APP",
+ "name": "AppLovin Corporation",
+ "market": "US",
+ "indices": [
+  "S&P 500",
+  "Nasdaq 100"
+ ],
+ "time": "2026-11-04T16:26:57.435339+00:00",
+ "price": 270.1,
+ "change_pct": 10.01,
+ "rel_vol": 2.65,
+ "score": 69,
+ "ampel": {
+  "farbe": "gruen",
+  "label": "interessant",
+  "emoji": "🟢"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 72,
+   "label": "chancenreich",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 66,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 70,
+   "label": "chancenreich",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "earnings",
+  "label": "Quartalszahlen / Prognose",
+  "headline": "AppLovin Fell 60% Even With Today’s Pop. Tomorrow We Learn if Earnings Fell With It",
+  "source": "TIKR"
+ },
+ "begruendung": "AppLovin Corporation steigt um +10.0 % bei 2.7-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Quartalszahlen / Prognose („AppLovin Fell 60% Even With Today’s Pop. Tomorrow We Learn if Earnings Fell With It“). Pro: Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge. Contra: Quartalszahlen in 0 Tag(en) – erhöhte Schwankung möglich. Gesamtbild: interessant – eine nähere Prüfung lohnt sich.",
+ "chancen": [
+  "Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge",
+  "Starkes Umsatzwachstum (+53 %)",
+  "Gewinn wächst stark (+57 %)",
+  "Hohe Gewinnmarge (65 %)"
+ ],
+ "risiken": [
+  "Quartalszahlen in 0 Tag(en) – erhöhte Schwankung möglich",
+  "Langfristiger Abwärtstrend – Kurs trotz Sprung unter der 200-Tage-Linie"
+ ],
+ "fundamental": {
+  "kgv": 20.7667,
+  "kgv_erwartet": 13.4997,
+  "umsatzwachstum": 0.528,
+  "gewinnwachstum": 0.57,
+  "marge": 0.6458,
+  "verschuldung": 111.13,
+  "marktkap": 90414202880.0,
+  "kursziel_analysten": 448.4326,
+  "analysten": "buy",
+  "sektor": "Communication Services",
+  "branche": "Advertising Agencies",
+  "waehrung": "USD",
+  "beschreibung": "AppLovin Corporation provides end-to-end artificial intelligence-powered advertising solutions for businesses in the United States and internationally. It operates through two segments, Advertising and Apps. The company offers Axon Ads Manager, a suite of marketing solutions that enables developers to automate, optimize, and manage marketing efforts; MAX, an in-app bidding technology that optimize",
+  "branche_median": {
+   "kgv": 17.6382,
+   "umsatzwachstum": 0.101,
+   "marge": 0.0891,
+   "verschuldung": 67.92,
+   "n": 34
+  }
+ },
+ "technik": {
+  "kurs": 270.1,
+  "vortag": 245.51,
+  "rsi": 49.6,
+  "sma50": 291.5994,
+  "sma200": 412.3089,
+  "ueber_sma50": false,
+  "ueber_sma200": false,
+  "high52": 738.01,
+  "low52": 225.19,
+  "abstand_high52_pct": -63.4,
+  "rel_volumen": 2.65,
+  "volumen": 3014457.0,
+  "avg_volumen20": 3789335.0,
+  "trend": "Abwärtstrend"
+ },
+ "naechste_zahlen": "2026-11-04",
+ "news": [
+  {
+   "title": "AppLovin Fell 60% Even With Today’s Pop. Tomorrow We Learn if Earnings Fell With It",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/applovin-fell-60-even-today-192721624.html",
+   "publisher": "TIKR",
+   "time": "2026-11-03T19:27:21+00:00"
+  },
+  {
+   "title": "Hedge Funds Are Snapping Up AppLovin (APP) at a Steep Discount",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/hedge-funds-snapping-applovin-app-184845036.html",
+   "publisher": "Insider Monkey",
+   "time": "2026-11-03T18:48:45+00:00"
+  },
+  {
+   "title": "Down 69% from its high: Is this 84% margin ad-tech stock a bargain?",
+   "url": "https://finance.yahoo.com/media-advertising/articles/down-69-high-84-margin-081407514.html",
+   "publisher": "Investing.com",
+   "time": "2026-11-03T08:14:07+00:00"
+  },
+  {
+   "title": "Has AppLovin (APP) Fallen Far Enough To Still Be A Bargain?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/applovin-app-fallen-far-enough-221143924.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-11-02T22:11:43+00:00"
+  },
+  {
+   "title": "AppLovin Is the Worst-Performing Stock in the S&P 500 This Year. Has the Market Overreacted?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/applovin-worst-performing-stock-p-205901203.html",
+   "publisher": "Motley Fool",
+   "time": "2026-11-02T20:59:01+00:00"
+  },
+  {
+   "title": "Should AppLovin Stock Be in Your Portfolio Before Q3 Earnings?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/applovin-stock-portfolio-q3-earnings-171600582.html",
+   "publisher": "Zacks",
+   "time": "2026-11-02T17:16:00+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 270.1,
+  "change_pct": 10.01,
+  "rel_vol": 2.65,
+  "time": "2026-11-04T16:26:57.435339+00:00"
+ },
+ "pushed": true
+}

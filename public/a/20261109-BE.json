@@ -1,0 +1,136 @@
+{
+ "id": "20261109-BE",
+ "symbol": "BE",
+ "name": "Bloom Energy Corporation",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-11-09T15:40:42.713022+00:00",
+ "price": 196.51,
+ "change_pct": 13.43,
+ "rel_vol": 2.3,
+ "score": 66,
+ "ampel": {
+  "farbe": "gruen",
+  "label": "interessant",
+  "emoji": "🟢"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 72,
+   "label": "chancenreich",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 78,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 46,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "earnings",
+  "label": "Quartalszahlen / Prognose",
+  "headline": "Bloom Energy Jumps 8%, FuelCell Energy Rises 3% as Fuel Cell Stocks Rebound; Plug Power Holds Steady Ahead of Earnings",
+  "source": "24/7 Wall St."
+ },
+ "begruendung": "Bloom Energy Corporation steigt um +13.4 % bei 2.3-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Quartalszahlen / Prognose („Bloom Energy Jumps 8%, FuelCell Energy Rises 3% as Fuel Cell Stocks Rebound; Plug Power Holds Steady Ahead of Earnings“). Pro: Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge. Contra: Sehr hoch bewertet: KGV 119 vs. Branche 24. Gesamtbild: interessant – eine nähere Prüfung lohnt sich.",
+ "chancen": [
+  "Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge",
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)",
+  "Starkes Umsatzwachstum (+138 %)"
+ ],
+ "risiken": [
+  "Sehr hoch bewertet: KGV 119 vs. Branche 24"
+ ],
+ "fundamental": {
+  "kgv": 118.9758,
+  "kgv_erwartet": 36.8733,
+  "umsatzwachstum": 1.381,
+  "gewinnwachstum": null,
+  "marge": 0.1353,
+  "verschuldung": 141.948,
+  "marktkap": 58016911360.0,
+  "kursziel_analysten": 283.8462,
+  "analysten": "buy",
+  "sektor": "Industrials",
+  "branche": "Electrical Equipment & Parts",
+  "waehrung": "USD",
+  "beschreibung": "Bloom Energy Corporation designs, manufactures, sells, and installs solid oxide fuel cell systems for on-site power generation in the United States and internationally. It offers Bloom Energy Server, an energy server platform to convert fuel, such as natural gas, biogas, hydrogen, or a blend of these fuels, into electricity through a non-combustion electrochemical process. The company also provide",
+  "branche_median": {
+   "kgv": 24.1983,
+   "umsatzwachstum": 0.0995,
+   "marge": 0.0824,
+   "verschuldung": 67.983,
+   "n": 116
+  }
+ },
+ "technik": {
+  "kurs": 196.51,
+  "vortag": 173.24,
+  "rsi": 43.4,
+  "sma50": 246.0664,
+  "sma200": 222.4111,
+  "ueber_sma50": false,
+  "ueber_sma200": false,
+  "high52": 351.28,
+  "low52": 75.7,
+  "abstand_high52_pct": -44.1,
+  "rel_volumen": 2.3,
+  "volumen": 7539798.0,
+  "avg_volumen20": 18080645.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": "2026-10-22",
+ "news": [
+  {
+   "title": "Bloom Energy Jumps 8%, FuelCell Energy Rises 3% as Fuel Cell Stocks Rebound; Plug Power Holds Steady Ahead of Earnings",
+   "url": "https://finance.yahoo.com/energy/articles/bloom-energy-jumps-8-fuelcell-144947462.html",
+   "publisher": "24/7 Wall St.",
+   "time": "2026-11-09T14:49:47+00:00"
+  },
+  {
+   "title": "Renewable Energy & Battery Stocks to Buy as Blue Wave Sweeps US Congress",
+   "url": "https://finance.yahoo.com/energy/articles/renewable-energy-battery-stocks-buy-125100665.html",
+   "publisher": "Zacks",
+   "time": "2026-11-09T12:51:00+00:00"
+  },
+  {
+   "title": "The On-Site Power Duel: Bloom Energy vs. GE Vernova",
+   "url": "https://finance.yahoo.com/energy/articles/power-duel-bloom-energy-vs-121509912.html",
+   "publisher": "24/7 Wall St.",
+   "time": "2026-11-09T12:15:09+00:00"
+  },
+  {
+   "title": "Zacks Investment Ideas feature highlights: Bloom Energy, Skyworks Solutions and Quanta Services",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-investment-ideas-feature-highlights-091400948.html",
+   "publisher": "Zacks",
+   "time": "2026-11-09T09:14:00+00:00"
+  },
+  {
+   "title": "Bloom Energy Stock Fell 16% on the Same Day 2 Giant Data Center Deals Named It. Is It a Buy?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/bloom-energy-stock-fell-16-003602254.html",
+   "publisher": "Motley Fool",
+   "time": "2026-11-09T00:36:02+00:00"
+  },
+  {
+   "title": "Not Bloom Energy. Not Vistra. This AI Power Stock Just Posted a 96% Jump in Orders.",
+   "url": "https://finance.yahoo.com/energy/articles/not-bloom-energy-not-vistra-180500572.html",
+   "publisher": "Motley Fool",
+   "time": "2026-11-08T18:05:00+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 196.51,
+  "change_pct": 13.43,
+  "rel_vol": 2.3,
+  "time": "2026-11-09T15:40:42.713022+00:00"
+ },
+ "pushed": true
+}

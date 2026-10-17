@@ -1,0 +1,100 @@
+{
+ "id": "20261021-SPCX",
+ "symbol": "SPCX",
+ "name": "Space Exploration Technologies Corp.",
+ "market": "US",
+ "indices": [
+  "Nasdaq 100"
+ ],
+ "time": "2026-10-21T14:20:01.052434+00:00",
+ "price": 162.72,
+ "change_pct": 10.11,
+ "rel_vol": 6.52,
+ "score": 56,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 53,
+   "label": "neutral",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 70,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 44,
+   "label": "ungünstig",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "none",
+  "label": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "headline": null,
+  "source": ""
+ },
+ "begruendung": "Space Exploration Technologies Corp. steigt um +10.1 % bei 6.5-fachem Handelsvolumen. In den aktuellen Nachrichten findet sich kein klarer Auslöser. Pro: Sehr hohes Handelsvolumen (6.5× normal) – breites Interesse. Contra: Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein. Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [
+  "Sehr hohes Handelsvolumen (6.5× normal) – breites Interesse",
+  "Starkes Umsatzwachstum (+92 %)",
+  "Geringe Verschuldung"
+ ],
+ "risiken": [
+  "Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein",
+  "Unternehmen schreibt Verluste"
+ ],
+ "fundamental": {
+  "kgv": null,
+  "kgv_erwartet": 75.2032,
+  "umsatzwachstum": 0.919,
+  "gewinnwachstum": null,
+  "marge": -0.3566,
+  "verschuldung": 31.211,
+  "marktkap": 2144543834112.0,
+  "kursziel_analysten": 224.8065,
+  "analysten": "buy",
+  "sektor": "Industrials",
+  "branche": "Aerospace & Defense",
+  "waehrung": "USD",
+  "beschreibung": "Space Exploration Technologies Corp. provides satellite-based broadband services in the United States, Ireland, Canada, and internationally. It operates through three operating segments: Space, Connectivity, and AI. The Space segment designs, manufactures, and launches reusable rockets to provide access to space. It also provides launch services for the deployment of payloads to intended orbits fo",
+  "branche_median": {
+   "kgv": 27.1067,
+   "umsatzwachstum": 0.095,
+   "marge": 0.0816,
+   "verschuldung": 66.425,
+   "n": 117
+  }
+ },
+ "technik": {
+  "kurs": 162.72,
+  "vortag": 147.79,
+  "rsi": 58.0,
+  "sma50": 148.623,
+  "sma200": null,
+  "ueber_sma50": true,
+  "ueber_sma200": false,
+  "high52": 225.64,
+  "low52": 104.83,
+  "abstand_high52_pct": -27.9,
+  "rel_volumen": 6.52,
+  "volumen": 82300151.0,
+  "avg_volumen20": 84122820.0,
+  "trend": "unklar"
+ },
+ "naechste_zahlen": "2026-10-20",
+ "news": [],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 162.72,
+  "change_pct": 10.11,
+  "rel_vol": 6.52,
+  "time": "2026-10-21T14:20:01.052434+00:00"
+ },
+ "pushed": true
+}

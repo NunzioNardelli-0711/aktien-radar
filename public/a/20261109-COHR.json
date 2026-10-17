@@ -1,0 +1,138 @@
+{
+ "id": "20261109-COHR",
+ "symbol": "COHR",
+ "name": "Coherent Corp.",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-11-09T15:40:42.713022+00:00",
+ "price": 221.38,
+ "change_pct": 14.82,
+ "rel_vol": 2.99,
+ "score": 68,
+ "ampel": {
+  "farbe": "gruen",
+  "label": "interessant",
+  "emoji": "🟢"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 72,
+   "label": "chancenreich",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 66,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 64,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "earnings",
+  "label": "Quartalszahlen / Prognose",
+  "headline": "AAOI Stock Rises 7% Post Q3 Earnings: Should You Buy, Sell or Hold?",
+  "source": "Zacks"
+ },
+ "begruendung": "Coherent Corp. steigt um +14.8 % bei 3.0-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Quartalszahlen / Prognose („AAOI Stock Rises 7% Post Q3 Earnings: Should You Buy, Sell or Hold?“). Pro: Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge. Contra: Langfristiger Abwärtstrend – Kurs trotz Sprung unter der 200-Tage-Linie. Gesamtbild: interessant – eine nähere Prüfung lohnt sich.",
+ "chancen": [
+  "Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge",
+  "Starkes Umsatzwachstum (+50 %)",
+  "Gewinn wächst stark (+60 %)",
+  "Geringe Verschuldung"
+ ],
+ "risiken": [
+  "Langfristiger Abwärtstrend – Kurs trotz Sprung unter der 200-Tage-Linie",
+  "Teurer als die Branche: KGV 46 vs. 27"
+ ],
+ "fundamental": {
+  "kgv": 45.8271,
+  "kgv_erwartet": 14.1224,
+  "umsatzwachstum": 0.499,
+  "gewinnwachstum": 0.601,
+  "marge": 0.1218,
+  "verschuldung": 37.276,
+  "marktkap": 43595816960.0,
+  "kursziel_analysten": 369.3984,
+  "analysten": "strong_buy",
+  "sektor": "Technology",
+  "branche": "Scientific & Technical Instruments",
+  "waehrung": "USD",
+  "beschreibung": "Coherent Corp. develops, manufactures, and markets lasers, transceivers, other optical and optoelectronic devices, modules, and systems worldwide. Its products include critical components consisting of detectors, passive optics, thermal solutions, and PICS; silicon photonics and other advanced optical technologies; and coherent transmission components, transport products, optical amplifiers, passi",
+  "branche_median": {
+   "kgv": 27.4323,
+   "umsatzwachstum": 0.184,
+   "marge": 0.1636,
+   "verschuldung": 43.8015,
+   "n": 111
+  }
+ },
+ "technik": {
+  "kurs": 221.38,
+  "vortag": 192.81,
+  "rsi": 47.0,
+  "sma50": 270.0158,
+  "sma200": 296.4192,
+  "ueber_sma50": false,
+  "ueber_sma200": false,
+  "high52": 440.0,
+  "low52": 130.42,
+  "abstand_high52_pct": -49.7,
+  "rel_volumen": 2.99,
+  "volumen": 4774750.0,
+  "avg_volumen20": 8815805.0,
+  "trend": "Abwärtstrend"
+ },
+ "naechste_zahlen": "2027-02-03",
+ "news": [
+  {
+   "title": "AAOI Stock Rises 7% Post Q3 Earnings: Should You Buy, Sell or Hold?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/aaoi-stock-rises-7-post-132500865.html",
+   "publisher": "Zacks",
+   "time": "2026-11-09T13:25:00+00:00"
+  },
+  {
+   "title": "Coherent Is Up 21% in a Year as AI Goes “From Copper to Optical.” Is It a Buy?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/coherent-21-ai-goes-copper-093617822.html",
+   "publisher": "TIKR",
+   "time": "2026-11-08T09:36:17+00:00"
+  },
+  {
+   "title": "Applied Optoelectronics Says AI Demand Will Outrun Its Capacity Through 2027",
+   "url": "https://finance.yahoo.com/technology/ai/articles/applied-optoelectronics-says-ai-demand-170637357.html",
+   "publisher": "24/7 Wall St.",
+   "time": "2026-11-07T17:06:37+00:00"
+  },
+  {
+   "title": "Coherent Stock Fell 8% in a Week. J.P. Morgan Sees 100% Upside From Here",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/coherent-stock-fell-8-week-123628522.html",
+   "publisher": "TIKR",
+   "time": "2026-11-07T12:36:28+00:00"
+  },
+  {
+   "title": "Nvidia, Intel, Tesla, AMD, Coherent, Lam Research, Moderna, and More Stocks That Explain Today’s Market",
+   "url": "https://www.barrons.com/articles/stock-movers-ddbd1841?siteid=yhoof2&yptr=yahoo",
+   "publisher": "Barrons.com",
+   "time": "2026-11-06T21:28:00+00:00"
+  },
+  {
+   "title": "Coherent Surges 13% as Investors Revisit $20 Billion AI Deal After Sell-Off; Lumentum Climbs 4%, Applied Optoelectronics Gains 3%",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/coherent-surges-13-investors-revisit-191027314.html",
+   "publisher": "24/7 Wall St.",
+   "time": "2026-11-06T19:10:27+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 221.38,
+  "change_pct": 14.82,
+  "rel_vol": 2.99,
+  "time": "2026-11-09T15:40:42.713022+00:00"
+ },
+ "pushed": true
+}

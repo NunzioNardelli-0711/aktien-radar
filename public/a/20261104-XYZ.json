@@ -1,0 +1,137 @@
+{
+ "id": "20261104-XYZ",
+ "symbol": "XYZ",
+ "name": "Block, Inc.",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-11-04T14:36:46.073860+00:00",
+ "price": 86.66,
+ "change_pct": 14.03,
+ "rel_vol": 2.34,
+ "score": 64,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 72,
+   "label": "chancenreich",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 72,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 46,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "earnings",
+  "label": "Quartalszahlen / Prognose",
+  "headline": "Block Shares Jump More Than 6% as Cash App Growth Drives Q3 Earnings Beat and Higher 2026 Guidance",
+  "source": "InvestorsHub"
+ },
+ "begruendung": "Block, Inc. steigt um +14.0 % bei 2.3-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Quartalszahlen / Prognose („Block Shares Jump More Than 6% as Cash App Growth Drives Q3 Earnings Beat and Higher 2026 Guidance“). Pro: Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge. Contra: Gewinn rückläufig (-83 %). Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [
+  "Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge",
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)",
+  "Geringe Verschuldung"
+ ],
+ "risiken": [
+  "Gewinn rückläufig (-83 %)",
+  "Sehr hoch bewertet: KGV 114 vs. Branche 31"
+ ],
+ "fundamental": {
+  "kgv": 113.8092,
+  "kgv_erwartet": 16.5058,
+  "umsatzwachstum": 0.093,
+  "gewinnwachstum": -0.833,
+  "marge": 0.0143,
+  "verschuldung": 32.58,
+  "marktkap": 51965767680.0,
+  "kursziel_analysten": 97.9112,
+  "analysten": "buy",
+  "sektor": "Technology",
+  "branche": "Software - Infrastructure",
+  "waehrung": "USD",
+  "beschreibung": "Block, Inc., together with its subsidiaries, builds ecosystems focused on commerce and financial products and services in the United States and internationally. It operates through two segments: Square and Cash App. The Square segment offers managed payment services; software solutions; hardware products, such as registers, terminals, stands, and readers for contactless and chips; banking services",
+  "branche_median": {
+   "kgv": 30.9147,
+   "umsatzwachstum": 0.188,
+   "marge": 0.1637,
+   "verschuldung": 48.997,
+   "n": 109
+  }
+ },
+ "technik": {
+  "kurs": 86.66,
+  "vortag": 76.0,
+  "rsi": 69.5,
+  "sma50": 77.7792,
+  "sma200": 71.2499,
+  "ueber_sma50": true,
+  "ueber_sma200": true,
+  "high52": 86.92,
+  "low52": 48.21,
+  "abstand_high52_pct": -0.3,
+  "rel_volumen": 2.34,
+  "volumen": 1758112.0,
+  "avg_volumen20": 5009395.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": "2026-11-03",
+ "news": [
+  {
+   "title": "Block stock jumps as Jack Dorsey's AI bet shows signs of paying off",
+   "url": "https://finance.yahoo.com/markets/stocks/article/block-stock-jumps-as-jack-dorseys-ai-bet-shows-signs-of-paying-off-125836099.html",
+   "publisher": "Yahoo Finance",
+   "time": "2026-11-04T12:58:36+00:00"
+  },
+  {
+   "title": "Block Shares Jump More Than 6% as Cash App Growth Drives Q3 Earnings Beat and Higher 2026 Guidance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/block-shares-jump-more-6-134949786.html",
+   "publisher": "InvestorsHub",
+   "time": "2026-11-04T13:49:49+00:00"
+  },
+  {
+   "title": "Block Expects to Pay $764 Million to Settle a Justice Department Money-Laundering Probe",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/block-expects-pay-764-million-130212624.html",
+   "publisher": "24/7 Wall St.",
+   "time": "2026-11-04T13:02:12+00:00"
+  },
+  {
+   "title": "Block Earnings Top Wall Street Targets As Cash App Shines",
+   "url": "https://www.investors.com/news/technology/block-stock-xyz-square-block-earnings-news-q32026/?src=A00220&yptr=yahoo",
+   "publisher": "Investor's Business Daily",
+   "time": "2026-11-04T12:57:07+00:00"
+  },
+  {
+   "title": "SpaceX, AMD, Arista, Block, Super Micro, and More Stocks That Explain Today’s Market",
+   "url": "https://www.barrons.com/articles/stock-movers-4be709cb?siteid=yhoof2&yptr=yahoo",
+   "publisher": "Barrons.com",
+   "time": "2026-11-04T12:30:00+00:00"
+  },
+  {
+   "title": "Block Promises Profit Momentum as Its AI Efforts Take Hold",
+   "url": "https://www.barrons.com/articles/block-earnings-price-share-d52678d3?siteid=yhoof2&yptr=yahoo",
+   "publisher": "Barrons.com",
+   "time": "2026-11-04T12:17:00+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 86.66,
+  "change_pct": 14.03,
+  "rel_vol": 2.34,
+  "time": "2026-11-04T14:36:46.073860+00:00"
+ },
+ "pushed": true
+}

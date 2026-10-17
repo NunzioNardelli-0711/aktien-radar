@@ -1,0 +1,101 @@
+{
+ "id": "20261029-GEN",
+ "symbol": "GEN",
+ "name": "Gen Digital Inc.",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-10-29T14:29:55.768371+00:00",
+ "price": 26.98,
+ "change_pct": 10.78,
+ "rel_vol": 2.48,
+ "score": 62,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 45,
+   "label": "neutral",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 82,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 60,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "none",
+  "label": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "headline": null,
+  "source": ""
+ },
+ "begruendung": "Gen Digital Inc. steigt um +10.8 % bei 2.5-fachem Handelsvolumen. In den aktuellen Nachrichten findet sich kein klarer Auslöser. Pro: Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie). Contra: Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein. Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)",
+  "Gewinn wächst stark (+64 %)",
+  "Günstig bewertet: KGV 14 vs. Branche 32",
+  "Hohe Gewinnmarge (21 %)"
+ ],
+ "risiken": [
+  "Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein",
+  "Hohe Verschuldung (Verschuldungsgrad 3.1×)"
+ ],
+ "fundamental": {
+  "kgv": 13.6904,
+  "kgv_erwartet": 8.1311,
+  "umsatzwachstum": 0.063,
+  "gewinnwachstum": 0.64,
+  "marge": 0.2073,
+  "verschuldung": 307.831,
+  "marktkap": 16143891456.0,
+  "kursziel_analysten": 31.475,
+  "analysten": "buy",
+  "sektor": "Technology",
+  "branche": "Software - Infrastructure",
+  "waehrung": "USD",
+  "beschreibung": "Gen Digital Inc. engages in the provision of cyber safety and trust-based solutions for individuals, families, and small businesses. The company offers security and performance management, identity protection, and online privacy, as well as technology platforms. It also provides restoration support services, digital reputation, and secure financial wellness. The company offers its products under t",
+  "branche_median": {
+   "kgv": 31.7105,
+   "umsatzwachstum": 0.166,
+   "marge": 0.1637,
+   "verschuldung": 47.906,
+   "n": 109
+  }
+ },
+ "technik": {
+  "kurs": 26.98,
+  "vortag": 24.35,
+  "rsi": 63.9,
+  "sma50": 26.4708,
+  "sma200": 24.2996,
+  "ueber_sma50": true,
+  "ueber_sma200": true,
+  "high52": 31.65,
+  "low52": 17.78,
+  "abstand_high52_pct": -14.8,
+  "rel_volumen": 2.48,
+  "volumen": 3052172.0,
+  "avg_volumen20": 8018985.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": "2026-10-28",
+ "news": [],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 26.98,
+  "change_pct": 10.78,
+  "rel_vol": 2.48,
+  "time": "2026-10-29T14:29:55.768371+00:00"
+ },
+ "pushed": true
+}

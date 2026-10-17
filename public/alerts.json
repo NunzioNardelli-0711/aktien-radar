@@ -1,0 +1,34 @@
+{
+ "date": "2026-11-13",
+ "items": [
+  {
+   "id": "20261113-GLJ.DE",
+   "symbol": "GLJ.DE",
+   "name": "Grenke AG",
+   "market": "DE",
+   "time": "2026-11-13T10:23:38.611775+00:00",
+   "price": 11.66,
+   "change_pct": 10.84,
+   "rel_vol": 3.01,
+   "score": 64,
+   "ampel": {
+    "farbe": "gelb",
+    "label": "beobachten",
+    "emoji": "🟡"
+   },
+   "grund": "Quartalszahlen / Prognose",
+   "horizonte": {
+    "kurzfristig": 76,
+    "mittelfristig": 60,
+    "langfristig": 54
+   },
+   "live": {
+    "price": 11.82,
+    "change_pct": 12.36,
+    "rel_vol": 2.67,
+    "time": "2026-11-13T16:14:51.885892+00:00"
+   }
+  }
+ ],
+ "updated": "2026-11-13T20:38:27.834917+00:00"
+}

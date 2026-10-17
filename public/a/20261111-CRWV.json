@@ -1,0 +1,138 @@
+{
+ "id": "20261111-CRWV",
+ "symbol": "CRWV",
+ "name": "CoreWeave, Inc.",
+ "market": "US",
+ "indices": [
+  "Nasdaq 100"
+ ],
+ "time": "2026-11-11T18:13:06.865596+00:00",
+ "price": 61.61,
+ "change_pct": 26.43,
+ "rel_vol": 2.73,
+ "score": 50,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 66,
+   "label": "chancenreich",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 58,
+   "label": "neutral",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 22,
+   "label": "ungünstig",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "earnings",
+  "label": "Quartalszahlen / Prognose",
+  "headline": "CoreWeave stock surges as Q3 revenue beats estimates, company raises full-year outlook",
+  "source": "Yahoo Finance"
+ },
+ "begruendung": "CoreWeave, Inc. steigt um +26.4 % bei 2.7-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Quartalszahlen / Prognose („CoreWeave stock surges as Q3 revenue beats estimates, company raises full-year outlook“). Pro: Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge. Contra: Sehr großer Tagessprung (+26 %). Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [
+  "Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge",
+  "Starkes Umsatzwachstum (+168 %)"
+ ],
+ "risiken": [
+  "Sehr großer Tagessprung (+26 %)",
+  "Langfristiger Abwärtstrend – Kurs trotz Sprung unter der 200-Tage-Linie",
+  "Unternehmen schreibt Verluste",
+  "Hohe Verschuldung (Verschuldungsgrad 16.5×)"
+ ],
+ "fundamental": {
+  "kgv": null,
+  "kgv_erwartet": -32.3831,
+  "umsatzwachstum": 1.683,
+  "gewinnwachstum": null,
+  "marge": -0.2556,
+  "verschuldung": 1645.193,
+  "marktkap": 33980223488.0,
+  "kursziel_analysten": 131.5263,
+  "analysten": "buy",
+  "sektor": "Technology",
+  "branche": "Software - Infrastructure",
+  "waehrung": "USD",
+  "beschreibung": "CoreWeave, Inc. operates as a cloud infrastructure technology company in the United States. The company offers CoreWeave Cloud platform that comprises proprietary software and cloud services that deliver the automation and efficiency needed to manage complex artificial intelligence (AI) infrastructure at scale. It also offers data and storage solutions, such as Local Object Transport Accelerator; ",
+  "branche_median": {
+   "kgv": 27.4323,
+   "umsatzwachstum": 0.184,
+   "marge": 0.1636,
+   "verschuldung": 43.8015,
+   "n": 111
+  }
+ },
+ "technik": {
+  "kurs": 61.61,
+  "vortag": 48.73,
+  "rsi": 50.1,
+  "sma50": 74.1325,
+  "sma200": 89.7068,
+  "ueber_sma50": false,
+  "ueber_sma200": false,
+  "high52": 138.25,
+  "low52": 40.58,
+  "abstand_high52_pct": -55.4,
+  "rel_volumen": 2.73,
+  "volumen": 113167681.0,
+  "avg_volumen20": 72450840.0,
+  "trend": "Abwärtstrend"
+ },
+ "naechste_zahlen": "2026-11-10",
+ "news": [
+  {
+   "title": "CoreWeave stock surges as Q3 revenue beats estimates, company raises full-year outlook",
+   "url": "https://finance.yahoo.com/markets/stocks/article/coreweave-stock-pops-as-q3-revenue-beats-estimates-company-raises-full-year-outlook-211533280.html",
+   "publisher": "Yahoo Finance",
+   "time": "2026-11-10T21:15:33+00:00"
+  },
+  {
+   "title": "CoreWeave stock pops — but its debt problem hasn't gone anywhere",
+   "url": "https://finance.yahoo.com/markets/article/coreweave-stock-pops--but-its-debt-problem-hasnt-gone-anywhere-164359122.html",
+   "publisher": "Yahoo Finance",
+   "time": "2026-11-11T16:43:59+00:00"
+  },
+  {
+   "title": "Tech rises as CoreWeave results reignite AI trade: AlphaCheck",
+   "url": "https://finance.yahoo.com/markets/article/tech-rises-coreweave-results-reignite-ai-trade-alphacheck-153336772.html",
+   "publisher": "Yahoo Finance",
+   "time": "2026-11-11T15:33:36+00:00"
+  },
+  {
+   "title": "Nvidia stock rebounds, chip stocks surge as CoreWeave earnings boost AI trade",
+   "url": "https://finance.yahoo.com/markets/article/nvidia-stock-rebounds-chip-stocks-surge-as-coreweave-earnings-boost-ai-trade-151001136.html",
+   "publisher": "Yahoo Finance",
+   "time": "2026-11-11T13:54:39+00:00"
+  },
+  {
+   "title": "Wall Street is shrugging at CoreWeave's debt and OpenAI's losses",
+   "url": "https://finance.yahoo.com/video/wall-street-is-shrugging-at-coreweaves-debt-and-openais-losses-150933630.html",
+   "publisher": "Yahoo Finance Video",
+   "time": "2026-11-11T15:09:33+00:00"
+  },
+  {
+   "title": "AI Trade bounces back, Kalshi possibly facing charges, OpenAI continues to see heavy losses",
+   "url": "https://finance.yahoo.com/video/ai-trade-bounces-back-kalshi-possibly-facing-charges-openai-continues-to-see-heavy-losses-144418293.html",
+   "publisher": "Yahoo Finance Video",
+   "time": "2026-11-11T14:44:18+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 61.61,
+  "change_pct": 26.43,
+  "rel_vol": 2.73,
+  "time": "2026-11-11T18:13:06.865596+00:00"
+ },
+ "pushed": true
+}

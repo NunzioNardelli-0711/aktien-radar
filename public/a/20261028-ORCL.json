@@ -1,0 +1,102 @@
+{
+ "id": "20261028-ORCL",
+ "symbol": "ORCL",
+ "name": "Oracle Corporation",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-10-28T19:18:10.461695+00:00",
+ "price": 146.41,
+ "change_pct": 12.17,
+ "rel_vol": 2.26,
+ "score": 59,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 45,
+   "label": "neutral",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 68,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 66,
+   "label": "chancenreich",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "none",
+  "label": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "headline": null,
+  "source": ""
+ },
+ "begruendung": "Oracle Corporation steigt um +12.2 % bei 2.3-fachem Handelsvolumen. In den aktuellen Nachrichten findet sich kein klarer Auslöser. Pro: Starkes Umsatzwachstum (+30 %). Contra: Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein. Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [
+  "Starkes Umsatzwachstum (+30 %)",
+  "Gewinn wächst stark (+55 %)",
+  "Günstig bewertet: KGV 23 vs. Branche 32",
+  "Hohe Gewinnmarge (26 %)"
+ ],
+ "risiken": [
+  "Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein",
+  "Langfristiger Abwärtstrend – Kurs trotz Sprung unter der 200-Tage-Linie",
+  "Hohe Verschuldung (Verschuldungsgrad 2.5×)"
+ ],
+ "fundamental": {
+  "kgv": 22.931,
+  "kgv_erwartet": 13.3101,
+  "umsatzwachstum": 0.296,
+  "gewinnwachstum": 0.545,
+  "marge": 0.2636,
+  "verschuldung": 251.716,
+  "marktkap": 443508883456.0,
+  "kursziel_analysten": 235.8034,
+  "analysten": "buy",
+  "sektor": "Technology",
+  "branche": "Software - Infrastructure",
+  "waehrung": "USD",
+  "beschreibung": "Oracle Corporation offers products and services that build, run and support enterprise information technology frameworks worldwide. Its Oracle cloud software as a service offering includes various cloud software applications, including Oracle Fusion cloud enterprise resource planning ERP, Oracle Fusion cloud enterprise performance management EPM, Oracle Fusion cloud supply chain and manufacturing ",
+  "branche_median": {
+   "kgv": 31.7105,
+   "umsatzwachstum": 0.166,
+   "marge": 0.1637,
+   "verschuldung": 47.906,
+   "n": 109
+  }
+ },
+ "technik": {
+  "kurs": 146.41,
+  "vortag": 130.53,
+  "rsi": 58.7,
+  "sma50": 142.076,
+  "sma200": 157.8936,
+  "ueber_sma50": true,
+  "ueber_sma200": false,
+  "high52": 285.46,
+  "low52": 114.5,
+  "abstand_high52_pct": -48.7,
+  "rel_volumen": 2.26,
+  "volumen": 56029344.0,
+  "avg_volumen20": 27724555.0,
+  "trend": "Abwärtstrend"
+ },
+ "naechste_zahlen": "2026-12-14",
+ "news": [],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 146.41,
+  "change_pct": 12.17,
+  "rel_vol": 2.26,
+  "time": "2026-10-28T19:18:10.461695+00:00"
+ },
+ "pushed": true
+}

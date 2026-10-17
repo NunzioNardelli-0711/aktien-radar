@@ -1,0 +1,143 @@
+{
+ "updated": "2026-11-13T20:38:27.834917+00:00",
+ "markets": [
+  "US"
+ ],
+ "items": [
+  {
+   "symbol": "ALNY",
+   "name": "Alnylam Pharmaceuticals",
+   "market": "US",
+   "price": 164.76,
+   "change_pct": 5.17,
+   "rel_vol": 0.83,
+   "alarm": false
+  },
+  {
+   "symbol": "GPN",
+   "name": "Global Payments",
+   "market": "US",
+   "price": 91.93,
+   "change_pct": 4.24,
+   "rel_vol": 0.49,
+   "alarm": false
+  },
+  {
+   "symbol": "CHTR",
+   "name": "Charter Communications",
+   "market": "US",
+   "price": 138.23,
+   "change_pct": 4.2,
+   "rel_vol": 0.75,
+   "alarm": false
+  },
+  {
+   "symbol": "STE",
+   "name": "Steris",
+   "market": "US",
+   "price": 263.62,
+   "change_pct": 4.02,
+   "rel_vol": 0.71,
+   "alarm": false
+  },
+  {
+   "symbol": "FIS",
+   "name": "Fidelity National Information Services",
+   "market": "US",
+   "price": 29.5,
+   "change_pct": 4.0,
+   "rel_vol": 0.54,
+   "alarm": false
+  },
+  {
+   "symbol": "FOXA",
+   "name": "Fox Corporation (Class A)",
+   "market": "US",
+   "price": 68.32,
+   "change_pct": 3.97,
+   "rel_vol": 0.45,
+   "alarm": false
+  },
+  {
+   "symbol": "FOX",
+   "name": "Fox Corporation (Class B)",
+   "market": "US",
+   "price": 60.94,
+   "change_pct": 3.8,
+   "rel_vol": 0.27,
+   "alarm": false
+  },
+  {
+   "symbol": "APP",
+   "name": "AppLovin",
+   "market": "US",
+   "price": 408.34,
+   "change_pct": 3.72,
+   "rel_vol": 0.5,
+   "alarm": false
+  },
+  {
+   "symbol": "TPL",
+   "name": "Texas Pacific Land Corporation",
+   "market": "US",
+   "price": 291.38,
+   "change_pct": 3.63,
+   "rel_vol": 0.67,
+   "alarm": false
+  },
+  {
+   "symbol": "FISV",
+   "name": "Fiserv",
+   "market": "US",
+   "price": 63.55,
+   "change_pct": 3.33,
+   "rel_vol": 0.61,
+   "alarm": false
+  },
+  {
+   "symbol": "DPZ",
+   "name": "Domino's",
+   "market": "US",
+   "price": 344.29,
+   "change_pct": 3.32,
+   "rel_vol": 0.79,
+   "alarm": false
+  },
+  {
+   "symbol": "AXON",
+   "name": "Axon Enterprise",
+   "market": "US",
+   "price": 317.02,
+   "change_pct": 3.23,
+   "rel_vol": 0.57,
+   "alarm": false
+  },
+  {
+   "symbol": "KDP",
+   "name": "Keurig Dr Pepper",
+   "market": "US",
+   "price": 36.56,
+   "change_pct": 3.23,
+   "rel_vol": 2.39,
+   "alarm": false
+  },
+  {
+   "symbol": "ABNB",
+   "name": "Airbnb",
+   "market": "US",
+   "price": 186.48,
+   "change_pct": 2.95,
+   "rel_vol": 0.7,
+   "alarm": false
+  },
+  {
+   "symbol": "WDAY",
+   "name": "Workday, Inc.",
+   "market": "US",
+   "price": 196.15,
+   "change_pct": 2.89,
+   "rel_vol": 0.38,
+   "alarm": false
+  }
+ ]
+}

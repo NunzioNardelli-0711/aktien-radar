@@ -1,0 +1,102 @@
+{
+ "id": "20261030-GPN",
+ "symbol": "GPN",
+ "name": "Global Payments Inc.",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-10-30T18:19:08.802885+00:00",
+ "price": 95.68,
+ "change_pct": 11.62,
+ "rel_vol": 8.2,
+ "score": 57,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 53,
+   "label": "neutral",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 72,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 44,
+   "label": "ungünstig",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "none",
+  "label": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "headline": null,
+  "source": ""
+ },
+ "begruendung": "Global Payments Inc. steigt um +11.6 % bei 8.2-fachem Handelsvolumen. In den aktuellen Nachrichten findet sich kein klarer Auslöser. Pro: Sehr hohes Handelsvolumen (8.2× normal) – breites Interesse. Contra: Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein. Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [
+  "Sehr hohes Handelsvolumen (8.2× normal) – breites Interesse",
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)",
+  "Starkes Umsatzwachstum (+69 %)"
+ ],
+ "risiken": [
+  "Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein",
+  "Quartalszahlen in 6 Tag(en) – erhöhte Schwankung möglich",
+  "Gewinn rückläufig (-95 %)",
+  "Teurer als die Branche: KGV 45 vs. 26"
+ ],
+ "fundamental": {
+  "kgv": 44.9296,
+  "kgv_erwartet": 5.9437,
+  "umsatzwachstum": 0.686,
+  "gewinnwachstum": -0.952,
+  "marge": -0.0915,
+  "verschuldung": 98.273,
+  "marktkap": 25323978752.0,
+  "kursziel_analysten": 105.0606,
+  "analysten": "buy",
+  "sektor": "Industrials",
+  "branche": "Specialty Business Services",
+  "waehrung": "USD",
+  "beschreibung": "Global Payments Inc. provides payment technology and software solutions for card, check, and digital-based payments in the Americas, Europe, and the Asia-Pacific. It offers authorization, settlement and funding, customer support, chargeback resolution, reconciliation and dispute management, terminal rental, sales and deployment, payment security, and consolidated billing and reporting services. Th",
+  "branche_median": {
+   "kgv": 26.0329,
+   "umsatzwachstum": 0.094,
+   "marge": 0.0817,
+   "verschuldung": 66.425,
+   "n": 117
+  }
+ },
+ "technik": {
+  "kurs": 95.68,
+  "vortag": 85.72,
+  "rsi": 70.3,
+  "sma50": 86.2034,
+  "sma200": 76.8204,
+  "ueber_sma50": true,
+  "ueber_sma200": true,
+  "high52": 95.88,
+  "low52": 61.16,
+  "abstand_high52_pct": -0.2,
+  "rel_volumen": 8.2,
+  "volumen": 11729708.0,
+  "avg_volumen20": 1928740.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": "2026-11-05",
+ "news": [],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 95.68,
+  "change_pct": 11.62,
+  "rel_vol": 8.2,
+  "time": "2026-10-30T18:19:08.802885+00:00"
+ },
+ "pushed": true
+}

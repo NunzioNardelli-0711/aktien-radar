@@ -1,0 +1,139 @@
+{
+ "id": "20261109-LITE",
+ "symbol": "LITE",
+ "name": "Lumentum Holdings Inc.",
+ "market": "US",
+ "indices": [
+  "S&P 500",
+  "Nasdaq 100"
+ ],
+ "time": "2026-11-09T15:40:42.713022+00:00",
+ "price": 600.4,
+ "change_pct": 11.48,
+ "rel_vol": 2.01,
+ "score": 55,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 52,
+   "label": "neutral",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 70,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 44,
+   "label": "ungünstig",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "takeover",
+  "label": "Übernahme / Fusion",
+  "headline": "Tesla Bulls Could Get Burned? Gary Black Sees Trouble With SpaceX All-Stock Merger: Warns 24% Premium 'Can Quickly Go Negative'",
+  "source": "Benzinga"
+ },
+ "begruendung": "Lumentum Holdings Inc. steigt um +11.5 % bei 2.0-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Übernahme / Fusion („Tesla Bulls Could Get Burned? Gary Black Sees Trouble With SpaceX All-Stock Merger: Warns 24% Premium 'Can Quickly Go Negative'“). Pro: Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie). Contra: Übernahmefantasie: weiterer Anstieg meist durch den Angebotspreis begrenzt. Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)",
+  "Starkes Umsatzwachstum (+136 %)",
+  "Gewinn wächst stark (+6980 %)",
+  "Geringe Verschuldung"
+ ],
+ "risiken": [
+  "Übernahmefantasie: weiterer Anstieg meist durch den Angebotspreis begrenzt",
+  "Unternehmen schreibt Verluste"
+ ],
+ "fundamental": {
+  "kgv": null,
+  "kgv_erwartet": 15.1372,
+  "umsatzwachstum": 1.365,
+  "gewinnwachstum": 69.8,
+  "marge": -1.7578,
+  "verschuldung": 31.278,
+  "marktkap": 54490296320.0,
+  "kursziel_analysten": 1077.554,
+  "analysten": "buy",
+  "sektor": "Technology",
+  "branche": "Communication Equipment",
+  "waehrung": "USD",
+  "beschreibung": "Lumentum Holdings Inc. manufactures and sells optical and photonic products in the Americas, the Asia-Pacific, Europe, the Middle East, and Africa. It offers component products, including semiconductor laser chips, laser sub-assemblies, line subsystems, and wavelength management systems. The company also offers system products, such as optical modules, optical circuit switches, and industrial lase",
+  "branche_median": {
+   "kgv": 27.4323,
+   "umsatzwachstum": 0.184,
+   "marge": 0.1636,
+   "verschuldung": 43.8015,
+   "n": 111
+  }
+ },
+ "technik": {
+  "kurs": 600.4,
+  "vortag": 538.59,
+  "rsi": 36.0,
+  "sma50": 894.1435,
+  "sma200": 807.6652,
+  "ueber_sma50": false,
+  "ueber_sma200": false,
+  "high52": 1143.0,
+  "low52": 215.35,
+  "abstand_high52_pct": -47.5,
+  "rel_volumen": 2.01,
+  "volumen": 2389280.0,
+  "avg_volumen20": 6542435.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": "2027-02-02",
+ "news": [
+  {
+   "title": "AAOI Stock Rises 7% Post Q3 Earnings: Should You Buy, Sell or Hold?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/aaoi-stock-rises-7-post-132500865.html",
+   "publisher": "Zacks",
+   "time": "2026-11-09T13:25:00+00:00"
+  },
+  {
+   "title": "Marvell Stock Fell 58% From Its Record. History Says What Followed Its Last 4 Drops This Deep.",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-stock-fell-58-record-110102390.html",
+   "publisher": "Motley Fool",
+   "time": "2026-11-09T11:01:02+00:00"
+  },
+  {
+   "title": "NVDA, PLTR, QCOM, SPCX, MRVL: Why Retail Traders Couldn’t Take Their Eyes Off These Stocks Last Week",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nvda-pltr-qcom-spcx-mrvl-020455465.html",
+   "publisher": "Stocktwits",
+   "time": "2026-11-09T02:04:55+00:00"
+  },
+  {
+   "title": "Tesla Bulls Could Get Burned? Gary Black Sees Trouble With SpaceX All-Stock Merger: Warns 24% Premium 'Can Quickly Go Negative'",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-bulls-could-burned-gary-223005762.html",
+   "publisher": "Benzinga",
+   "time": "2026-11-08T22:30:05+00:00"
+  },
+  {
+   "title": "Marvell Is 57% Below Its High After a $115 Billion Deal: Is It Time to Sell, or Load Up?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-57-below-high-115-155440409.html",
+   "publisher": "TIKR",
+   "time": "2026-11-08T15:54:40+00:00"
+  },
+  {
+   "title": "Astera Labs Stock Drops 26% in a Week Despite Strong Earnings. Is It a Buy Now?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/astera-labs-stock-drops-26-112455818.html",
+   "publisher": "TIKR",
+   "time": "2026-11-08T11:24:55+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 600.4,
+  "change_pct": 11.48,
+  "rel_vol": 2.01,
+  "time": "2026-11-09T15:40:42.713022+00:00"
+ },
+ "pushed": true
+}

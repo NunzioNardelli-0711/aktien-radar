@@ -1,0 +1,138 @@
+{
+ "id": "20261111-NBIS",
+ "symbol": "NBIS",
+ "name": "Nebius Group N.V.",
+ "market": "US",
+ "indices": [
+  "Nasdaq 100"
+ ],
+ "time": "2026-11-11T15:20:48.032434+00:00",
+ "price": 153.82,
+ "change_pct": 14.79,
+ "rel_vol": 3.64,
+ "score": 68,
+ "ampel": {
+  "farbe": "gruen",
+  "label": "interessant",
+  "emoji": "🟢"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 76,
+   "label": "chancenreich",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 78,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 46,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "earnings",
+  "label": "Quartalszahlen / Prognose",
+  "headline": "S&P 500, Nasdaq rise as CoreWeave results ease AI spending worries",
+  "source": "Reuters"
+ },
+ "begruendung": "Nebius Group N.V. steigt um +14.8 % bei 3.6-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Quartalszahlen / Prognose („S&P 500, Nasdaq rise as CoreWeave results ease AI spending worries“). Pro: Deutlich erhöhtes Volumen (3.6× normal). Contra: Quartalszahlen in 1 Tag(en) – erhöhte Schwankung möglich. Gesamtbild: interessant – eine nähere Prüfung lohnt sich.",
+ "chancen": [
+  "Deutlich erhöhtes Volumen (3.6× normal)",
+  "Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge",
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)",
+  "Starkes Umsatzwachstum (+454 %)"
+ ],
+ "risiken": [
+  "Quartalszahlen in 1 Tag(en) – erhöhte Schwankung möglich",
+  "Sehr hoch bewertet: KGV 120 vs. Branche 17"
+ ],
+ "fundamental": {
+  "kgv": 119.8124,
+  "kgv_erwartet": -44.0938,
+  "umsatzwachstum": 4.54,
+  "gewinnwachstum": null,
+  "marge": 0.0313,
+  "verschuldung": 98.596,
+  "marktkap": 41691688960.0,
+  "kursziel_analysten": 278.05,
+  "analysten": "buy",
+  "sektor": "Communication Services",
+  "branche": "Internet Content & Information",
+  "waehrung": "USD",
+  "beschreibung": "Nebius Group N.V., a technology company, engages in building full-stack infrastructure to service the global AI industry in the United States, the United Kingdom, and internationally. It offers Nebius builds full-stack infrastructure for AI, including large-scale GPU clusters, cloud platforms, and tools and services for developers. The company also provides TripleTen, an edtech platform for re-ski",
+  "branche_median": {
+   "kgv": 17.4529,
+   "umsatzwachstum": 0.0745,
+   "marge": 0.0912,
+   "verschuldung": 60.2705,
+   "n": 34
+  }
+ },
+ "technik": {
+  "kurs": 153.82,
+  "vortag": 134.0,
+  "rsi": 43.9,
+  "sma50": 198.8993,
+  "sma200": 178.8235,
+  "ueber_sma50": false,
+  "ueber_sma200": false,
+  "high52": 299.86,
+  "low52": 73.52,
+  "abstand_high52_pct": -48.7,
+  "rel_volumen": 3.64,
+  "volumen": 14014630.0,
+  "avg_volumen20": 25668495.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": "2026-11-12",
+ "news": [
+  {
+   "title": "S&P 500, Nasdaq rise as CoreWeave results ease AI spending worries",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-futures-rise-104431138.html",
+   "publisher": "Reuters",
+   "time": "2026-11-11T15:10:36+00:00"
+  },
+  {
+   "title": "Why CoreWeave Earnings, Outlook Sparked 'Sigh Of Relief In The AI Market'",
+   "url": "https://www.investors.com/news/technology/coreweave-stock-q326-earnings-crwv/?src=A00220&yptr=yahoo",
+   "publisher": "Investor's Business Daily",
+   "time": "2026-11-11T14:54:34+00:00"
+  },
+  {
+   "title": "CoreWeave Soars 17% on Raised Outlook, Rules Out Unsecured Debt: “Nor Do We Need To”",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-soars-17-raised-outlook-143208746.html",
+   "publisher": "TIKR",
+   "time": "2026-11-11T14:32:08+00:00"
+  },
+  {
+   "title": "Nebius stock setup into earnings: technicals, catalysts and key levels to watch",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nebius-stock-setup-earnings-technicals-141915071.html",
+   "publisher": "Investing.com",
+   "time": "2026-11-11T14:19:15+00:00"
+  },
+  {
+   "title": "CoreWeave Surges 16% as Beat-and-Raise Quarter Eases Financing Fears; Nebius Gains 13%, Oracle Advances 5%",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-surges-16-beat-raise-140335828.html",
+   "publisher": "24/7 Wall St.",
+   "time": "2026-11-11T14:03:35+00:00"
+  },
+  {
+   "title": "Stock Futures Rise Amid CoreWeave's Strong Financial Results",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stock-futures-rise-amid-coreweave-130117941.html",
+   "publisher": "MT Newswires",
+   "time": "2026-11-11T13:01:17+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 153.82,
+  "change_pct": 14.79,
+  "rel_vol": 3.64,
+  "time": "2026-11-11T15:20:48.032434+00:00"
+ },
+ "pushed": true
+}

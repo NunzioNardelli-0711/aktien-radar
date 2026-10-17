@@ -1,0 +1,140 @@
+{
+ "id": "20261111-SNDK",
+ "symbol": "SNDK",
+ "name": "Sandisk Corporation",
+ "market": "US",
+ "indices": [
+  "S&P 500",
+  "Nasdaq 100"
+ ],
+ "time": "2026-11-11T15:20:48.032434+00:00",
+ "price": 973.23,
+ "change_pct": 13.17,
+ "rel_vol": 3.19,
+ "score": 83,
+ "ampel": {
+  "farbe": "gruen",
+  "label": "interessant",
+  "emoji": "🟢"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 76,
+   "label": "chancenreich",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 86,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 88,
+   "label": "chancenreich",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "earnings",
+  "label": "Quartalszahlen / Prognose",
+  "headline": "Seagate Spikes 9%, Sandisk Surges 8% as CoreWeave’s Results Revive AI Trade; Micron Climbs 7%",
+  "source": "24/7 Wall St."
+ },
+ "begruendung": "Sandisk Corporation steigt um +13.2 % bei 3.2-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Quartalszahlen / Prognose („Seagate Spikes 9%, Sandisk Surges 8% as CoreWeave’s Results Revive AI Trade; Micron Climbs 7%“). Pro: Deutlich erhöhtes Volumen (3.2× normal). Gesamtbild: interessant – eine nähere Prüfung lohnt sich.",
+ "chancen": [
+  "Deutlich erhöhtes Volumen (3.2× normal)",
+  "Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge",
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)",
+  "Starkes Umsatzwachstum (+378 %)",
+  "Gewinn wächst stark (+6913 %)",
+  "Günstig bewertet: KGV 8 vs. Branche 27",
+  "Hohe Gewinnmarge (67 %)",
+  "Geringe Verschuldung"
+ ],
+ "risiken": [],
+ "fundamental": {
+  "kgv": 7.7817,
+  "kgv_erwartet": 3.3684,
+  "umsatzwachstum": 3.779,
+  "gewinnwachstum": 69.133,
+  "marge": 0.6704,
+  "verschuldung": 1.108,
+  "marktkap": 138539319296.0,
+  "kursziel_analysten": 2047.375,
+  "analysten": "strong_buy",
+  "sektor": "Technology",
+  "branche": "Computer Hardware",
+  "waehrung": "USD",
+  "beschreibung": "Sandisk Corporation develops, manufactures, and sells data storage devices and solutions using NAND flash technology in the Americas, Europe, the Middle East, Africa, Asia, and internationally. The company provides solid state drives for desktop and notebook PCs, gaming consoles, and set top boxes; and flash-based embedded storage products for mobile phones, tablets, notebook PCs and other portabl",
+  "branche_median": {
+   "kgv": 27.4323,
+   "umsatzwachstum": 0.184,
+   "marge": 0.1636,
+   "verschuldung": 43.8015,
+   "n": 111
+  }
+ },
+ "technik": {
+  "kurs": 973.23,
+  "vortag": 859.99,
+  "rsi": 36.5,
+  "sma50": 1478.3313,
+  "sma200": 1276.1749,
+  "ueber_sma50": false,
+  "ueber_sma200": false,
+  "high52": 2354.3899,
+  "low52": 183.0,
+  "abstand_high52_pct": -58.7,
+  "rel_volumen": 3.19,
+  "volumen": 5403824.0,
+  "avg_volumen20": 11295010.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": "2026-10-29",
+ "news": [
+  {
+   "title": "CoreWeave Boosts AI Trade. Bloom Energy, Other Power Stocks Are Big Winners.",
+   "url": "https://www.barrons.com/articles/coreweave-ai-bloom-energy-stock-power-addbb638?siteid=yhoof2&yptr=yahoo",
+   "publisher": "Barrons.com",
+   "time": "2026-11-11T14:37:00+00:00"
+  },
+  {
+   "title": "Seagate Spikes 9%, Sandisk Surges 8% as CoreWeave’s Results Revive AI Trade; Micron Climbs 7%",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/seagate-spikes-9-sandisk-surges-140842780.html",
+   "publisher": "24/7 Wall St.",
+   "time": "2026-11-11T14:08:42+00:00"
+  },
+  {
+   "title": "Why Sandisk and Lumentum Are Leading the AI Comeback",
+   "url": "https://www.barrons.com/articles/sandisk-memory-stock-rally-ai-965b9891?siteid=yhoof2&yptr=yahoo",
+   "publisher": "Barrons.com",
+   "time": "2026-11-11T13:34:00+00:00"
+  },
+  {
+   "title": "Top 3 Value Stocks To Watch In November 2026",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/top-3-value-stocks-watch-130909150.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-11-11T13:09:09+00:00"
+  },
+  {
+   "title": "AI Villain Turns Hero but Stock Market Chaos Is Just Getting Started",
+   "url": "https://www.barrons.com/articles/stock-market-things-to-know-today-d180c193?siteid=yhoof2&yptr=yahoo",
+   "publisher": "Barrons.com",
+   "time": "2026-11-11T12:36:00+00:00"
+  },
+  {
+   "title": "Nvidia, CoreWeave, Marvell, Dell, Costco, and More Stocks That Explain Today’s Market",
+   "url": "https://www.barrons.com/articles/stock-movers-e9c667c2?siteid=yhoof2&yptr=yahoo",
+   "publisher": "Barrons.com",
+   "time": "2026-11-11T11:27:00+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 973.23,
+  "change_pct": 13.17,
+  "rel_vol": 3.19,
+  "time": "2026-11-11T15:20:48.032434+00:00"
+ },
+ "pushed": true
+}

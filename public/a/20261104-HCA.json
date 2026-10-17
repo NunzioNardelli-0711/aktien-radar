@@ -1,0 +1,134 @@
+{
+ "id": "20261104-HCA",
+ "symbol": "HCA",
+ "name": "HCA Healthcare, Inc.",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-11-04T17:23:17.417605+00:00",
+ "price": 512.18,
+ "change_pct": 10.66,
+ "rel_vol": 2.85,
+ "score": 56,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 45,
+   "label": "neutral",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 58,
+   "label": "neutral",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 66,
+   "label": "chancenreich",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "none",
+  "label": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "headline": "Top stocks to watch on Democratic gains: First Solar, NextEra Energy, HCA Healthcare",
+  "source": "Investing.com"
+ },
+ "begruendung": "HCA Healthcare, Inc. steigt um +10.7 % bei 2.9-fachem Handelsvolumen. In den aktuellen Nachrichten findet sich kein klarer Auslöser. Pro: Günstig bewertet: KGV 17 vs. Branche 28. Contra: Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein. Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [
+  "Günstig bewertet: KGV 17 vs. Branche 28"
+ ],
+ "risiken": [
+  "Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein"
+ ],
+ "fundamental": {
+  "kgv": 16.9877,
+  "kgv_erwartet": 16.3712,
+  "umsatzwachstum": 0.036,
+  "gewinnwachstum": 0.045,
+  "marge": 0.0861,
+  "verschuldung": null,
+  "marktkap": 106990559232.0,
+  "kursziel_analysten": 475.4546,
+  "analysten": "buy",
+  "sektor": "Healthcare",
+  "branche": "Medical Care Facilities",
+  "waehrung": "USD",
+  "beschreibung": "HCA Healthcare, Inc., through its subsidiaries, provides health care services in the United States. The company owns, manages, and operates hospitals, ASCs, freestanding emergency care facilities, urgent care facilities, walk-in clinics, diagnostic and imaging centers, radiation and oncology therapy centers, as well as rehabilitation and physical therapy centers, physician practices, home health a",
+  "branche_median": {
+   "kgv": 27.7653,
+   "umsatzwachstum": 0.068,
+   "marge": 0.0951,
+   "verschuldung": 69.673,
+   "n": 76
+  }
+ },
+ "technik": {
+  "kurs": 512.18,
+  "vortag": 462.86,
+  "rsi": 70.8,
+  "sma50": 438.8552,
+  "sma200": 444.2779,
+  "ueber_sma50": true,
+  "ueber_sma200": true,
+  "high52": 556.52,
+  "low52": 353.99,
+  "abstand_high52_pct": -8.0,
+  "rel_volumen": 2.85,
+  "volumen": 1640798.0,
+  "avg_volumen20": 1293700.0,
+  "trend": "Abwärtstrend"
+ },
+ "naechste_zahlen": "2027-01-26",
+ "news": [
+  {
+   "title": "Top stocks to watch on Democratic gains: First Solar, NextEra Energy, HCA Healthcare",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/top-stocks-watch-democratic-gains-160618611.html",
+   "publisher": "Investing.com",
+   "time": "2026-11-04T16:06:18+00:00"
+  },
+  {
+   "title": "Health insurers, hospitals rally after sweeping midterm win for Democrats",
+   "url": "https://finance.yahoo.com/healthcare/articles/health-insurers-hospitals-rally-sweeping-150037226.html",
+   "publisher": "Reuters",
+   "time": "2026-11-04T15:06:01+00:00"
+  },
+  {
+   "title": "Policy relief sparks surge in health insurance and hospital stocks",
+   "url": "https://finance.yahoo.com/healthcare/articles/policy-relief-sparks-surge-health-141449816.html",
+   "publisher": "Investing.com",
+   "time": "2026-11-04T14:14:49+00:00"
+  },
+  {
+   "title": "HCA Healthcare, Centene, Oscar Ride Blue Wave To Buy Points",
+   "url": "https://www.investors.com/news/hca-healthcare-centene-oscar-stock-ride-blue-wave-hospitals-insurers/?src=A00220&yptr=yahoo",
+   "publisher": "Investor's Business Daily",
+   "time": "2026-11-04T13:48:50+00:00"
+  },
+  {
+   "title": "Election Odds Favor a Blue Wave. These Stocks Could Pop.",
+   "url": "https://www.barrons.com/livecoverage/stock-market-news-today-110326/card/election-odds-favor-a-blue-wave-these-stocks-could-pop--MLQ8oIZsNPQct3IoxAmK?siteid=yhoof2&yptr=yahoo",
+   "publisher": "Barrons.com",
+   "time": "2026-11-03T15:13:35+00:00"
+  },
+  {
+   "title": "Investors Are Betting a Blue Wave Will Help Hospitals. Don’t Count on It.",
+   "url": "https://www.wsj.com/health/healthcare/investors-are-betting-a-blue-wave-will-help-hospitals-dont-count-on-it-411ab127?siteid=yhoof2&yptr=yahoo",
+   "publisher": "The Wall Street Journal",
+   "time": "2026-11-01T10:30:00+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 512.18,
+  "change_pct": 10.66,
+  "rel_vol": 2.85,
+  "time": "2026-11-04T17:23:17.417605+00:00"
+ },
+ "pushed": true
+}

@@ -1,0 +1,137 @@
+{
+ "id": "20261112-ADN1.DE",
+ "symbol": "ADN1.DE",
+ "name": "adesso SE",
+ "market": "DE",
+ "indices": [
+  "SDAX"
+ ],
+ "time": "2026-11-12T09:23:59.982061+00:00",
+ "price": 83.0,
+ "change_pct": 20.99,
+ "rel_vol": 7.81,
+ "score": 68,
+ "ampel": {
+  "farbe": "gruen",
+  "label": "interessant",
+  "emoji": "🟢"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 74,
+   "label": "chancenreich",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 80,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 48,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "earnings",
+  "label": "Quartalszahlen / Prognose",
+  "headline": "PSP Swiss Property AG (PSPSF) (Q3 2026) Earnings Call Highlights: Vacancy Drops to 3. ...",
+  "source": "GuruFocus.com"
+ },
+ "begruendung": "adesso SE steigt um +21.0 % bei 7.8-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Quartalszahlen / Prognose („PSP Swiss Property AG (PSPSF) (Q3 2026) Earnings Call Highlights: Vacancy Drops to 3. ...“). Pro: Sehr hohes Handelsvolumen (7.8× normal) – breites Interesse. Contra: Sehr großer Tagessprung (+21 %). Gesamtbild: interessant – eine nähere Prüfung lohnt sich.",
+ "chancen": [
+  "Sehr hohes Handelsvolumen (7.8× normal) – breites Interesse",
+  "Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge",
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)"
+ ],
+ "risiken": [
+  "Sehr großer Tagessprung (+21 %)",
+  "Hohe Verschuldung (Verschuldungsgrad 2.2×)"
+ ],
+ "fundamental": {
+  "kgv": 24.6291,
+  "kgv_erwartet": 14.4916,
+  "umsatzwachstum": 0.121,
+  "gewinnwachstum": null,
+  "marge": 0.0125,
+  "verschuldung": 219.033,
+  "marktkap": 531791712.0,
+  "kursziel_analysten": 101.6667,
+  "analysten": "strong_buy",
+  "sektor": "Technology",
+  "branche": "Information Technology Services",
+  "waehrung": "EUR",
+  "beschreibung": "adesso SE, together with its subsidiaries, provides IT services in Germany, Austria, Switzerland, and internationally. It operates through two segments, IT Services and IT Solutions. The company offers industry-specific IT consulting and software development services; and distributes software products and industry-specific or industry-neutral solutions. The company provides application management,",
+  "branche_median": {
+   "kgv": 27.4323,
+   "umsatzwachstum": 0.184,
+   "marge": 0.1636,
+   "verschuldung": 43.8015,
+   "n": 111
+  }
+ },
+ "technik": {
+  "kurs": 83.0,
+  "vortag": 68.6,
+  "rsi": 72.6,
+  "sma50": 63.73,
+  "sma200": 60.114,
+  "ueber_sma50": true,
+  "ueber_sma200": true,
+  "high52": 97.7,
+  "low52": 47.05,
+  "abstand_high52_pct": -15.0,
+  "rel_volumen": 7.81,
+  "volumen": 17847.0,
+  "avg_volumen20": 13881.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": "2026-11-11",
+ "news": [
+  {
+   "title": "Top 3 AI Infrastructure Stocks To Watch In November 2026",
+   "url": "https://finance.yahoo.com/technology/ai/articles/top-3-ai-infrastructure-stocks-081108648.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-11-12T08:11:08+00:00"
+  },
+  {
+   "title": "UPM (HLSE:UPM) Stock Could Be 44% Below Fair Value Despite Joint Venture Review News",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/upm-hlse-upm-stock-could-071633251.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-11-12T07:16:33+00:00"
+  },
+  {
+   "title": "PSP Swiss Property AG (PSPSF) (Q3 2026) Earnings Call Highlights: Vacancy Drops to 3. ...",
+   "url": "https://finance.yahoo.com/real-estate/articles/psp-swiss-property-ag-pspsf-070541595.html",
+   "publisher": "GuruFocus.com",
+   "time": "2026-11-12T07:05:41+00:00"
+  },
+  {
+   "title": "Catena Media PLC (OSTO:CTM) (Q3 2026) Earnings Call Highlights: Revenue Plunges 30%, EUR30. ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/catena-media-plc-osto-ctm-210343232.html",
+   "publisher": "GuruFocus.com",
+   "time": "2026-11-11T21:03:43+00:00"
+  },
+  {
+   "title": "Missed Orange Polska's 84% Run? What Holders Had To Believe",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/missed-orange-polskas-84-run-200811500.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-11-11T20:08:11+00:00"
+  },
+  {
+   "title": "VIEL (ENXTPA:VIL) Stock Could Be 41% Undervalued On Equity Returns",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/viel-enxtpa-vil-stock-could-181343040.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-11-11T18:13:43+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 83.0,
+  "change_pct": 20.99,
+  "rel_vol": 7.81,
+  "time": "2026-11-12T09:23:59.982061+00:00"
+ },
+ "pushed": true
+}
