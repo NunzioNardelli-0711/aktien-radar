@@ -1,0 +1,138 @@
+{
+ "id": "20261106-VST",
+ "symbol": "VST",
+ "name": "Vistra Corp.",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-11-06T16:57:16.876061+00:00",
+ "price": 124.42,
+ "change_pct": 10.21,
+ "rel_vol": 2.11,
+ "score": 49,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 72,
+   "label": "chancenreich",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 28,
+   "label": "ungünstig",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 46,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "earnings",
+  "label": "Quartalszahlen / Prognose",
+  "headline": "Vistra Soars 8% on 50% EBITDA Jump and First 2027 Outlook: “More of These Opportunities”",
+  "source": "TIKR"
+ },
+ "begruendung": "Vistra Corp. steigt um +10.2 % bei 2.1-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Quartalszahlen / Prognose („Vistra Soars 8% on 50% EBITDA Jump and First 2027 Outlook: “More of These Opportunities”“). Pro: Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge. Contra: Quartalszahlen in 0 Tag(en) – erhöhte Schwankung möglich. Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [
+  "Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge"
+ ],
+ "risiken": [
+  "Quartalszahlen in 0 Tag(en) – erhöhte Schwankung möglich",
+  "Langfristiger Abwärtstrend – Kurs trotz Sprung unter der 200-Tage-Linie",
+  "Umsatz schrumpft (-6 %)",
+  "Gewinn rückläufig (-6 %)",
+  "Hohe Verschuldung (Verschuldungsgrad 3.7×)"
+ ],
+ "fundamental": {
+  "kgv": 20.9815,
+  "kgv_erwartet": 13.0529,
+  "umsatzwachstum": -0.055,
+  "gewinnwachstum": -0.062,
+  "marge": 0.1155,
+  "verschuldung": 373.28,
+  "marktkap": 41759731712.0,
+  "kursziel_analysten": 204.3182,
+  "analysten": "strong_buy",
+  "sektor": "Utilities",
+  "branche": "Utilities - Independent Power Producers",
+  "waehrung": "USD",
+  "beschreibung": "Vistra Corp., together with its subsidiaries, operates as an integrated retail electricity and power generation company in the United States. The company operates through five segments: Retail, Texas, East, West, and Asset Closure. The company retails electricity and natural gas to residential, commercial, and industrial customers across states in the United States and the District of Columbia. It",
+  "branche_median": {
+   "kgv": 21.3052,
+   "umsatzwachstum": 0.044,
+   "marge": 0.1351,
+   "verschuldung": 162.155,
+   "n": 35
+  }
+ },
+ "technik": {
+  "kurs": 124.42,
+  "vortag": 112.89,
+  "rsi": 39.6,
+  "sma50": 144.203,
+  "sma200": 152.8234,
+  "ueber_sma50": false,
+  "ueber_sma200": false,
+  "high52": 196.8,
+  "low52": 110.89,
+  "abstand_high52_pct": -36.8,
+  "rel_volumen": 2.11,
+  "volumen": 5622045.0,
+  "avg_volumen20": 7067120.0,
+  "trend": "Abwärtstrend"
+ },
+ "naechste_zahlen": "2026-11-06",
+ "news": [
+  {
+   "title": "Vistra Soars 8% on 50% EBITDA Jump and First 2027 Outlook: “More of These Opportunities”",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/vistra-soars-8-50-ebitda-144334241.html",
+   "publisher": "TIKR",
+   "time": "2026-11-06T14:43:34+00:00"
+  },
+  {
+   "title": "Vistra Shares Rise 5% as Q3 Profit Surges Despite Revenue Miss, Raises 2026 Outlook",
+   "url": "https://finance.yahoo.com/energy/articles/vistra-shares-rise-5-q3-131336863.html",
+   "publisher": "InvestorsHub",
+   "time": "2026-11-06T13:13:36+00:00"
+  },
+  {
+   "title": "Vistra stock jumps despite revenue miss",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/vistra-stock-jumps-despite-revenue-124435138.html",
+   "publisher": "Investing.com",
+   "time": "2026-11-06T12:44:35+00:00"
+  },
+  {
+   "title": "Here Is What The Trailing P/E Misses About Constellation Energy Stock",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/trailing-p-e-misses-constellation-021449906.html",
+   "publisher": "Trefis",
+   "time": "2026-11-06T02:14:49+00:00"
+  },
+  {
+   "title": "Ahead of Vistra Earnings, Here's What Barchart Data Says Comes Next for VST Stock",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ahead-vistra-earnings-heres-barchart-175614537.html",
+   "publisher": "Barchart",
+   "time": "2026-11-05T17:56:14+00:00"
+  },
+  {
+   "title": "FuelCell Energy Plunges 17%, Bloom Energy Sinks 14% Despite NTT Data Deal, Plug Power Drops 7%",
+   "url": "https://finance.yahoo.com/energy/articles/fuelcell-energy-plunges-17-bloom-170728747.html",
+   "publisher": "24/7 Wall St.",
+   "time": "2026-11-05T17:07:28+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 124.42,
+  "change_pct": 10.21,
+  "rel_vol": 2.11,
+  "time": "2026-11-06T16:57:16.876061+00:00"
+ },
+ "pushed": true
+}

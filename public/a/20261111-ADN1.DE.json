@@ -1,0 +1,137 @@
+{
+ "id": "20261111-ADN1.DE",
+ "symbol": "ADN1.DE",
+ "name": "adesso SE",
+ "market": "DE",
+ "indices": [
+  "SDAX"
+ ],
+ "time": "2026-11-11T10:19:16.865275+00:00",
+ "price": 77.4,
+ "change_pct": 11.05,
+ "rel_vol": 14.43,
+ "score": 70,
+ "ampel": {
+  "farbe": "gruen",
+  "label": "interessant",
+  "emoji": "🟢"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 80,
+   "label": "chancenreich",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 80,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 48,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "earnings",
+  "label": "Quartalszahlen / Prognose",
+  "headline": "Rational AG (RATIY) (Q3 2026) Earnings Call Highlights: Margin Guidance Raised to 26%-27% as ...",
+  "source": "GuruFocus.com"
+ },
+ "begruendung": "adesso SE steigt um +11.0 % bei 14.4-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Quartalszahlen / Prognose („Rational AG (RATIY) (Q3 2026) Earnings Call Highlights: Margin Guidance Raised to 26%-27% as ...“). Pro: Sehr hohes Handelsvolumen (14.4× normal) – breites Interesse. Contra: Quartalszahlen in 0 Tag(en) – erhöhte Schwankung möglich. Gesamtbild: interessant – eine nähere Prüfung lohnt sich.",
+ "chancen": [
+  "Sehr hohes Handelsvolumen (14.4× normal) – breites Interesse",
+  "Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge",
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)"
+ ],
+ "risiken": [
+  "Quartalszahlen in 0 Tag(en) – erhöhte Schwankung möglich",
+  "Hohe Verschuldung (Verschuldungsgrad 2.2×)"
+ ],
+ "fundamental": {
+  "kgv": 27.6429,
+  "kgv_erwartet": 13.8154,
+  "umsatzwachstum": 0.121,
+  "gewinnwachstum": null,
+  "marge": 0.0125,
+  "verschuldung": 219.033,
+  "marktkap": 495911808.0,
+  "kursziel_analysten": 101.6667,
+  "analysten": "strong_buy",
+  "sektor": "Technology",
+  "branche": "Information Technology Services",
+  "waehrung": "EUR",
+  "beschreibung": "adesso SE, together with its subsidiaries, provides IT services in Germany, Austria, Switzerland, and internationally. It operates through two segments, IT Services and IT Solutions. The company offers industry-specific IT consulting and software development services; and distributes software products and industry-specific or industry-neutral solutions. The company provides application management,",
+  "branche_median": {
+   "kgv": 27.4323,
+   "umsatzwachstum": 0.184,
+   "marge": 0.1636,
+   "verschuldung": 43.8015,
+   "n": 111
+  }
+ },
+ "technik": {
+  "kurs": 77.4,
+  "vortag": 69.7,
+  "rsi": 67.2,
+  "sma50": 63.604,
+  "sma200": 60.1745,
+  "ueber_sma50": true,
+  "ueber_sma200": true,
+  "high52": 97.7,
+  "low52": 47.05,
+  "abstand_high52_pct": -20.8,
+  "rel_volumen": 14.43,
+  "volumen": 56588.0,
+  "avg_volumen20": 14362.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": "2026-11-11",
+ "news": [
+  {
+   "title": "Nisshinbo Holdings (TSE:3105) Stock May Be A Bargain On Cash Flow",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nisshinbo-holdings-tse-3105-stock-091812345.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-11-11T09:18:12+00:00"
+  },
+  {
+   "title": "Mayr Melnhof Karton (WBAG:MMK) Stock Looks Undervalued Following Its 54% Five Year Fall",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/mayr-melnhof-karton-wbag-mmk-081459694.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-11-11T08:14:59+00:00"
+  },
+  {
+   "title": "Nissan Chemical (TSE:4021) Stock Could Be 46% Undervalued On Cash Flow",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nissan-chemical-tse-4021-stock-071612681.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-11-11T07:16:12+00:00"
+  },
+  {
+   "title": "Leopalace21 (TSE:8848) Stock Still Looks Cheap As Its 360% Run Continues",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/leopalace21-tse-8848-stock-still-031604057.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-11-11T03:16:04+00:00"
+  },
+  {
+   "title": "Rational AG (RATIY) (Q3 2026) Earnings Call Highlights: Margin Guidance Raised to 26%-27% as ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/rational-ag-ratiy-q3-2026-030733424.html",
+   "publisher": "GuruFocus.com",
+   "time": "2026-11-11T03:07:33+00:00"
+  },
+  {
+   "title": "WashTec AG (WHTAF) (Q3 2026) Earnings Call Highlights: Record Revenue Amid Margin Pressure and ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/washtec-ag-whtaf-q3-2026-030657974.html",
+   "publisher": "GuruFocus.com",
+   "time": "2026-11-11T03:06:57+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 77.4,
+  "change_pct": 11.05,
+  "rel_vol": 14.43,
+  "time": "2026-11-11T10:19:16.865275+00:00"
+ },
+ "pushed": true
+}

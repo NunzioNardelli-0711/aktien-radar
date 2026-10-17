@@ -1,0 +1,140 @@
+{
+ "id": "20261106-AMD",
+ "symbol": "AMD",
+ "name": "Advanced Micro Devices, Inc.",
+ "market": "US",
+ "indices": [
+  "S&P 500",
+  "Nasdaq 100"
+ ],
+ "time": "2026-11-06T15:16:17.092505+00:00",
+ "price": 448.89,
+ "change_pct": 11.0,
+ "rel_vol": 4.17,
+ "score": 71,
+ "ampel": {
+  "farbe": "gruen",
+  "label": "interessant",
+  "emoji": "🟢"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 71,
+   "label": "chancenreich",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 80,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 62,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "analyst",
+  "label": "Analysten-Hochstufung",
+  "headline": "AMD’s Data Center Sales Nearly Doubled and the Stock Is Jumping. Where Does the Price Target Go Now?",
+  "source": "24/7 Wall St."
+ },
+ "begruendung": "Advanced Micro Devices, Inc. steigt um +11.0 % bei 4.2-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Analysten-Hochstufung („AMD’s Data Center Sales Nearly Doubled and the Stock Is Jumping. Where Does the Price Target Go Now?“). Pro: Deutlich erhöhtes Volumen (4.2× normal). Contra: Sehr hoch bewertet: KGV 95 vs. Branche 31. Gesamtbild: interessant – eine nähere Prüfung lohnt sich.",
+ "chancen": [
+  "Deutlich erhöhtes Volumen (4.2× normal)",
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)",
+  "Starkes Umsatzwachstum (+45 %)",
+  "Gewinn wächst stark (+94 %)",
+  "Hohe Gewinnmarge (17 %)",
+  "Geringe Verschuldung"
+ ],
+ "risiken": [
+  "Sehr hoch bewertet: KGV 95 vs. Branche 31"
+ ],
+ "fundamental": {
+  "kgv": 95.4049,
+  "kgv_erwartet": 26.6088,
+  "umsatzwachstum": 0.447,
+  "gewinnwachstum": 0.938,
+  "marge": 0.1677,
+  "verschuldung": 13.469,
+  "marktkap": 732290744320.0,
+  "kursziel_analysten": 648.2375,
+  "analysten": "strong_buy",
+  "sektor": "Technology",
+  "branche": "Semiconductors",
+  "waehrung": "USD",
+  "beschreibung": "Advanced Micro Devices, Inc. operates as a semiconductor company internationally. It operates in three segments: Data Center, Client and Gaming, and Embedded. The company offers artificial intelligence (AI) accelerators, microprocessors, and graphics processing units (GPUs) as standalone devices or as incorporated into accelerated processing units, chipsets, and data center and professional GPUs; ",
+  "branche_median": {
+   "kgv": 30.9147,
+   "umsatzwachstum": 0.188,
+   "marge": 0.1637,
+   "verschuldung": 48.997,
+   "n": 109
+  }
+ },
+ "technik": {
+  "kurs": 448.89,
+  "vortag": 404.4,
+  "rsi": 39.2,
+  "sma50": 547.3664,
+  "sma200": 415.0009,
+  "ueber_sma50": false,
+  "ueber_sma200": true,
+  "high52": 658.52,
+  "low52": 188.22,
+  "abstand_high52_pct": -31.8,
+  "rel_volumen": 4.17,
+  "volumen": 16237284.0,
+  "avg_volumen20": 25949850.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": "2027-02-02",
+ "news": [
+  {
+   "title": "Nvidia, AMD, and Micron stocks lead chip sector higher following worst sell-off since 2020",
+   "url": "https://finance.yahoo.com/markets/article/nvidia-amd-micron-sandsik-lead-chip-sector-higher-134336542.html",
+   "publisher": "Yahoo Finance",
+   "time": "2026-11-06T13:43:36+00:00"
+  },
+  {
+   "title": "Stocks lost $2 trillion. The market is wrong about AI",
+   "url": "https://finance.yahoo.com/video/stocks-lost-2-trillion-market-120000040.html",
+   "publisher": "Yahoo Finance Video",
+   "time": "2026-11-06T12:00:00+00:00"
+  },
+  {
+   "title": "Chip stocks lead tech rebound as SpaceX, Tesla jump: AlphaCheck",
+   "url": "https://finance.yahoo.com/markets/article/semiconductor-stocks-lead-tech-rebound-spacex-and-tesla-jump-alphacheck-150906077.html",
+   "publisher": "Yahoo Finance",
+   "time": "2026-11-06T15:09:06+00:00"
+  },
+  {
+   "title": "Stock market today: Nasdaq rebound after brutal sell-off, Dow and S&P 500 wobble as US adds 165K jobs",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html",
+   "publisher": "Yahoo Finance",
+   "time": "2026-11-06T09:19:27+00:00"
+  },
+  {
+   "title": "Your AMD Stock Thesis Still Has Loose Ends",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/amd-stock-thesis-still-loose-144155873.html",
+   "publisher": "Trefis",
+   "time": "2026-11-06T14:41:55+00:00"
+  },
+  {
+   "title": "Can AMD Stock Fall 50%?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/amd-stock-fall-50-144150694.html",
+   "publisher": "Trefis",
+   "time": "2026-11-06T14:41:50+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 448.89,
+  "change_pct": 11.0,
+  "rel_vol": 4.17,
+  "time": "2026-11-06T15:16:17.092505+00:00"
+ },
+ "pushed": true
+}

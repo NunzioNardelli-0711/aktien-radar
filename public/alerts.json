@@ -1,0 +1,34 @@
+{
+ "date": "2026-11-20",
+ "items": [
+  {
+   "id": "20261120-GPN",
+   "symbol": "GPN",
+   "name": "Global Payments Inc.",
+   "market": "US",
+   "time": "2026-11-20T20:55:20.000139+00:00",
+   "price": 92.96,
+   "change_pct": 11.3,
+   "rel_vol": 2.04,
+   "score": 61,
+   "ampel": {
+    "farbe": "gelb",
+    "label": "beobachten",
+    "emoji": "🟡"
+   },
+   "grund": "Großauftrag / Partnerschaft",
+   "horizonte": {
+    "kurzfristig": 72,
+    "mittelfristig": 72,
+    "langfristig": 36
+   },
+   "live": {
+    "price": 92.96,
+    "change_pct": 11.3,
+    "rel_vol": 2.04,
+    "time": "2026-11-20T20:55:20.000139+00:00"
+   }
+  }
+ ],
+ "updated": "2026-11-20T20:55:20.000139+00:00"
+}

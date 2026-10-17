@@ -1,0 +1,137 @@
+{
+ "id": "20261120-GPN",
+ "symbol": "GPN",
+ "name": "Global Payments Inc.",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-11-20T20:55:20.000139+00:00",
+ "price": 92.96,
+ "change_pct": 11.3,
+ "rel_vol": 2.04,
+ "score": 61,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 72,
+   "label": "chancenreich",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 72,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 36,
+   "label": "ungünstig",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "contract",
+  "label": "Großauftrag / Partnerschaft",
+  "headline": "Global Payments shares jump on report of $50B GTCR deal",
+  "source": "Investing.com"
+ },
+ "begruendung": "Global Payments Inc. steigt um +11.3 % bei 2.0-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Großauftrag / Partnerschaft („Global Payments shares jump on report of $50B GTCR deal“). Pro: Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge. Contra: Gewinn rückläufig (-60 %). Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [
+  "Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge",
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)",
+  "Starkes Umsatzwachstum (+64 %)"
+ ],
+ "risiken": [
+  "Gewinn rückläufig (-60 %)",
+  "Sehr hoch bewertet: KGV 166 vs. Branche 25"
+ ],
+ "fundamental": {
+  "kgv": 165.5268,
+  "kgv_erwartet": 5.7262,
+  "umsatzwachstum": 0.637,
+  "gewinnwachstum": -0.599,
+  "marge": -0.1121,
+  "verschuldung": 98.88,
+  "marktkap": 24530415616.0,
+  "kursziel_analysten": 109.303,
+  "analysten": "buy",
+  "sektor": "Industrials",
+  "branche": "Specialty Business Services",
+  "waehrung": "USD",
+  "beschreibung": "Global Payments Inc. provides payment technology and software solutions for card, check, and digital-based payments in the Americas, Europe, and the Asia-Pacific. It offers authorization, settlement and funding, customer support, chargeback resolution, reconciliation and dispute management, terminal rental, sales and deployment, payment security, and consolidated billing and reporting services. Th",
+  "branche_median": {
+   "kgv": 25.4939,
+   "umsatzwachstum": 0.1045,
+   "marge": 0.0865,
+   "verschuldung": 64.753,
+   "n": 116
+  }
+ },
+ "technik": {
+  "kurs": 92.96,
+  "vortag": 83.52,
+  "rsi": 53.7,
+  "sma50": 86.8488,
+  "sma200": 78.3712,
+  "ueber_sma50": true,
+  "ueber_sma200": true,
+  "high52": 102.91,
+  "low52": 61.16,
+  "abstand_high52_pct": -9.7,
+  "rel_volumen": 2.04,
+  "volumen": 8111769.0,
+  "avg_volumen20": 4026295.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": "2026-11-05",
+ "news": [
+  {
+   "title": "Global Payments shares jump on report of $50B GTCR deal",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/global-payments-shares-jump-report-193314706.html",
+   "publisher": "Investing.com",
+   "time": "2026-11-20T19:33:14+00:00"
+  },
+  {
+   "title": "Visa Targets Secure AI Agent Payments Through Expanded Industry Partnership",
+   "url": "https://finance.yahoo.com/technology/ai/articles/visa-targets-secure-ai-agent-033005559.html",
+   "publisher": "Benzinga",
+   "time": "2026-11-20T03:30:05+00:00"
+  },
+  {
+   "title": "Can Visa Turn AI-Led Commerce Into a New Growth Driver?",
+   "url": "https://finance.yahoo.com/technology/ai/articles/visa-turn-ai-led-commerce-132700781.html",
+   "publisher": "Zacks",
+   "time": "2026-11-19T13:27:00+00:00"
+  },
+  {
+   "title": "Is Mastercard Stock Riskier Than It Looks?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/mastercard-stock-riskier-looks-130223531.html",
+   "publisher": "Trefis",
+   "time": "2026-11-19T13:02:23+00:00"
+  },
+  {
+   "title": "Why Is Global Payments Stock Falling?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/why-global-payments-stock-falling-122450695.html",
+   "publisher": "Trefis",
+   "time": "2026-11-18T12:24:50+00:00"
+  },
+  {
+   "title": "Visa Targets Secure AI Agent Payments Through Expanded Industry Partnership",
+   "url": "https://finance.yahoo.com/technology/ai/articles/visa-targets-secure-ai-agent-114840038.html",
+   "publisher": "Benzinga",
+   "time": "2026-11-18T11:48:40+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 92.96,
+  "change_pct": 11.3,
+  "rel_vol": 2.04,
+  "time": "2026-11-20T20:55:20.000139+00:00"
+ },
+ "pushed": true
+}

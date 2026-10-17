@@ -1,0 +1,141 @@
+{
+ "id": "20261106-ABNB",
+ "symbol": "ABNB",
+ "name": "Airbnb, Inc.",
+ "market": "US",
+ "indices": [
+  "S&P 500",
+  "Nasdaq 100"
+ ],
+ "time": "2026-11-06T16:57:16.876061+00:00",
+ "price": 190.08,
+ "change_pct": 11.73,
+ "rel_vol": 3.74,
+ "score": 78,
+ "ampel": {
+  "farbe": "gruen",
+  "label": "interessant",
+  "emoji": "🟢"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 76,
+   "label": "chancenreich",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 94,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 62,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "earnings",
+  "label": "Quartalszahlen / Prognose",
+  "headline": "Airbnb's Growth Initiatives Support 2027 Outlook, BofA Says",
+  "source": "MT Newswires"
+ },
+ "begruendung": "Airbnb, Inc. steigt um +11.7 % bei 3.7-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Quartalszahlen / Prognose („Airbnb's Growth Initiatives Support 2027 Outlook, BofA Says“). Pro: Deutlich erhöhtes Volumen (3.7× normal). Contra: Sehr hoch bewertet: KGV 43 vs. Branche 19. Gesamtbild: interessant – eine nähere Prüfung lohnt sich.",
+ "chancen": [
+  "Deutlich erhöhtes Volumen (3.7× normal)",
+  "Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge",
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)",
+  "Starkes Umsatzwachstum (+19 %)",
+  "Gewinn wächst stark (+43 %)",
+  "Hohe Gewinnmarge (23 %)",
+  "Geringe Verschuldung"
+ ],
+ "risiken": [
+  "Sehr hoch bewertet: KGV 43 vs. Branche 19"
+ ],
+ "fundamental": {
+  "kgv": 43.2984,
+  "kgv_erwartet": 30.6127,
+  "umsatzwachstum": 0.189,
+  "gewinnwachstum": 0.427,
+  "marge": 0.2302,
+  "verschuldung": 25.462,
+  "marktkap": 113817182208.0,
+  "kursziel_analysten": 184.1795,
+  "analysten": "buy",
+  "sektor": "Consumer Cyclical",
+  "branche": "Travel Services",
+  "waehrung": "USD",
+  "beschreibung": "Airbnb, Inc., together with its subsidiaries, operates a platform for stays, experiences, and services worldwide. The company's marketplace connects hosts and guests online or through mobile devices to book spaces, experiences, and services. It also offers gift cards. The company was formerly known as AirBed & Breakfast, Inc. and changed its name to Airbnb, Inc. in November 2010. Airbnb, Inc. was ",
+  "branche_median": {
+   "kgv": 19.4519,
+   "umsatzwachstum": 0.054,
+   "marge": 0.0704,
+   "verschuldung": 106.5555,
+   "n": 74
+  }
+ },
+ "technik": {
+  "kurs": 190.08,
+  "vortag": 170.13,
+  "rsi": 66.0,
+  "sma50": 168.9572,
+  "sma200": 147.497,
+  "ueber_sma50": true,
+  "ueber_sma200": true,
+  "high52": 193.453,
+  "low52": 110.81,
+  "abstand_high52_pct": -1.7,
+  "rel_volumen": 3.74,
+  "volumen": 5355959.0,
+  "avg_volumen20": 3792155.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": "2026-11-05",
+ "news": [
+  {
+   "title": "Airbnb stock jumps as company reenters 'growth mode,' plans to develop its own AI agent",
+   "url": "https://finance.yahoo.com/markets/stocks/article/airbnb-stock-jumps-as-company-reenters-growth-mode-plans-to-develop-its-own-ai-agent-150424311.html",
+   "publisher": "Yahoo Finance",
+   "time": "2026-11-06T15:04:24+00:00"
+  },
+  {
+   "title": "Airbnb's Growth Initiatives Support 2027 Outlook, BofA Says",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/airbnb-apos-growth-initiatives-support-155201163.html",
+   "publisher": "MT Newswires",
+   "time": "2026-11-06T15:52:01+00:00"
+  },
+  {
+   "title": "Sandisk, AMD, Coherent, Lam Research, Airbnb, Moderna, and More Stocks That Explain Today’s Market",
+   "url": "https://www.barrons.com/articles/stock-movers-ddbd1841?siteid=yhoof2&yptr=yahoo",
+   "publisher": "Barrons.com",
+   "time": "2026-11-06T15:40:00+00:00"
+  },
+  {
+   "title": "Airbnb Q3 Earnings Beat Estimates as Booking Demand Accelerates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/airbnb-q3-earnings-beat-estimates-152100039.html",
+   "publisher": "Zacks",
+   "time": "2026-11-06T15:21:00+00:00"
+  },
+  {
+   "title": "Airbnb Soars 11% on Raised Outlook: AI Is “the Best Thing That Ever Happened to Airbnb”",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/airbnb-soars-11-raised-outlook-144627801.html",
+   "publisher": "TIKR",
+   "time": "2026-11-06T14:46:27+00:00"
+  },
+  {
+   "title": "Stocks to Watch: DraftKings, Airbnb, Iren, CoreWeave",
+   "url": "https://www.wsj.com/livecoverage/october-jobs-report-stock-market-11-06-2026/card/stocks-to-watch-draftkings-airbnb-iren-coreweave-K3mHErTnFxPagbWPHHSI?siteid=yhoof2&yptr=yahoo",
+   "publisher": "The Wall Street Journal",
+   "time": "2026-11-06T14:45:44+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 190.08,
+  "change_pct": 11.73,
+  "rel_vol": 3.74,
+  "time": "2026-11-06T16:57:16.876061+00:00"
+ },
+ "pushed": true
+}

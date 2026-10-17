@@ -1,0 +1,138 @@
+{
+ "id": "20261104-ZBH",
+ "symbol": "ZBH",
+ "name": "Zimmer Biomet Holdings, Inc.",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-11-04T15:29:59.506557+00:00",
+ "price": 109.58,
+ "change_pct": 12.9,
+ "rel_vol": 3.46,
+ "score": 76,
+ "ampel": {
+  "farbe": "gruen",
+  "label": "interessant",
+  "emoji": "🟢"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 82,
+   "label": "chancenreich",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 82,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 62,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "earnings",
+  "label": "Quartalszahlen / Prognose",
+  "headline": "Zimmer Biomet Stock Up on Q3 Earnings & Revenue Beat, '26 View Up",
+  "source": "Zacks"
+ },
+ "begruendung": "Zimmer Biomet Holdings, Inc. steigt um +12.9 % bei 3.5-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Quartalszahlen / Prognose („Zimmer Biomet Stock Up on Q3 Earnings & Revenue Beat, '26 View Up“). Pro: Deutlich erhöhtes Volumen (3.5× normal). Contra: Quartalszahlen in 0 Tag(en) – erhöhte Schwankung möglich. Gesamtbild: interessant – eine nähere Prüfung lohnt sich.",
+ "chancen": [
+  "Deutlich erhöhtes Volumen (3.5× normal)",
+  "Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge",
+  "Neues 52-Wochen-Hoch – kein Widerstand durch frühere Höchststände",
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)",
+  "Gewinn wächst stark (+34 %)"
+ ],
+ "risiken": [
+  "Quartalszahlen in 0 Tag(en) – erhöhte Schwankung möglich"
+ ],
+ "fundamental": {
+  "kgv": 26.663,
+  "kgv_erwartet": 12.1044,
+  "umsatzwachstum": 0.048,
+  "gewinnwachstum": 0.338,
+  "marge": 0.0948,
+  "verschuldung": 60.175,
+  "marktkap": 20901990400.0,
+  "kursziel_analysten": 106.9048,
+  "analysten": "buy",
+  "sektor": "Healthcare",
+  "branche": "Medical Devices",
+  "waehrung": "USD",
+  "beschreibung": "Zimmer Biomet Holdings, Inc., together with its subsidiaries, operates as a medical technology company worldwide. The company designs, manufactures, and markets orthopedic reconstructive products, such as knee and hip products; S.E.T. products, including sports medicine, biologics, foot and ankle, upper extremities, and trauma and CMFT products; sports medicine products for the repair of soft tiss",
+  "branche_median": {
+   "kgv": 27.7653,
+   "umsatzwachstum": 0.068,
+   "marge": 0.0951,
+   "verschuldung": 69.673,
+   "n": 76
+  }
+ },
+ "technik": {
+  "kurs": 109.58,
+  "vortag": 97.06,
+  "rsi": 74.4,
+  "sma50": 94.6948,
+  "sma200": 91.7234,
+  "ueber_sma50": true,
+  "ueber_sma200": true,
+  "high52": 103.7,
+  "low52": 79.12,
+  "abstand_high52_pct": 5.7,
+  "rel_volumen": 3.46,
+  "volumen": 1111834.0,
+  "avg_volumen20": 2088590.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": "2026-11-04",
+ "news": [
+  {
+   "title": "Zimmer Biomet Stock Up on Q3 Earnings & Revenue Beat, '26 View Up",
+   "url": "https://finance.yahoo.com/healthcare/articles/zimmer-biomet-stock-q3-earnings-134000861.html",
+   "publisher": "Zacks",
+   "time": "2026-11-04T13:40:00+00:00"
+  },
+  {
+   "title": "Zimmer (ZBH) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/zimmer-zbh-q3-earnings-taking-133007381.html",
+   "publisher": "Zacks",
+   "time": "2026-11-04T13:30:07+00:00"
+  },
+  {
+   "title": "Zimmer Biomet (NYSE:ZBH) exceeds Q3 2026 expectations",
+   "url": "https://finance.yahoo.com/healthcare/articles/zimmer-biomet-nyse-zbh-exceeds-114055163.html",
+   "publisher": "StockStory",
+   "time": "2026-11-04T11:40:55+00:00"
+  },
+  {
+   "title": "Zimmer: Q3 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/zimmer-q3-earnings-snapshot-113604170.html",
+   "publisher": "Associated Press",
+   "time": "2026-11-04T11:36:04+00:00"
+  },
+  {
+   "title": "Zimmer Biomet (ZBH) Q3 Earnings and Revenues Beat Estimates",
+   "url": "https://finance.yahoo.com/healthcare/articles/zimmer-biomet-zbh-q3-earnings-113502755.html",
+   "publisher": "Zacks",
+   "time": "2026-11-04T11:35:02+00:00"
+  },
+  {
+   "title": "Is Intuitive Surgical Stock Worth More Than Its Competitors?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/intuitive-surgical-stock-worth-more-133958703.html",
+   "publisher": "Trefis",
+   "time": "2026-11-03T13:39:58+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 109.58,
+  "change_pct": 12.9,
+  "rel_vol": 3.46,
+  "time": "2026-11-04T15:29:59.506557+00:00"
+ },
+ "pushed": true
+}

@@ -1,0 +1,136 @@
+{
+ "id": "20261111-BE",
+ "symbol": "BE",
+ "name": "Bloom Energy Corporation",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-11-11T15:20:48.032434+00:00",
+ "price": 209.98,
+ "change_pct": 13.25,
+ "rel_vol": 2.44,
+ "score": 66,
+ "ampel": {
+  "farbe": "gruen",
+  "label": "interessant",
+  "emoji": "🟢"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 72,
+   "label": "chancenreich",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 78,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 46,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "earnings",
+  "label": "Quartalszahlen / Prognose",
+  "headline": "Bloom Energy (BE) Lands a Major AI Data Center Deal as Revenue Surges",
+  "source": "Insider Monkey"
+ },
+ "begruendung": "Bloom Energy Corporation steigt um +13.2 % bei 2.4-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Quartalszahlen / Prognose („Bloom Energy (BE) Lands a Major AI Data Center Deal as Revenue Surges“). Pro: Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge. Contra: Sehr hoch bewertet: KGV 127 vs. Branche 24. Gesamtbild: interessant – eine nähere Prüfung lohnt sich.",
+ "chancen": [
+  "Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge",
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)",
+  "Starkes Umsatzwachstum (+138 %)"
+ ],
+ "risiken": [
+  "Sehr hoch bewertet: KGV 127 vs. Branche 24"
+ ],
+ "fundamental": {
+  "kgv": 127.3333,
+  "kgv_erwartet": 39.4635,
+  "umsatzwachstum": 1.381,
+  "gewinnwachstum": null,
+  "marge": 0.1353,
+  "verschuldung": 141.948,
+  "marktkap": 62092369920.0,
+  "kursziel_analysten": 283.8462,
+  "analysten": "buy",
+  "sektor": "Industrials",
+  "branche": "Electrical Equipment & Parts",
+  "waehrung": "USD",
+  "beschreibung": "Bloom Energy Corporation designs, manufactures, sells, and installs solid oxide fuel cell systems for on-site power generation in the United States and internationally. It offers Bloom Energy Server, an energy server platform to convert fuel, such as natural gas, biogas, hydrogen, or a blend of these fuels, into electricity through a non-combustion electrochemical process. The company also provide",
+  "branche_median": {
+   "kgv": 24.1983,
+   "umsatzwachstum": 0.0995,
+   "marge": 0.0824,
+   "verschuldung": 67.983,
+   "n": 116
+  }
+ },
+ "technik": {
+  "kurs": 209.98,
+  "vortag": 185.42,
+  "rsi": 47.9,
+  "sma50": 245.311,
+  "sma200": 222.885,
+  "ueber_sma50": false,
+  "ueber_sma200": false,
+  "high52": 351.28,
+  "low52": 75.7,
+  "abstand_high52_pct": -40.2,
+  "rel_volumen": 2.44,
+  "volumen": 6668066.0,
+  "avg_volumen20": 18249580.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": "2026-10-22",
+ "news": [
+  {
+   "title": "CoreWeave Boosts AI Trade. Bloom Energy, Other Power Stocks Are Big Winners.",
+   "url": "https://www.barrons.com/articles/coreweave-ai-bloom-energy-stock-power-addbb638?siteid=yhoof2&yptr=yahoo",
+   "publisher": "Barrons.com",
+   "time": "2026-11-11T14:37:00+00:00"
+  },
+  {
+   "title": "Why You Should Think About Bloom Energy Differently Now",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/why-think-bloom-energy-differently-132822114.html",
+   "publisher": "Trefis",
+   "time": "2026-11-11T13:28:22+00:00"
+  },
+  {
+   "title": "10 Stocks Rode Trump Era — What Happens As MAGA 'Disintegrates'?",
+   "url": "https://www.investors.com/etfs-and-funds/sectors/sp500-stocks-rode-trump-era-what-happens-as-maga-disintegrates/?src=A00220&yptr=yahoo",
+   "publisher": "Investor's Business Daily",
+   "time": "2026-11-11T13:00:00+00:00"
+  },
+  {
+   "title": "AI Villain Turns Hero but Stock Market Chaos Is Just Getting Started",
+   "url": "https://www.barrons.com/articles/stock-market-things-to-know-today-d180c193?siteid=yhoof2&yptr=yahoo",
+   "publisher": "Barrons.com",
+   "time": "2026-11-11T12:36:00+00:00"
+  },
+  {
+   "title": "Nvidia, CoreWeave, Marvell, Dell, Costco, and More Stocks That Explain Today’s Market",
+   "url": "https://www.barrons.com/articles/stock-movers-e9c667c2?siteid=yhoof2&yptr=yahoo",
+   "publisher": "Barrons.com",
+   "time": "2026-11-11T11:27:00+00:00"
+  },
+  {
+   "title": "Can Bloom Energy (BE) Justify Its Price on Future Cash Flow?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/bloom-energy-justify-price-future-061406494.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-11-11T06:14:06+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 209.98,
+  "change_pct": 13.25,
+  "rel_vol": 2.44,
+  "time": "2026-11-11T15:20:48.032434+00:00"
+ },
+ "pushed": true
+}

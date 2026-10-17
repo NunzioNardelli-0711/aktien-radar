@@ -1,0 +1,102 @@
+{
+ "id": "20261102-IDXX",
+ "symbol": "IDXX",
+ "name": "IDEXX Laboratories, Inc.",
+ "market": "US",
+ "indices": [
+  "S&P 500",
+  "Nasdaq 100"
+ ],
+ "time": "2026-11-02T14:39:08.560796+00:00",
+ "price": 652.02,
+ "change_pct": 18.29,
+ "rel_vol": 3.19,
+ "score": 60,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 49,
+   "label": "neutral",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 72,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 58,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "none",
+  "label": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "headline": null,
+  "source": ""
+ },
+ "begruendung": "IDEXX Laboratories, Inc. steigt um +18.3 % bei 3.2-fachem Handelsvolumen. In den aktuellen Nachrichten findet sich kein klarer Auslöser. Pro: Deutlich erhöhtes Volumen (3.2× normal). Contra: Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein. Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [
+  "Deutlich erhöhtes Volumen (3.2× normal)",
+  "Gewinn wächst stark (+18 %)",
+  "Hohe Gewinnmarge (25 %)"
+ ],
+ "risiken": [
+  "Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein",
+  "Quartalszahlen in 0 Tag(en) – erhöhte Schwankung möglich",
+  "Teurer als die Branche: KGV 46 vs. 28"
+ ],
+ "fundamental": {
+  "kgv": 45.9434,
+  "kgv_erwartet": 39.0713,
+  "umsatzwachstum": 0.097,
+  "gewinnwachstum": 0.176,
+  "marge": 0.2503,
+  "verschuldung": 67.971,
+  "marktkap": 51505127424.0,
+  "kursziel_analysten": 694.4167,
+  "analysten": "buy",
+  "sektor": "Healthcare",
+  "branche": "Diagnostics & Research",
+  "waehrung": "USD",
+  "beschreibung": "IDEXX Laboratories, Inc. develops, manufactures, and distributes products for the companion animal veterinary, livestock and poultry, dairy, and water testing industries in the United States and internationally. It operates through three segments: Companion Animal Group; Water Quality Products; and Livestock, Poultry and Dairy. The company offers point-of-care diagnostic solutions, blood and urine",
+  "branche_median": {
+   "kgv": 27.7653,
+   "umsatzwachstum": 0.068,
+   "marge": 0.0951,
+   "verschuldung": 69.673,
+   "n": 76
+  }
+ },
+ "technik": {
+  "kurs": 652.02,
+  "vortag": 551.21,
+  "rsi": 74.9,
+  "sma50": 534.268,
+  "sma200": 572.623,
+  "ueber_sma50": true,
+  "ueber_sma200": true,
+  "high52": 769.98,
+  "low52": 500.61,
+  "abstand_high52_pct": -15.3,
+  "rel_volumen": 3.19,
+  "volumen": 269064.0,
+  "avg_volumen20": 562000.0,
+  "trend": "Abwärtstrend"
+ },
+ "naechste_zahlen": "2026-11-02",
+ "news": [],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 652.02,
+  "change_pct": 18.29,
+  "rel_vol": 3.19,
+  "time": "2026-11-02T14:39:08.560796+00:00"
+ },
+ "pushed": true
+}

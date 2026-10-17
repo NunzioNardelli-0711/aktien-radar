@@ -1,0 +1,138 @@
+{
+ "id": "20261104-NDX1.DE",
+ "symbol": "NDX1.DE",
+ "name": "Nordex SE",
+ "market": "DE",
+ "indices": [
+  "MDAX"
+ ],
+ "time": "2026-11-04T10:27:14.348360+00:00",
+ "price": 41.76,
+ "change_pct": 10.59,
+ "rel_vol": 3.43,
+ "score": 65,
+ "ampel": {
+  "farbe": "gruen",
+  "label": "interessant",
+  "emoji": "🟢"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 49,
+   "label": "neutral",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 78,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 70,
+   "label": "chancenreich",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "none",
+  "label": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "headline": null,
+  "source": ""
+ },
+ "begruendung": "Nordex SE steigt um +10.6 % bei 3.4-fachem Handelsvolumen. In den aktuellen Nachrichten findet sich kein klarer Auslöser. Pro: Deutlich erhöhtes Volumen (3.4× normal). Contra: Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein. Gesamtbild: interessant – eine nähere Prüfung lohnt sich.",
+ "chancen": [
+  "Deutlich erhöhtes Volumen (3.4× normal)",
+  "Starkes Umsatzwachstum (+16 %)",
+  "Gewinn wächst stark (+246 %)",
+  "Geringe Verschuldung"
+ ],
+ "risiken": [
+  "Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein",
+  "Quartalszahlen in 1 Tag(en) – erhöhte Schwankung möglich"
+ ],
+ "fundamental": {
+  "kgv": 26.2641,
+  "kgv_erwartet": 15.7749,
+  "umsatzwachstum": 0.163,
+  "gewinnwachstum": 2.464,
+  "marge": 0.05,
+  "verschuldung": 34.446,
+  "marktkap": 9892131840.0,
+  "kursziel_analysten": 50.72,
+  "analysten": "buy",
+  "sektor": "Industrials",
+  "branche": "Specialty Industrial Machinery",
+  "waehrung": "EUR",
+  "beschreibung": "Nordex SE, together with its subsidiaries, develops, manufactures, and distributes multi-megawatt onshore wind turbines in Europe, North America, Latin America, and internationally. It operates in Projects and Services segments. The company offers Delta4000 and Delta series turbine platforms. It also provides project development; maintenance and repair; spare parts; remote monitoring services for ",
+  "branche_median": {
+   "kgv": 25.5638,
+   "umsatzwachstum": 0.096,
+   "marge": 0.0823,
+   "verschuldung": 61.977,
+   "n": 117
+  }
+ },
+ "technik": {
+  "kurs": 41.76,
+  "vortag": 37.76,
+  "rsi": 64.8,
+  "sma50": 38.0716,
+  "sma200": 40.6349,
+  "ueber_sma50": true,
+  "ueber_sma200": true,
+  "high52": 51.7,
+  "low52": 24.74,
+  "abstand_high52_pct": -19.2,
+  "rel_volumen": 3.43,
+  "volumen": 542456.0,
+  "avg_volumen20": 547987.0,
+  "trend": "Abwärtstrend"
+ },
+ "naechste_zahlen": "2026-11-05",
+ "news": [
+  {
+   "title": "First New Zealand Order Could Change The Bull Case For Nordex Stock",
+   "url": "https://finance.yahoo.com/energy/articles/first-zealand-order-could-change-221745483.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-10-26T22:17:45+00:00"
+  },
+  {
+   "title": "Nordex (XTRA:NDX1) Stock Looks Rich Relative To Its Cash Flow Outlook",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nordex-xtra-ndx1-stock-looks-200834370.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-10-26T20:08:34+00:00"
+  },
+  {
+   "title": "Is Nordex (XTRA:NDX1) A Bargain Following Its First New Zealand Contract?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nordex-xtra-ndx1-bargain-following-191129632.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-10-26T19:11:29+00:00"
+  },
+  {
+   "title": "Nordex (XTRA:NDX1) Lands First New Zealand Order For 192MW Wind Farm",
+   "url": "https://finance.yahoo.com/energy/articles/nordex-xtra-ndx1-lands-first-171520283.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-10-26T17:15:20+00:00"
+  },
+  {
+   "title": "Mercury awards 192MW wind turbine contract to Nordex",
+   "url": "https://finance.yahoo.com/news/mercury-awards-192mw-wind-turbine-085141833.html",
+   "publisher": "Power Technology",
+   "time": "2026-10-23T08:51:41+00:00"
+  },
+  {
+   "title": "3 Eurozone Growth Stocks Riding AI Data Center Demand",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/3-eurozone-growth-stocks-riding-081100775.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-10-23T08:11:00+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 41.76,
+  "change_pct": 10.59,
+  "rel_vol": 3.43,
+  "time": "2026-11-04T10:27:14.348360+00:00"
+ },
+ "pushed": true
+}

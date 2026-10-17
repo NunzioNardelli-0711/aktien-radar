@@ -1,0 +1,139 @@
+{
+ "id": "20261119-P",
+ "symbol": "P",
+ "name": "Everpure, Inc.",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-11-19T15:22:17.830689+00:00",
+ "price": 111.8,
+ "change_pct": 10.98,
+ "rel_vol": 4.53,
+ "score": 74,
+ "ampel": {
+  "farbe": "gruen",
+  "label": "interessant",
+  "emoji": "🟢"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 76,
+   "label": "chancenreich",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 86,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 56,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "earnings",
+  "label": "Quartalszahlen / Prognose",
+  "headline": "Everpure Raises FY27 Revenue Outlook After Q3 Beat, But Barclays Cuts P Stock Target On Pricing Concerns",
+  "source": "Stocktwits"
+ },
+ "begruendung": "Everpure, Inc. steigt um +11.0 % bei 4.5-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Quartalszahlen / Prognose („Everpure Raises FY27 Revenue Outlook After Q3 Beat, But Barclays Cuts P Stock Target On Pricing Concerns“). Pro: Deutlich erhöhtes Volumen (4.5× normal). Contra: Sehr hoch bewertet: KGV 131 vs. Branche 27. Gesamtbild: interessant – eine nähere Prüfung lohnt sich.",
+ "chancen": [
+  "Deutlich erhöhtes Volumen (4.5× normal)",
+  "Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge",
+  "Intakter Aufwärtstrend (50-Tage-Linie über 200-Tage-Linie)",
+  "Starkes Umsatzwachstum (+38 %)",
+  "Gewinn wächst stark (+50 %)",
+  "Geringe Verschuldung"
+ ],
+ "risiken": [
+  "Sehr hoch bewertet: KGV 131 vs. Branche 27"
+ ],
+ "fundamental": {
+  "kgv": 130.6628,
+  "kgv_erwartet": 26.1752,
+  "umsatzwachstum": 0.377,
+  "gewinnwachstum": 0.5,
+  "marge": 0.0594,
+  "verschuldung": 14.622,
+  "marktkap": 37444747264.0,
+  "kursziel_analysten": 151.3684,
+  "analysten": "buy",
+  "sektor": "Technology",
+  "branche": "Computer Hardware",
+  "waehrung": "USD",
+  "beschreibung": "Everpure, Inc. provides data storage and management technologies, products, and services in the United States and internationally. Its Purity software is shared across its products and provides enterprise-class data services, such as always-on data reduction, data protection, and encryption, as well as storage protocols, such as block, file, and object. The company also provides FlashArray, includ",
+  "branche_median": {
+   "kgv": 27.4093,
+   "umsatzwachstum": 0.188,
+   "marge": 0.1636,
+   "verschuldung": 46.0995,
+   "n": 111
+  }
+ },
+ "technik": {
+  "kurs": 111.8,
+  "vortag": 100.74,
+  "rsi": 47.0,
+  "sma50": 121.325,
+  "sma200": 87.7475,
+  "ueber_sma50": false,
+  "ueber_sma200": true,
+  "high52": 157.57,
+  "low52": 56.78,
+  "abstand_high52_pct": -29.0,
+  "rel_volumen": 4.53,
+  "volumen": 2164596.0,
+  "avg_volumen20": 3187575.0,
+  "trend": "Aufwärtstrend"
+ },
+ "naechste_zahlen": "2026-11-18",
+ "news": [
+  {
+   "title": "Dow Jones Futures Rise, Nasdaq Jumps: Anthropic To Debut After Record IPO; Palo Alto, Everpure Rally, Walmart Falls",
+   "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-anthropic-ipo-prices-ant-palo-alto-everpure-walmart-earnings/?src=A00220&yptr=yahoo",
+   "publisher": "Investor's Business Daily",
+   "time": "2026-11-19T13:07:44+00:00"
+  },
+  {
+   "title": "Everpure Raises FY27 Revenue Outlook After Q3 Beat, But Barclays Cuts P Stock Target On Pricing Concerns",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/everpure-raises-fy27-revenue-outlook-124454480.html",
+   "publisher": "Stocktwits",
+   "time": "2026-11-19T12:44:54+00:00"
+  },
+  {
+   "title": "Everpure Raises Revenue Outlook. AI Storage Boom Sets the Stage for More Growth.",
+   "url": "https://www.barrons.com/articles/everpure-earnings-stock-price-f5bb32d2?siteid=yhoof2&yptr=yahoo",
+   "publisher": "Barrons.com",
+   "time": "2026-11-19T10:21:00+00:00"
+  },
+  {
+   "title": "Everpure (P) Stock Could Be Overvalued On Raised Revenue Guidance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/everpure-p-stock-could-overvalued-101208812.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-11-19T10:12:08+00:00"
+  },
+  {
+   "title": "Everpure (P) Raised Its Outlook, Is The Pullback A Buying Opportunity?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/everpure-p-raised-outlook-pullback-061422955.html",
+   "publisher": "Simply Wall St.",
+   "time": "2026-11-19T06:14:22+00:00"
+  },
+  {
+   "title": "Everpure Inc (P) (Q3 2027) Earnings Call Highlights: Revenue Surges 51% as Record Margins and ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/everpure-inc-p-q3-2027-050048289.html",
+   "publisher": "GuruFocus.com",
+   "time": "2026-11-19T05:00:48+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 111.8,
+  "change_pct": 10.98,
+  "rel_vol": 4.53,
+  "time": "2026-11-19T15:22:17.830689+00:00"
+ },
+ "pushed": true
+}

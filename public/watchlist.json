@@ -1,0 +1,311 @@
+{
+ "updated": "2026-11-20T06:25:43.707002+00:00",
+ "items": [
+  {
+   "symbol": "PAT.DE",
+   "name": "Patrizia SE",
+   "market": "DE",
+   "price": 8.12,
+   "last_change_pct": 2.14,
+   "rsi14": 77.2,
+   "signals": [
+    "Ungewöhnliches Volumen (2.1×) ohne große Kursbewegung",
+    "Starkes relatives Momentum (+26 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 5
+  },
+  {
+   "symbol": "MDT",
+   "name": "Medtronic",
+   "market": "US",
+   "price": 100.61,
+   "last_change_pct": -0.11,
+   "rsi14": 56.0,
+   "signals": [
+    "Starkes relatives Momentum (+11 %-Punkte ggü. Index in 20 Tagen)",
+    "Quartalszahlen in 4 Tag(en) (24.11.)"
+   ],
+   "points": 4,
+   "earnings": "2026-11-24"
+  },
+  {
+   "symbol": "AT1.DE",
+   "name": "Aroundtown",
+   "market": "DE",
+   "price": 1.646,
+   "last_change_pct": -0.12,
+   "rsi14": 58.8,
+   "signals": [
+    "Starkes relatives Momentum (+15 %-Punkte ggü. Index in 20 Tagen)",
+    "Quartalszahlen in 5 Tag(en) (25.11.)"
+   ],
+   "points": 4,
+   "earnings": "2026-11-25"
+  },
+  {
+   "symbol": "INH.DE",
+   "name": "Indus Holding AG",
+   "market": "DE",
+   "price": 35.05,
+   "last_change_pct": -1.13,
+   "rsi14": 42.5,
+   "signals": [
+    "Ungewöhnliches Volumen (2.3×) ohne große Kursbewegung"
+   ],
+   "points": 3
+  },
+  {
+   "symbol": "PDD",
+   "name": "Pinduoduo",
+   "market": "US",
+   "price": 86.0,
+   "last_change_pct": 11.04,
+   "rsi14": 64.0,
+   "signals": [
+    "Starkes relatives Momentum (+15 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 2
+  },
+  {
+   "symbol": "SPG.DE",
+   "name": "Springer Nature",
+   "market": "DE",
+   "price": 23.0,
+   "last_change_pct": 3.84,
+   "rsi14": 69.2,
+   "signals": [
+    "Starkes relatives Momentum (+12 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 2
+  },
+  {
+   "symbol": "ZAL.DE",
+   "name": "Zalando",
+   "market": "DE",
+   "price": 29.13,
+   "last_change_pct": 2.79,
+   "rsi14": 65.5,
+   "signals": [
+    "Starkes relatives Momentum (+13 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 2
+  },
+  {
+   "symbol": "PCG",
+   "name": "PG&E Corporation",
+   "market": "US",
+   "price": 13.94,
+   "last_change_pct": 1.68,
+   "rsi14": 63.2,
+   "signals": [
+    "Starkes relatives Momentum (+14 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 2
+  },
+  {
+   "symbol": "SBS.DE",
+   "name": "Stratec SE",
+   "market": "DE",
+   "price": 27.35,
+   "last_change_pct": 1.11,
+   "rsi14": 67.9,
+   "signals": [
+    "Starkes relatives Momentum (+19 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 2
+  },
+  {
+   "symbol": "TGT",
+   "name": "Target Corporation",
+   "market": "US",
+   "price": 167.46,
+   "last_change_pct": 0.92,
+   "rsi14": 61.8,
+   "signals": [
+    "Starkes relatives Momentum (+12 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 2
+  },
+  {
+   "symbol": "ROL",
+   "name": "Rollins, Inc.",
+   "market": "US",
+   "price": 37.97,
+   "last_change_pct": 0.72,
+   "rsi14": 59.3,
+   "signals": [
+    "Starkes relatives Momentum (+14 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 2
+  },
+  {
+   "symbol": "LHA.DE",
+   "name": "Lufthansa",
+   "market": "DE",
+   "price": 8.86,
+   "last_change_pct": 0.45,
+   "rsi14": 74.3,
+   "signals": [
+    "Starkes relatives Momentum (+22 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 2
+  },
+  {
+   "symbol": "PNR",
+   "name": "Pentair",
+   "market": "US",
+   "price": 68.68,
+   "last_change_pct": 0.45,
+   "rsi14": 63.2,
+   "signals": [
+    "Starkes relatives Momentum (+30 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 2
+  },
+  {
+   "symbol": "LVS",
+   "name": "Las Vegas Sands",
+   "market": "US",
+   "price": 39.33,
+   "last_change_pct": 0.15,
+   "rsi14": 51.8,
+   "signals": [
+    "Starkes relatives Momentum (+14 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 2
+  },
+  {
+   "symbol": "EIX",
+   "name": "Edison International",
+   "market": "US",
+   "price": 63.02,
+   "last_change_pct": 0.02,
+   "rsi14": 70.7,
+   "signals": [
+    "Starkes relatives Momentum (+15 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 2
+  },
+  {
+   "symbol": "GNRC",
+   "name": "Generac",
+   "market": "US",
+   "price": 205.09,
+   "last_change_pct": -0.18,
+   "rsi14": 55.7,
+   "signals": [
+    "Starkes relatives Momentum (+15 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 2
+  },
+  {
+   "symbol": "DGX",
+   "name": "Quest Diagnostics",
+   "market": "US",
+   "price": 259.09,
+   "last_change_pct": -0.23,
+   "rsi14": 62.3,
+   "signals": [
+    "Starkes relatives Momentum (+13 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 2
+  },
+  {
+   "symbol": "COST",
+   "name": "Costco",
+   "market": "US",
+   "price": 1093.83,
+   "last_change_pct": -0.25,
+   "rsi14": 67.8,
+   "signals": [
+    "Starkes relatives Momentum (+14 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 2
+  },
+  {
+   "symbol": "NXPI",
+   "name": "NXP Semiconductors",
+   "market": "US",
+   "price": 251.76,
+   "last_change_pct": -0.28,
+   "rsi14": 50.3,
+   "signals": [
+    "Starkes relatives Momentum (+12 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 2
+  },
+  {
+   "symbol": "BAYN.DE",
+   "name": "Bayer",
+   "market": "DE",
+   "price": 55.94,
+   "last_change_pct": -0.36,
+   "rsi14": 68.9,
+   "signals": [
+    "Starkes relatives Momentum (+25 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 2
+  },
+  {
+   "symbol": "DD",
+   "name": "DuPont",
+   "market": "US",
+   "price": 149.69,
+   "last_change_pct": -0.36,
+   "rsi14": 58.6,
+   "signals": [
+    "Starkes relatives Momentum (+17 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 2
+  },
+  {
+   "symbol": "DPZ",
+   "name": "Domino's",
+   "market": "US",
+   "price": 352.28,
+   "last_change_pct": -0.36,
+   "rsi14": 70.4,
+   "signals": [
+    "Starkes relatives Momentum (+17 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 2
+  },
+  {
+   "symbol": "HRL",
+   "name": "Hormel Foods",
+   "market": "US",
+   "price": 23.06,
+   "last_change_pct": -0.39,
+   "rsi14": 66.1,
+   "signals": [
+    "Starkes relatives Momentum (+14 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 2
+  },
+  {
+   "symbol": "MOS",
+   "name": "Mosaic Company (The)",
+   "market": "US",
+   "price": 19.85,
+   "last_change_pct": -0.4,
+   "rsi14": 44.0,
+   "signals": [
+    "Starkes relatives Momentum (+21 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 2
+  },
+  {
+   "symbol": "ACGL",
+   "name": "Arch Capital Group",
+   "market": "US",
+   "price": 108.16,
+   "last_change_pct": -0.42,
+   "rsi14": 58.0,
+   "signals": [
+    "Starkes relatives Momentum (+12 %-Punkte ggü. Index in 20 Tagen)"
+   ],
+   "points": 2
+  }
+ ],
+ "hinweis": "Frühwarn-Signale sind Hinweise auf erhöhte Bewegungswahrscheinlichkeit, keine Prognose und keine Kaufempfehlung."
+}

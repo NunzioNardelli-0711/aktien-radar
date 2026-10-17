@@ -1,0 +1,101 @@
+{
+ "id": "20261029-CVNA",
+ "symbol": "CVNA",
+ "name": "Carvana Co.",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-10-29T14:29:55.768371+00:00",
+ "price": 68.77,
+ "change_pct": 16.46,
+ "rel_vol": 5.52,
+ "score": 59,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 53,
+   "label": "neutral",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 68,
+   "label": "chancenreich",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 54,
+   "label": "neutral",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "none",
+  "label": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "headline": null,
+  "source": ""
+ },
+ "begruendung": "Carvana Co. steigt um +16.5 % bei 5.5-fachem Handelsvolumen. In den aktuellen Nachrichten findet sich kein klarer Auslöser. Pro: Sehr hohes Handelsvolumen (5.5× normal) – breites Interesse. Contra: Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein. Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [
+  "Sehr hohes Handelsvolumen (5.5× normal) – breites Interesse",
+  "Starkes Umsatzwachstum (+52 %)",
+  "Gewinn wächst stark (+62 %)"
+ ],
+ "risiken": [
+  "Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein",
+  "Langfristiger Abwärtstrend – Kurs trotz Sprung unter der 200-Tage-Linie",
+  "Teurer als die Branche: KGV 33 vs. 20"
+ ],
+ "fundamental": {
+  "kgv": 33.0577,
+  "kgv_erwartet": 30.4395,
+  "umsatzwachstum": 0.524,
+  "gewinnwachstum": 0.615,
+  "marge": 0.0626,
+  "verschuldung": 110.88,
+  "marktkap": 76217966592.0,
+  "kursziel_analysten": 81.3333,
+  "analysten": "buy",
+  "sektor": "Consumer Cyclical",
+  "branche": "Auto & Truck Dealerships",
+  "waehrung": "USD",
+  "beschreibung": "Carvana Co., together with its subsidiaries, operates an e-commerce platform for buying and selling used cars. It provides vehicle acquisition, inspection and reconditioning, online search and shopping experience, financing, complementary products, logistics network and distinctive fulfillment experience, and post-sale customer support services. The company also operates auction sites. Carvana Co.",
+  "branche_median": {
+   "kgv": 19.6857,
+   "umsatzwachstum": 0.056,
+   "marge": 0.07,
+   "verschuldung": 110.88,
+   "n": 74
+  }
+ },
+ "technik": {
+  "kurs": 68.77,
+  "vortag": 59.05,
+  "rsi": 63.0,
+  "sma50": 65.899,
+  "sma200": 69.4238,
+  "ueber_sma50": true,
+  "ueber_sma200": false,
+  "high52": 97.378,
+  "low52": 54.464,
+  "abstand_high52_pct": -29.4,
+  "rel_volumen": 5.52,
+  "volumen": 7302521.0,
+  "avg_volumen20": 8605065.0,
+  "trend": "Abwärtstrend"
+ },
+ "naechste_zahlen": "2026-10-28",
+ "news": [],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 68.77,
+  "change_pct": 16.46,
+  "rel_vol": 5.52,
+  "time": "2026-10-29T14:29:55.768371+00:00"
+ },
+ "pushed": true
+}

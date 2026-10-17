@@ -1,0 +1,100 @@
+{
+ "id": "20261029-TXT",
+ "symbol": "TXT",
+ "name": "Textron Inc.",
+ "market": "US",
+ "indices": [
+  "S&P 500"
+ ],
+ "time": "2026-10-29T14:29:55.768371+00:00",
+ "price": 87.81,
+ "change_pct": 12.12,
+ "rel_vol": 2.85,
+ "score": 50,
+ "ampel": {
+  "farbe": "gelb",
+  "label": "beobachten",
+  "emoji": "🟡"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 34,
+   "label": "ungünstig",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 48,
+   "label": "neutral",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 70,
+   "label": "chancenreich",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "none",
+  "label": "Kein eindeutiger Grund in den Nachrichten gefunden",
+  "headline": null,
+  "source": ""
+ },
+ "begruendung": "Textron Inc. steigt um +12.1 % bei 2.8-fachem Handelsvolumen. In den aktuellen Nachrichten findet sich kein klarer Auslöser. Pro: Günstig bewertet: KGV 17 vs. Branche 26. Contra: Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein. Gesamtbild: gemischt – beobachten statt überstürzt handeln.",
+ "chancen": [
+  "Günstig bewertet: KGV 17 vs. Branche 26"
+ ],
+ "risiken": [
+  "Kein klarer Nachrichtenauslöser – Anstieg könnte spekulativ sein",
+  "Überkauft (RSI 77)",
+  "Quartalszahlen in 0 Tag(en) – erhöhte Schwankung möglich",
+  "Langfristiger Abwärtstrend – Kurs trotz Sprung unter der 200-Tage-Linie"
+ ],
+ "fundamental": {
+  "kgv": 16.533,
+  "kgv_erwartet": 12.1532,
+  "umsatzwachstum": 0.03,
+  "gewinnwachstum": 0.052,
+  "marge": 0.0612,
+  "verschuldung": 52.285,
+  "marktkap": 15265713152.0,
+  "kursziel_analysten": 99.4667,
+  "analysten": "buy",
+  "sektor": "Industrials",
+  "branche": "Aerospace & Defense",
+  "waehrung": "USD",
+  "beschreibung": "Textron Inc. operates in the aircraft, defense, industrial, and finance businesses worldwide. It operates in six segments: Textron Aviation, Bell, Textron Systems, Industrial, Textron eAviation, and Finance. The Textron Aviation segment manufactures, sells, and services business jets, turboprop and piston engine aircraft, and military trainer and defense aircraft, as well as offers maintenance, in",
+  "branche_median": {
+   "kgv": 26.0329,
+   "umsatzwachstum": 0.094,
+   "marge": 0.0817,
+   "verschuldung": 66.425,
+   "n": 117
+  }
+ },
+ "technik": {
+  "kurs": 87.81,
+  "vortag": 78.32,
+  "rsi": 76.7,
+  "sma50": 78.5134,
+  "sma200": 88.384,
+  "ueber_sma50": true,
+  "ueber_sma200": false,
+  "high52": 101.57,
+  "low52": 71.87,
+  "abstand_high52_pct": -13.5,
+  "rel_volumen": 2.85,
+  "volumen": 705876.0,
+  "avg_volumen20": 1612750.0,
+  "trend": "Abwärtstrend"
+ },
+ "naechste_zahlen": "2026-10-29",
+ "news": [],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 87.81,
+  "change_pct": 12.12,
+  "rel_vol": 2.85,
+  "time": "2026-10-29T14:29:55.768371+00:00"
+ },
+ "pushed": true
+}

@@ -1,0 +1,143 @@
+{
+ "updated": "2026-11-20T20:55:20.000139+00:00",
+ "markets": [
+  "US"
+ ],
+ "items": [
+  {
+   "symbol": "GPN",
+   "name": "Global Payments",
+   "market": "US",
+   "price": 92.96,
+   "change_pct": 11.3,
+   "rel_vol": 2.04,
+   "alarm": true
+  },
+  {
+   "symbol": "GIS",
+   "name": "General Mills",
+   "market": "US",
+   "price": 35.85,
+   "change_pct": 3.96,
+   "rel_vol": 1.25,
+   "alarm": false
+  },
+  {
+   "symbol": "MKC",
+   "name": "McCormick & Company",
+   "market": "US",
+   "price": 47.53,
+   "change_pct": 3.71,
+   "rel_vol": 1.21,
+   "alarm": false
+  },
+  {
+   "symbol": "HCA",
+   "name": "HCA Healthcare",
+   "market": "US",
+   "price": 474.86,
+   "change_pct": 3.16,
+   "rel_vol": 0.76,
+   "alarm": false
+  },
+  {
+   "symbol": "CTSH",
+   "name": "Cognizant",
+   "market": "US",
+   "price": 57.98,
+   "change_pct": 2.97,
+   "rel_vol": 0.57,
+   "alarm": false
+  },
+  {
+   "symbol": "CSGP",
+   "name": "CoStar Group",
+   "market": "US",
+   "price": 29.52,
+   "change_pct": 2.86,
+   "rel_vol": 0.85,
+   "alarm": false
+  },
+  {
+   "symbol": "DVA",
+   "name": "DaVita",
+   "market": "US",
+   "price": 160.77,
+   "change_pct": 2.83,
+   "rel_vol": 0.56,
+   "alarm": false
+  },
+  {
+   "symbol": "UNH",
+   "name": "UnitedHealth Group",
+   "market": "US",
+   "price": 339.23,
+   "change_pct": 2.65,
+   "rel_vol": 1.64,
+   "alarm": false
+  },
+  {
+   "symbol": "HUM",
+   "name": "Humana",
+   "market": "US",
+   "price": 390.04,
+   "change_pct": 2.64,
+   "rel_vol": 0.92,
+   "alarm": false
+  },
+  {
+   "symbol": "UHS",
+   "name": "Universal Health Services",
+   "market": "US",
+   "price": 179.6,
+   "change_pct": 2.64,
+   "rel_vol": 0.66,
+   "alarm": false
+  },
+  {
+   "symbol": "SBAC",
+   "name": "SBA Communications",
+   "market": "US",
+   "price": 173.57,
+   "change_pct": 2.3,
+   "rel_vol": 0.44,
+   "alarm": false
+  },
+  {
+   "symbol": "FICO",
+   "name": "Fair Isaac",
+   "market": "US",
+   "price": 692.99,
+   "change_pct": 2.27,
+   "rel_vol": 0.58,
+   "alarm": false
+  },
+  {
+   "symbol": "KHC",
+   "name": "Kraft Heinz",
+   "market": "US",
+   "price": 25.47,
+   "change_pct": 2.19,
+   "rel_vol": 0.97,
+   "alarm": false
+  },
+  {
+   "symbol": "T",
+   "name": "AT&T",
+   "market": "US",
+   "price": 22.32,
+   "change_pct": 2.15,
+   "rel_vol": 0.79,
+   "alarm": false
+  },
+  {
+   "symbol": "HRL",
+   "name": "Hormel Foods",
+   "market": "US",
+   "price": 23.55,
+   "change_pct": 2.1,
+   "rel_vol": 0.71,
+   "alarm": false
+  }
+ ]
+}

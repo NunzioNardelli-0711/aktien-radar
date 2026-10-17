@@ -1,0 +1,140 @@
+{
+ "id": "20261119-PDD",
+ "symbol": "PDD",
+ "name": "PDD Holdings Inc.",
+ "market": "US",
+ "indices": [
+  "Nasdaq 100"
+ ],
+ "time": "2026-11-19T15:22:17.830689+00:00",
+ "price": 85.6,
+ "change_pct": 10.52,
+ "rel_vol": 11.39,
+ "score": 71,
+ "ampel": {
+  "farbe": "gruen",
+  "label": "interessant",
+  "emoji": "🟢"
+ },
+ "horizonte": {
+  "kurzfristig": {
+   "score": 80,
+   "label": "chancenreich",
+   "zeitraum": "Tage"
+  },
+  "mittelfristig": {
+   "score": 52,
+   "label": "neutral",
+   "zeitraum": "Wochen bis Monate"
+  },
+  "langfristig": {
+   "score": 82,
+   "label": "chancenreich",
+   "zeitraum": "Jahre"
+  }
+ },
+ "grund": {
+  "key": "earnings",
+  "label": "Quartalszahlen / Prognose",
+  "headline": "PDD Holdings shares jump 8% as earnings beat estimates despite revenue miss",
+  "source": "Proactive"
+ },
+ "begruendung": "PDD Holdings Inc. steigt um +10.5 % bei 11.4-fachem Handelsvolumen. Wahrscheinlicher Auslöser: Quartalszahlen / Prognose („PDD Holdings shares jump 8% as earnings beat estimates despite revenue miss“). Pro: Sehr hohes Handelsvolumen (11.4× normal) – breites Interesse. Contra: Quartalszahlen in 0 Tag(en) – erhöhte Schwankung möglich. Gesamtbild: interessant – eine nähere Prüfung lohnt sich.",
+ "chancen": [
+  "Sehr hohes Handelsvolumen (11.4× normal) – breites Interesse",
+  "Fundamentaler Auslöser – solche Anstiege halten öfter als reine Stimmungssprünge",
+  "Günstig bewertet: KGV 10 vs. Branche 19",
+  "Hohe Gewinnmarge (20 %)",
+  "Geringe Verschuldung"
+ ],
+ "risiken": [
+  "Quartalszahlen in 0 Tag(en) – erhöhte Schwankung möglich",
+  "Langfristiger Abwärtstrend – Kurs trotz Sprung unter der 200-Tage-Linie",
+  "Gewinn rückläufig (-11 %)"
+ ],
+ "fundamental": {
+  "kgv": 9.6199,
+  "kgv_erwartet": 6.9246,
+  "umsatzwachstum": 0.081,
+  "gewinnwachstum": -0.112,
+  "marge": 0.2043,
+  "verschuldung": 1.082,
+  "marktkap": 121730719744.0,
+  "kursziel_analysten": 113.6928,
+  "analysten": "buy",
+  "sektor": "Consumer Cyclical",
+  "branche": "Internet Retail",
+  "waehrung": "USD",
+  "beschreibung": "PDD Holdings Inc., a multinational commerce group that owns and operates a portfolio of businesses. The company operates Pinduoduo platform, which provides various product categories and interactive shopping experiences; and Temu, an online platform, which enables merchants to streamline their manufacturing and commercial operations. The company was formerly known as Pinduoduo Inc. and changed its",
+  "branche_median": {
+   "kgv": 19.4235,
+   "umsatzwachstum": 0.051,
+   "marge": 0.0704,
+   "verschuldung": 106.3695,
+   "n": 74
+  }
+ },
+ "technik": {
+  "kurs": 85.6,
+  "vortag": 77.45,
+  "rsi": 62.6,
+  "sma50": 79.2448,
+  "sma200": 89.4368,
+  "ueber_sma50": true,
+  "ueber_sma200": false,
+  "high52": 125.36,
+  "low52": 71.94,
+  "abstand_high52_pct": -31.7,
+  "rel_volumen": 11.39,
+  "volumen": 9814749.0,
+  "avg_volumen20": 5746110.0,
+  "trend": "Abwärtstrend"
+ },
+ "naechste_zahlen": "2026-11-19",
+ "news": [
+  {
+   "title": "PDD Holdings shares jump 8% as earnings beat estimates despite revenue miss",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/pdd-holdings-shares-jump-8-143400793.html",
+   "publisher": "Proactive",
+   "time": "2026-11-19T14:34:00+00:00"
+  },
+  {
+   "title": "Temu Owner Reports Flat Profit, Revenue as Challenges Continue",
+   "url": "https://www.wsj.com/business/earnings/temu-owner-reports-flat-profit-revenue-as-challenges-continue-039f7d3e?siteid=yhoof2&yptr=yahoo",
+   "publisher": "The Wall Street Journal",
+   "time": "2026-11-19T12:40:00+00:00"
+  },
+  {
+   "title": "PDD Holdings shares jump as quarterly earnings top forecasts",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/pdd-holdings-shares-jump-quarterly-121518212.html",
+   "publisher": "Investing.com",
+   "time": "2026-11-19T12:15:18+00:00"
+  },
+  {
+   "title": "PDD Holdings Inc. Sponsored ADR (PDD) Surpasses Q3 Earnings Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/pdd-holdings-inc-sponsored-adr-114501096.html",
+   "publisher": "Zacks",
+   "time": "2026-11-19T11:45:01+00:00"
+  },
+  {
+   "title": "Alibaba Got Hit by the Chip Scare. Is PDD a Safer Alternative?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/alibaba-got-hit-chip-scare-141924103.html",
+   "publisher": "24/7 Wall St.",
+   "time": "2026-11-18T14:19:24+00:00"
+  },
+  {
+   "title": "Alibaba Q2 Earnings Preview: Why Should You Hold the Stock Now?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/alibaba-q2-earnings-preview-why-135400159.html",
+   "publisher": "Zacks",
+   "time": "2026-11-17T13:54:00+00:00"
+  }
+ ],
+ "disclaimer": "Automatisch erstellte, regelbasierte Einschätzung auf Basis öffentlicher, ggf. verzögerter Daten. Keine Anlageberatung und keine Kaufempfehlung – die Entscheidung und das Risiko liegen bei dir.",
+ "live": {
+  "price": 85.6,
+  "change_pct": 10.52,
+  "rel_vol": 11.39,
+  "time": "2026-11-19T15:22:17.830689+00:00"
+ },
+ "pushed": true
+}
