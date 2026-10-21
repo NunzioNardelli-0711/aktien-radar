@@ -242,7 +242,8 @@ def selfcheck(now=None, push: bool = False) -> list[str]:
             hour=MARKETS[m]["open"].hour, minute=MARKETS[m]["open"].minute) > timedelta(minutes=30)
            for m in MARKETS):
         a = age("last_scan")
-        if a is None or a > timedelta(minutes=25):
+        # GitHub startet Cron-Jobs oft nur alle 30–45 Minuten statt alle 5 – daher großzügige Schwelle
+        if a is None or a > timedelta(minutes=60):
             problems.append(f"Letzter Scan vor {a} – Scanner läuft nicht regelmäßig")
     a = age("baseline_built")
     if now.weekday() < 5 and (a is None or a > timedelta(hours=30)):
