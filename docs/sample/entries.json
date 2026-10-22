@@ -1,0 +1,275 @@
+{
+ "date": "2026-10-19",
+ "updated": "2026-10-19T19:40:45+00:00",
+ "items": [
+  {
+   "symbol": "CCL",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 10:15 schloss bei 26,21 $ über dem Spannen-Hoch 26,17 $",
+   "level": 26.17,
+   "opening_range": {
+    "high": 26.17,
+    "low": 25.76
+   },
+   "last": {
+    "bar_start": "10:15",
+    "close": 26.21,
+    "vs_level_pct": 0.15
+   },
+   "checked": "2026-10-19T14:20:45+00:00",
+   "bars": 10,
+   "trigger": {
+    "time_et": "10:20",
+    "time_berlin": "16:20",
+    "bar_start": "10:15",
+    "price": 26.21,
+    "pct_over": 0.15,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 26.21,
+    "stop": 25.96,
+    "target": 26.46,
+    "entry_time": "10:20 AM",
+    "risk_per_share": 0.25,
+    "target_r": 1.0
+   },
+   "tm": {
+    "error": "no data for CCL: offline"
+   },
+   "pushed": true,
+   "name": "CCL Corp.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Bullenflagge"
+   ]
+  },
+  {
+   "symbol": "TSLA",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 10:10 schloss bei 364,18 $ über dem Spannen-Hoch 362,18 $",
+   "level": 362.18,
+   "opening_range": {
+    "high": 362.18,
+    "low": 354.47
+   },
+   "last": {
+    "bar_start": "10:10",
+    "close": 364.18,
+    "vs_level_pct": 0.55
+   },
+   "checked": "2026-10-19T14:15:45+00:00",
+   "bars": 9,
+   "trigger": {
+    "time_et": "10:15",
+    "time_berlin": "16:15",
+    "bar_start": "10:10",
+    "price": 364.18,
+    "pct_over": 0.55,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 364.18,
+    "stop": 358.32,
+    "target": 370.04,
+    "entry_time": "10:15 AM",
+    "risk_per_share": 5.86,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261019-TSLA-e",
+    "p_target": 0.2917,
+    "p_stop": 0.242,
+    "p_neither": 0.4663,
+    "p_green": 0.5206,
+    "avg_R": 0.045,
+    "median_close": 364.37,
+    "p5_close": 355.78,
+    "p95_close": 373.19,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 59,
+    "verdict": "Etwa ein Münzwurf",
+    "verdict_en": "Close to a coin flip: target first 29.2 % vs stop first 24.2 %.",
+    "history": {
+     "sessions": 59,
+     "triggered": 33,
+     "target": 13,
+     "stop": 15,
+     "close": 5,
+     "avg_R": -0.07
+    }
+   },
+   "pushed": true,
+   "name": "TSLA Corp.",
+   "source": "eigene Liste",
+   "setups": []
+  },
+  {
+   "symbol": "XOM",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 09:45 schloss bei 179,10 $ über dem Spannen-Hoch 179,04 $",
+   "level": 179.04,
+   "opening_range": {
+    "high": 179.04,
+    "low": 177.23
+   },
+   "last": {
+    "bar_start": "10:05",
+    "close": 178.79,
+    "vs_level_pct": -0.14
+   },
+   "checked": "2026-10-19T14:12:00+00:00",
+   "bars": 8,
+   "trigger": {
+    "time_et": "09:50",
+    "time_berlin": "15:50",
+    "bar_start": "09:45",
+    "price": 179.1,
+    "pct_over": 0.03,
+    "minutes_since": 22
+   },
+   "plan": {
+    "entry": 179.1,
+    "stop": 178.13,
+    "target": 180.07,
+    "entry_time": "9:50 AM",
+    "risk_per_share": 0.97,
+    "target_r": 1.0
+   },
+   "tm": {
+    "error": "no data for XOM: offline"
+   },
+   "pushed": true,
+   "name": "XOM Corp.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "BAC",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 51,53 $ bis 15:30 ET",
+   "level": 51.53,
+   "opening_range": {
+    "high": 51.53,
+    "low": 51.01
+   },
+   "last": {
+    "bar_start": "10:20",
+    "close": 51.22,
+    "vs_level_pct": -0.61
+   },
+   "checked": "2026-10-19T19:40:45+00:00",
+   "bars": 11,
+   "name": "BAC Corp.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Überverkauft (RSI < 30)"
+   ]
+  },
+  {
+   "symbol": "F",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 12,43 $ bis 15:30 ET",
+   "level": 12.43,
+   "opening_range": {
+    "high": 12.43,
+    "low": 12.32
+   },
+   "last": {
+    "bar_start": "10:20",
+    "close": 12.39,
+    "vs_level_pct": -0.36
+   },
+   "checked": "2026-10-19T19:40:45+00:00",
+   "bars": 11,
+   "name": "F Corp.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Zurück über 20-Tage-Linie"
+   ]
+  },
+  {
+   "symbol": "JPM",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 341,01 $ bis 15:30 ET",
+   "level": 341.01,
+   "opening_range": {
+    "high": 341.01,
+    "low": 336.85
+   },
+   "last": {
+    "bar_start": "10:20",
+    "close": 337.89,
+    "vs_level_pct": -0.92
+   },
+   "checked": "2026-10-19T19:40:45+00:00",
+   "bars": 11,
+   "name": "JPM Corp.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Zurück über 20-Tage-Linie"
+   ]
+  },
+  {
+   "symbol": "KO",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 93,75 $ bis 15:30 ET",
+   "level": 93.75,
+   "opening_range": {
+    "high": 93.75,
+    "low": 92.56
+   },
+   "last": {
+    "bar_start": "10:20",
+    "close": 93.66,
+    "vs_level_pct": -0.1
+   },
+   "checked": "2026-10-19T19:40:45+00:00",
+   "bars": 11,
+   "name": "KO Corp.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "RIVN",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 12,52 $ bis 15:30 ET",
+   "level": 12.52,
+   "opening_range": {
+    "high": 12.52,
+    "low": 12.32
+   },
+   "last": {
+    "bar_start": "10:20",
+    "close": 12.28,
+    "vs_level_pct": -1.88
+   },
+   "checked": "2026-10-19T19:40:45+00:00",
+   "bars": 11,
+   "name": "RIVN Corp.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Überverkauft (RSI < 30)"
+   ]
+  }
+ ],
+ "window": [
+  "09:45",
+  "15:30"
+ ],
+ "plan_rule": "Stop = Mitte der Eröffnungsspanne, Ziel = 1R, glatt bis 15:55 ET",
+ "disclaimer": "Regelbasierte Signale aus freien, teils verzögerten Daten. Keine Anlageberatung, es wird nichts gekauft. Daytrading verliert bei den meisten Menschen Geld."
+}

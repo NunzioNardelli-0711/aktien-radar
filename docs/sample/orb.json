@@ -1,0 +1,216 @@
+{
+ "date": "2026-10-19",
+ "updated": "2026-10-19T19:40:45+00:00",
+ "counts": {
+  "requested": 15,
+  "fetched": 15,
+  "unusable": 0,
+  "illiquid": 0,
+  "scanned": 15,
+  "candidates": 10,
+  "confirmed": 10,
+  "unconfirmed": 0,
+  "hits": 6,
+  "failed": 0,
+  "as_of": "10:25",
+  "universe": 18
+ },
+ "last_scan": "2026-10-19T14:25:45+00:00",
+ "hits": [
+  {
+   "symbol": "XOM",
+   "name": "XOM Corp.",
+   "price": 179.1,
+   "time_et": "09:50",
+   "time_berlin": "15:50",
+   "at": "9:50 AM",
+   "or_high": 179.04,
+   "or_low": 177.23,
+   "pct_over": 0.03,
+   "value": 438356036,
+   "found": "2026-10-19T14:12:00+00:00",
+   "plan": {
+    "entry": 179.1,
+    "stop": 178.13,
+    "target": 180.07,
+    "entry_time": "9:50 AM",
+    "risk_per_share": 0.97,
+    "target_r": 1.0
+   },
+   "tm": {
+    "error": "no data for XOM: offline"
+   }
+  },
+  {
+   "symbol": "CI",
+   "name": "CI",
+   "price": 301.7,
+   "time_et": "09:55",
+   "time_berlin": "15:55",
+   "at": "9:55 AM",
+   "or_high": 301.48,
+   "or_low": 298.38,
+   "pct_over": 0.07,
+   "value": 51596897,
+   "found": "2026-10-19T14:12:00+00:00",
+   "plan": {
+    "entry": 301.7,
+    "stop": 299.93,
+    "target": 303.47,
+    "entry_time": "9:55 AM",
+    "risk_per_share": 1.77,
+    "target_r": 1.0
+   },
+   "tm": {
+    "error": "no data for CI: offline"
+   }
+  },
+  {
+   "symbol": "AMZN",
+   "name": "AMZN",
+   "price": 258.21,
+   "time_et": "10:10",
+   "time_berlin": "16:10",
+   "at": "10:10 AM",
+   "or_high": 257.73,
+   "or_low": 255.24,
+   "pct_over": 0.19,
+   "value": 4179061786,
+   "found": "2026-10-19T14:12:00+00:00",
+   "plan": {
+    "entry": 258.21,
+    "stop": 256.48,
+    "target": 259.94,
+    "entry_time": "10:10 AM",
+    "risk_per_share": 1.73,
+    "target_r": 1.0
+   },
+   "tm": {
+    "error": "no data for AMZN: offline"
+   }
+  },
+  {
+   "symbol": "TSLA",
+   "name": "TSLA Corp.",
+   "price": 364.18,
+   "time_et": "10:15",
+   "time_berlin": "16:15",
+   "at": "10:15 AM",
+   "or_high": 362.18,
+   "or_low": 354.47,
+   "pct_over": 0.55,
+   "value": 5665655561,
+   "found": "2026-10-19T14:25:45+00:00",
+   "plan": {
+    "entry": 364.18,
+    "stop": 358.32,
+    "target": 370.04,
+    "entry_time": "10:15 AM",
+    "risk_per_share": 5.86,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261019-TSLA-o",
+    "p_target": 0.2917,
+    "p_stop": 0.242,
+    "p_neither": 0.4663,
+    "p_green": 0.5206,
+    "avg_R": 0.045,
+    "median_close": 364.37,
+    "p5_close": 355.78,
+    "p95_close": 373.19,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 59,
+    "verdict": "Etwa ein Münzwurf",
+    "verdict_en": "Close to a coin flip: target first 29.2 % vs stop first 24.2 %.",
+    "history": {
+     "sessions": 59,
+     "triggered": 33,
+     "target": 13,
+     "stop": 15,
+     "close": 5,
+     "avg_R": -0.07
+    }
+   }
+  },
+  {
+   "symbol": "MSFT",
+   "name": "MSFT",
+   "price": 534.15,
+   "time_et": "10:15",
+   "time_berlin": "16:15",
+   "at": "10:15 AM",
+   "or_high": 532.63,
+   "or_low": 528.74,
+   "pct_over": 0.28,
+   "value": 2536288216,
+   "found": "2026-10-19T14:25:45+00:00"
+  },
+  {
+   "symbol": "RCL",
+   "name": "RCL",
+   "price": 280.99,
+   "time_et": "10:15",
+   "time_berlin": "16:15",
+   "at": "10:15 AM",
+   "or_high": 279.45,
+   "or_low": 275.78,
+   "pct_over": 0.55,
+   "value": 102580587,
+   "found": "2026-10-19T14:25:45+00:00"
+  },
+  {
+   "symbol": "PNC",
+   "name": "PNC",
+   "price": 218.3,
+   "time_et": "10:15",
+   "time_berlin": "16:15",
+   "at": "10:15 AM",
+   "or_high": 217.99,
+   "or_low": 216.18,
+   "pct_over": 0.14,
+   "value": 63826246,
+   "found": "2026-10-19T14:25:45+00:00"
+  },
+  {
+   "symbol": "CCL",
+   "name": "CCL Corp.",
+   "price": 26.21,
+   "time_et": "10:20",
+   "time_berlin": "16:20",
+   "at": "10:20 AM",
+   "or_high": 26.17,
+   "or_low": 25.76,
+   "pct_over": 0.15,
+   "value": 89463470,
+   "found": "2026-10-19T14:25:45+00:00"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "NVDA",
+   "price": 218.26,
+   "time_et": "10:25",
+   "time_berlin": "16:25",
+   "at": "10:25 AM",
+   "or_high": 218.03,
+   "or_low": 214.7,
+   "pct_over": 0.1,
+   "value": 7266051376,
+   "found": "2026-10-19T14:25:45+00:00",
+   "plan": {
+    "entry": 218.26,
+    "stop": 216.36,
+    "target": 220.16,
+    "entry_time": "10:25 AM",
+    "risk_per_share": 1.9,
+    "target_r": 1.0
+   },
+   "tm": {
+    "error": "no data for NVDA: offline"
+   }
+  }
+ ],
+ "regel": "Erste 5-Min.-Kerze, die über dem Hoch der ersten 15 Minuten schließt",
+ "disclaimer": "Regelbasierte Signale aus freien, teils verzögerten Daten. Keine Anlageberatung, es wird nichts gekauft. Daytrading verliert bei den meisten Menschen Geld."
+}

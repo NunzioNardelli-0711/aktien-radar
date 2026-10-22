@@ -1,0 +1,51 @@
+name: Live-Rauchtest Daytrading & Kongress
+
+# Prüft die neuen Module gegen die echten Datenquellen (Yahoo, Nasdaq Trader, House Clerk),
+# ohne Push-Nachrichten und ohne die Datenbranches zu verändern. Das Ergebnis landet im
+# Branch "smoke-result" (smoke-report.json) und in der Zusammenfassung des Laufs.
+on:
+  push:
+    branches: [daytrading]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radar-smoke
+  cancel-in-progress: true
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: command -v pdftotext || (sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils)
+      - name: Offline-Tests
+        run: |
+          python tests/test_offline.py > /dev/null
+          python -m unittest discover -s tests/daytrader -t tests/daytrader
+          python tests/test_daytrade_offline.py
+      - name: Live-Rauchtest
+        id: live
+        run: python -m radar smoke
+        continue-on-error: true
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+      - name: Bericht sichern
+        if: always()
+        run: |
+          echo '```json' >> "$GITHUB_STEP_SUMMARY"; head -c 60000 smoke-report.json >> "$GITHUB_STEP_SUMMARY" || true; echo '```' >> "$GITHUB_STEP_SUMMARY"
+          mkdir out && cp smoke-report.json out/ 2>/dev/null || echo '{"ok": false, "error": "kein Bericht"}' > out/smoke-report.json
+          cd out && git init -q -b smoke-result && git add -A
+          git -c user.name=aktien-radar-bot -c user.email=41898282+github-actions[bot]@users.noreply.github.com commit -q -m "Rauchtest ${GITHUB_SHA::7}"
+          git push -q --force "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" HEAD:smoke-result
+      - name: Ergebnis
+        if: steps.live.outcome != 'success'
+        run: exit 1

@@ -167,7 +167,7 @@ def main():
         print(f"  [{kw.get('priority')}] {t} | {m.splitlines()[0]} | {kw.get('click')}")
     assert all(kw.get("priority") == 5 for t, m, kw in sent if t.startswith("🚀"))
 
-    probs = jobs.selfcheck(now=T2 + timedelta(minutes=6))
+    probs = jobs.selfcheck(now=T2 + timedelta(minutes=6), branch_status=lambda branch: None)
     assert not probs, probs
 
     # Fehlerpfad: Datenquelle liefert nichts
@@ -183,9 +183,9 @@ def main():
 
     # Beispieldaten für die Web-App sichern
     sample = ROOT / "docs" / "sample"
-    if sample.exists():
-        shutil.rmtree(sample)
-    shutil.copytree(config.PUBLIC, sample)
+    if (sample / "a").exists():
+        shutil.rmtree(sample / "a")          # nur die Radar-Dateien ersetzen, Daytrading-Beispiele bleiben
+    shutil.copytree(config.PUBLIC, sample, dirs_exist_ok=True)
     st = json.loads((sample / "status.json").read_text())
     st["errors"] = []
     st["ok"] = True

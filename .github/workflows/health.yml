@@ -3,7 +3,7 @@ name: Selbstprüfung
 on:
   schedule:
     - cron: "7 12 * * 1-5"    # mittags (Xetra offen)
-    - cron: "37 19 * * 1-5"   # abends (US offen)
+    - cron: "7 18 * * 1-5"    # nachmittags (US offen, prüft auch Daytrading und Kongress)
   workflow_dispatch:
 
 permissions:

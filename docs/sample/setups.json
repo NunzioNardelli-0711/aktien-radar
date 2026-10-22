@@ -1,0 +1,140 @@
+{
+ "date": "2026-10-19",
+ "updated": "2026-10-19T12:30:00+00:00",
+ "as_of": "2026-10-16",
+ "universe": 19,
+ "fetched": 19,
+ "scanned": 11,
+ "failed": 0,
+ "filters": {
+  "min_price": 5.0,
+  "min_volume": 1000000
+ },
+ "per_setup": {
+  "Ausbruch über 20-Tage-Hoch": 2,
+  "Bullenflagge": 1,
+  "Zurück über 20-Tage-Linie": 2,
+  "Überverkauft (RSI < 30)": 2,
+  "Erholung aus überverkauft": 0
+ },
+ "hits_total": 7,
+ "hits": [
+  {
+   "symbol": "XOM",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 178.98,
+   "close_date": "2026-10-16",
+   "rsi": 73.0,
+   "volume": 2279958,
+   "name": "XOM Corp.",
+   "value": 408066883,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "KO",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 93.9,
+   "close_date": "2026-10-16",
+   "rsi": 75.3,
+   "volume": 3680307,
+   "name": "KO Corp.",
+   "value": 345580827,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "CCL",
+   "setups": [
+    "bull_flag"
+   ],
+   "price": 25.9,
+   "close_date": "2026-10-16",
+   "rsi": 56.8,
+   "volume": 3329022,
+   "name": "CCL Corp.",
+   "value": 86221670,
+   "labels": [
+    "Bullenflagge"
+   ]
+  },
+  {
+   "symbol": "JPM",
+   "setups": [
+    "reclaim_ma20"
+   ],
+   "price": 339.72,
+   "close_date": "2026-10-16",
+   "rsi": 51.2,
+   "volume": 1182274,
+   "name": "JPM Corp.",
+   "value": 401642123,
+   "labels": [
+    "Zurück über 20-Tage-Linie"
+   ]
+  },
+  {
+   "symbol": "F",
+   "setups": [
+    "reclaim_ma20"
+   ],
+   "price": 12.43,
+   "close_date": "2026-10-16",
+   "rsi": 45.2,
+   "volume": 4834984,
+   "name": "F Corp.",
+   "value": 60098851,
+   "labels": [
+    "Zurück über 20-Tage-Linie"
+   ]
+  },
+  {
+   "symbol": "BAC",
+   "setups": [
+    "oversold"
+   ],
+   "price": 51.23,
+   "close_date": "2026-10-16",
+   "rsi": 24.0,
+   "volume": 8531643,
+   "name": "BAC Corp.",
+   "value": 437076071,
+   "labels": [
+    "Überverkauft (RSI < 30)"
+   ]
+  },
+  {
+   "symbol": "RIVN",
+   "setups": [
+    "oversold"
+   ],
+   "price": 12.42,
+   "close_date": "2026-10-16",
+   "rsi": 22.7,
+   "volume": 5955070,
+   "name": "RIVN Corp.",
+   "value": 73961969,
+   "labels": [
+    "Überverkauft (RSI < 30)"
+   ]
+  }
+ ],
+ "watch": [
+  "TSLA",
+  "XOM",
+  "KO",
+  "CCL",
+  "JPM",
+  "F",
+  "BAC",
+  "RIVN"
+ ],
+ "orb_universe": 18,
+ "hinweis": "Ein Scan ist eine Liste von Charts, die eine Regel erfüllen – keine Kaufliste."
+}

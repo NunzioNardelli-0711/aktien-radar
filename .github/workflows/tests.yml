@@ -18,3 +18,7 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - run: python tests/test_offline.py
+      - name: Original-Tests der Daytrading-Werkzeuge
+        run: python -m unittest discover -s tests/daytrader -t tests/daytrader
+      - name: Daytrading und Kongress mit echten gespeicherten Daten
+        run: python tests/test_daytrade_offline.py

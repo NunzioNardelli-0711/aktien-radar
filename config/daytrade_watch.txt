@@ -1,0 +1,4 @@
+# Eigene Daytrading-Watchlist (US-Börsen): ein Kürzel pro Zeile, z. B.
+# TSLA
+# NVDA
+# Diese Werte beobachtet der Entry-Timer zusätzlich zu den besten Setups des Tages.

@@ -1,0 +1,23 @@
+{
+ "errors": [],
+ "phase": "closed",
+ "last_cycle": "2026-11-26T15:30:00+00:00",
+ "message": "Heute kein US-Handel (NYSE holiday: Thanksgiving Day)",
+ "ok": true,
+ "date": "2026-10-19",
+ "watch": 8,
+ "entries_triggered": 3,
+ "orb_hits": 9,
+ "orb_last": "2026-10-19T14:25:45+00:00",
+ "setups_date": "2026-10-19",
+ "universe_updated": "2026-10-19T12:30:00+00:00",
+ "universe_size": 19,
+ "cycle_seconds": 0.0,
+ "app_url": "https://beispiel.github.io/aktien-radar/",
+ "version": "1.0.0",
+ "calendar_years": [
+  2026,
+  2027
+ ],
+ "last_error_push": "2026-10-21T14:00:45+00:00"
+}

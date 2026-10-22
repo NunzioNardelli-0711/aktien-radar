@@ -42,6 +42,37 @@ FUNDAMENTALS_MAX_AGE_DAYS = 8
 ERROR_PUSH_HOURS = 3
 HISTORY_MAX = 300
 
+# --- Daytrading (nur US-Börsen; Werkzeuge aus day-trader-skill) -------------
+# Läuft im eigenen Workflow "Daytrading" und speichert in den Branch "daytrade".
+DT_UNIVERSE_MAX_AGE_DAYS = 7      # Nasdaq-Trader-Liste (~5.900 US-Aktien) wöchentlich neu
+DT_DAILY_MIN_PRICE = 5.0          # Setup-Scanner: Mindestkurs in USD ...
+DT_DAILY_MIN_VOLUME = 1_000_000   # ... und Mindest-Tagesvolumen (Stück)
+DT_ORB_MINUTES = 15               # Eröffnungsspanne 9:30–9:45 New York
+DT_ORB_MIN_PRICE = 5.0
+DT_ORB_MIN_PREV_VOLUME = 1_000_000  # ORB-Scan nur für liquide Werte (Vortagesvolumen)
+DT_ORB_MAX_CONFIRM = 150          # höchstens so viele Detail-Charts je ORB-Scan
+DT_ORB_EVERY_EARLY = 10           # ORB-Scan alle 10 Min. bis 11:00 New York ...
+DT_ORB_EVERY_LATE = 30            # ... danach alle 30 Min.
+DT_NO_ENTRIES_BEFORE = "09:45"    # Einstiegs-Fenster (New Yorker Zeit)
+DT_NO_ENTRIES_AFTER = "15:30"
+DT_ENTRY_WATCH_MAX = 25           # so viele Setups beobachtet der Entry-Timer Kerze für Kerze
+DT_SETUP_PRIORITY = ["breakout_20d", "bull_flag", "oversold_bounce", "reclaim_ma20", "oversold"]
+DT_TARGET_R = 1.0                 # Kursziel = Einstieg + 1 × Risiko (Stop = Mitte der Spanne)
+DT_FLAT_BY = "15:55"              # Time Machine: Position spätestens hier glattstellen
+DT_TM_REPLAYS = 10_000
+DT_TM_SEED = 19
+DT_TM_ORB_TOP = 5                 # Time Machine zusätzlich für die 5 umsatzstärksten ORB-Treffer
+DT_MAX_ENTRY_PUSHES = 10          # Obergrenze Einstiegs-Pushes pro Tag
+DT_CYCLE_MINUTES = 5              # Takt der Daytrading-Schleife
+DT_PAUSE = 0.3                    # Pause zwischen Abrufen (Yahoo schonen)
+DT_MAX_CYCLE_ERRORS = 6           # so viele Fehler in Folge, dann bricht der Lauf ab
+
+# --- Kongress-Aktiengeschäfte (US-Repräsentantenhaus, STOCK Act) ------------
+CONGRESS_FOCUS = ["Pelosi"]       # Meldungen dieser Abgeordneten mit höherer Push-Priorität
+CONGRESS_KEEP_DAYS = 60           # so lange bleiben Meldungen in der App
+CONGRESS_FIRST_RUN_DAYS = 30      # beim ersten Lauf: Meldungen der letzten 30 Tage nachladen
+CONGRESS_MAX_READ = 60            # höchstens so viele PDFs pro Lauf lesen
+
 NTFY_SERVER = os.environ.get("NTFY_SERVER", "https://ntfy.sh").rstrip("/")
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "").strip()
 

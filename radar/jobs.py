@@ -1,13 +1,16 @@
 """Die Aufgaben des Radars: Scan (alle 5 Min.), Tageslauf, Wochenlauf, Test-Alarm, Selbstprüfung."""
+import os
 import traceback
 from datetime import datetime, timedelta, timezone
+
+import requests
 
 from . import analysis, baseline, config, fundamentals, notify, store, universe
 from .indicators import safe
 from .market_hours import (MARKETS, is_open, local_now, local_today, open_markets,
                            session_fraction, utcnow)
 
-VERSION = "1.0.0"
+VERSION = "1.1.0"
 
 
 # --------------------------------------------------------------------------
@@ -229,7 +232,50 @@ def test_alert() -> bool:
     return ok
 
 
-def selfcheck(now=None, push: bool = False) -> list[str]:
+def _branch_status(branch: str) -> dict | None:
+    """status.json eines anderen Datenbranches (daytrade, congress) über GitHub lesen."""
+    repo = os.environ.get("GITHUB_REPOSITORY", "")
+    if "/" not in repo:
+        return None
+    try:
+        r = requests.get(f"https://raw.githubusercontent.com/{repo}/{branch}/public/status.json",
+                         params={"t": int(utcnow().timestamp())}, timeout=20)
+        return r.json() if r.ok else None
+    except (requests.RequestException, ValueError):
+        return None
+
+
+def _check_daytrading(now, branch_status) -> list[str]:
+    from .vendor.daytrader import scan as S
+    problems = []
+    et = S.to_eastern(now.astimezone(timezone.utc).replace(tzinfo=None))
+    if et.year > max(S.CALENDAR_YEARS):
+        problems.append(f"US-Feiertagskalender der Daytrading-Werkzeuge reicht nur bis {max(S.CALENDAR_YEARS)} "
+                        "– radar/vendor/daytrader aktualisieren")
+    dt = branch_status("daytrade")
+    sess = S.session(et.date())
+    if sess and dt is not None and et.time() >= datetime.strptime("10:05", "%H:%M").time():
+        if dt.get("date") != et.date().isoformat():
+            problems.append("Daytrading: heute noch kein Lauf (Setup-Scanner/Entry-Timer) – Workflow prüfen")
+        elif et.time() <= datetime.strptime("15:30", "%H:%M").time() and dt.get("last_cycle"):
+            a = now - datetime.fromisoformat(dt["last_cycle"])
+            if a > timedelta(minutes=25):
+                problems.append(f"Daytrading: letzter Takt vor {int(a.total_seconds() // 60)} Min. – Schleife läuft nicht")
+    if dt:
+        recent = [e for e in dt.get("errors", []) if now - datetime.fromisoformat(e["time"]) < timedelta(hours=24)]
+        if len(recent) >= 3:
+            problems.append(f"Daytrading: {len(recent)} Fehler in 24 Std., zuletzt: {recent[0]['message']}")
+    cg = branch_status("congress")
+    if cg and cg.get("congress_last"):
+        a = now - datetime.fromisoformat(cg["congress_last"])
+        if a > timedelta(days=3):
+            problems.append(f"Kongress-Meldungen seit {a.days} Tagen nicht abgerufen – Workflow prüfen")
+    if cg and len(cg.get("congress_errors") or []) >= 3:
+        problems.append(f"Kongress: {len(cg['congress_errors'])} Meldung(en) nicht lesbar, z. B. {cg['congress_errors'][0]}")
+    return problems
+
+
+def selfcheck(now=None, push: bool = False, branch_status=None) -> list[str]:
     """Prüft, ob das System gesund läuft. Leere Liste = alles in Ordnung."""
     now = now or utcnow()
     s = store.load("public", "status", {}) or {}
@@ -258,6 +304,7 @@ def selfcheck(now=None, push: bool = False) -> list[str]:
     recent = [e for e in s.get("errors", []) if now - datetime.fromisoformat(e["time"]) < timedelta(hours=24)]
     if len(recent) >= 3:
         problems.append(f"{len(recent)} Fehler in den letzten 24 Stunden, zuletzt: {recent[0]['message']}")
+    problems += _check_daytrading(now, branch_status or _branch_status)
 
     print("Selbstprüfung: OK" if not problems else "Selbstprüfung – Probleme:\n- " + "\n- ".join(problems))
     s["selfcheck"] = {"time": now.isoformat(), "problems": problems}
