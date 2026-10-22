@@ -1,0 +1,899 @@
+{
+ "date": "2026-10-23",
+ "updated": "2026-10-23T19:57:24.511743+00:00",
+ "items": [
+  {
+   "symbol": "CART",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 15:20 schloss bei 51,67 $ über dem Spannen-Hoch 51,57 $",
+   "level": 51.57,
+   "opening_range": {
+    "high": 51.57,
+    "low": 51.05
+   },
+   "last": {
+    "bar_start": "15:20",
+    "close": 51.67,
+    "vs_level_pct": 0.19
+   },
+   "checked": "2026-10-23T19:25:45.000123+00:00",
+   "bars": 71,
+   "trigger": {
+    "time_et": "15:25",
+    "time_berlin": "21:25",
+    "bar_start": "15:20",
+    "price": 51.67,
+    "pct_over": 0.19,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 51.67,
+    "stop": 51.31,
+    "target": 52.03,
+    "entry_time": "3:25 PM",
+    "risk_per_share": 0.36,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261023-CART-e",
+    "p_target": 0.1605,
+    "p_stop": 0.1369,
+    "p_neither": 0.7026,
+    "p_green": 0.4983,
+    "avg_R": 0.013,
+    "median_close": 51.67,
+    "p5_close": 51.28,
+    "p95_close": 52.1,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 59,
+    "verdict": "Etwa ein Münzwurf",
+    "verdict_en": "Close to a coin flip: target first 16.1 % vs stop first 13.7 %.",
+    "history": {
+     "sessions": 59,
+     "triggered": 32,
+     "target": 9,
+     "stop": 12,
+     "close": 11,
+     "avg_R": -0.08
+    }
+   },
+   "push_note": "Kein Push: Time Machine „Etwa ein Münzwurf“",
+   "name": "Maplebear Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Bullenflagge"
+   ]
+  },
+  {
+   "symbol": "CNC",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 10:45 schloss bei 71,24 $ über dem Spannen-Hoch 71,15 $",
+   "level": 71.15,
+   "opening_range": {
+    "high": 71.15,
+    "low": 70.43
+   },
+   "last": {
+    "bar_start": "10:45",
+    "close": 71.24,
+    "vs_level_pct": 0.11
+   },
+   "checked": "2026-10-23T14:50:45.000133+00:00",
+   "bars": 16,
+   "trigger": {
+    "time_et": "10:50",
+    "time_berlin": "16:50",
+    "bar_start": "10:45",
+    "price": 71.24,
+    "pct_over": 0.11,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 71.24,
+    "stop": 70.79,
+    "target": 71.69,
+    "entry_time": "10:50 AM",
+    "risk_per_share": 0.45,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261023-CNC-e",
+    "p_target": 0.5509,
+    "p_stop": 0.4362,
+    "p_neither": 0.0129,
+    "p_green": 0.557,
+    "avg_R": 0.114,
+    "median_close": 71.27,
+    "p5_close": 69.76,
+    "p95_close": 72.74,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 59,
+    "verdict": "Tendenz zum Ziel",
+    "verdict_en": "Leans toward the target: target first 55.1 % vs stop first 43.6 %.",
+    "history": {
+     "sessions": 59,
+     "triggered": 29,
+     "target": 13,
+     "stop": 10,
+     "close": 6,
+     "avg_R": 0.049
+    }
+   },
+   "pushed": true,
+   "name": "Centene Corporation",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Bullenflagge"
+   ]
+  },
+  {
+   "symbol": "EL",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 11:55 schloss bei 108,71 $ über dem Spannen-Hoch 108,66 $",
+   "level": 108.66,
+   "opening_range": {
+    "high": 108.66,
+    "low": 106.01
+   },
+   "last": {
+    "bar_start": "11:55",
+    "close": 108.71,
+    "vs_level_pct": 0.05
+   },
+   "checked": "2026-10-23T16:00:45.000157+00:00",
+   "bars": 30,
+   "trigger": {
+    "time_et": "12:00",
+    "time_berlin": "18:00",
+    "bar_start": "11:55",
+    "price": 108.71,
+    "pct_over": 0.05,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 108.71,
+    "stop": 107.33,
+    "target": 110.09,
+    "entry_time": "12:00 PM",
+    "risk_per_share": 1.38,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261023-EL-e",
+    "p_target": 0.3028,
+    "p_stop": 0.1523,
+    "p_neither": 0.5449,
+    "p_green": 0.5885,
+    "avg_R": 0.165,
+    "median_close": 108.95,
+    "p5_close": 107.06,
+    "p95_close": 110.83,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 59,
+    "verdict": "Deutlich Richtung Ziel",
+    "verdict_en": "Strongly toward the target: target first 30.3 % vs stop first 15.2 %.",
+    "history": {
+     "sessions": 59,
+     "triggered": 33,
+     "target": 13,
+     "stop": 13,
+     "close": 7,
+     "avg_R": 0.001
+    }
+   },
+   "pushed": true,
+   "name": "Estee Lauder Companies, Inc. (The)",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Bullenflagge"
+   ]
+  },
+  {
+   "symbol": "LEN",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 12:15 schloss bei 84,72 $ über dem Spannen-Hoch 84,71 $",
+   "level": 84.71,
+   "opening_range": {
+    "high": 84.71,
+    "low": 83.35
+   },
+   "last": {
+    "bar_start": "12:15",
+    "close": 84.72,
+    "vs_level_pct": 0.01
+   },
+   "checked": "2026-10-23T16:20:45.000120+00:00",
+   "bars": 34,
+   "trigger": {
+    "time_et": "12:20",
+    "time_berlin": "18:20",
+    "bar_start": "12:15",
+    "price": 84.72,
+    "pct_over": 0.01,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 84.72,
+    "stop": 84.03,
+    "target": 85.41,
+    "entry_time": "12:20 PM",
+    "risk_per_share": 0.69,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261023-LEN-e",
+    "p_target": 0.3884,
+    "p_stop": 0.3789,
+    "p_neither": 0.2327,
+    "p_green": 0.5023,
+    "avg_R": 0.008,
+    "median_close": 84.74,
+    "p5_close": 83.4,
+    "p95_close": 86.12,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 59,
+    "verdict": "Etwa ein Münzwurf",
+    "verdict_en": "Close to a coin flip: target first 38.8 % vs stop first 37.9 %.",
+    "history": {
+     "sessions": 59,
+     "triggered": 28,
+     "target": 12,
+     "stop": 11,
+     "close": 5,
+     "avg_R": 0.026
+    }
+   },
+   "push_note": "Kein Push: Time Machine „Etwa ein Münzwurf“",
+   "name": "Lennar Corporation",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Zurück über 20-Tage-Linie"
+   ]
+  },
+  {
+   "symbol": "LW",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 11:20 schloss bei 55,33 $ über dem Spannen-Hoch 55,31 $",
+   "level": 55.31,
+   "opening_range": {
+    "high": 55.31,
+    "low": 54.54
+   },
+   "last": {
+    "bar_start": "11:20",
+    "close": 55.33,
+    "vs_level_pct": 0.04
+   },
+   "checked": "2026-10-23T15:25:45.000199+00:00",
+   "bars": 23,
+   "trigger": {
+    "time_et": "11:25",
+    "time_berlin": "17:25",
+    "bar_start": "11:20",
+    "price": 55.33,
+    "pct_over": 0.04,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 55.33,
+    "stop": 54.92,
+    "target": 55.74,
+    "entry_time": "11:25 AM",
+    "risk_per_share": 0.41,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261023-LW-e",
+    "p_target": 0.5079,
+    "p_stop": 0.4498,
+    "p_neither": 0.0423,
+    "p_green": 0.5271,
+    "avg_R": 0.056,
+    "median_close": 55.35,
+    "p5_close": 54.21,
+    "p95_close": 56.59,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 58,
+    "verdict": "Etwa ein Münzwurf",
+    "verdict_en": "Close to a coin flip: target first 50.8 % vs stop first 45.0 %.",
+    "history": {
+     "sessions": 58,
+     "triggered": 31,
+     "target": 14,
+     "stop": 13,
+     "close": 4,
+     "avg_R": 0.057
+    }
+   },
+   "push_note": "Kein Push: Time Machine „Etwa ein Münzwurf“",
+   "name": "Lamb Weston Holdings, Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Bullenflagge"
+   ]
+  },
+  {
+   "symbol": "LYFT",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 09:55 schloss bei 17,35 $ über dem Spannen-Hoch 17,32 $",
+   "level": 17.32,
+   "opening_range": {
+    "high": 17.32,
+    "low": 17.13
+   },
+   "last": {
+    "bar_start": "09:55",
+    "close": 17.35,
+    "vs_level_pct": 0.2
+   },
+   "checked": "2026-10-23T14:00:45.000152+00:00",
+   "bars": 6,
+   "trigger": {
+    "time_et": "10:00",
+    "time_berlin": "16:00",
+    "bar_start": "09:55",
+    "price": 17.35,
+    "pct_over": 0.2,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 17.35,
+    "stop": 17.22,
+    "target": 17.48,
+    "entry_time": "10:00 AM",
+    "risk_per_share": 0.13,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261023-LYFT-e",
+    "p_target": 0.4853,
+    "p_stop": 0.5131,
+    "p_neither": 0.0016,
+    "p_green": 0.4863,
+    "avg_R": -0.027,
+    "median_close": 17.4,
+    "p5_close": 16.9,
+    "p95_close": 17.91,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 59,
+    "verdict": "Etwa ein Münzwurf",
+    "verdict_en": "Close to a coin flip: target first 48.5 % vs stop first 51.3 %.",
+    "history": {
+     "sessions": 59,
+     "triggered": 36,
+     "target": 13,
+     "stop": 11,
+     "close": 12,
+     "avg_R": 0.111
+    }
+   },
+   "push_note": "Kein Push: Time Machine „Etwa ein Münzwurf“",
+   "name": "Lyft, Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Bullenflagge"
+   ]
+  },
+  {
+   "symbol": "VEEV",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 13:00 schloss bei 324,06 $ über dem Spannen-Hoch 324,00 $",
+   "level": 324.0,
+   "opening_range": {
+    "high": 324.0,
+    "low": 319.0
+   },
+   "last": {
+    "bar_start": "13:00",
+    "close": 324.06,
+    "vs_level_pct": 0.02
+   },
+   "checked": "2026-10-23T17:05:45.000162+00:00",
+   "bars": 43,
+   "trigger": {
+    "time_et": "13:05",
+    "time_berlin": "19:05",
+    "bar_start": "13:00",
+    "price": 324.06,
+    "pct_over": 0.02,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 324.06,
+    "stop": 321.5,
+    "target": 326.62,
+    "entry_time": "1:05 PM",
+    "risk_per_share": 2.56,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261023-VEEV-e",
+    "p_target": 0.4085,
+    "p_stop": 0.2855,
+    "p_neither": 0.306,
+    "p_green": 0.5593,
+    "avg_R": 0.123,
+    "median_close": 324.37,
+    "p5_close": 319.56,
+    "p95_close": 329.07,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 59,
+    "verdict": "Tendenz zum Ziel",
+    "verdict_en": "Leans toward the target: target first 40.8 % vs stop first 28.5 %.",
+    "history": {
+     "sessions": 59,
+     "triggered": 33,
+     "target": 11,
+     "stop": 10,
+     "close": 12,
+     "avg_R": -0.029
+    }
+   },
+   "pushed": true,
+   "name": "Veeva Systems Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Bullenflagge"
+   ]
+  },
+  {
+   "symbol": "BHVN",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 15,37 $ bis 15:30 ET",
+   "level": 15.37,
+   "opening_range": {
+    "high": 15.37,
+    "low": 14.45
+   },
+   "last": {
+    "bar_start": "15:25",
+    "close": 13.97,
+    "vs_level_pct": -9.14
+   },
+   "checked": "2026-10-23T19:30:45.000126+00:00",
+   "bars": 72,
+   "name": "Biohaven Ltd.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Zurück über 20-Tage-Linie"
+   ]
+  },
+  {
+   "symbol": "BUD",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 85,50 $ bis 15:30 ET",
+   "level": 85.5,
+   "opening_range": {
+    "high": 85.5,
+    "low": 85.07
+   },
+   "last": {
+    "bar_start": "15:25",
+    "close": 84.29,
+    "vs_level_pct": -1.42
+   },
+   "checked": "2026-10-23T19:30:45.000126+00:00",
+   "bars": 72,
+   "name": "Anheuser-Busch Inbev SA Sponsored ADR (Belgium)",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Bullenflagge"
+   ]
+  },
+  {
+   "symbol": "BX",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 117,73 $ bis 15:30 ET",
+   "level": 117.73,
+   "opening_range": {
+    "high": 117.73,
+    "low": 116.01
+   },
+   "last": {
+    "bar_start": "15:25",
+    "close": 117.39,
+    "vs_level_pct": -0.29
+   },
+   "checked": "2026-10-23T19:30:45.000126+00:00",
+   "bars": 72,
+   "name": "Blackstone Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Zurück über 20-Tage-Linie"
+   ]
+  },
+  {
+   "symbol": "ELV",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 445,42 $ bis 15:30 ET",
+   "level": 445.42,
+   "opening_range": {
+    "high": 445.42,
+    "low": 440.52
+   },
+   "last": {
+    "bar_start": "15:25",
+    "close": 440.72,
+    "vs_level_pct": -1.06
+   },
+   "checked": "2026-10-23T19:30:45.000126+00:00",
+   "bars": 72,
+   "name": "Elevance Health, Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Bullenflagge"
+   ]
+  },
+  {
+   "symbol": "FND",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 47,85 $ bis 15:30 ET",
+   "level": 47.85,
+   "opening_range": {
+    "high": 47.85,
+    "low": 47.04
+   },
+   "last": {
+    "bar_start": "15:25",
+    "close": 47.61,
+    "vs_level_pct": -0.49
+   },
+   "checked": "2026-10-23T19:30:45.000126+00:00",
+   "bars": 72,
+   "name": "Floor & Decor Holdings, Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Zurück über 20-Tage-Linie"
+   ]
+  },
+  {
+   "symbol": "GIS",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 35,25 $ bis 15:30 ET",
+   "level": 35.25,
+   "opening_range": {
+    "high": 35.25,
+    "low": 34.86
+   },
+   "last": {
+    "bar_start": "15:25",
+    "close": 34.51,
+    "vs_level_pct": -2.11
+   },
+   "checked": "2026-10-23T19:30:45.000126+00:00",
+   "bars": 72,
+   "name": "General Mills, Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Zurück über 20-Tage-Linie"
+   ]
+  },
+  {
+   "symbol": "HLN",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 10,34 $ bis 15:30 ET",
+   "level": 10.34,
+   "opening_range": {
+    "high": 10.34,
+    "low": 10.28
+   },
+   "last": {
+    "bar_start": "15:25",
+    "close": 10.27,
+    "vs_level_pct": -0.63
+   },
+   "checked": "2026-10-23T19:30:45.000126+00:00",
+   "bars": 72,
+   "name": "Haleon plc",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Bullenflagge"
+   ]
+  },
+  {
+   "symbol": "KDP",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 35,40 $ bis 15:30 ET",
+   "level": 35.4,
+   "opening_range": {
+    "high": 35.4,
+    "low": 35.12
+   },
+   "last": {
+    "bar_start": "15:25",
+    "close": 34.83,
+    "vs_level_pct": -1.61
+   },
+   "checked": "2026-10-23T19:30:45.000126+00:00",
+   "bars": 72,
+   "name": "Keurig Dr Pepper Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Bullenflagge"
+   ]
+  },
+  {
+   "symbol": "MA",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 631,12 $ bis 15:30 ET",
+   "level": 631.12,
+   "opening_range": {
+    "high": 631.12,
+    "low": 624.02
+   },
+   "last": {
+    "bar_start": "15:25",
+    "close": 621.83,
+    "vs_level_pct": -1.47
+   },
+   "checked": "2026-10-23T19:30:45.000126+00:00",
+   "bars": 72,
+   "name": "Mastercard Incorporated",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Bullenflagge"
+   ]
+  },
+  {
+   "symbol": "MDT",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 96,89 $ bis 15:30 ET",
+   "level": 96.89,
+   "opening_range": {
+    "high": 96.89,
+    "low": 95.87
+   },
+   "last": {
+    "bar_start": "15:25",
+    "close": 95.84,
+    "vs_level_pct": -1.09
+   },
+   "checked": "2026-10-23T19:30:45.000126+00:00",
+   "bars": 72,
+   "name": "Medtronic plc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Bullenflagge"
+   ]
+  },
+  {
+   "symbol": "MHK",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 125,81 $ bis 15:30 ET",
+   "level": 125.81,
+   "opening_range": {
+    "high": 125.81,
+    "low": 123.69
+   },
+   "last": {
+    "bar_start": "15:25",
+    "close": 125.07,
+    "vs_level_pct": -0.58
+   },
+   "checked": "2026-10-23T19:30:45.000126+00:00",
+   "bars": 72,
+   "name": "Mohawk Industries, Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Zurück über 20-Tage-Linie"
+   ]
+  },
+  {
+   "symbol": "MO",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 76,06 $ bis 15:30 ET",
+   "level": 76.06,
+   "opening_range": {
+    "high": 76.06,
+    "low": 75.58
+   },
+   "last": {
+    "bar_start": "15:25",
+    "close": 74.49,
+    "vs_level_pct": -2.06
+   },
+   "checked": "2026-10-23T19:30:45.000126+00:00",
+   "bars": 72,
+   "name": "Altria Group, Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Bullenflagge"
+   ]
+  },
+  {
+   "symbol": "PNR",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 55,58 $ bis 15:30 ET",
+   "level": 55.58,
+   "opening_range": {
+    "high": 55.58,
+    "low": 54.6
+   },
+   "last": {
+    "bar_start": "15:25",
+    "close": 55.33,
+    "vs_level_pct": -0.45
+   },
+   "checked": "2026-10-23T19:30:45.000126+00:00",
+   "bars": 72,
+   "name": "Pentair plc. Ordinary Share",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Zurück über 20-Tage-Linie"
+   ]
+  },
+  {
+   "symbol": "RELX",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 40,90 $ bis 15:30 ET",
+   "level": 40.9,
+   "opening_range": {
+    "high": 40.9,
+    "low": 40.52
+   },
+   "last": {
+    "bar_start": "15:25",
+    "close": 40.53,
+    "vs_level_pct": -0.9
+   },
+   "checked": "2026-10-23T19:30:45.000126+00:00",
+   "bars": 72,
+   "name": "RELX PLC PLC",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Bullenflagge"
+   ]
+  },
+  {
+   "symbol": "V",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 412,58 $ bis 15:30 ET",
+   "level": 412.58,
+   "opening_range": {
+    "high": 412.58,
+    "low": 409.42
+   },
+   "last": {
+    "bar_start": "15:25",
+    "close": 408.3,
+    "vs_level_pct": -1.04
+   },
+   "checked": "2026-10-23T19:30:45.000126+00:00",
+   "bars": 72,
+   "name": "Visa Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Bullenflagge"
+   ]
+  },
+  {
+   "symbol": "WMT",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 122,40 $ bis 15:30 ET",
+   "level": 122.4,
+   "opening_range": {
+    "high": 122.4,
+    "low": 121.08
+   },
+   "last": {
+    "bar_start": "15:25",
+    "close": 119.44,
+    "vs_level_pct": -2.42
+   },
+   "checked": "2026-10-23T19:30:45.000126+00:00",
+   "bars": 72,
+   "name": "Walmart Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Bullenflagge"
+   ]
+  },
+  {
+   "symbol": "YUM",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 154,18 $ bis 15:30 ET",
+   "level": 154.18,
+   "opening_range": {
+    "high": 154.18,
+    "low": 152.01
+   },
+   "last": {
+    "bar_start": "15:25",
+    "close": 149.49,
+    "vs_level_pct": -3.04
+   },
+   "checked": "2026-10-23T19:30:45.000126+00:00",
+   "bars": 72,
+   "name": "Yum! Brands, Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Bullenflagge"
+   ]
+  },
+  {
+   "symbol": "ZTS",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 81,86 $ bis 15:30 ET",
+   "level": 81.86,
+   "opening_range": {
+    "high": 81.86,
+    "low": 81.0
+   },
+   "last": {
+    "bar_start": "15:25",
+    "close": 80.98,
+    "vs_level_pct": -1.08
+   },
+   "checked": "2026-10-23T19:30:45.000126+00:00",
+   "bars": 72,
+   "name": "Zoetis Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Bullenflagge"
+   ]
+  }
+ ],
+ "window": [
+  "09:45",
+  "15:30"
+ ],
+ "plan_rule": "Stop = Mitte der Eröffnungsspanne, Ziel = 1R, glatt bis 15:55 ET",
+ "disclaimer": "Regelbasierte Signale aus freien, teils verzögerten Daten. Keine Anlageberatung, es wird nichts gekauft. Daytrading verliert bei den meisten Menschen Geld."
+}
