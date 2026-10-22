@@ -1,0 +1,909 @@
+{
+ "date": "2026-11-27",
+ "updated": "2026-11-27T21:33:26.084159+00:00",
+ "items": [
+  {
+   "symbol": "ADP",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 09:45 schloss bei 319,16 $ über dem Spannen-Hoch 318,40 $",
+   "level": 318.4,
+   "opening_range": {
+    "high": 318.4,
+    "low": 315.64
+   },
+   "last": {
+    "bar_start": "09:45",
+    "close": 319.16,
+    "vs_level_pct": 0.24
+   },
+   "checked": "2026-11-27T14:50:45.000147+00:00",
+   "bars": 4,
+   "trigger": {
+    "time_et": "09:50",
+    "time_berlin": "15:50",
+    "bar_start": "09:45",
+    "price": 319.16,
+    "pct_over": 0.24,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 319.16,
+    "stop": 317.02,
+    "target": 321.3,
+    "entry_time": "9:50 AM",
+    "risk_per_share": 2.14,
+    "target_r": 1.0
+   },
+   "tm": {
+    "error": "--until must be on the 5-minute grid and no later than 1:00 PM (an early close)"
+   },
+   "push_note": "Kein Push: Time Machine „nicht verfügbar“",
+   "name": "Automatic Data Processing, Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "ATAT",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 09:45 schloss bei 41,01 $ über dem Spannen-Hoch 40,88 $",
+   "level": 40.88,
+   "opening_range": {
+    "high": 40.88,
+    "low": 39.6
+   },
+   "last": {
+    "bar_start": "09:45",
+    "close": 41.01,
+    "vs_level_pct": 0.32
+   },
+   "checked": "2026-11-27T14:50:45.000147+00:00",
+   "bars": 4,
+   "trigger": {
+    "time_et": "09:50",
+    "time_berlin": "15:50",
+    "bar_start": "09:45",
+    "price": 41.01,
+    "pct_over": 0.32,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 41.01,
+    "stop": 40.24,
+    "target": 41.78,
+    "entry_time": "9:50 AM",
+    "risk_per_share": 0.77,
+    "target_r": 1.0
+   },
+   "tm": {
+    "error": "--until must be on the 5-minute grid and no later than 1:00 PM (an early close)"
+   },
+   "push_note": "Kein Push: Time Machine „nicht verfügbar“",
+   "name": "Atour Lifestyle Holdings Limited",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Bullenflagge"
+   ]
+  },
+  {
+   "symbol": "CMCSA",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 09:45 schloss bei 26,07 $ über dem Spannen-Hoch 26,02 $",
+   "level": 26.02,
+   "opening_range": {
+    "high": 26.02,
+    "low": 25.73
+   },
+   "last": {
+    "bar_start": "09:45",
+    "close": 26.07,
+    "vs_level_pct": 0.19
+   },
+   "checked": "2026-11-27T14:50:45.000147+00:00",
+   "bars": 4,
+   "trigger": {
+    "time_et": "09:50",
+    "time_berlin": "15:50",
+    "bar_start": "09:45",
+    "price": 26.07,
+    "pct_over": 0.19,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 26.07,
+    "stop": 25.87,
+    "target": 26.27,
+    "entry_time": "9:50 AM",
+    "risk_per_share": 0.2,
+    "target_r": 1.0
+   },
+   "tm": {
+    "error": "--until must be on the 5-minute grid and no later than 1:00 PM (an early close)"
+   },
+   "push_note": "Kein Push: Time Machine „nicht verfügbar“",
+   "name": "Comcast Corporation",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "DIS",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 09:45 schloss bei 126,93 $ über dem Spannen-Hoch 126,89 $",
+   "level": 126.89,
+   "opening_range": {
+    "high": 126.89,
+    "low": 125.45
+   },
+   "last": {
+    "bar_start": "09:45",
+    "close": 126.93,
+    "vs_level_pct": 0.04
+   },
+   "checked": "2026-11-27T14:50:45.000147+00:00",
+   "bars": 4,
+   "trigger": {
+    "time_et": "09:50",
+    "time_berlin": "15:50",
+    "bar_start": "09:45",
+    "price": 126.93,
+    "pct_over": 0.04,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 126.93,
+    "stop": 126.17,
+    "target": 127.69,
+    "entry_time": "9:50 AM",
+    "risk_per_share": 0.76,
+    "target_r": 1.0
+   },
+   "tm": {
+    "error": "--until must be on the 5-minute grid and no later than 1:00 PM (an early close)"
+   },
+   "push_note": "Kein Push: Time Machine „nicht verfügbar“",
+   "name": "Walt Disney Company (The)",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "DUK",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 10:30 schloss bei 132,15 $ über dem Spannen-Hoch 132,11 $",
+   "level": 132.11,
+   "opening_range": {
+    "high": 132.11,
+    "low": 131.2
+   },
+   "last": {
+    "bar_start": "10:30",
+    "close": 132.15,
+    "vs_level_pct": 0.03
+   },
+   "checked": "2026-11-27T15:35:45.000141+00:00",
+   "bars": 13,
+   "trigger": {
+    "time_et": "10:35",
+    "time_berlin": "16:35",
+    "bar_start": "10:30",
+    "price": 132.15,
+    "pct_over": 0.03,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 132.15,
+    "stop": 131.62,
+    "target": 132.68,
+    "entry_time": "10:35 AM",
+    "risk_per_share": 0.53,
+    "target_r": 1.0
+   },
+   "tm": {
+    "error": "--until must be on the 5-minute grid and no later than 1:00 PM (an early close)"
+   },
+   "push_note": "Kein Push: Time Machine „nicht verfügbar“",
+   "name": "Duke Energy Corporation (Holding Company)",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "IBN",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 09:45 schloss bei 35,98 $ über dem Spannen-Hoch 35,85 $",
+   "level": 35.85,
+   "opening_range": {
+    "high": 35.85,
+    "low": 35.48
+   },
+   "last": {
+    "bar_start": "09:45",
+    "close": 35.98,
+    "vs_level_pct": 0.38
+   },
+   "checked": "2026-11-27T14:50:45.000147+00:00",
+   "bars": 4,
+   "trigger": {
+    "time_et": "09:50",
+    "time_berlin": "15:50",
+    "bar_start": "09:45",
+    "price": 35.98,
+    "pct_over": 0.38,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 35.98,
+    "stop": 35.66,
+    "target": 36.3,
+    "entry_time": "9:50 AM",
+    "risk_per_share": 0.32,
+    "target_r": 1.0
+   },
+   "tm": {
+    "error": "--until must be on the 5-minute grid and no later than 1:00 PM (an early close)"
+   },
+   "push_note": "Kein Push: Time Machine „nicht verfügbar“",
+   "name": "ICICI Bank Limited",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Bullenflagge"
+   ]
+  },
+  {
+   "symbol": "INSM",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 09:45 schloss bei 170,68 $ über dem Spannen-Hoch 170,66 $",
+   "level": 170.66,
+   "opening_range": {
+    "high": 170.66,
+    "low": 170.25
+   },
+   "last": {
+    "bar_start": "09:45",
+    "close": 170.68,
+    "vs_level_pct": 0.01
+   },
+   "checked": "2026-11-27T14:50:45.000147+00:00",
+   "bars": 4,
+   "trigger": {
+    "time_et": "09:50",
+    "time_berlin": "15:50",
+    "bar_start": "09:45",
+    "price": 170.68,
+    "pct_over": 0.01,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 170.68,
+    "stop": 169.99,
+    "target": 171.37,
+    "entry_time": "9:50 AM",
+    "risk_per_share": 0.69,
+    "target_r": 1.0
+   },
+   "tm": {
+    "error": "--until must be on the 5-minute grid and no later than 1:00 PM (an early close)"
+   },
+   "push_note": "Kein Push: Time Machine „nicht verfügbar“",
+   "name": "Insmed Incorporated",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "MCD",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 12:20 schloss bei 283,23 $ über dem Spannen-Hoch 283,19 $",
+   "level": 283.19,
+   "opening_range": {
+    "high": 283.19,
+    "low": 281.0
+   },
+   "last": {
+    "bar_start": "12:20",
+    "close": 283.23,
+    "vs_level_pct": 0.01
+   },
+   "checked": "2026-11-27T17:25:45.000123+00:00",
+   "bars": 35,
+   "trigger": {
+    "time_et": "12:25",
+    "time_berlin": "18:25",
+    "bar_start": "12:20",
+    "price": 283.23,
+    "pct_over": 0.01,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 283.23,
+    "stop": 282.09,
+    "target": 284.37,
+    "entry_time": "12:25 PM",
+    "risk_per_share": 1.14,
+    "target_r": 1.0
+   },
+   "tm": {
+    "error": "--until must be on the 5-minute grid and no later than 1:00 PM (an early close)"
+   },
+   "push_note": "Kein Push: Time Machine „nicht verfügbar“",
+   "name": "McDonald's Corporation",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "MRSH",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 10:00 schloss bei 217,60 $ über dem Spannen-Hoch 217,57 $",
+   "level": 217.57,
+   "opening_range": {
+    "high": 217.57,
+    "low": 215.49
+   },
+   "last": {
+    "bar_start": "10:00",
+    "close": 217.6,
+    "vs_level_pct": 0.01
+   },
+   "checked": "2026-11-27T15:05:45.000166+00:00",
+   "bars": 7,
+   "trigger": {
+    "time_et": "10:05",
+    "time_berlin": "16:05",
+    "bar_start": "10:00",
+    "price": 217.6,
+    "pct_over": 0.01,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 217.6,
+    "stop": 216.53,
+    "target": 218.67,
+    "entry_time": "10:05 AM",
+    "risk_per_share": 1.07,
+    "target_r": 1.0
+   },
+   "tm": {
+    "error": "--until must be on the 5-minute grid and no later than 1:00 PM (an early close)"
+   },
+   "push_note": "Kein Push: Time Machine „nicht verfügbar“",
+   "name": "Marsh",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "MSI",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 10:00 schloss bei 544,45 $ über dem Spannen-Hoch 543,48 $",
+   "level": 543.48,
+   "opening_range": {
+    "high": 543.48,
+    "low": 536.47
+   },
+   "last": {
+    "bar_start": "10:00",
+    "close": 544.45,
+    "vs_level_pct": 0.18
+   },
+   "checked": "2026-11-27T15:05:45.000166+00:00",
+   "bars": 7,
+   "trigger": {
+    "time_et": "10:05",
+    "time_berlin": "16:05",
+    "bar_start": "10:00",
+    "price": 544.45,
+    "pct_over": 0.18,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 544.45,
+    "stop": 539.97,
+    "target": 548.93,
+    "entry_time": "10:05 AM",
+    "risk_per_share": 4.48,
+    "target_r": 1.0
+   },
+   "tm": {
+    "error": "--until must be on the 5-minute grid and no later than 1:00 PM (an early close)"
+   },
+   "push_note": "Kein Push: Time Machine „nicht verfügbar“",
+   "name": "Motorola Solutions, Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "O",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 11:30 schloss bei 60,47 $ über dem Spannen-Hoch 60,46 $",
+   "level": 60.46,
+   "opening_range": {
+    "high": 60.46,
+    "low": 60.0
+   },
+   "last": {
+    "bar_start": "11:30",
+    "close": 60.47,
+    "vs_level_pct": 0.03
+   },
+   "checked": "2026-11-27T16:35:45.000127+00:00",
+   "bars": 25,
+   "trigger": {
+    "time_et": "11:35",
+    "time_berlin": "17:35",
+    "bar_start": "11:30",
+    "price": 60.47,
+    "pct_over": 0.03,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 60.47,
+    "stop": 60.22,
+    "target": 60.72,
+    "entry_time": "11:35 AM",
+    "risk_per_share": 0.25,
+    "target_r": 1.0
+   },
+   "tm": {
+    "error": "--until must be on the 5-minute grid and no later than 1:00 PM (an early close)"
+   },
+   "push_note": "Kein Push: Time Machine „nicht verfügbar“",
+   "name": "Realty Income Corporation",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "PG",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 11:55 schloss bei 172,96 $ über dem Spannen-Hoch 172,92 $",
+   "level": 172.92,
+   "opening_range": {
+    "high": 172.92,
+    "low": 171.4
+   },
+   "last": {
+    "bar_start": "11:55",
+    "close": 172.96,
+    "vs_level_pct": 0.02
+   },
+   "checked": "2026-11-27T17:00:45.000134+00:00",
+   "bars": 30,
+   "trigger": {
+    "time_et": "12:00",
+    "time_berlin": "18:00",
+    "bar_start": "11:55",
+    "price": 172.96,
+    "pct_over": 0.02,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 172.96,
+    "stop": 172.16,
+    "target": 173.76,
+    "entry_time": "12:00 PM",
+    "risk_per_share": 0.8,
+    "target_r": 1.0
+   },
+   "tm": {
+    "error": "--until must be on the 5-minute grid and no later than 1:00 PM (an early close)"
+   },
+   "push_note": "Kein Push: Time Machine „nicht verfügbar“",
+   "name": "Procter & Gamble Company (The)",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "RBLX",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 10:15 schloss bei 58,53 $ über dem Spannen-Hoch 57,90 $",
+   "level": 57.9,
+   "opening_range": {
+    "high": 57.9,
+    "low": 56.69
+   },
+   "last": {
+    "bar_start": "10:15",
+    "close": 58.53,
+    "vs_level_pct": 1.1
+   },
+   "checked": "2026-11-27T15:20:45.000140+00:00",
+   "bars": 10,
+   "trigger": {
+    "time_et": "10:20",
+    "time_berlin": "16:20",
+    "bar_start": "10:15",
+    "price": 58.53,
+    "pct_over": 1.1,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 58.53,
+    "stop": 57.29,
+    "target": 59.77,
+    "entry_time": "10:20 AM",
+    "risk_per_share": 1.24,
+    "target_r": 1.0
+   },
+   "tm": {
+    "error": "--until must be on the 5-minute grid and no later than 1:00 PM (an early close)"
+   },
+   "push_note": "Kein Push: Time Machine „nicht verfügbar“",
+   "name": "Roblox Corporation",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "T",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 12:00 schloss bei 23,26 $ über dem Spannen-Hoch 23,26 $",
+   "level": 23.26,
+   "opening_range": {
+    "high": 23.26,
+    "low": 22.91
+   },
+   "last": {
+    "bar_start": "12:00",
+    "close": 23.26,
+    "vs_level_pct": 0.0
+   },
+   "checked": "2026-11-27T17:05:45.000127+00:00",
+   "bars": 31,
+   "trigger": {
+    "time_et": "12:05",
+    "time_berlin": "18:05",
+    "bar_start": "12:00",
+    "price": 23.26,
+    "pct_over": 0.0,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 23.26,
+    "stop": 23.08,
+    "target": 23.44,
+    "entry_time": "12:05 PM",
+    "risk_per_share": 0.18,
+    "target_r": 1.0
+   },
+   "tm": {
+    "error": "--until must be on the 5-minute grid and no later than 1:00 PM (an early close)"
+   },
+   "push_note": "Kein Push: Time Machine „nicht verfügbar“",
+   "name": "AT&T Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "VRTX",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 10:15 schloss bei 523,76 $ über dem Spannen-Hoch 522,28 $",
+   "level": 522.28,
+   "opening_range": {
+    "high": 522.28,
+    "low": 502.9
+   },
+   "last": {
+    "bar_start": "10:15",
+    "close": 523.76,
+    "vs_level_pct": 0.28
+   },
+   "checked": "2026-11-27T15:20:45.000140+00:00",
+   "bars": 10,
+   "trigger": {
+    "time_et": "10:20",
+    "time_berlin": "16:20",
+    "bar_start": "10:15",
+    "price": 523.76,
+    "pct_over": 0.28,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 523.76,
+    "stop": 512.59,
+    "target": 534.93,
+    "entry_time": "10:20 AM",
+    "risk_per_share": 11.17,
+    "target_r": 1.0
+   },
+   "tm": {
+    "error": "--until must be on the 5-minute grid and no later than 1:00 PM (an early close)"
+   },
+   "push_note": "Kein Push: Time Machine „nicht verfügbar“",
+   "name": "Vertex Pharmaceuticals Incorporated",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "VZ",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 09:50 schloss bei 47,58 $ über dem Spannen-Hoch 47,56 $",
+   "level": 47.56,
+   "opening_range": {
+    "high": 47.56,
+    "low": 47.14
+   },
+   "last": {
+    "bar_start": "09:50",
+    "close": 47.58,
+    "vs_level_pct": 0.04
+   },
+   "checked": "2026-11-27T14:55:45.000131+00:00",
+   "bars": 5,
+   "trigger": {
+    "time_et": "09:55",
+    "time_berlin": "15:55",
+    "bar_start": "09:50",
+    "price": 47.58,
+    "pct_over": 0.04,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 47.58,
+    "stop": 47.35,
+    "target": 47.81,
+    "entry_time": "9:55 AM",
+    "risk_per_share": 0.23,
+    "target_r": 1.0
+   },
+   "tm": {
+    "error": "--until must be on the 5-minute grid and no later than 1:00 PM (an early close)"
+   },
+   "push_note": "Kein Push: Time Machine „nicht verfügbar“",
+   "name": "Verizon Communications Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "AJG",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 294,51 $ bis 12:30 ET",
+   "level": 294.51,
+   "opening_range": {
+    "high": 294.51,
+    "low": 291.05
+   },
+   "last": {
+    "bar_start": "12:25",
+    "close": 293.29,
+    "vs_level_pct": -0.41
+   },
+   "checked": "2026-11-27T17:30:45.000134+00:00",
+   "bars": 36,
+   "name": "Arthur J. Gallagher & Co.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "HD",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 362,50 $ bis 12:30 ET",
+   "level": 362.5,
+   "opening_range": {
+    "high": 362.5,
+    "low": 358.1
+   },
+   "last": {
+    "bar_start": "12:25",
+    "close": 361.64,
+    "vs_level_pct": -0.24
+   },
+   "checked": "2026-11-27T17:30:45.000134+00:00",
+   "bars": 36,
+   "name": "Home Depot, Inc. (The)",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "LOW",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 237,00 $ bis 12:30 ET",
+   "level": 237.0,
+   "opening_range": {
+    "high": 237.0,
+    "low": 234.34
+   },
+   "last": {
+    "bar_start": "12:25",
+    "close": 236.49,
+    "vs_level_pct": -0.21
+   },
+   "checked": "2026-11-27T17:30:45.000134+00:00",
+   "bars": 36,
+   "name": "Lowe's Companies, Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "MDLZ",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 67,92 $ bis 12:30 ET",
+   "level": 67.92,
+   "opening_range": {
+    "high": 67.92,
+    "low": 67.31
+   },
+   "last": {
+    "bar_start": "12:25",
+    "close": 67.57,
+    "vs_level_pct": -0.51
+   },
+   "checked": "2026-11-27T17:30:45.000134+00:00",
+   "bars": 36,
+   "name": "Mondelez International, Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "ORLY",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 96,89 $ bis 12:30 ET",
+   "level": 96.89,
+   "opening_range": {
+    "high": 96.89,
+    "low": 96.02
+   },
+   "last": {
+    "bar_start": "12:25",
+    "close": 95.99,
+    "vs_level_pct": -0.93
+   },
+   "checked": "2026-11-27T17:30:45.000134+00:00",
+   "bars": 36,
+   "name": "O'Reilly Automotive, Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "PDD",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 91,39 $ bis 12:30 ET",
+   "level": 91.39,
+   "opening_range": {
+    "high": 91.39,
+    "low": 89.02
+   },
+   "last": {
+    "bar_start": "12:25",
+    "close": 89.01,
+    "vs_level_pct": -2.59
+   },
+   "checked": "2026-11-27T17:30:45.000134+00:00",
+   "bars": 36,
+   "name": "PDD Holdings Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "RKT",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 15,39 $ bis 12:30 ET",
+   "level": 15.39,
+   "opening_range": {
+    "high": 15.39,
+    "low": 15.1
+   },
+   "last": {
+    "bar_start": "12:25",
+    "close": 15.24,
+    "vs_level_pct": -0.91
+   },
+   "checked": "2026-11-27T17:30:45.000134+00:00",
+   "bars": 36,
+   "name": "Rocket Companies, Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "SO",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 95,13 $ bis 12:30 ET",
+   "level": 95.13,
+   "opening_range": {
+    "high": 95.13,
+    "low": 94.68
+   },
+   "last": {
+    "bar_start": "12:25",
+    "close": 94.91,
+    "vs_level_pct": -0.23
+   },
+   "checked": "2026-11-27T17:30:45.000134+00:00",
+   "bars": 36,
+   "name": "Southern Company (The)",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "TJX",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 145,97 $ bis 12:30 ET",
+   "level": 145.97,
+   "opening_range": {
+    "high": 145.97,
+    "low": 143.76
+   },
+   "last": {
+    "bar_start": "12:25",
+    "close": 143.15,
+    "vs_level_pct": -1.93
+   },
+   "checked": "2026-11-27T17:30:45.000134+00:00",
+   "bars": 36,
+   "name": "TJX Companies, Inc. (The)",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  }
+ ],
+ "window": [
+  "09:45",
+  "15:30"
+ ],
+ "plan_rule": "Stop = Mitte der Eröffnungsspanne, Ziel = 1R, glatt bis 15:55 ET",
+ "disclaimer": "Regelbasierte Signale aus freien, teils verzögerten Daten. Keine Anlageberatung, es wird nichts gekauft. Daytrading verliert bei den meisten Menschen Geld."
+}

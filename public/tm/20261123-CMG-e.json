@@ -1,0 +1,636 @@
+{
+ "created_by": "trader-timemachine",
+ "created_at": "2026-11-23T18:10:45Z",
+ "source": "yahoo",
+ "data": {
+  "symbol": "CMG",
+  "interval": "5m",
+  "range": "60d",
+  "last_bar": "2026-11-23 13:05 ET",
+  "dropped": {
+   "no_price": 1,
+   "off_grid": 1,
+   "not_complete": 0,
+   "outside_hours": 0
+  },
+  "short_sessions_left_out": []
+ },
+ "plan": {
+  "symbol": "CMG",
+  "side": "buy",
+  "date": "2026-11-23",
+  "setup": "orb",
+  "entry": 36.01,
+  "entry_time": "1:10 PM",
+  "entry_bar": 43,
+  "stop": 35.75,
+  "target": 36.27,
+  "risk_per_share": 0.26,
+  "target_r": 1.0,
+  "opening_range": {
+   "minutes": 15
+  },
+  "stop_rule": "or_mid",
+  "interval": "5m",
+  "flat_by": "15:55",
+  "from": "aktien-radar"
+ },
+ "mc": {
+  "replays": 10000,
+  "seed": 19,
+  "window": 2,
+  "bars_left": 33,
+  "p_target": 0.3315,
+  "p_stop": 0.4377,
+  "p_neither": 0.2308,
+  "p_green": 0.4473,
+  "median_close": 35.97,
+  "p5_close": 35.46,
+  "p95_close": 36.48,
+  "avg_R": -0.105,
+  "r_at_target": 1.0,
+  "band_paths": 2000,
+  "bands": [
+   [
+    36.01,
+    36.01,
+    36.01,
+    36.01,
+    36.01
+   ],
+   [
+    35.93,
+    35.98,
+    36.0,
+    36.03,
+    36.06
+   ],
+   [
+    35.9,
+    35.96,
+    36.0,
+    36.04,
+    36.09
+   ],
+   [
+    35.87,
+    35.95,
+    36.0,
+    36.05,
+    36.13
+   ],
+   [
+    35.85,
+    35.94,
+    36.0,
+    36.06,
+    36.14
+   ],
+   [
+    35.84,
+    35.94,
+    36.0,
+    36.07,
+    36.17
+   ],
+   [
+    35.82,
+    35.94,
+    36.01,
+    36.07,
+    36.19
+   ],
+   [
+    35.81,
+    35.93,
+    36.0,
+    36.08,
+    36.21
+   ],
+   [
+    35.8,
+    35.93,
+    36.0,
+    36.09,
+    36.22
+   ],
+   [
+    35.79,
+    35.92,
+    36.0,
+    36.09,
+    36.24
+   ],
+   [
+    35.78,
+    35.91,
+    36.01,
+    36.1,
+    36.25
+   ],
+   [
+    35.77,
+    35.91,
+    36.0,
+    36.1,
+    36.26
+   ],
+   [
+    35.75,
+    35.9,
+    36.0,
+    36.1,
+    36.28
+   ],
+   [
+    35.73,
+    35.89,
+    36.0,
+    36.11,
+    36.29
+   ],
+   [
+    35.72,
+    35.89,
+    35.99,
+    36.11,
+    36.3
+   ],
+   [
+    35.71,
+    35.87,
+    35.98,
+    36.11,
+    36.3
+   ],
+   [
+    35.7,
+    35.87,
+    35.98,
+    36.1,
+    36.3
+   ],
+   [
+    35.68,
+    35.86,
+    35.98,
+    36.11,
+    36.32
+   ],
+   [
+    35.67,
+    35.85,
+    35.98,
+    36.12,
+    36.32
+   ],
+   [
+    35.65,
+    35.85,
+    35.98,
+    36.12,
+    36.34
+   ],
+   [
+    35.62,
+    35.85,
+    35.98,
+    36.12,
+    36.35
+   ],
+   [
+    35.61,
+    35.84,
+    35.98,
+    36.12,
+    36.35
+   ],
+   [
+    35.6,
+    35.83,
+    35.98,
+    36.13,
+    36.35
+   ],
+   [
+    35.59,
+    35.83,
+    35.98,
+    36.13,
+    36.37
+   ],
+   [
+    35.59,
+    35.82,
+    35.97,
+    36.14,
+    36.39
+   ],
+   [
+    35.56,
+    35.82,
+    35.97,
+    36.14,
+    36.39
+   ],
+   [
+    35.56,
+    35.82,
+    35.96,
+    36.14,
+    36.4
+   ],
+   [
+    35.54,
+    35.81,
+    35.96,
+    36.15,
+    36.4
+   ],
+   [
+    35.55,
+    35.8,
+    35.96,
+    36.15,
+    36.4
+   ],
+   [
+    35.54,
+    35.79,
+    35.97,
+    36.15,
+    36.41
+   ],
+   [
+    35.53,
+    35.79,
+    35.97,
+    36.16,
+    36.42
+   ],
+   [
+    35.51,
+    35.78,
+    35.97,
+    36.16,
+    36.45
+   ],
+   [
+    35.49,
+    35.77,
+    35.96,
+    36.17,
+    36.45
+   ],
+   [
+    35.47,
+    35.76,
+    35.97,
+    36.18,
+    36.47
+   ]
+  ],
+  "hist": {
+   "lo": 35.25,
+   "hi": 36.72,
+   "bins": [
+    119,
+    104,
+    144,
+    209,
+    257,
+    376,
+    446,
+    560,
+    651,
+    686,
+    776,
+    852,
+    771,
+    742,
+    670,
+    614,
+    509,
+    393,
+    326,
+    247,
+    147,
+    132,
+    63,
+    51
+   ]
+  },
+  "until": "15:55",
+  "pool_sessions": 59,
+  "pool_from": "2026-08-31",
+  "pool_to": "2026-11-20",
+  "band_times": [
+   "13:10",
+   "13:15",
+   "13:20",
+   "13:25",
+   "13:30",
+   "13:35",
+   "13:40",
+   "13:45",
+   "13:50",
+   "13:55",
+   "14:00",
+   "14:05",
+   "14:10",
+   "14:15",
+   "14:20",
+   "14:25",
+   "14:30",
+   "14:35",
+   "14:40",
+   "14:45",
+   "14:50",
+   "14:55",
+   "15:00",
+   "15:05",
+   "15:10",
+   "15:15",
+   "15:20",
+   "15:25",
+   "15:30",
+   "15:35",
+   "15:40",
+   "15:45",
+   "15:50",
+   "15:55"
+  ]
+ },
+ "history": {
+  "sessions": 59,
+  "triggered": 25,
+  "target": 7,
+  "stop": 7,
+  "close": 11,
+  "green": 11,
+  "avg_R": -0.034,
+  "rule": {
+   "setup": "orb",
+   "or_minutes": 15,
+   "stop_rule": "or_mid",
+   "target_r": 1.0
+  },
+  "trades": [
+   {
+    "date": "2026-08-31",
+    "time": "10:40 AM",
+    "entry": 38.17,
+    "stop": 37.79,
+    "target": 38.55,
+    "outcome": "close",
+    "R": -0.39
+   },
+   {
+    "date": "2026-09-02",
+    "time": "9:55 AM",
+    "entry": 38.59,
+    "stop": 38.12,
+    "target": 39.06,
+    "outcome": "close",
+    "R": -0.07
+   },
+   {
+    "date": "2026-09-08",
+    "time": "10:00 AM",
+    "entry": 37.17,
+    "stop": 36.82,
+    "target": 37.52,
+    "outcome": "close",
+    "R": -0.67
+   },
+   {
+    "date": "2026-09-10",
+    "time": "10:25 AM",
+    "entry": 36.28,
+    "stop": 35.98,
+    "target": 36.58,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-09-14",
+    "time": "12:40 PM",
+    "entry": 36.92,
+    "stop": 36.47,
+    "target": 37.37,
+    "outcome": "close",
+    "R": 0.46
+   },
+   {
+    "date": "2026-09-23",
+    "time": "12:25 PM",
+    "entry": 32.78,
+    "stop": 32.55,
+    "target": 33.01,
+    "outcome": "close",
+    "R": -0.02
+   },
+   {
+    "date": "2026-09-28",
+    "time": "9:50 AM",
+    "entry": 31.75,
+    "stop": 31.3,
+    "target": 32.2,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-09-29",
+    "time": "9:50 AM",
+    "entry": 31.87,
+    "stop": 31.51,
+    "target": 32.23,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-10-01",
+    "time": "9:55 AM",
+    "entry": 32.13,
+    "stop": 31.94,
+    "target": 32.32,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-10-06",
+    "time": "10:05 AM",
+    "entry": 30.86,
+    "stop": 30.73,
+    "target": 30.99,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-10-07",
+    "time": "3:05 PM",
+    "entry": 30.86,
+    "stop": 30.63,
+    "target": 31.09,
+    "outcome": "close",
+    "R": -0.28
+   },
+   {
+    "date": "2026-10-08",
+    "time": "9:50 AM",
+    "entry": 31.11,
+    "stop": 30.73,
+    "target": 31.49,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-10-13",
+    "time": "2:45 PM",
+    "entry": 30.64,
+    "stop": 30.44,
+    "target": 30.84,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-10-16",
+    "time": "9:50 AM",
+    "entry": 31.02,
+    "stop": 30.65,
+    "target": 31.39,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-10-26",
+    "time": "9:50 AM",
+    "entry": 28.35,
+    "stop": 27.97,
+    "target": 28.73,
+    "outcome": "close",
+    "R": 0.01
+   },
+   {
+    "date": "2026-10-28",
+    "time": "9:50 AM",
+    "entry": 28.59,
+    "stop": 28.29,
+    "target": 28.89,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-10-29",
+    "time": "10:00 AM",
+    "entry": 30.86,
+    "stop": 30.36,
+    "target": 31.36,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-10-30",
+    "time": "10:00 AM",
+    "entry": 32.27,
+    "stop": 31.85,
+    "target": 32.69,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-11-02",
+    "time": "9:50 AM",
+    "entry": 33.3,
+    "stop": 32.55,
+    "target": 34.05,
+    "outcome": "close",
+    "R": -0.57
+   },
+   {
+    "date": "2026-11-03",
+    "time": "11:30 AM",
+    "entry": 33.06,
+    "stop": 32.74,
+    "target": 33.38,
+    "outcome": "close",
+    "R": 0.39
+   },
+   {
+    "date": "2026-11-04",
+    "time": "9:55 AM",
+    "entry": 34.87,
+    "stop": 34.44,
+    "target": 35.3,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-11-06",
+    "time": "10:10 AM",
+    "entry": 34.85,
+    "stop": 34.46,
+    "target": 35.24,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-11-10",
+    "time": "10:35 AM",
+    "entry": 35.97,
+    "stop": 35.66,
+    "target": 36.28,
+    "outcome": "close",
+    "R": -0.4
+   },
+   {
+    "date": "2026-11-11",
+    "time": "1:05 PM",
+    "entry": 36.06,
+    "stop": 35.84,
+    "target": 36.28,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-11-18",
+    "time": "9:50 AM",
+    "entry": 36.53,
+    "stop": 35.77,
+    "target": 37.29,
+    "outcome": "close",
+    "R": 0.68
+   }
+  ]
+ },
+ "verdict": "Leans toward the stop: target first 33.1 % vs stop first 43.8 %.",
+ "verdict_notes": [],
+ "warnings": [],
+ "note": "A simulation built from CMG's own last 59 full sessions. It is not a prediction: earnings, news and halts can do things those sessions never did. Same seed, same numbers.",
+ "summary": {
+  "id": "20261123-CMG-e",
+  "p_target": 0.3315,
+  "p_stop": 0.4377,
+  "p_neither": 0.2308,
+  "p_green": 0.4473,
+  "avg_R": -0.105,
+  "median_close": 35.97,
+  "p5_close": 35.46,
+  "p95_close": 36.48,
+  "until": "15:55",
+  "replays": 10000,
+  "pool_sessions": 59,
+  "verdict": "Tendenz zum Stop",
+  "verdict_en": "Leans toward the stop: target first 33.1 % vs stop first 43.8 %.",
+  "history": {
+   "sessions": 59,
+   "triggered": 25,
+   "target": 7,
+   "stop": 7,
+   "close": 11,
+   "avg_R": -0.034
+  }
+ },
+ "kind": "e",
+ "disclaimer": "Regelbasierte Signale aus freien, teils verzögerten Daten. Keine Anlageberatung, es wird nichts gekauft. Daytrading verliert bei den meisten Menschen Geld."
+}

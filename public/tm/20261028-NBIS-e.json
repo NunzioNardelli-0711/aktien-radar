@@ -1,0 +1,555 @@
+{
+ "created_by": "trader-timemachine",
+ "created_at": "2026-10-28T18:30:45Z",
+ "source": "yahoo",
+ "data": {
+  "symbol": "NBIS",
+  "interval": "5m",
+  "range": "60d",
+  "last_bar": "2026-10-28 14:25 ET",
+  "dropped": {
+   "no_price": 1,
+   "off_grid": 1,
+   "not_complete": 0,
+   "outside_hours": 0
+  },
+  "short_sessions_left_out": []
+ },
+ "plan": {
+  "symbol": "NBIS",
+  "side": "buy",
+  "date": "2026-10-28",
+  "setup": "orb",
+  "entry": 176.44,
+  "entry_time": "2:30 PM",
+  "entry_bar": 59,
+  "stop": 172.65,
+  "target": 180.23,
+  "risk_per_share": 3.79,
+  "target_r": 1.0,
+  "opening_range": {
+   "minutes": 15
+  },
+  "stop_rule": "or_mid",
+  "interval": "5m",
+  "flat_by": "15:55",
+  "from": "aktien-radar"
+ },
+ "mc": {
+  "replays": 10000,
+  "seed": 19,
+  "window": 2,
+  "bars_left": 17,
+  "p_target": 0.1033,
+  "p_stop": 0.1246,
+  "p_neither": 0.7721,
+  "p_green": 0.4658,
+  "median_close": 176.23,
+  "p5_close": 172.42,
+  "p95_close": 180.22,
+  "avg_R": -0.045,
+  "r_at_target": 1.0,
+  "band_paths": 2000,
+  "bands": [
+   [
+    176.44,
+    176.44,
+    176.44,
+    176.44,
+    176.44
+   ],
+   [
+    175.63,
+    176.13,
+    176.45,
+    176.69,
+    177.29
+   ],
+   [
+    175.17,
+    175.93,
+    176.42,
+    176.86,
+    177.48
+   ],
+   [
+    174.83,
+    175.79,
+    176.39,
+    176.96,
+    177.72
+   ],
+   [
+    174.58,
+    175.69,
+    176.36,
+    176.99,
+    177.94
+   ],
+   [
+    174.4,
+    175.61,
+    176.34,
+    177.07,
+    178.17
+   ],
+   [
+    174.23,
+    175.43,
+    176.29,
+    177.08,
+    178.3
+   ],
+   [
+    174.07,
+    175.31,
+    176.2,
+    177.12,
+    178.37
+   ],
+   [
+    173.93,
+    175.23,
+    176.23,
+    177.2,
+    178.6
+   ],
+   [
+    173.83,
+    175.23,
+    176.26,
+    177.29,
+    178.74
+   ],
+   [
+    173.66,
+    175.18,
+    176.34,
+    177.37,
+    178.96
+   ],
+   [
+    173.59,
+    175.14,
+    176.32,
+    177.46,
+    179.14
+   ],
+   [
+    173.36,
+    175.09,
+    176.33,
+    177.53,
+    179.32
+   ],
+   [
+    173.21,
+    175.0,
+    176.27,
+    177.53,
+    179.55
+   ],
+   [
+    173.08,
+    174.92,
+    176.25,
+    177.58,
+    179.5
+   ],
+   [
+    172.86,
+    174.83,
+    176.19,
+    177.57,
+    179.74
+   ],
+   [
+    172.75,
+    174.67,
+    176.15,
+    177.69,
+    179.87
+   ],
+   [
+    172.39,
+    174.65,
+    176.22,
+    177.88,
+    180.19
+   ]
+  ],
+  "hist": {
+   "lo": 170.74,
+   "hi": 181.99,
+   "bins": [
+    110,
+    93,
+    142,
+    201,
+    273,
+    359,
+    457,
+    565,
+    680,
+    736,
+    790,
+    765,
+    783,
+    722,
+    668,
+    589,
+    503,
+    417,
+    323,
+    223,
+    174,
+    137,
+    77,
+    63
+   ]
+  },
+  "until": "15:55",
+  "pool_sessions": 59,
+  "pool_from": "2026-08-05",
+  "pool_to": "2026-10-27",
+  "band_times": [
+   "14:30",
+   "14:35",
+   "14:40",
+   "14:45",
+   "14:50",
+   "14:55",
+   "15:00",
+   "15:05",
+   "15:10",
+   "15:15",
+   "15:20",
+   "15:25",
+   "15:30",
+   "15:35",
+   "15:40",
+   "15:45",
+   "15:50",
+   "15:55"
+  ]
+ },
+ "history": {
+  "sessions": 59,
+  "triggered": 30,
+  "target": 11,
+  "stop": 12,
+  "close": 7,
+  "green": 12,
+  "avg_R": -0.095,
+  "rule": {
+   "setup": "orb",
+   "or_minutes": 15,
+   "stop_rule": "or_mid",
+   "target_r": 1.0
+  },
+  "trades": [
+   {
+    "date": "2026-08-05",
+    "time": "9:50 AM",
+    "entry": 224.6,
+    "stop": 219.67,
+    "target": 229.53,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-08-06",
+    "time": "9:50 AM",
+    "entry": 212.33,
+    "stop": 206.01,
+    "target": 218.65,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-08-10",
+    "time": "9:50 AM",
+    "entry": 189.81,
+    "stop": 185.94,
+    "target": 193.68,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-08-12",
+    "time": "9:50 AM",
+    "entry": 229.88,
+    "stop": 222.38,
+    "target": 237.38,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-08-13",
+    "time": "10:30 AM",
+    "entry": 273.17,
+    "stop": 263.92,
+    "target": 282.42,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-08-14",
+    "time": "10:40 AM",
+    "entry": 272.23,
+    "stop": 264.32,
+    "target": 280.14,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-08-17",
+    "time": "12:00 PM",
+    "entry": 279.8,
+    "stop": 270.95,
+    "target": 288.65,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-08-21",
+    "time": "9:50 AM",
+    "entry": 230.72,
+    "stop": 226.59,
+    "target": 234.85,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-08-24",
+    "time": "12:50 PM",
+    "entry": 211.73,
+    "stop": 207.01,
+    "target": 216.45,
+    "outcome": "close",
+    "R": -0.42
+   },
+   {
+    "date": "2026-08-25",
+    "time": "1:25 PM",
+    "entry": 220.46,
+    "stop": 217.73,
+    "target": 223.19,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-09-01",
+    "time": "11:40 AM",
+    "entry": 200.7,
+    "stop": 197.72,
+    "target": 203.68,
+    "outcome": "close",
+    "R": -0.19
+   },
+   {
+    "date": "2026-09-02",
+    "time": "2:20 PM",
+    "entry": 203.39,
+    "stop": 199.12,
+    "target": 207.66,
+    "outcome": "close",
+    "R": 0.08
+   },
+   {
+    "date": "2026-09-03",
+    "time": "10:20 AM",
+    "entry": 203.9,
+    "stop": 200.08,
+    "target": 207.72,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-09-04",
+    "time": "9:50 AM",
+    "entry": 217.19,
+    "stop": 212.57,
+    "target": 221.81,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-09-08",
+    "time": "11:05 AM",
+    "entry": 243.3,
+    "stop": 238.57,
+    "target": 248.03,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-09-14",
+    "time": "9:50 AM",
+    "entry": 216.25,
+    "stop": 208.48,
+    "target": 224.02,
+    "outcome": "close",
+    "R": -0.6
+   },
+   {
+    "date": "2026-09-16",
+    "time": "9:50 AM",
+    "entry": 215.05,
+    "stop": 212.79,
+    "target": 217.31,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-09-18",
+    "time": "11:50 AM",
+    "entry": 220.62,
+    "stop": 217.97,
+    "target": 223.27,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-09-21",
+    "time": "9:50 AM",
+    "entry": 228.48,
+    "stop": 224.61,
+    "target": 232.35,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-09-22",
+    "time": "9:55 AM",
+    "entry": 245.92,
+    "stop": 237.86,
+    "target": 253.98,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-09-24",
+    "time": "10:30 AM",
+    "entry": 244.44,
+    "stop": 236.38,
+    "target": 252.5,
+    "outcome": "close",
+    "R": -0.02
+   },
+   {
+    "date": "2026-09-29",
+    "time": "9:50 AM",
+    "entry": 239.7,
+    "stop": 236.54,
+    "target": 242.86,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-10-02",
+    "time": "10:05 AM",
+    "entry": 244.9,
+    "stop": 239.67,
+    "target": 250.13,
+    "outcome": "close",
+    "R": -0.55
+   },
+   {
+    "date": "2026-10-06",
+    "time": "9:50 AM",
+    "entry": 246.12,
+    "stop": 240.7,
+    "target": 251.54,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-10-13",
+    "time": "10:15 AM",
+    "entry": 202.33,
+    "stop": 200.04,
+    "target": 204.62,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-10-15",
+    "time": "11:15 AM",
+    "entry": 178.56,
+    "stop": 171.73,
+    "target": 185.39,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-10-20",
+    "time": "10:10 AM",
+    "entry": 168.1,
+    "stop": 163.54,
+    "target": 172.66,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-10-23",
+    "time": "9:50 AM",
+    "entry": 162.35,
+    "stop": 158.67,
+    "target": 166.03,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-10-26",
+    "time": "10:45 AM",
+    "entry": 156.5,
+    "stop": 152.39,
+    "target": 160.61,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-10-27",
+    "time": "3:35 PM",
+    "entry": 171.36,
+    "stop": 164.61,
+    "target": 178.11,
+    "outcome": "close",
+    "R": -0.16
+   }
+  ]
+ },
+ "verdict": "Close to a coin flip: target first 10.3 % vs stop first 12.5 %.",
+ "verdict_notes": [
+  "77.2 % of the replays hit neither by 3:55 PM; the price at 3:55 PM decides those."
+ ],
+ "warnings": [],
+ "note": "A simulation built from NBIS's own last 59 full sessions. It is not a prediction: earnings, news and halts can do things those sessions never did. Same seed, same numbers.",
+ "summary": {
+  "id": "20261028-NBIS-e",
+  "p_target": 0.1033,
+  "p_stop": 0.1246,
+  "p_neither": 0.7721,
+  "p_green": 0.4658,
+  "avg_R": -0.045,
+  "median_close": 176.23,
+  "p5_close": 172.42,
+  "p95_close": 180.22,
+  "until": "15:55",
+  "replays": 10000,
+  "pool_sessions": 59,
+  "verdict": "Etwa ein Münzwurf",
+  "verdict_en": "Close to a coin flip: target first 10.3 % vs stop first 12.5 %.",
+  "history": {
+   "sessions": 59,
+   "triggered": 30,
+   "target": 11,
+   "stop": 12,
+   "close": 7,
+   "avg_R": -0.095
+  }
+ },
+ "kind": "e",
+ "disclaimer": "Regelbasierte Signale aus freien, teils verzögerten Daten. Keine Anlageberatung, es wird nichts gekauft. Daytrading verliert bei den meisten Menschen Geld."
+}
