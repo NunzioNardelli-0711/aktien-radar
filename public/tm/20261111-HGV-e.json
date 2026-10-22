@@ -1,0 +1,642 @@
+{
+ "created_by": "trader-timemachine",
+ "created_at": "2026-11-11T18:20:45Z",
+ "source": "yahoo",
+ "data": {
+  "symbol": "HGV",
+  "interval": "5m",
+  "range": "60d",
+  "last_bar": "2026-11-11 13:15 ET",
+  "dropped": {
+   "no_price": 18,
+   "off_grid": 1,
+   "not_complete": 0,
+   "outside_hours": 0
+  },
+  "short_sessions_left_out": [
+   {
+    "date": "2026-08-21",
+    "bars": 75
+   },
+   {
+    "date": "2026-08-26",
+    "bars": 77
+   },
+   {
+    "date": "2026-08-27",
+    "bars": 77
+   },
+   {
+    "date": "2026-09-04",
+    "bars": 77
+   },
+   {
+    "date": "2026-09-08",
+    "bars": 77
+   },
+   {
+    "date": "2026-09-14",
+    "bars": 77
+   },
+   {
+    "date": "2026-09-16",
+    "bars": 77
+   },
+   {
+    "date": "2026-10-02",
+    "bars": 77
+   },
+   {
+    "date": "2026-10-07",
+    "bars": 76
+   },
+   {
+    "date": "2026-10-13",
+    "bars": 77
+   },
+   {
+    "date": "2026-10-19",
+    "bars": 77
+   },
+   {
+    "date": "2026-10-20",
+    "bars": 77
+   },
+   {
+    "date": "2026-10-21",
+    "bars": 77
+   },
+   {
+    "date": "2026-10-23",
+    "bars": 77
+   }
+  ]
+ },
+ "plan": {
+  "symbol": "HGV",
+  "side": "buy",
+  "date": "2026-11-11",
+  "setup": "orb",
+  "entry": 45.46,
+  "entry_time": "1:15 PM",
+  "entry_bar": 44,
+  "stop": 45.0,
+  "target": 45.92,
+  "risk_per_share": 0.46,
+  "target_r": 1.0,
+  "opening_range": {
+   "minutes": 15
+  },
+  "stop_rule": "or_mid",
+  "interval": "5m",
+  "flat_by": "15:55",
+  "from": "aktien-radar"
+ },
+ "mc": {
+  "replays": 10000,
+  "seed": 19,
+  "window": 2,
+  "bars_left": 32,
+  "p_target": 0.3252,
+  "p_stop": 0.2665,
+  "p_neither": 0.4083,
+  "p_green": 0.534,
+  "median_close": 45.5,
+  "p5_close": 44.79,
+  "p95_close": 46.22,
+  "avg_R": 0.065,
+  "r_at_target": 1.0,
+  "band_paths": 2000,
+  "bands": [
+   [
+    45.46,
+    45.46,
+    45.46,
+    45.46,
+    45.46
+   ],
+   [
+    45.36,
+    45.42,
+    45.47,
+    45.51,
+    45.63
+   ],
+   [
+    45.3,
+    45.41,
+    45.47,
+    45.54,
+    45.67
+   ],
+   [
+    45.27,
+    45.39,
+    45.47,
+    45.56,
+    45.71
+   ],
+   [
+    45.24,
+    45.38,
+    45.47,
+    45.57,
+    45.73
+   ],
+   [
+    45.21,
+    45.37,
+    45.48,
+    45.59,
+    45.76
+   ],
+   [
+    45.2,
+    45.36,
+    45.48,
+    45.59,
+    45.79
+   ],
+   [
+    45.18,
+    45.36,
+    45.48,
+    45.61,
+    45.8
+   ],
+   [
+    45.16,
+    45.35,
+    45.47,
+    45.61,
+    45.82
+   ],
+   [
+    45.14,
+    45.33,
+    45.47,
+    45.61,
+    45.83
+   ],
+   [
+    45.12,
+    45.33,
+    45.48,
+    45.62,
+    45.85
+   ],
+   [
+    45.11,
+    45.32,
+    45.48,
+    45.63,
+    45.87
+   ],
+   [
+    45.07,
+    45.3,
+    45.47,
+    45.63,
+    45.88
+   ],
+   [
+    45.03,
+    45.29,
+    45.46,
+    45.63,
+    45.89
+   ],
+   [
+    44.99,
+    45.27,
+    45.45,
+    45.64,
+    45.9
+   ],
+   [
+    44.96,
+    45.25,
+    45.44,
+    45.64,
+    45.91
+   ],
+   [
+    44.96,
+    45.24,
+    45.44,
+    45.65,
+    45.93
+   ],
+   [
+    44.95,
+    45.24,
+    45.43,
+    45.65,
+    45.95
+   ],
+   [
+    44.95,
+    45.24,
+    45.45,
+    45.65,
+    45.95
+   ],
+   [
+    44.94,
+    45.23,
+    45.44,
+    45.65,
+    45.97
+   ],
+   [
+    44.92,
+    45.24,
+    45.45,
+    45.66,
+    45.99
+   ],
+   [
+    44.92,
+    45.22,
+    45.45,
+    45.68,
+    46.0
+   ],
+   [
+    44.92,
+    45.23,
+    45.45,
+    45.68,
+    46.02
+   ],
+   [
+    44.91,
+    45.23,
+    45.45,
+    45.69,
+    46.02
+   ],
+   [
+    44.91,
+    45.23,
+    45.46,
+    45.7,
+    46.05
+   ],
+   [
+    44.89,
+    45.24,
+    45.47,
+    45.71,
+    46.07
+   ],
+   [
+    44.89,
+    45.23,
+    45.48,
+    45.72,
+    46.1
+   ],
+   [
+    44.89,
+    45.24,
+    45.48,
+    45.73,
+    46.11
+   ],
+   [
+    44.89,
+    45.23,
+    45.48,
+    45.74,
+    46.13
+   ],
+   [
+    44.86,
+    45.23,
+    45.48,
+    45.75,
+    46.14
+   ],
+   [
+    44.86,
+    45.23,
+    45.5,
+    45.76,
+    46.16
+   ],
+   [
+    44.82,
+    45.21,
+    45.49,
+    45.77,
+    46.17
+   ],
+   [
+    44.79,
+    45.2,
+    45.49,
+    45.78,
+    46.21
+   ]
+  ],
+  "hist": {
+   "lo": 44.49,
+   "hi": 46.55,
+   "bins": [
+    118,
+    102,
+    154,
+    213,
+    293,
+    370,
+    454,
+    539,
+    628,
+    736,
+    752,
+    785,
+    764,
+    716,
+    680,
+    608,
+    517,
+    419,
+    296,
+    272,
+    181,
+    116,
+    95,
+    44
+   ]
+  },
+  "until": "15:55",
+  "pool_sessions": 45,
+  "pool_from": "2026-08-19",
+  "pool_to": "2026-11-10",
+  "band_times": [
+   "13:15",
+   "13:20",
+   "13:25",
+   "13:30",
+   "13:35",
+   "13:40",
+   "13:45",
+   "13:50",
+   "13:55",
+   "14:00",
+   "14:05",
+   "14:10",
+   "14:15",
+   "14:20",
+   "14:25",
+   "14:30",
+   "14:35",
+   "14:40",
+   "14:45",
+   "14:50",
+   "14:55",
+   "15:00",
+   "15:05",
+   "15:10",
+   "15:15",
+   "15:20",
+   "15:25",
+   "15:30",
+   "15:35",
+   "15:40",
+   "15:45",
+   "15:50",
+   "15:55"
+  ]
+ },
+ "history": {
+  "sessions": 45,
+  "triggered": 20,
+  "target": 9,
+  "stop": 6,
+  "close": 5,
+  "green": 12,
+  "avg_R": 0.146,
+  "rule": {
+   "setup": "orb",
+   "or_minutes": 15,
+   "stop_rule": "or_mid",
+   "target_r": 1.0
+  },
+  "trades": [
+   {
+    "date": "2026-08-19",
+    "time": "9:50 AM",
+    "entry": 45.2,
+    "stop": 44.2,
+    "target": 46.2,
+    "outcome": "close",
+    "R": 0.4
+   },
+   {
+    "date": "2026-09-02",
+    "time": "9:55 AM",
+    "entry": 42.75,
+    "stop": 41.98,
+    "target": 43.52,
+    "outcome": "close",
+    "R": -0.54
+   },
+   {
+    "date": "2026-09-22",
+    "time": "9:50 AM",
+    "entry": 37.0,
+    "stop": 36.66,
+    "target": 37.34,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-09-23",
+    "time": "10:10 AM",
+    "entry": 35.58,
+    "stop": 35.33,
+    "target": 35.83,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-09-25",
+    "time": "12:05 PM",
+    "entry": 35.44,
+    "stop": 35.11,
+    "target": 35.77,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-09-28",
+    "time": "10:30 AM",
+    "entry": 35.72,
+    "stop": 35.28,
+    "target": 36.16,
+    "outcome": "close",
+    "R": 0.18
+   },
+   {
+    "date": "2026-10-06",
+    "time": "10:05 AM",
+    "entry": 34.72,
+    "stop": 34.46,
+    "target": 34.98,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-10-08",
+    "time": "10:20 AM",
+    "entry": 34.75,
+    "stop": 34.37,
+    "target": 35.13,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-10-12",
+    "time": "10:55 AM",
+    "entry": 34.87,
+    "stop": 34.53,
+    "target": 35.21,
+    "outcome": "close",
+    "R": -0.53
+   },
+   {
+    "date": "2026-10-15",
+    "time": "10:20 AM",
+    "entry": 35.94,
+    "stop": 35.54,
+    "target": 36.34,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-10-22",
+    "time": "10:05 AM",
+    "entry": 36.4,
+    "stop": 35.98,
+    "target": 36.82,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-10-26",
+    "time": "9:55 AM",
+    "entry": 36.24,
+    "stop": 36.03,
+    "target": 36.45,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-10-28",
+    "time": "1:30 PM",
+    "entry": 35.79,
+    "stop": 35.48,
+    "target": 36.1,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-10-29",
+    "time": "9:50 AM",
+    "entry": 37.34,
+    "stop": 36.41,
+    "target": 38.27,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-10-30",
+    "time": "10:05 AM",
+    "entry": 37.15,
+    "stop": 36.18,
+    "target": 38.12,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-11-02",
+    "time": "9:50 AM",
+    "entry": 40.47,
+    "stop": 39.32,
+    "target": 41.62,
+    "outcome": "close",
+    "R": 0.41
+   },
+   {
+    "date": "2026-11-03",
+    "time": "10:45 AM",
+    "entry": 41.47,
+    "stop": 41.21,
+    "target": 41.73,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-11-04",
+    "time": "11:45 AM",
+    "entry": 43.01,
+    "stop": 42.66,
+    "target": 43.36,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-11-06",
+    "time": "10:05 AM",
+    "entry": 43.51,
+    "stop": 43.04,
+    "target": 43.98,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-11-10",
+    "time": "12:25 PM",
+    "entry": 44.91,
+    "stop": 44.71,
+    "target": 45.11,
+    "outcome": "target",
+    "R": 1.0
+   }
+  ]
+ },
+ "verdict": "Close to a coin flip: target first 32.5 % vs stop first 26.7 %.",
+ "verdict_notes": [
+  "40.8 % of the replays hit neither by 3:55 PM; the price at 3:55 PM decides those."
+ ],
+ "warnings": [],
+ "note": "A simulation built from HGV's own last 45 full sessions. It is not a prediction: earnings, news and halts can do things those sessions never did. Same seed, same numbers.",
+ "summary": {
+  "id": "20261111-HGV-e",
+  "p_target": 0.3252,
+  "p_stop": 0.2665,
+  "p_neither": 0.4083,
+  "p_green": 0.534,
+  "avg_R": 0.065,
+  "median_close": 45.5,
+  "p5_close": 44.79,
+  "p95_close": 46.22,
+  "until": "15:55",
+  "replays": 10000,
+  "pool_sessions": 45,
+  "verdict": "Etwa ein Münzwurf",
+  "verdict_en": "Close to a coin flip: target first 32.5 % vs stop first 26.7 %.",
+  "history": {
+   "sessions": 45,
+   "triggered": 20,
+   "target": 9,
+   "stop": 6,
+   "close": 5,
+   "avg_R": 0.146
+  }
+ },
+ "kind": "e",
+ "disclaimer": "Regelbasierte Signale aus freien, teils verzögerten Daten. Keine Anlageberatung, es wird nichts gekauft. Daytrading verliert bei den meisten Menschen Geld."
+}

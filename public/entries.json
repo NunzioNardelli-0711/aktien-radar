@@ -1,0 +1,1146 @@
+{
+ "date": "2026-11-13",
+ "updated": "2026-11-13T20:41:08.848874+00:00",
+ "items": [
+  {
+   "symbol": "ADMA",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 10:00 schloss bei 13,30 $ über dem Spannen-Hoch 13,29 $",
+   "level": 13.29,
+   "opening_range": {
+    "high": 13.29,
+    "low": 13.07
+   },
+   "last": {
+    "bar_start": "10:00",
+    "close": 13.3,
+    "vs_level_pct": 0.08
+   },
+   "checked": "2026-11-13T15:05:45.000134+00:00",
+   "bars": 7,
+   "trigger": {
+    "time_et": "10:05",
+    "time_berlin": "16:05",
+    "bar_start": "10:00",
+    "price": 13.3,
+    "pct_over": 0.08,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 13.3,
+    "stop": 13.18,
+    "target": 13.42,
+    "entry_time": "10:05 AM",
+    "risk_per_share": 0.12,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261113-ADMA-e",
+    "p_target": 0.495,
+    "p_stop": 0.5003,
+    "p_neither": 0.0047,
+    "p_green": 0.498,
+    "avg_R": -0.005,
+    "median_close": 13.31,
+    "p5_close": 12.8,
+    "p95_close": 13.8,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 58,
+    "verdict": "Etwa ein Münzwurf",
+    "verdict_en": "Close to a coin flip: target first 49.5 % vs stop first 50.0 %.",
+    "history": {
+     "sessions": 58,
+     "triggered": 40,
+     "target": 20,
+     "stop": 19,
+     "close": 1,
+     "avg_R": 0.03
+    }
+   },
+   "push_note": "Kein Push: Time Machine „Etwa ein Münzwurf“",
+   "name": "ADMA Biologics Inc",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Bullenflagge"
+   ]
+  },
+  {
+   "symbol": "ADXN",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 10:10 schloss bei 4,80 $ über dem Spannen-Hoch 4,77 $",
+   "level": 4.77,
+   "opening_range": {
+    "high": 4.77,
+    "low": 4.5
+   },
+   "last": {
+    "bar_start": "10:15",
+    "close": 4.74,
+    "vs_level_pct": -0.65
+   },
+   "checked": "2026-11-13T15:20:45.000142+00:00",
+   "bars": 10,
+   "trigger": {
+    "time_et": "10:15",
+    "time_berlin": "16:15",
+    "bar_start": "10:10",
+    "price": 4.8,
+    "pct_over": 0.61,
+    "minutes_since": 5
+   },
+   "plan": {
+    "entry": 4.8,
+    "stop": 4.63,
+    "target": 4.97,
+    "entry_time": "10:15 AM",
+    "risk_per_share": 0.17,
+    "target_r": 1.0
+   },
+   "tm": {
+    "error": "only 1 full session(s) of ADXN before 2026-11-13 in the data; the time machine needs at least 20"
+   },
+   "push_note": "Kein Push: Time Machine „nicht verfügbar“",
+   "name": "Addex Therapeutics Ltd",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Zurück über 20-Tage-Linie"
+   ]
+  },
+  {
+   "symbol": "BDX",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 09:55 schloss bei 218,21 $ über dem Spannen-Hoch 218,00 $",
+   "level": 218.0,
+   "opening_range": {
+    "high": 218.0,
+    "low": 216.38
+   },
+   "last": {
+    "bar_start": "09:55",
+    "close": 218.21,
+    "vs_level_pct": 0.1
+   },
+   "checked": "2026-11-13T15:00:45.000151+00:00",
+   "bars": 6,
+   "trigger": {
+    "time_et": "10:00",
+    "time_berlin": "16:00",
+    "bar_start": "09:55",
+    "price": 218.21,
+    "pct_over": 0.1,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 218.21,
+    "stop": 217.19,
+    "target": 219.23,
+    "entry_time": "10:00 AM",
+    "risk_per_share": 1.02,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261113-BDX-e",
+    "p_target": 0.4375,
+    "p_stop": 0.5597,
+    "p_neither": 0.0028,
+    "p_green": 0.4396,
+    "avg_R": -0.121,
+    "median_close": 218.46,
+    "p5_close": 214.68,
+    "p95_close": 222.36,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 59,
+    "verdict": "Tendenz zum Stop",
+    "verdict_en": "Leans toward the stop: target first 43.8 % vs stop first 56.0 %.",
+    "history": {
+     "sessions": 59,
+     "triggered": 36,
+     "target": 10,
+     "stop": 13,
+     "close": 13,
+     "avg_R": -0.082
+    }
+   },
+   "push_note": "Kein Push: Time Machine „Tendenz zum Stop“",
+   "name": "Becton, Dickinson and Company",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "CAH",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 11:10 schloss bei 280,64 $ über dem Spannen-Hoch 280,55 $",
+   "level": 280.55,
+   "opening_range": {
+    "high": 280.55,
+    "low": 276.75
+   },
+   "last": {
+    "bar_start": "11:10",
+    "close": 280.64,
+    "vs_level_pct": 0.03
+   },
+   "checked": "2026-11-13T16:15:45.000131+00:00",
+   "bars": 21,
+   "trigger": {
+    "time_et": "11:15",
+    "time_berlin": "17:15",
+    "bar_start": "11:10",
+    "price": 280.64,
+    "pct_over": 0.03,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 280.64,
+    "stop": 278.65,
+    "target": 282.63,
+    "entry_time": "11:15 AM",
+    "risk_per_share": 1.99,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261113-CAH-e",
+    "p_target": 0.4151,
+    "p_stop": 0.3971,
+    "p_neither": 0.1878,
+    "p_green": 0.5172,
+    "avg_R": 0.029,
+    "median_close": 280.81,
+    "p5_close": 276.67,
+    "p95_close": 285.1,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 59,
+    "verdict": "Etwa ein Münzwurf",
+    "verdict_en": "Close to a coin flip: target first 41.5 % vs stop first 39.7 %.",
+    "history": {
+     "sessions": 59,
+     "triggered": 30,
+     "target": 13,
+     "stop": 13,
+     "close": 4,
+     "avg_R": 0.017
+    }
+   },
+   "push_note": "Kein Push: Time Machine „Etwa ein Münzwurf“",
+   "name": "Cardinal Health, Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "CHA",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 09:55 schloss bei 13,90 $ über dem Spannen-Hoch 13,74 $",
+   "level": 13.74,
+   "opening_range": {
+    "high": 13.74,
+    "low": 13.39
+   },
+   "last": {
+    "bar_start": "09:55",
+    "close": 13.9,
+    "vs_level_pct": 1.12
+   },
+   "checked": "2026-11-13T15:00:45.000151+00:00",
+   "bars": 6,
+   "trigger": {
+    "time_et": "10:00",
+    "time_berlin": "16:00",
+    "bar_start": "09:55",
+    "price": 13.9,
+    "pct_over": 1.12,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 13.9,
+    "stop": 13.56,
+    "target": 14.24,
+    "entry_time": "10:00 AM",
+    "risk_per_share": 0.34,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261113-CHA-e",
+    "p_target": 0.3139,
+    "p_stop": 0.2062,
+    "p_neither": 0.4799,
+    "p_green": 0.5477,
+    "avg_R": 0.099,
+    "median_close": 13.93,
+    "p5_close": 13.43,
+    "p95_close": 14.44,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 30,
+    "verdict": "Tendenz zum Ziel",
+    "verdict_en": "Leans toward the target: target first 31.4 % vs stop first 20.6 %.",
+    "history": {
+     "sessions": 30,
+     "triggered": 19,
+     "target": 5,
+     "stop": 10,
+     "close": 4,
+     "avg_R": -0.265
+    }
+   },
+   "pushed": true,
+   "name": "Chagee Holdings Limited",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Zurück über 20-Tage-Linie"
+   ]
+  },
+  {
+   "symbol": "CLX",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 11:15 schloss bei 109,65 $ über dem Spannen-Hoch 109,59 $",
+   "level": 109.59,
+   "opening_range": {
+    "high": 109.59,
+    "low": 108.05
+   },
+   "last": {
+    "bar_start": "11:15",
+    "close": 109.65,
+    "vs_level_pct": 0.05
+   },
+   "checked": "2026-11-13T16:20:45.000116+00:00",
+   "bars": 22,
+   "trigger": {
+    "time_et": "11:20",
+    "time_berlin": "17:20",
+    "bar_start": "11:15",
+    "price": 109.65,
+    "pct_over": 0.05,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 109.65,
+    "stop": 108.82,
+    "target": 110.48,
+    "entry_time": "11:20 AM",
+    "risk_per_share": 0.83,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261113-CLX-e",
+    "p_target": 0.4833,
+    "p_stop": 0.3986,
+    "p_neither": 0.1181,
+    "p_green": 0.5417,
+    "avg_R": 0.084,
+    "median_close": 109.75,
+    "p5_close": 107.66,
+    "p95_close": 111.76,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 59,
+    "verdict": "Etwa ein Münzwurf",
+    "verdict_en": "Close to a coin flip: target first 48.3 % vs stop first 39.9 %.",
+    "history": {
+     "sessions": 59,
+     "triggered": 32,
+     "target": 13,
+     "stop": 14,
+     "close": 5,
+     "avg_R": -0.045
+    }
+   },
+   "push_note": "Kein Push: Time Machine „Etwa ein Münzwurf“",
+   "name": "Clorox Company (The)",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "COST",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 09:45 schloss bei 1.105,79 $ über dem Spannen-Hoch 1.105,22 $",
+   "level": 1105.22,
+   "opening_range": {
+    "high": 1105.22,
+    "low": 1092.64
+   },
+   "last": {
+    "bar_start": "09:45",
+    "close": 1105.79,
+    "vs_level_pct": 0.05
+   },
+   "checked": "2026-11-13T14:50:45.000167+00:00",
+   "bars": 4,
+   "trigger": {
+    "time_et": "09:50",
+    "time_berlin": "15:50",
+    "bar_start": "09:45",
+    "price": 1105.79,
+    "pct_over": 0.05,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 1105.79,
+    "stop": 1098.93,
+    "target": 1112.65,
+    "entry_time": "9:50 AM",
+    "risk_per_share": 6.86,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261113-COST-e",
+    "p_target": 0.4607,
+    "p_stop": 0.3823,
+    "p_neither": 0.157,
+    "p_green": 0.5409,
+    "avg_R": 0.081,
+    "median_close": 1106.95,
+    "p5_close": 1092.45,
+    "p95_close": 1121.44,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 59,
+    "verdict": "Etwa ein Münzwurf",
+    "verdict_en": "Close to a coin flip: target first 46.1 % vs stop first 38.2 %.",
+    "history": {
+     "sessions": 59,
+     "triggered": 31,
+     "target": 14,
+     "stop": 7,
+     "close": 10,
+     "avg_R": 0.24
+    }
+   },
+   "push_note": "Kein Push: Time Machine „Etwa ein Münzwurf“",
+   "name": "Costco Wholesale Corporation",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "JNJ",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 10:30 schloss bei 287,48 $ über dem Spannen-Hoch 286,34 $",
+   "level": 286.34,
+   "opening_range": {
+    "high": 286.34,
+    "low": 284.03
+   },
+   "last": {
+    "bar_start": "10:30",
+    "close": 287.48,
+    "vs_level_pct": 0.4
+   },
+   "checked": "2026-11-13T15:35:45.000133+00:00",
+   "bars": 13,
+   "trigger": {
+    "time_et": "10:35",
+    "time_berlin": "16:35",
+    "bar_start": "10:30",
+    "price": 287.48,
+    "pct_over": 0.4,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 287.48,
+    "stop": 285.18,
+    "target": 289.78,
+    "entry_time": "10:35 AM",
+    "risk_per_share": 2.3,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261113-JNJ-e",
+    "p_target": 0.3143,
+    "p_stop": 0.3125,
+    "p_neither": 0.3732,
+    "p_green": 0.5078,
+    "avg_R": 0.008,
+    "median_close": 287.61,
+    "p5_close": 283.8,
+    "p95_close": 291.41,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 59,
+    "verdict": "Etwa ein Münzwurf",
+    "verdict_en": "Close to a coin flip: target first 31.4 % vs stop first 31.2 %.",
+    "history": {
+     "sessions": 59,
+     "triggered": 32,
+     "target": 12,
+     "stop": 13,
+     "close": 7,
+     "avg_R": -0.001
+    }
+   },
+   "push_note": "Kein Push: Time Machine „Etwa ein Münzwurf“",
+   "name": "Johnson & Johnson",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "SNY",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 09:55 schloss bei 48,60 $ über dem Spannen-Hoch 48,53 $",
+   "level": 48.53,
+   "opening_range": {
+    "high": 48.53,
+    "low": 48.3
+   },
+   "last": {
+    "bar_start": "09:55",
+    "close": 48.6,
+    "vs_level_pct": 0.14
+   },
+   "checked": "2026-11-13T15:00:45.000151+00:00",
+   "bars": 6,
+   "trigger": {
+    "time_et": "10:00",
+    "time_berlin": "16:00",
+    "bar_start": "09:55",
+    "price": 48.6,
+    "pct_over": 0.14,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 48.6,
+    "stop": 48.4,
+    "target": 48.8,
+    "entry_time": "10:00 AM",
+    "risk_per_share": 0.2,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261113-SNY-e",
+    "p_target": 0.4841,
+    "p_stop": 0.496,
+    "p_neither": 0.0199,
+    "p_green": 0.4941,
+    "avg_R": -0.012,
+    "median_close": 48.62,
+    "p5_close": 48.01,
+    "p95_close": 49.24,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 59,
+    "verdict": "Etwa ein Münzwurf",
+    "verdict_en": "Close to a coin flip: target first 48.4 % vs stop first 49.6 %.",
+    "history": {
+     "sessions": 59,
+     "triggered": 32,
+     "target": 15,
+     "stop": 12,
+     "close": 5,
+     "avg_R": 0.138
+    }
+   },
+   "push_note": "Kein Push: Time Machine „Etwa ein Münzwurf“",
+   "name": "Sanofi",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Bullenflagge"
+   ]
+  },
+  {
+   "symbol": "SWKS",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 14:05 schloss bei 90,61 $ über dem Spannen-Hoch 90,54 $",
+   "level": 90.54,
+   "opening_range": {
+    "high": 90.54,
+    "low": 88.5
+   },
+   "last": {
+    "bar_start": "14:05",
+    "close": 90.61,
+    "vs_level_pct": 0.08
+   },
+   "checked": "2026-11-13T19:10:45.000133+00:00",
+   "bars": 56,
+   "trigger": {
+    "time_et": "14:10",
+    "time_berlin": "20:10",
+    "bar_start": "14:05",
+    "price": 90.61,
+    "pct_over": 0.08,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 90.61,
+    "stop": 89.52,
+    "target": 91.7,
+    "entry_time": "2:10 PM",
+    "risk_per_share": 1.09,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261113-SWKS-e",
+    "p_target": 0.3756,
+    "p_stop": 0.2861,
+    "p_neither": 0.3383,
+    "p_green": 0.5639,
+    "avg_R": 0.107,
+    "median_close": 90.81,
+    "p5_close": 88.89,
+    "p95_close": 92.77,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 59,
+    "verdict": "Tendenz zum Ziel",
+    "verdict_en": "Leans toward the target: target first 37.6 % vs stop first 28.6 %.",
+    "history": {
+     "sessions": 59,
+     "triggered": 35,
+     "target": 15,
+     "stop": 11,
+     "close": 9,
+     "avg_R": 0.097
+    }
+   },
+   "pushed": true,
+   "name": "Skyworks Solutions, Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "TBBB",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 09:45 schloss bei 69,73 $ über dem Spannen-Hoch 69,60 $",
+   "level": 69.6,
+   "opening_range": {
+    "high": 69.6,
+    "low": 68.14
+   },
+   "last": {
+    "bar_start": "09:45",
+    "close": 69.73,
+    "vs_level_pct": 0.19
+   },
+   "checked": "2026-11-13T14:50:45.000167+00:00",
+   "bars": 4,
+   "trigger": {
+    "time_et": "09:50",
+    "time_berlin": "15:50",
+    "bar_start": "09:45",
+    "price": 69.73,
+    "pct_over": 0.19,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 69.73,
+    "stop": 68.87,
+    "target": 70.59,
+    "entry_time": "9:50 AM",
+    "risk_per_share": 0.86,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261113-TBBB-e",
+    "p_target": 0.4753,
+    "p_stop": 0.4575,
+    "p_neither": 0.0672,
+    "p_green": 0.5143,
+    "avg_R": 0.023,
+    "median_close": 70.14,
+    "p5_close": 68.0,
+    "p95_close": 72.33,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 36,
+    "verdict": "Etwa ein Münzwurf",
+    "verdict_en": "Close to a coin flip: target first 47.5 % vs stop first 45.8 %.",
+    "history": {
+     "sessions": 36,
+     "triggered": 20,
+     "target": 6,
+     "stop": 5,
+     "close": 9,
+     "avg_R": 0.048
+    }
+   },
+   "push_note": "Kein Push: Time Machine „Etwa ein Münzwurf“",
+   "name": "BBB Foods Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Bullenflagge"
+   ]
+  },
+  {
+   "symbol": "TEVA",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 13:35 schloss bei 44,10 $ über dem Spannen-Hoch 44,09 $",
+   "level": 44.09,
+   "opening_range": {
+    "high": 44.09,
+    "low": 43.6
+   },
+   "last": {
+    "bar_start": "13:35",
+    "close": 44.1,
+    "vs_level_pct": 0.02
+   },
+   "checked": "2026-11-13T18:40:45.000152+00:00",
+   "bars": 50,
+   "trigger": {
+    "time_et": "13:40",
+    "time_berlin": "19:40",
+    "bar_start": "13:35",
+    "price": 44.1,
+    "pct_over": 0.02,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 44.1,
+    "stop": 43.84,
+    "target": 44.36,
+    "entry_time": "1:40 PM",
+    "risk_per_share": 0.26,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261113-TEVA-e",
+    "p_target": 0.4366,
+    "p_stop": 0.4075,
+    "p_neither": 0.1559,
+    "p_green": 0.5109,
+    "avg_R": 0.026,
+    "median_close": 44.1,
+    "p5_close": 43.52,
+    "p95_close": 44.7,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 59,
+    "verdict": "Etwa ein Münzwurf",
+    "verdict_en": "Close to a coin flip: target first 43.7 % vs stop first 40.8 %.",
+    "history": {
+     "sessions": 59,
+     "triggered": 42,
+     "target": 20,
+     "stop": 14,
+     "close": 8,
+     "avg_R": 0.098
+    }
+   },
+   "push_note": "Kein Push: Time Machine „Etwa ein Münzwurf“",
+   "name": "Teva Pharmaceutical Industries Limited",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "WCN",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 09:45 schloss bei 195,50 $ über dem Spannen-Hoch 195,16 $",
+   "level": 195.16,
+   "opening_range": {
+    "high": 195.16,
+    "low": 194.05
+   },
+   "last": {
+    "bar_start": "09:45",
+    "close": 195.5,
+    "vs_level_pct": 0.17
+   },
+   "checked": "2026-11-13T14:50:45.000167+00:00",
+   "bars": 4,
+   "trigger": {
+    "time_et": "09:50",
+    "time_berlin": "15:50",
+    "bar_start": "09:45",
+    "price": 195.5,
+    "pct_over": 0.17,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 195.5,
+    "stop": 194.6,
+    "target": 196.4,
+    "entry_time": "9:50 AM",
+    "risk_per_share": 0.9,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261113-WCN-e",
+    "p_target": 0.4761,
+    "p_stop": 0.5208,
+    "p_neither": 0.0031,
+    "p_green": 0.4782,
+    "avg_R": -0.044,
+    "median_close": 195.6,
+    "p5_close": 192.36,
+    "p95_close": 199.03,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 57,
+    "verdict": "Etwa ein Münzwurf",
+    "verdict_en": "Close to a coin flip: target first 47.6 % vs stop first 52.1 %.",
+    "history": {
+     "sessions": 57,
+     "triggered": 35,
+     "target": 6,
+     "stop": 15,
+     "close": 14,
+     "avg_R": -0.196
+    }
+   },
+   "push_note": "Kein Push: Time Machine „Etwa ein Münzwurf“",
+   "name": "Waste Connections, Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "WM",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 09:45 schloss bei 245,35 $ über dem Spannen-Hoch 245,27 $",
+   "level": 245.27,
+   "opening_range": {
+    "high": 245.27,
+    "low": 244.05
+   },
+   "last": {
+    "bar_start": "09:45",
+    "close": 245.35,
+    "vs_level_pct": 0.03
+   },
+   "checked": "2026-11-13T14:50:45.000167+00:00",
+   "bars": 4,
+   "trigger": {
+    "time_et": "09:50",
+    "time_berlin": "15:50",
+    "bar_start": "09:45",
+    "price": 245.35,
+    "pct_over": 0.03,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 245.35,
+    "stop": 244.36,
+    "target": 246.34,
+    "entry_time": "9:50 AM",
+    "risk_per_share": 0.99,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261113-WM-e",
+    "p_target": 0.5027,
+    "p_stop": 0.4944,
+    "p_neither": 0.0029,
+    "p_green": 0.5041,
+    "avg_R": 0.008,
+    "median_close": 245.61,
+    "p5_close": 242.05,
+    "p95_close": 249.35,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 59,
+    "verdict": "Etwa ein Münzwurf",
+    "verdict_en": "Close to a coin flip: target first 50.3 % vs stop first 49.4 %.",
+    "history": {
+     "sessions": 59,
+     "triggered": 36,
+     "target": 14,
+     "stop": 20,
+     "close": 2,
+     "avg_R": -0.174
+    }
+   },
+   "push_note": "Kein Push: Time Machine „Etwa ein Münzwurf“",
+   "name": "Waste Management, Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "AMD",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 571,12 $ bis 15:30 ET",
+   "level": 571.12,
+   "opening_range": {
+    "high": 571.12,
+    "low": 551.2
+   },
+   "last": {
+    "bar_start": "15:25",
+    "close": 531.64,
+    "vs_level_pct": -6.91
+   },
+   "checked": "2026-11-13T20:30:45.000110+00:00",
+   "bars": 72,
+   "name": "Advanced Micro Devices, Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "ANET",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 212,15 $ bis 15:30 ET",
+   "level": 212.15,
+   "opening_range": {
+    "high": 212.15,
+    "low": 204.9
+   },
+   "last": {
+    "bar_start": "15:25",
+    "close": 196.29,
+    "vs_level_pct": -7.48
+   },
+   "checked": "2026-11-13T20:30:45.000110+00:00",
+   "bars": 72,
+   "name": "Arista Networks, Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "ATI",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 194,18 $ bis 15:30 ET",
+   "level": 194.18,
+   "opening_range": {
+    "high": 194.18,
+    "low": 186.7
+   },
+   "last": {
+    "bar_start": "15:25",
+    "close": 183.42,
+    "vs_level_pct": -5.54
+   },
+   "checked": "2026-11-13T20:30:45.000110+00:00",
+   "bars": 72,
+   "name": "ATI Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "AVGO",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 358,47 $ bis 15:30 ET",
+   "level": 358.47,
+   "opening_range": {
+    "high": 358.47,
+    "low": 348.38
+   },
+   "last": {
+    "bar_start": "15:25",
+    "close": 345.13,
+    "vs_level_pct": -3.72
+   },
+   "checked": "2026-11-13T20:30:45.000110+00:00",
+   "bars": 72,
+   "name": "Broadcom Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "BRK.B",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 595,00 $ bis 15:30 ET",
+   "level": 595.0,
+   "opening_range": {
+    "high": 595.0,
+    "low": 591.83
+   },
+   "last": {
+    "bar_start": "15:25",
+    "close": 591.55,
+    "vs_level_pct": -0.58
+   },
+   "checked": "2026-11-13T20:30:45.000110+00:00",
+   "bars": 72,
+   "name": "Berkshire Hathaway Inc. New",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "CEG",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 284,97 $ bis 15:30 ET",
+   "level": 284.97,
+   "opening_range": {
+    "high": 284.97,
+    "low": 280.13
+   },
+   "last": {
+    "bar_start": "15:25",
+    "close": 278.55,
+    "vs_level_pct": -2.25
+   },
+   "checked": "2026-11-13T20:30:45.000110+00:00",
+   "bars": 72,
+   "name": "Constellation Energy Corporation",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "CSX",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 52,57 $ bis 15:30 ET",
+   "level": 52.57,
+   "opening_range": {
+    "high": 52.57,
+    "low": 52.26
+   },
+   "last": {
+    "bar_start": "15:25",
+    "close": 51.97,
+    "vs_level_pct": -1.15
+   },
+   "checked": "2026-11-13T20:30:45.000110+00:00",
+   "bars": 72,
+   "name": "CSX Corporation",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "LUNR",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 13,47 $ bis 15:30 ET",
+   "level": 13.47,
+   "opening_range": {
+    "high": 13.47,
+    "low": 12.21
+   },
+   "last": {
+    "bar_start": "15:25",
+    "close": 13.03,
+    "vs_level_pct": -3.27
+   },
+   "checked": "2026-11-13T20:30:45.000110+00:00",
+   "bars": 72,
+   "name": "Intuitive Machines, Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "PGR",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 238,00 $ bis 15:30 ET",
+   "level": 238.0,
+   "opening_range": {
+    "high": 238.0,
+    "low": 235.92
+   },
+   "last": {
+    "bar_start": "15:25",
+    "close": 235.28,
+    "vs_level_pct": -1.14
+   },
+   "checked": "2026-11-13T20:30:45.000110+00:00",
+   "bars": 72,
+   "name": "Progressive Corporation (The)",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "SUZ",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 9,83 $ bis 15:30 ET",
+   "level": 9.83,
+   "opening_range": {
+    "high": 9.83,
+    "low": 9.79
+   },
+   "last": {
+    "bar_start": "15:25",
+    "close": 9.63,
+    "vs_level_pct": -2.03
+   },
+   "checked": "2026-11-13T20:30:45.000110+00:00",
+   "bars": 72,
+   "name": "Suzano S.A.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Bullenflagge"
+   ]
+  },
+  {
+   "symbol": "XEL",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 81,97 $ bis 15:30 ET",
+   "level": 81.97,
+   "opening_range": {
+    "high": 81.97,
+    "low": 81.56
+   },
+   "last": {
+    "bar_start": "15:25",
+    "close": 81.68,
+    "vs_level_pct": -0.35
+   },
+   "checked": "2026-11-13T20:30:45.000110+00:00",
+   "bars": 72,
+   "name": "Xcel Energy Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  }
+ ],
+ "window": [
+  "09:45",
+  "15:30"
+ ],
+ "plan_rule": "Stop = Mitte der Eröffnungsspanne, Ziel = 1R, glatt bis 15:55 ET",
+ "disclaimer": "Regelbasierte Signale aus freien, teils verzögerten Daten. Keine Anlageberatung, es wird nichts gekauft. Daytrading verliert bei den meisten Menschen Geld."
+}

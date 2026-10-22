@@ -1,0 +1,741 @@
+{
+ "created_by": "trader-timemachine",
+ "created_at": "2026-11-13T18:40:45Z",
+ "source": "yahoo",
+ "data": {
+  "symbol": "TEVA",
+  "interval": "5m",
+  "range": "60d",
+  "last_bar": "2026-11-13 13:35 ET",
+  "dropped": {
+   "no_price": 1,
+   "off_grid": 1,
+   "not_complete": 0,
+   "outside_hours": 0
+  },
+  "short_sessions_left_out": []
+ },
+ "plan": {
+  "symbol": "TEVA",
+  "side": "buy",
+  "date": "2026-11-13",
+  "setup": "orb",
+  "entry": 44.1,
+  "entry_time": "1:40 PM",
+  "entry_bar": 49,
+  "stop": 43.84,
+  "target": 44.36,
+  "risk_per_share": 0.26,
+  "target_r": 1.0,
+  "opening_range": {
+   "minutes": 15
+  },
+  "stop_rule": "or_mid",
+  "interval": "5m",
+  "flat_by": "15:55",
+  "from": "aktien-radar"
+ },
+ "mc": {
+  "replays": 10000,
+  "seed": 19,
+  "window": 2,
+  "bars_left": 27,
+  "p_target": 0.4366,
+  "p_stop": 0.4075,
+  "p_neither": 0.1559,
+  "p_green": 0.5109,
+  "median_close": 44.1,
+  "p5_close": 43.52,
+  "p95_close": 44.7,
+  "avg_R": 0.026,
+  "r_at_target": 1.0,
+  "band_paths": 2000,
+  "bands": [
+   [
+    44.1,
+    44.1,
+    44.1,
+    44.1,
+    44.1
+   ],
+   [
+    44.0,
+    44.06,
+    44.09,
+    44.12,
+    44.2
+   ],
+   [
+    43.95,
+    44.04,
+    44.09,
+    44.14,
+    44.23
+   ],
+   [
+    43.92,
+    44.03,
+    44.09,
+    44.15,
+    44.26
+   ],
+   [
+    43.88,
+    44.01,
+    44.09,
+    44.17,
+    44.29
+   ],
+   [
+    43.87,
+    44.01,
+    44.09,
+    44.19,
+    44.32
+   ],
+   [
+    43.84,
+    44.01,
+    44.11,
+    44.21,
+    44.36
+   ],
+   [
+    43.83,
+    44.0,
+    44.11,
+    44.22,
+    44.39
+   ],
+   [
+    43.81,
+    43.99,
+    44.11,
+    44.23,
+    44.44
+   ],
+   [
+    43.8,
+    44.0,
+    44.12,
+    44.25,
+    44.45
+   ],
+   [
+    43.78,
+    43.99,
+    44.12,
+    44.25,
+    44.47
+   ],
+   [
+    43.76,
+    43.99,
+    44.11,
+    44.26,
+    44.48
+   ],
+   [
+    43.75,
+    43.98,
+    44.11,
+    44.26,
+    44.5
+   ],
+   [
+    43.75,
+    43.97,
+    44.11,
+    44.27,
+    44.52
+   ],
+   [
+    43.72,
+    43.96,
+    44.11,
+    44.27,
+    44.53
+   ],
+   [
+    43.7,
+    43.96,
+    44.1,
+    44.27,
+    44.54
+   ],
+   [
+    43.69,
+    43.95,
+    44.11,
+    44.28,
+    44.55
+   ],
+   [
+    43.68,
+    43.94,
+    44.11,
+    44.28,
+    44.56
+   ],
+   [
+    43.64,
+    43.93,
+    44.1,
+    44.28,
+    44.56
+   ],
+   [
+    43.64,
+    43.92,
+    44.1,
+    44.29,
+    44.58
+   ],
+   [
+    43.62,
+    43.91,
+    44.1,
+    44.29,
+    44.6
+   ],
+   [
+    43.61,
+    43.9,
+    44.1,
+    44.3,
+    44.61
+   ],
+   [
+    43.6,
+    43.91,
+    44.1,
+    44.31,
+    44.62
+   ],
+   [
+    43.59,
+    43.89,
+    44.11,
+    44.31,
+    44.63
+   ],
+   [
+    43.59,
+    43.89,
+    44.11,
+    44.32,
+    44.65
+   ],
+   [
+    43.57,
+    43.88,
+    44.1,
+    44.32,
+    44.67
+   ],
+   [
+    43.55,
+    43.87,
+    44.11,
+    44.34,
+    44.69
+   ],
+   [
+    43.52,
+    43.87,
+    44.12,
+    44.35,
+    44.71
+   ]
+  ],
+  "hist": {
+   "lo": 43.25,
+   "hi": 44.95,
+   "bins": [
+    98,
+    75,
+    112,
+    186,
+    258,
+    317,
+    418,
+    515,
+    623,
+    700,
+    785,
+    760,
+    802,
+    764,
+    675,
+    697,
+    490,
+    448,
+    367,
+    235,
+    200,
+    144,
+    102,
+    59
+   ]
+  },
+  "until": "15:55",
+  "pool_sessions": 59,
+  "pool_from": "2026-08-21",
+  "pool_to": "2026-11-12",
+  "band_times": [
+   "13:40",
+   "13:45",
+   "13:50",
+   "13:55",
+   "14:00",
+   "14:05",
+   "14:10",
+   "14:15",
+   "14:20",
+   "14:25",
+   "14:30",
+   "14:35",
+   "14:40",
+   "14:45",
+   "14:50",
+   "14:55",
+   "15:00",
+   "15:05",
+   "15:10",
+   "15:15",
+   "15:20",
+   "15:25",
+   "15:30",
+   "15:35",
+   "15:40",
+   "15:45",
+   "15:50",
+   "15:55"
+  ]
+ },
+ "history": {
+  "sessions": 59,
+  "triggered": 42,
+  "target": 20,
+  "stop": 14,
+  "close": 8,
+  "green": 22,
+  "avg_R": 0.098,
+  "rule": {
+   "setup": "orb",
+   "or_minutes": 15,
+   "stop_rule": "or_mid",
+   "target_r": 1.0
+  },
+  "trades": [
+   {
+    "date": "2026-08-21",
+    "time": "9:55 AM",
+    "entry": 37.29,
+    "stop": 36.89,
+    "target": 37.69,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-08-25",
+    "time": "10:05 AM",
+    "entry": 37.52,
+    "stop": 37.29,
+    "target": 37.75,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-08-26",
+    "time": "3:20 PM",
+    "entry": 37.77,
+    "stop": 37.41,
+    "target": 38.13,
+    "outcome": "close",
+    "R": 0.39
+   },
+   {
+    "date": "2026-08-27",
+    "time": "1:40 PM",
+    "entry": 38.09,
+    "stop": 37.8,
+    "target": 38.38,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-08-31",
+    "time": "3:20 PM",
+    "entry": 36.18,
+    "stop": 35.89,
+    "target": 36.47,
+    "outcome": "close",
+    "R": -0.5
+   },
+   {
+    "date": "2026-09-02",
+    "time": "2:35 PM",
+    "entry": 37.42,
+    "stop": 36.98,
+    "target": 37.86,
+    "outcome": "close",
+    "R": -0.02
+   },
+   {
+    "date": "2026-09-04",
+    "time": "10:10 AM",
+    "entry": 36.46,
+    "stop": 36.33,
+    "target": 36.59,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-09-08",
+    "time": "10:00 AM",
+    "entry": 36.2,
+    "stop": 35.78,
+    "target": 36.62,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-09-10",
+    "time": "10:00 AM",
+    "entry": 36.67,
+    "stop": 36.37,
+    "target": 36.97,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-09-11",
+    "time": "12:15 PM",
+    "entry": 36.82,
+    "stop": 36.52,
+    "target": 37.12,
+    "outcome": "close",
+    "R": 0.65
+   },
+   {
+    "date": "2026-09-14",
+    "time": "9:55 AM",
+    "entry": 37.93,
+    "stop": 37.33,
+    "target": 38.53,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-09-15",
+    "time": "12:30 PM",
+    "entry": 38.99,
+    "stop": 38.68,
+    "target": 39.3,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-09-16",
+    "time": "11:35 AM",
+    "entry": 39.15,
+    "stop": 38.68,
+    "target": 39.62,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-09-17",
+    "time": "10:15 AM",
+    "entry": 39.51,
+    "stop": 39.08,
+    "target": 39.94,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-09-18",
+    "time": "2:55 PM",
+    "entry": 39.25,
+    "stop": 39.01,
+    "target": 39.49,
+    "outcome": "close",
+    "R": -0.38
+   },
+   {
+    "date": "2026-09-21",
+    "time": "10:45 AM",
+    "entry": 39.16,
+    "stop": 38.72,
+    "target": 39.6,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-09-22",
+    "time": "9:50 AM",
+    "entry": 39.82,
+    "stop": 39.53,
+    "target": 40.11,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-09-24",
+    "time": "9:50 AM",
+    "entry": 39.03,
+    "stop": 38.81,
+    "target": 39.25,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-09-28",
+    "time": "1:00 PM",
+    "entry": 39.02,
+    "stop": 38.62,
+    "target": 39.42,
+    "outcome": "close",
+    "R": -0.49
+   },
+   {
+    "date": "2026-09-29",
+    "time": "11:30 AM",
+    "entry": 39.42,
+    "stop": 39.08,
+    "target": 39.76,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-10-02",
+    "time": "1:45 PM",
+    "entry": 39.67,
+    "stop": 39.37,
+    "target": 39.97,
+    "outcome": "close",
+    "R": -0.77
+   },
+   {
+    "date": "2026-10-05",
+    "time": "11:05 AM",
+    "entry": 39.72,
+    "stop": 39.51,
+    "target": 39.93,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-10-08",
+    "time": "11:15 AM",
+    "entry": 39.1,
+    "stop": 38.85,
+    "target": 39.35,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-10-09",
+    "time": "10:15 AM",
+    "entry": 41.81,
+    "stop": 40.9,
+    "target": 42.72,
+    "outcome": "close",
+    "R": -0.76
+   },
+   {
+    "date": "2026-10-12",
+    "time": "11:15 AM",
+    "entry": 41.47,
+    "stop": 41.19,
+    "target": 41.75,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-10-13",
+    "time": "10:15 AM",
+    "entry": 41.62,
+    "stop": 41.24,
+    "target": 42.0,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-10-14",
+    "time": "9:50 AM",
+    "entry": 41.47,
+    "stop": 41.23,
+    "target": 41.71,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-10-15",
+    "time": "10:05 AM",
+    "entry": 41.76,
+    "stop": 41.43,
+    "target": 42.09,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-10-16",
+    "time": "10:00 AM",
+    "entry": 41.63,
+    "stop": 41.43,
+    "target": 41.83,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-10-21",
+    "time": "9:50 AM",
+    "entry": 40.26,
+    "stop": 39.87,
+    "target": 40.65,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-10-23",
+    "time": "11:00 AM",
+    "entry": 39.76,
+    "stop": 39.42,
+    "target": 40.1,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-10-26",
+    "time": "9:50 AM",
+    "entry": 39.52,
+    "stop": 39.32,
+    "target": 39.72,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-10-27",
+    "time": "10:00 AM",
+    "entry": 40.8,
+    "stop": 40.23,
+    "target": 41.37,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-10-28",
+    "time": "10:00 AM",
+    "entry": 40.11,
+    "stop": 39.77,
+    "target": 40.45,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-10-29",
+    "time": "9:55 AM",
+    "entry": 40.75,
+    "stop": 40.35,
+    "target": 41.15,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-10-30",
+    "time": "9:55 AM",
+    "entry": 42.42,
+    "stop": 41.7,
+    "target": 43.14,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-11-03",
+    "time": "10:15 AM",
+    "entry": 42.85,
+    "stop": 42.15,
+    "target": 43.55,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-11-04",
+    "time": "11:10 AM",
+    "entry": 42.09,
+    "stop": 41.67,
+    "target": 42.51,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-11-05",
+    "time": "9:55 AM",
+    "entry": 41.67,
+    "stop": 41.23,
+    "target": 42.11,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-11-06",
+    "time": "9:50 AM",
+    "entry": 41.94,
+    "stop": 41.63,
+    "target": 42.25,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-11-11",
+    "time": "11:05 AM",
+    "entry": 42.85,
+    "stop": 42.64,
+    "target": 43.06,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-11-12",
+    "time": "10:20 AM",
+    "entry": 43.76,
+    "stop": 43.46,
+    "target": 44.06,
+    "outcome": "target",
+    "R": 1.0
+   }
+  ]
+ },
+ "verdict": "Close to a coin flip: target first 43.7 % vs stop first 40.8 %.",
+ "verdict_notes": [],
+ "warnings": [],
+ "note": "A simulation built from TEVA's own last 59 full sessions. It is not a prediction: earnings, news and halts can do things those sessions never did. Same seed, same numbers.",
+ "summary": {
+  "id": "20261113-TEVA-e",
+  "p_target": 0.4366,
+  "p_stop": 0.4075,
+  "p_neither": 0.1559,
+  "p_green": 0.5109,
+  "avg_R": 0.026,
+  "median_close": 44.1,
+  "p5_close": 43.52,
+  "p95_close": 44.7,
+  "until": "15:55",
+  "replays": 10000,
+  "pool_sessions": 59,
+  "verdict": "Etwa ein Münzwurf",
+  "verdict_en": "Close to a coin flip: target first 43.7 % vs stop first 40.8 %.",
+  "history": {
+   "sessions": 59,
+   "triggered": 42,
+   "target": 20,
+   "stop": 14,
+   "close": 8,
+   "avg_R": 0.098
+  }
+ },
+ "kind": "e",
+ "disclaimer": "Regelbasierte Signale aus freien, teils verzögerten Daten. Keine Anlageberatung, es wird nichts gekauft. Daytrading verliert bei den meisten Menschen Geld."
+}

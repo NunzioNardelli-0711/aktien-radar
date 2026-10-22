@@ -1,0 +1,485 @@
+{
+ "created_by": "trader-timemachine",
+ "created_at": "2026-10-23T19:25:45Z",
+ "source": "yahoo",
+ "data": {
+  "symbol": "CART",
+  "interval": "5m",
+  "range": "60d",
+  "last_bar": "2026-10-23 15:20 ET",
+  "dropped": {
+   "no_price": 1,
+   "off_grid": 1,
+   "not_complete": 0,
+   "outside_hours": 0
+  },
+  "short_sessions_left_out": []
+ },
+ "plan": {
+  "symbol": "CART",
+  "side": "buy",
+  "date": "2026-10-23",
+  "setup": "orb",
+  "entry": 51.67,
+  "entry_time": "3:25 PM",
+  "entry_bar": 70,
+  "stop": 51.31,
+  "target": 52.03,
+  "risk_per_share": 0.36,
+  "target_r": 1.0,
+  "opening_range": {
+   "minutes": 15
+  },
+  "stop_rule": "or_mid",
+  "interval": "5m",
+  "flat_by": "15:55",
+  "from": "aktien-radar"
+ },
+ "mc": {
+  "replays": 10000,
+  "seed": 19,
+  "window": 2,
+  "bars_left": 6,
+  "p_target": 0.1605,
+  "p_stop": 0.1369,
+  "p_neither": 0.7026,
+  "p_green": 0.4983,
+  "median_close": 51.67,
+  "p5_close": 51.28,
+  "p95_close": 52.1,
+  "avg_R": 0.013,
+  "r_at_target": 1.0,
+  "band_paths": 2000,
+  "bands": [
+   [
+    51.67,
+    51.67,
+    51.67,
+    51.67,
+    51.67
+   ],
+   [
+    51.55,
+    51.62,
+    51.68,
+    51.72,
+    51.83
+   ],
+   [
+    51.5,
+    51.6,
+    51.68,
+    51.75,
+    51.89
+   ],
+   [
+    51.45,
+    51.58,
+    51.66,
+    51.77,
+    51.95
+   ],
+   [
+    51.39,
+    51.55,
+    51.67,
+    51.8,
+    51.99
+   ],
+   [
+    51.33,
+    51.53,
+    51.67,
+    51.81,
+    52.04
+   ],
+   [
+    51.29,
+    51.51,
+    51.66,
+    51.83,
+    52.1
+   ]
+  ],
+  "hist": {
+   "lo": 51.11,
+   "hi": 52.29,
+   "bins": [
+    119,
+    121,
+    130,
+    223,
+    320,
+    401,
+    489,
+    588,
+    648,
+    832,
+    800,
+    771,
+    786,
+    687,
+    649,
+    560,
+    429,
+    372,
+    281,
+    213,
+    176,
+    116,
+    89,
+    49
+   ]
+  },
+  "until": "15:55",
+  "pool_sessions": 59,
+  "pool_from": "2026-07-31",
+  "pool_to": "2026-10-22",
+  "band_times": [
+   "15:25",
+   "15:30",
+   "15:35",
+   "15:40",
+   "15:45",
+   "15:50",
+   "15:55"
+  ]
+ },
+ "history": {
+  "sessions": 59,
+  "triggered": 32,
+  "target": 9,
+  "stop": 12,
+  "close": 11,
+  "green": 16,
+  "avg_R": -0.08,
+  "rule": {
+   "setup": "orb",
+   "or_minutes": 15,
+   "stop_rule": "or_mid",
+   "target_r": 1.0
+  },
+  "trades": [
+   {
+    "date": "2026-07-31",
+    "time": "2:05 PM",
+    "entry": 44.64,
+    "stop": 44.19,
+    "target": 45.09,
+    "outcome": "close",
+    "R": -0.09
+   },
+   {
+    "date": "2026-08-03",
+    "time": "9:50 AM",
+    "entry": 45.72,
+    "stop": 45.22,
+    "target": 46.22,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-08-04",
+    "time": "10:10 AM",
+    "entry": 46.25,
+    "stop": 45.76,
+    "target": 46.74,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-08-07",
+    "time": "10:15 AM",
+    "entry": 50.15,
+    "stop": 48.21,
+    "target": 52.09,
+    "outcome": "close",
+    "R": 0.04
+   },
+   {
+    "date": "2026-08-11",
+    "time": "9:55 AM",
+    "entry": 49.13,
+    "stop": 48.22,
+    "target": 50.04,
+    "outcome": "close",
+    "R": 0.13
+   },
+   {
+    "date": "2026-08-12",
+    "time": "10:25 AM",
+    "entry": 48.84,
+    "stop": 48.43,
+    "target": 49.25,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-08-13",
+    "time": "10:10 AM",
+    "entry": 48.9,
+    "stop": 48.37,
+    "target": 49.43,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-08-17",
+    "time": "10:40 AM",
+    "entry": 48.79,
+    "stop": 48.18,
+    "target": 49.4,
+    "outcome": "close",
+    "R": 0.02
+   },
+   {
+    "date": "2026-08-18",
+    "time": "10:05 AM",
+    "entry": 49.9,
+    "stop": 49.25,
+    "target": 50.55,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-08-19",
+    "time": "10:15 AM",
+    "entry": 49.55,
+    "stop": 48.99,
+    "target": 50.11,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-08-20",
+    "time": "9:50 AM",
+    "entry": 51.17,
+    "stop": 50.46,
+    "target": 51.88,
+    "outcome": "close",
+    "R": 0.23
+   },
+   {
+    "date": "2026-08-24",
+    "time": "9:55 AM",
+    "entry": 50.46,
+    "stop": 49.7,
+    "target": 51.22,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-08-27",
+    "time": "10:05 AM",
+    "entry": 50.72,
+    "stop": 50.41,
+    "target": 51.03,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-08-28",
+    "time": "2:05 PM",
+    "entry": 50.96,
+    "stop": 50.68,
+    "target": 51.24,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-09-01",
+    "time": "10:05 AM",
+    "entry": 50.32,
+    "stop": 49.58,
+    "target": 51.06,
+    "outcome": "close",
+    "R": -0.39
+   },
+   {
+    "date": "2026-09-02",
+    "time": "12:15 PM",
+    "entry": 50.95,
+    "stop": 50.44,
+    "target": 51.46,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-09-10",
+    "time": "10:00 AM",
+    "entry": 46.93,
+    "stop": 46.6,
+    "target": 47.26,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-09-11",
+    "time": "10:05 AM",
+    "entry": 47.65,
+    "stop": 47.33,
+    "target": 47.97,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-09-16",
+    "time": "1:35 PM",
+    "entry": 47.06,
+    "stop": 46.25,
+    "target": 47.87,
+    "outcome": "close",
+    "R": -0.2
+   },
+   {
+    "date": "2026-09-18",
+    "time": "3:00 PM",
+    "entry": 45.53,
+    "stop": 45.3,
+    "target": 45.76,
+    "outcome": "close",
+    "R": -0.7
+   },
+   {
+    "date": "2026-09-21",
+    "time": "10:25 AM",
+    "entry": 46.11,
+    "stop": 45.78,
+    "target": 46.44,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-09-25",
+    "time": "10:45 AM",
+    "entry": 43.14,
+    "stop": 42.84,
+    "target": 43.44,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-09-28",
+    "time": "11:25 AM",
+    "entry": 42.97,
+    "stop": 42.62,
+    "target": 43.32,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-09-29",
+    "time": "10:15 AM",
+    "entry": 44.15,
+    "stop": 43.69,
+    "target": 44.61,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-10-01",
+    "time": "12:35 PM",
+    "entry": 43.79,
+    "stop": 43.26,
+    "target": 44.32,
+    "outcome": "close",
+    "R": 0.68
+   },
+   {
+    "date": "2026-10-07",
+    "time": "12:00 PM",
+    "entry": 45.55,
+    "stop": 45.28,
+    "target": 45.82,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-10-08",
+    "time": "1:10 PM",
+    "entry": 46.12,
+    "stop": 45.54,
+    "target": 46.7,
+    "outcome": "close",
+    "R": 0.19
+   },
+   {
+    "date": "2026-10-09",
+    "time": "9:55 AM",
+    "entry": 47.39,
+    "stop": 46.96,
+    "target": 47.82,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-10-14",
+    "time": "9:50 AM",
+    "entry": 50.23,
+    "stop": 49.78,
+    "target": 50.68,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-10-15",
+    "time": "10:15 AM",
+    "entry": 50.83,
+    "stop": 50.0,
+    "target": 51.66,
+    "outcome": "close",
+    "R": 0.52
+   },
+   {
+    "date": "2026-10-20",
+    "time": "9:50 AM",
+    "entry": 51.1,
+    "stop": 50.5,
+    "target": 51.7,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-10-22",
+    "time": "9:50 AM",
+    "entry": 51.24,
+    "stop": 50.78,
+    "target": 51.7,
+    "outcome": "target",
+    "R": 1.0
+   }
+  ]
+ },
+ "verdict": "Close to a coin flip: target first 16.1 % vs stop first 13.7 %.",
+ "verdict_notes": [
+  "70.3 % of the replays hit neither by 3:55 PM; the price at 3:55 PM decides those."
+ ],
+ "warnings": [],
+ "note": "A simulation built from CART's own last 59 full sessions. It is not a prediction: earnings, news and halts can do things those sessions never did. Same seed, same numbers.",
+ "summary": {
+  "id": "20261023-CART-e",
+  "p_target": 0.1605,
+  "p_stop": 0.1369,
+  "p_neither": 0.7026,
+  "p_green": 0.4983,
+  "avg_R": 0.013,
+  "median_close": 51.67,
+  "p5_close": 51.28,
+  "p95_close": 52.1,
+  "until": "15:55",
+  "replays": 10000,
+  "pool_sessions": 59,
+  "verdict": "Etwa ein Münzwurf",
+  "verdict_en": "Close to a coin flip: target first 16.1 % vs stop first 13.7 %.",
+  "history": {
+   "sessions": 59,
+   "triggered": 32,
+   "target": 9,
+   "stop": 12,
+   "close": 11,
+   "avg_R": -0.08
+  }
+ },
+ "kind": "e",
+ "disclaimer": "Regelbasierte Signale aus freien, teils verzögerten Daten. Keine Anlageberatung, es wird nichts gekauft. Daytrading verliert bei den meisten Menschen Geld."
+}
