@@ -1,0 +1,415 @@
+{
+ "date": "2026-10-30",
+ "updated": "2026-10-30T13:32:40.816280+00:00",
+ "as_of": "2026-10-29",
+ "universe": 5942,
+ "fetched": 5942,
+ "scanned": 85,
+ "failed": 0,
+ "filters": {
+  "min_price": 5.0,
+  "min_volume": 1000000
+ },
+ "per_setup": {
+  "Ausbruch über 20-Tage-Hoch": 8,
+  "Bullenflagge": 3,
+  "Zurück über 20-Tage-Linie": 3,
+  "Überverkauft (RSI < 30)": 10,
+  "Erholung aus überverkauft": 2
+ },
+ "hits_total": 24,
+ "hits": [
+  {
+   "symbol": "NKE",
+   "setups": [
+    "breakout_20d",
+    "bull_flag"
+   ],
+   "price": 38.42,
+   "close_date": "2026-10-29",
+   "rsi": 60.3,
+   "volume": 1923539,
+   "name": "Nike, Inc.",
+   "value": 73902368,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Bullenflagge"
+   ]
+  },
+  {
+   "symbol": "AAPL",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 348.91,
+   "close_date": "2026-10-29",
+   "rsi": 60.7,
+   "volume": 4415344,
+   "name": "Apple Inc.",
+   "value": 1540557675,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "WMT",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 121.25,
+   "close_date": "2026-10-29",
+   "rsi": 69.4,
+   "volume": 1445426,
+   "name": "Walmart Inc.",
+   "value": 175257902,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "SOFI",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 17.61,
+   "close_date": "2026-10-29",
+   "rsi": 65.5,
+   "volume": 4515097,
+   "name": "SoFi Technologies, Inc.",
+   "value": 79510858,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "EXC",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 45.91,
+   "close_date": "2026-10-29",
+   "rsi": 72.5,
+   "volume": 1709441,
+   "name": "Exelon Corporation",
+   "value": 78480436,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "SNY",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 43.13,
+   "close_date": "2026-10-29",
+   "rsi": 63.0,
+   "volume": 1021992,
+   "name": "Sanofi",
+   "value": 44078515,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "NCLH",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 18.22,
+   "close_date": "2026-10-29",
+   "rsi": 74.0,
+   "volume": 1878586,
+   "name": "Norwegian Cruise Line Holdings Ltd.",
+   "value": 34227837,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "ADT",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 9.87,
+   "close_date": "2026-10-29",
+   "rsi": 88.4,
+   "volume": 1187062,
+   "name": "ADT Inc.",
+   "value": 11716302,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "RBLX",
+   "setups": [
+    "bull_flag"
+   ],
+   "price": 52.46,
+   "close_date": "2026-10-29",
+   "rsi": 58.1,
+   "volume": 2269249,
+   "name": "Roblox Corporation",
+   "value": 119044803,
+   "labels": [
+    "Bullenflagge"
+   ]
+  },
+  {
+   "symbol": "KVUE",
+   "setups": [
+    "bull_flag"
+   ],
+   "price": 19.56,
+   "close_date": "2026-10-29",
+   "rsi": 65.2,
+   "volume": 1875052,
+   "name": "Kenvue Inc.",
+   "value": 36676017,
+   "labels": [
+    "Bullenflagge"
+   ]
+  },
+  {
+   "symbol": "SAN",
+   "setups": [
+    "oversold",
+    "oversold_bounce"
+   ],
+   "price": 11.75,
+   "close_date": "2026-10-29",
+   "rsi": 25.0,
+   "volume": 1079918,
+   "name": "Banco Santander, S.A. Sponsored ADR (Spain)",
+   "value": 12689036,
+   "labels": [
+    "Überverkauft (RSI < 30)",
+    "Erholung aus überverkauft"
+   ]
+  },
+  {
+   "symbol": "BAC",
+   "setups": [
+    "oversold_bounce"
+   ],
+   "price": 51.14,
+   "close_date": "2026-10-29",
+   "rsi": 33.0,
+   "volume": 1151177,
+   "name": "Bank of America Corporation",
+   "value": 58871192,
+   "labels": [
+    "Erholung aus überverkauft"
+   ]
+  },
+  {
+   "symbol": "PURR",
+   "setups": [
+    "reclaim_ma20"
+   ],
+   "price": 12.29,
+   "close_date": "2026-10-29",
+   "rsi": 61.8,
+   "volume": 3161934,
+   "name": "Hyperliquid Strategies Inc",
+   "value": 38860169,
+   "labels": [
+    "Zurück über 20-Tage-Linie"
+   ]
+  },
+  {
+   "symbol": "CMCSA",
+   "setups": [
+    "reclaim_ma20"
+   ],
+   "price": 22.27,
+   "close_date": "2026-10-29",
+   "rsi": 50.7,
+   "volume": 1496979,
+   "name": "Comcast Corporation",
+   "value": 33337722,
+   "labels": [
+    "Zurück über 20-Tage-Linie"
+   ]
+  },
+  {
+   "symbol": "F",
+   "setups": [
+    "reclaim_ma20"
+   ],
+   "price": 12.36,
+   "close_date": "2026-10-29",
+   "rsi": 50.9,
+   "volume": 1243008,
+   "name": "Ford Motor Company",
+   "value": 15363579,
+   "labels": [
+    "Zurück über 20-Tage-Linie"
+   ]
+  },
+  {
+   "symbol": "GOOGL",
+   "setups": [
+    "oversold"
+   ],
+   "price": 283.82,
+   "close_date": "2026-10-29",
+   "rsi": 22.6,
+   "volume": 7244847,
+   "name": "Alphabet Inc.",
+   "value": 2056232476,
+   "labels": [
+    "Überverkauft (RSI < 30)"
+   ]
+  },
+  {
+   "symbol": "GOOG",
+   "setups": [
+    "oversold"
+   ],
+   "price": 282.32,
+   "close_date": "2026-10-29",
+   "rsi": 22.4,
+   "volume": 4002521,
+   "name": "Alphabet Inc.",
+   "value": 1129991729,
+   "labels": [
+    "Überverkauft (RSI < 30)"
+   ]
+  },
+  {
+   "symbol": "NOW",
+   "setups": [
+    "oversold"
+   ],
+   "price": 109.67,
+   "close_date": "2026-10-29",
+   "rsi": 28.5,
+   "volume": 2037241,
+   "name": "ServiceNow, Inc.",
+   "value": 223424220,
+   "labels": [
+    "Überverkauft (RSI < 30)"
+   ]
+  },
+  {
+   "symbol": "RIVN",
+   "setups": [
+    "oversold"
+   ],
+   "price": 11.45,
+   "close_date": "2026-10-29",
+   "rsi": 23.9,
+   "volume": 6571148,
+   "name": "Rivian Automotive, Inc.",
+   "value": 75239645,
+   "labels": [
+    "Überverkauft (RSI < 30)"
+   ]
+  },
+  {
+   "symbol": "VALE",
+   "setups": [
+    "oversold"
+   ],
+   "price": 11.18,
+   "close_date": "2026-10-29",
+   "rsi": 20.2,
+   "volume": 1902679,
+   "name": "VALE S.A.",
+   "value": 21271951,
+   "labels": [
+    "Überverkauft (RSI < 30)"
+   ]
+  },
+  {
+   "symbol": "XP",
+   "setups": [
+    "oversold"
+   ],
+   "price": 15.05,
+   "close_date": "2026-10-29",
+   "rsi": 28.5,
+   "volume": 1260455,
+   "name": "XP Inc.",
+   "value": 18969848,
+   "labels": [
+    "Überverkauft (RSI < 30)"
+   ]
+  },
+  {
+   "symbol": "MARA",
+   "setups": [
+    "oversold"
+   ],
+   "price": 7.17,
+   "close_date": "2026-10-29",
+   "rsi": 29.7,
+   "volume": 2550360,
+   "name": "MARA Holdings, Inc.",
+   "value": 18286081,
+   "labels": [
+    "Überverkauft (RSI < 30)"
+   ]
+  },
+  {
+   "symbol": "CIFR",
+   "setups": [
+    "oversold"
+   ],
+   "price": 8.1,
+   "close_date": "2026-10-29",
+   "rsi": 27.4,
+   "volume": 2011340,
+   "name": "Cipher Digital Inc.",
+   "value": 16291854,
+   "labels": [
+    "Überverkauft (RSI < 30)"
+   ]
+  },
+  {
+   "symbol": "ITUB",
+   "setups": [
+    "oversold"
+   ],
+   "price": 7.37,
+   "close_date": "2026-10-29",
+   "rsi": 29.9,
+   "volume": 1570321,
+   "name": "Itau Unibanco Banco Holding SA",
+   "value": 11573266,
+   "labels": [
+    "Überverkauft (RSI < 30)"
+   ]
+  }
+ ],
+ "watch": [
+  "NKE",
+  "AAPL",
+  "WMT",
+  "SOFI",
+  "EXC",
+  "SNY",
+  "NCLH",
+  "ADT",
+  "RBLX",
+  "KVUE",
+  "SAN",
+  "BAC",
+  "PURR",
+  "CMCSA",
+  "F",
+  "GOOGL",
+  "GOOG",
+  "NOW",
+  "RIVN",
+  "VALE",
+  "XP",
+  "MARA",
+  "CIFR",
+  "ITUB"
+ ],
+ "orb_universe": 86,
+ "hinweis": "Ein Scan ist eine Liste von Charts, die eine Regel erfüllen – keine Kaufliste."
+}
