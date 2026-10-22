@@ -1,0 +1,3068 @@
+{
+ "date": "2026-11-06",
+ "updated": "2026-11-06T13:41:33.093907+00:00",
+ "as_of": "2026-11-05",
+ "universe": 5936,
+ "fetched": 5936,
+ "scanned": 1860,
+ "failed": 0,
+ "filters": {
+  "min_price": 5.0,
+  "min_volume": 1000000
+ },
+ "per_setup": {
+  "Ausbruch über 20-Tage-Hoch": 207,
+  "Bullenflagge": 43,
+  "Zurück über 20-Tage-Linie": 17,
+  "Überverkauft (RSI < 30)": 229,
+  "Erholung aus überverkauft": 2
+ },
+ "hits_total": 489,
+ "hits": [
+  {
+   "symbol": "AEHL",
+   "setups": [
+    "breakout_20d",
+    "reclaim_ma20"
+   ],
+   "price": 17.44,
+   "close_date": "2026-11-05",
+   "rsi": 73.0,
+   "volume": 24835567,
+   "name": "Antelope Enterprise Holdings Limited",
+   "value": 433132288,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Zurück über 20-Tage-Linie"
+   ]
+  },
+  {
+   "symbol": "EFX",
+   "setups": [
+    "breakout_20d",
+    "bull_flag"
+   ],
+   "price": 193.84,
+   "close_date": "2026-11-05",
+   "rsi": 69.7,
+   "volume": 1841398,
+   "name": "Equifax, Inc.",
+   "value": 356936588,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Bullenflagge"
+   ]
+  },
+  {
+   "symbol": "RPRX",
+   "setups": [
+    "breakout_20d",
+    "bull_flag"
+   ],
+   "price": 67.57,
+   "close_date": "2026-11-05",
+   "rsi": 74.6,
+   "volume": 4896632,
+   "name": "Royalty Pharma plc",
+   "value": 330865424,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Bullenflagge"
+   ]
+  },
+  {
+   "symbol": "MGNI",
+   "setups": [
+    "breakout_20d",
+    "reclaim_ma20"
+   ],
+   "price": 27.52,
+   "close_date": "2026-11-05",
+   "rsi": 69.3,
+   "volume": 9697636,
+   "name": "Magnite, Inc.",
+   "value": 266878943,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Zurück über 20-Tage-Linie"
+   ]
+  },
+  {
+   "symbol": "BAH",
+   "setups": [
+    "breakout_20d",
+    "bull_flag"
+   ],
+   "price": 89.32,
+   "close_date": "2026-11-05",
+   "rsi": 76.8,
+   "volume": 2564829,
+   "name": "Booz Allen Hamilton Holding Corporation",
+   "value": 229090526,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Bullenflagge"
+   ]
+  },
+  {
+   "symbol": "ADMA",
+   "setups": [
+    "breakout_20d",
+    "reclaim_ma20"
+   ],
+   "price": 13.21,
+   "close_date": "2026-11-05",
+   "rsi": 71.4,
+   "volume": 14994184,
+   "name": "ADMA Biologics Inc",
+   "value": 198073171,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Zurück über 20-Tage-Linie"
+   ]
+  },
+  {
+   "symbol": "GCT",
+   "setups": [
+    "breakout_20d",
+    "reclaim_ma20"
+   ],
+   "price": 63.01,
+   "close_date": "2026-11-05",
+   "rsi": 63.7,
+   "volume": 1222294,
+   "name": "GigaCloud Technology Inc",
+   "value": 77016745,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Zurück über 20-Tage-Linie"
+   ]
+  },
+  {
+   "symbol": "LFTO",
+   "setups": [
+    "breakout_20d",
+    "reclaim_ma20"
+   ],
+   "price": 17.15,
+   "close_date": "2026-11-05",
+   "rsi": 55.5,
+   "volume": 1072290,
+   "name": "Liftoff Mobile, Inc.",
+   "value": 18389774,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Zurück über 20-Tage-Linie"
+   ]
+  },
+  {
+   "symbol": "APP",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 356.1,
+   "close_date": "2026-11-05",
+   "rsi": 72.0,
+   "volume": 22122914,
+   "name": "Applovin Corporation",
+   "value": 7877969675,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "COST",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 1065.59,
+   "close_date": "2026-11-05",
+   "rsi": 72.1,
+   "volume": 4515760,
+   "name": "Costco Wholesale Corporation",
+   "value": 4811948698,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "U",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 48.8,
+   "close_date": "2026-11-05",
+   "rsi": 68.2,
+   "volume": 49973128,
+   "name": "Unity Software Inc.",
+   "value": 2438688646,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "ACN",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 265.16,
+   "close_date": "2026-11-05",
+   "rsi": 69.8,
+   "volume": 8198253,
+   "name": "Accenture plc",
+   "value": 2173848765,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "PEP",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 142.71,
+   "close_date": "2026-11-05",
+   "rsi": 65.9,
+   "volume": 13077393,
+   "name": "PepsiCo, Inc.",
+   "value": 1866274755,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "MSI",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 517.01,
+   "close_date": "2026-11-05",
+   "rsi": 79.4,
+   "volume": 3387691,
+   "name": "Motorola Solutions, Inc.",
+   "value": 1751470124,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "NEM",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 119.71,
+   "close_date": "2026-11-05",
+   "rsi": 56.9,
+   "volume": 12560516,
+   "name": "Newmont Corporation",
+   "value": 1503619370,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "MCK",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 1072.0,
+   "close_date": "2026-11-05",
+   "rsi": 74.2,
+   "volume": 1274419,
+   "name": "McKesson Corporation",
+   "value": 1366177168,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "FSLR",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 195.76,
+   "close_date": "2026-11-05",
+   "rsi": 63.3,
+   "volume": 6567834,
+   "name": "First Solar, Inc.",
+   "value": 1285719184,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "SAP",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 243.53,
+   "close_date": "2026-11-05",
+   "rsi": 70.2,
+   "volume": 4724229,
+   "name": "SAP SE ADS",
+   "value": 1150491488,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "DUK",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 130.08,
+   "close_date": "2026-11-05",
+   "rsi": 70.4,
+   "volume": 8263806,
+   "name": "Duke Energy Corporation (Holding Company)",
+   "value": 1074955884,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "FWONK",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 106.52,
+   "close_date": "2026-11-05",
+   "rsi": 78.2,
+   "volume": 9692319,
+   "name": "Liberty Media Corporation",
+   "value": 1032425820,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "EW",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 100.82,
+   "close_date": "2026-11-05",
+   "rsi": 75.3,
+   "volume": 9153982,
+   "name": "Edwards Lifesciences Corporation",
+   "value": 922904465,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "CMCSA",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 24.95,
+   "close_date": "2026-11-05",
+   "rsi": 69.2,
+   "volume": 35638475,
+   "name": "Comcast Corporation",
+   "value": 889179951,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "CMG",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 35.4,
+   "close_date": "2026-11-05",
+   "rsi": 69.7,
+   "volume": 24968254,
+   "name": "Chipotle Mexican Grill, Inc.",
+   "value": 883876192,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "PDD",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 83.95,
+   "close_date": "2026-11-05",
+   "rsi": 61.2,
+   "volume": 10238953,
+   "name": "PDD Holdings Inc.",
+   "value": 859560104,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "KDP",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 36.89,
+   "close_date": "2026-11-05",
+   "rsi": 65.9,
+   "volume": 23142418,
+   "name": "Keurig Dr Pepper Inc.",
+   "value": 853723800,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "BDX",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 213.55,
+   "close_date": "2026-11-05",
+   "rsi": 78.2,
+   "volume": 3986602,
+   "name": "Becton, Dickinson and Company",
+   "value": 851338857,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "CAH",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 267.82,
+   "close_date": "2026-11-05",
+   "rsi": 71.5,
+   "volume": 2942750,
+   "name": "Cardinal Health, Inc.",
+   "value": 788127305,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "CPAY",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 447.0,
+   "close_date": "2026-11-05",
+   "rsi": 73.7,
+   "volume": 1731269,
+   "name": "Corpay, Inc.",
+   "value": 773877243,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "FISV",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 62.74,
+   "close_date": "2026-11-05",
+   "rsi": 82.1,
+   "volume": 11487217,
+   "name": "Fiserv, Inc.",
+   "value": 720707995,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "TPR",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 134.17,
+   "close_date": "2026-11-05",
+   "rsi": 72.4,
+   "volume": 5309650,
+   "name": "Tapestry, Inc.",
+   "value": 712395740,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "IBN",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 32.53,
+   "close_date": "2026-11-05",
+   "rsi": 75.8,
+   "volume": 20772602,
+   "name": "ICICI Bank Limited",
+   "value": 675732743,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "DHI",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 157.63,
+   "close_date": "2026-11-05",
+   "rsi": 64.5,
+   "volume": 4208842,
+   "name": "D.R. Horton, Inc.",
+   "value": 663439764,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "TYL",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 430.37,
+   "close_date": "2026-11-05",
+   "rsi": 75.1,
+   "volume": 1471933,
+   "name": "Tyler Technologies, Inc.",
+   "value": 633475805,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "WM",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 241.27,
+   "close_date": "2026-11-05",
+   "rsi": 65.4,
+   "volume": 2553536,
+   "name": "Waste Management, Inc.",
+   "value": 616091631,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "EPAM",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 165.7,
+   "close_date": "2026-11-05",
+   "rsi": 78.6,
+   "volume": 3672402,
+   "name": "EPAM Systems, Inc.",
+   "value": 608517011,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "CBOE",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 353.07,
+   "close_date": "2026-11-05",
+   "rsi": 68.1,
+   "volume": 1673560,
+   "name": "Cboe Global Markets, Inc.",
+   "value": 590883829,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "WEC",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 118.32,
+   "close_date": "2026-11-05",
+   "rsi": 73.7,
+   "volume": 4940818,
+   "name": "WEC Energy Group, Inc.",
+   "value": 584597586,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "EXC",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 46.53,
+   "close_date": "2026-11-05",
+   "rsi": 69.3,
+   "volume": 12424821,
+   "name": "Exelon Corporation",
+   "value": 578126921,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "JAN",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 30.75,
+   "close_date": "2026-11-05",
+   "rsi": 63.8,
+   "volume": 18627210,
+   "name": "Janus Living, Inc. Class A-1",
+   "value": 572786708,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "EVRG",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 87.41,
+   "close_date": "2026-11-05",
+   "rsi": 68.0,
+   "volume": 6527078,
+   "name": "Evergy, Inc.",
+   "value": 570531888,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "CHTR",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 125.86,
+   "close_date": "2026-11-05",
+   "rsi": 63.3,
+   "volume": 4487870,
+   "name": "Charter Communications, Inc.",
+   "value": 564843318,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "ED",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 121.44,
+   "close_date": "2026-11-05",
+   "rsi": 74.2,
+   "volume": 4616505,
+   "name": "Consolidated Edison, Inc.",
+   "value": 560628367,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "VMRK",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 65.25,
+   "close_date": "2026-11-05",
+   "rsi": 65.7,
+   "volume": 8367021,
+   "name": "Vivmark Residential",
+   "value": 545948120,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "VRSK",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 211.47,
+   "close_date": "2026-11-05",
+   "rsi": 69.6,
+   "volume": 2502030,
+   "name": "Verisk Analytics, Inc.",
+   "value": 529104284,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "DKNG",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 23.52,
+   "close_date": "2026-11-05",
+   "rsi": 68.4,
+   "volume": 22265184,
+   "name": "DraftKings Inc.",
+   "value": 523677128,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "BTI",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 63.08,
+   "close_date": "2026-11-05",
+   "rsi": 70.0,
+   "volume": 7875789,
+   "name": "British American Tobacco Industries, p.l.c.",
+   "value": 496804770,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "AWK",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 152.42,
+   "close_date": "2026-11-05",
+   "rsi": 76.2,
+   "volume": 3150006,
+   "name": "American Water Works Company, Inc.",
+   "value": 480123915,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "RSG",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 249.42,
+   "close_date": "2026-11-05",
+   "rsi": 70.6,
+   "volume": 1920695,
+   "name": "Republic Services, Inc.",
+   "value": 479059747,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "KR",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 69.43,
+   "close_date": "2026-11-05",
+   "rsi": 67.3,
+   "volume": 6871791,
+   "name": "Kroger Company (The)",
+   "value": 477108449,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "JD",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 28.64,
+   "close_date": "2026-11-05",
+   "rsi": 68.7,
+   "volume": 16596241,
+   "name": "JD.com, Inc.",
+   "value": 475316342,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "PAYX",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 119.5,
+   "close_date": "2026-11-05",
+   "rsi": 64.2,
+   "volume": 3824871,
+   "name": "Paychex, Inc.",
+   "value": 457072084,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "BSY",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 44.94,
+   "close_date": "2026-11-05",
+   "rsi": 82.4,
+   "volume": 10142585,
+   "name": "Bentley Systems, Incorporated",
+   "value": 455807770,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "O",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 59.5,
+   "close_date": "2026-11-05",
+   "rsi": 67.0,
+   "volume": 7549927,
+   "name": "Realty Income Corporation",
+   "value": 449220656,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "HSY",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 177.43,
+   "close_date": "2026-11-05",
+   "rsi": 60.9,
+   "volume": 2494233,
+   "name": "The Hershey Company",
+   "value": 442551761,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "MOS",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 22.33,
+   "close_date": "2026-11-05",
+   "rsi": 64.8,
+   "volume": 19119815,
+   "name": "Mosaic Company (The)",
+   "value": 426945469,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "STE",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 254.12,
+   "close_date": "2026-11-05",
+   "rsi": 75.6,
+   "volume": 1652305,
+   "name": "STERIS plc (Ireland)",
+   "value": 419883747,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "TSCO",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 36.61,
+   "close_date": "2026-11-05",
+   "rsi": 65.9,
+   "volume": 10731733,
+   "name": "Tractor Supply Company",
+   "value": 392888745,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "GIS",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 36.46,
+   "close_date": "2026-11-05",
+   "rsi": 61.8,
+   "volume": 10411162,
+   "name": "General Mills, Inc.",
+   "value": 379590967,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "LVS",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 40.92,
+   "close_date": "2026-11-05",
+   "rsi": 66.9,
+   "volume": 9255782,
+   "name": "Las Vegas Sands Corp.",
+   "value": 378746599,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "UL",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 67.71,
+   "close_date": "2026-11-05",
+   "rsi": 62.6,
+   "volume": 5586627,
+   "name": "Unilever PLC",
+   "value": 378270514,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "DEO",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 100.25,
+   "close_date": "2026-11-05",
+   "rsi": 65.7,
+   "volume": 3651469,
+   "name": "Diageo plc",
+   "value": 366059767,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "RUN",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 9.87,
+   "close_date": "2026-11-05",
+   "rsi": 72.4,
+   "volume": 35167990,
+   "name": "Sunrun Inc.",
+   "value": 347108061,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "FER",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 59.23,
+   "close_date": "2026-11-05",
+   "rsi": 70.7,
+   "volume": 5847131,
+   "name": "Ferrovial N.V.",
+   "value": 346325569,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "PFGC",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 109.68,
+   "close_date": "2026-11-05",
+   "rsi": 71.0,
+   "volume": 3136704,
+   "name": "Performance Food Group Company",
+   "value": 344033695,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "AER",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 166.17,
+   "close_date": "2026-11-05",
+   "rsi": 76.2,
+   "volume": 2066238,
+   "name": "AerCap Holdings N.V.",
+   "value": 343346768,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "TSN",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 60.11,
+   "close_date": "2026-11-05",
+   "rsi": 75.2,
+   "volume": 5696374,
+   "name": "Tyson Foods, Inc.",
+   "value": 342409041,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "BR",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 193.92,
+   "close_date": "2026-11-05",
+   "rsi": 74.5,
+   "volume": 1702327,
+   "name": "Broadridge Financial Solutions, Inc.",
+   "value": 330115252,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "ES",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 71.92,
+   "close_date": "2026-11-05",
+   "rsi": 70.0,
+   "volume": 4442175,
+   "name": "Eversource Energy (D/B/A)",
+   "value": 319481226,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "SONY",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 27.54,
+   "close_date": "2026-11-05",
+   "rsi": 74.8,
+   "volume": 11473041,
+   "name": "Sony Group Corporation",
+   "value": 315967549,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "SEZL",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 155.0,
+   "close_date": "2026-11-05",
+   "rsi": 67.3,
+   "volume": 1966664,
+   "name": "Sezzle Inc.",
+   "value": 304832920,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "HDB",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 24.7,
+   "close_date": "2026-11-05",
+   "rsi": 67.9,
+   "volume": 12272741,
+   "name": "HDFC Bank Limited",
+   "value": 303136703,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "CCEP",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 117.29,
+   "close_date": "2026-11-05",
+   "rsi": 64.3,
+   "volume": 2581340,
+   "name": "Coca-Cola Europacific Partners plc",
+   "value": 302765369,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "ROL",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 38.76,
+   "close_date": "2026-11-05",
+   "rsi": 73.9,
+   "volume": 7702888,
+   "name": "Rollins, Inc.",
+   "value": 298563939,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "AFL",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 126.24,
+   "close_date": "2026-11-05",
+   "rsi": 70.7,
+   "volume": 2333030,
+   "name": "AFLAC Incorporated",
+   "value": 294521707,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "QSR",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 78.55,
+   "close_date": "2026-11-05",
+   "rsi": 65.7,
+   "volume": 3681151,
+   "name": "Restaurant Brands International Inc.",
+   "value": 289154411,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "RGLD",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 261.28,
+   "close_date": "2026-11-05",
+   "rsi": 63.5,
+   "volume": 1066569,
+   "name": "Royal Gold, Inc.",
+   "value": 278673148,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "FNV",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 250.69,
+   "close_date": "2026-11-05",
+   "rsi": 57.9,
+   "volume": 1084799,
+   "name": "Franco-Nevada Corporation",
+   "value": 271948261,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "TCOM",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 43.81,
+   "close_date": "2026-11-05",
+   "rsi": 71.3,
+   "volume": 6040774,
+   "name": "Trip.com Group Limited",
+   "value": 264646309,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "UHS",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 198.59,
+   "close_date": "2026-11-05",
+   "rsi": 66.1,
+   "volume": 1315811,
+   "name": "Universal Health Services, Inc.",
+   "value": 261306906,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "TW",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 127.56,
+   "close_date": "2026-11-05",
+   "rsi": 77.4,
+   "volume": 1983833,
+   "name": "Tradeweb Markets Inc.",
+   "value": 253057737,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "CLX",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 99.7,
+   "close_date": "2026-11-05",
+   "rsi": 73.6,
+   "volume": 2477362,
+   "name": "Clorox Company (The)",
+   "value": 246992991,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "GDDY",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 120.12,
+   "close_date": "2026-11-05",
+   "rsi": 66.3,
+   "volume": 2032802,
+   "name": "GoDaddy Inc.",
+   "value": 244180176,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "GFL",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 46.12,
+   "close_date": "2026-11-05",
+   "rsi": 61.4,
+   "volume": 5156365,
+   "name": "GFL Environmental Inc. Subordinate voting shares, no par value",
+   "value": 237811554,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "QGEN",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 50.86,
+   "close_date": "2026-11-05",
+   "rsi": 74.7,
+   "volume": 4627343,
+   "name": "Qiagen N.V.",
+   "value": 235346665,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "PRMB",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 22.15,
+   "close_date": "2026-11-05",
+   "rsi": 71.3,
+   "volume": 10594564,
+   "name": "Primo Brands Corporation",
+   "value": 234669593,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "NTR",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 72.21,
+   "close_date": "2026-11-05",
+   "rsi": 57.0,
+   "volume": 3237095,
+   "name": "Nutrien Ltd.",
+   "value": 233750630,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "TM",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 218.11,
+   "close_date": "2026-11-05",
+   "rsi": 76.9,
+   "volume": 1067215,
+   "name": "Toyota Motor Corporation",
+   "value": 232770264,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "EHC",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 141.27,
+   "close_date": "2026-11-05",
+   "rsi": 71.4,
+   "volume": 1560543,
+   "name": "Encompass Health Corporation",
+   "value": 220457910,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "JKHY",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 180.26,
+   "close_date": "2026-11-05",
+   "rsi": 76.8,
+   "volume": 1209585,
+   "name": "Jack Henry & Associates, Inc.",
+   "value": 218039792,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "TFX",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 152.15,
+   "close_date": "2026-11-05",
+   "rsi": 79.6,
+   "volume": 1417531,
+   "name": "Teleflex Incorporated",
+   "value": 215677342,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "GFI",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 37.83,
+   "close_date": "2026-11-05",
+   "rsi": 54.7,
+   "volume": 5384185,
+   "name": "Gold Fields Limited",
+   "value": 203683719,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "BEKE",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 18.82,
+   "close_date": "2026-11-05",
+   "rsi": 65.9,
+   "volume": 10798921,
+   "name": "KE Holdings Inc",
+   "value": 203235693,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "CAG",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 15.51,
+   "close_date": "2026-11-05",
+   "rsi": 62.0,
+   "volume": 12385684,
+   "name": "ConAgra Brands, Inc.",
+   "value": 192101959,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "OGE",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 50.82,
+   "close_date": "2026-11-05",
+   "rsi": 69.5,
+   "volume": 3640810,
+   "name": "OGE Energy Corp",
+   "value": 185025964,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "ACHC",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 34.79,
+   "close_date": "2026-11-05",
+   "rsi": 71.3,
+   "volume": 5300969,
+   "name": "Acadia Healthcare Company, Inc.",
+   "value": 184420712,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "YUMC",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 49.77,
+   "close_date": "2026-11-05",
+   "rsi": 78.3,
+   "volume": 3667248,
+   "name": "Yum China Holdings, Inc.",
+   "value": 182518933,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "COLD",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 15.81,
+   "close_date": "2026-11-05",
+   "rsi": 70.2,
+   "volume": 11240737,
+   "name": "Americold Realty Trust, Inc.",
+   "value": 177716052,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "WU",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 7.02,
+   "close_date": "2026-11-05",
+   "rsi": 69.4,
+   "volume": 24867884,
+   "name": "Western Union Company (The)",
+   "value": 174572546,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "LTH",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 47.75,
+   "close_date": "2026-11-05",
+   "rsi": 72.3,
+   "volume": 3636519,
+   "name": "Life Time Group Holdings, Inc.",
+   "value": 173643782,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "MMYT",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 51.28,
+   "close_date": "2026-11-05",
+   "rsi": 65.5,
+   "volume": 3340182,
+   "name": "MakeMyTrip Limited",
+   "value": 171284533,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "BKH",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 84.63,
+   "close_date": "2026-11-05",
+   "rsi": 78.7,
+   "volume": 2004218,
+   "name": "Black Hills Corporation",
+   "value": 169616969,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "BJ",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 111.26,
+   "close_date": "2026-11-05",
+   "rsi": 70.8,
+   "volume": 1508487,
+   "name": "BJ's Wholesale Club Holdings, Inc.",
+   "value": 167834264,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "WTRG",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 46.05,
+   "close_date": "2026-11-05",
+   "rsi": 76.2,
+   "volume": 3595899,
+   "name": "Essential Utilities, Inc.",
+   "value": 165591149,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "PLNT",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 60.07,
+   "close_date": "2026-11-05",
+   "rsi": 77.4,
+   "volume": 2698280,
+   "name": "Planet Fitness, Inc.",
+   "value": 162085680,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "XERS",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 13.08,
+   "close_date": "2026-11-05",
+   "rsi": 75.6,
+   "volume": 12300967,
+   "name": "Xeris Biopharma Holdings, Inc.",
+   "value": 160896648,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "BCE",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 22.03,
+   "close_date": "2026-11-05",
+   "rsi": 66.1,
+   "volume": 7288788,
+   "name": "BCE, Inc.",
+   "value": 160572000,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "SUI",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 122.08,
+   "close_date": "2026-11-05",
+   "rsi": 61.0,
+   "volume": 1297309,
+   "name": "Sun Communities, Inc.",
+   "value": 158375483,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "NGG",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 85.92,
+   "close_date": "2026-11-05",
+   "rsi": 69.4,
+   "volume": 1821835,
+   "name": "National Grid Transco, PLC National Grid PLC (NEW)",
+   "value": 156532063,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "ENOV",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 28.62,
+   "close_date": "2026-11-05",
+   "rsi": 76.5,
+   "volume": 5319364,
+   "name": "Enovis Corporation",
+   "value": 152240198,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "RELX",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 41.45,
+   "close_date": "2026-11-05",
+   "rsi": 69.0,
+   "volume": 3598874,
+   "name": "RELX PLC PLC",
+   "value": 149173327,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "WRB",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 76.98,
+   "close_date": "2026-11-05",
+   "rsi": 66.3,
+   "volume": 1901632,
+   "name": "W.R. Berkley Corporation",
+   "value": 146387631,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "FTDR",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 95.98,
+   "close_date": "2026-11-05",
+   "rsi": 78.3,
+   "volume": 1469280,
+   "name": "Frontdoor, Inc.",
+   "value": 141021494,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "VCEL",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 51.78,
+   "close_date": "2026-11-05",
+   "rsi": 75.2,
+   "volume": 2677363,
+   "name": "Vericel Corporation",
+   "value": 138633856,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "RYAN",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 48.26,
+   "close_date": "2026-11-05",
+   "rsi": 73.6,
+   "volume": 2852870,
+   "name": "Ryan Specialty Holdings, Inc.",
+   "value": 137679506,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "RYN",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 21.91,
+   "close_date": "2026-11-05",
+   "rsi": 72.5,
+   "volume": 6248446,
+   "name": "Rayonier Inc. REIT",
+   "value": 136903452,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "CPB",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 23.43,
+   "close_date": "2026-11-05",
+   "rsi": 72.2,
+   "volume": 5785896,
+   "name": "The Campbell's Company",
+   "value": 135563543,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "VNT",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 39.9,
+   "close_date": "2026-11-05",
+   "rsi": 83.9,
+   "volume": 3341797,
+   "name": "Vontier Corporation",
+   "value": 133337700,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "ELS",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 62.98,
+   "close_date": "2026-11-05",
+   "rsi": 61.9,
+   "volume": 2081777,
+   "name": "Equity Lifestyle Properties, Inc.",
+   "value": 131110315,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "ACIW",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 59.52,
+   "close_date": "2026-11-05",
+   "rsi": 76.4,
+   "volume": 2188757,
+   "name": "ACI Worldwide, Inc.",
+   "value": 130274817,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "BZ",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 17.76,
+   "close_date": "2026-11-05",
+   "rsi": 71.1,
+   "volume": 7328415,
+   "name": "KANZHUN LIMITED",
+   "value": 130152650,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "VSNT",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 34.0,
+   "close_date": "2026-11-05",
+   "rsi": 62.2,
+   "volume": 3781994,
+   "name": "Versant Media Group, Inc.",
+   "value": 128587796,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "AMH",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 33.09,
+   "close_date": "2026-11-05",
+   "rsi": 66.0,
+   "volume": 3829803,
+   "name": "American Homes 4 Rent",
+   "value": 126728181,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "ADC",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 70.46,
+   "close_date": "2026-11-05",
+   "rsi": 62.5,
+   "volume": 1777542,
+   "name": "Agree Realty Corporation",
+   "value": 125245609,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "GLOB",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 49.24,
+   "close_date": "2026-11-05",
+   "rsi": 71.1,
+   "volume": 2537650,
+   "name": "Globant S.A.",
+   "value": 124953886,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "LOAR",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 72.99,
+   "close_date": "2026-11-05",
+   "rsi": 69.1,
+   "volume": 1648353,
+   "name": "Loar Holdings Inc.",
+   "value": 120313285,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "FTS",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 61.18,
+   "close_date": "2026-11-05",
+   "rsi": 81.4,
+   "volume": 1785220,
+   "name": "Fortis Inc.",
+   "value": 109219760,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "ALGT",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 87.59,
+   "close_date": "2026-11-05",
+   "rsi": 67.7,
+   "volume": 1245970,
+   "name": "Allegiant Travel Company",
+   "value": 109134512,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "APPN",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 54.03,
+   "close_date": "2026-11-05",
+   "rsi": 70.0,
+   "volume": 2007616,
+   "name": "Appian Corporation",
+   "value": 108471492,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "ASO",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 67.81,
+   "close_date": "2026-11-05",
+   "rsi": 76.2,
+   "volume": 1543423,
+   "name": "Academy Sports and Outdoors, Inc.",
+   "value": 104659514,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "BF.B",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 30.96,
+   "close_date": "2026-11-05",
+   "rsi": 65.2,
+   "volume": 3354227,
+   "name": "Brown Forman Inc",
+   "value": 103846868,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "PTON",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 5.66,
+   "close_date": "2026-11-05",
+   "rsi": 63.6,
+   "volume": 18218335,
+   "name": "Peloton Interactive, Inc.",
+   "value": 103115776,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "ESAB",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 79.12,
+   "close_date": "2026-11-05",
+   "rsi": 65.9,
+   "volume": 1280894,
+   "name": "ESAB Corporation",
+   "value": 101344333,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "POR",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 46.01,
+   "close_date": "2026-11-05",
+   "rsi": 57.0,
+   "volume": 2182781,
+   "name": "Portland General Electric Co",
+   "value": 100429754,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "FAF",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 68.2,
+   "close_date": "2026-11-05",
+   "rsi": 60.6,
+   "volume": 1464665,
+   "name": "First American Corporation (New)",
+   "value": 99890153,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "EXLS",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 43.61,
+   "close_date": "2026-11-05",
+   "rsi": 73.1,
+   "volume": 2275266,
+   "name": "ExlService Holdings, Inc.",
+   "value": 99224350,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "WEN",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 7.94,
+   "close_date": "2026-11-05",
+   "rsi": 71.9,
+   "volume": 12067293,
+   "name": "Wendy's Company (The)",
+   "value": 95814306,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "PGNY",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 34.37,
+   "close_date": "2026-11-05",
+   "rsi": 78.9,
+   "volume": 2786310,
+   "name": "Progyny, Inc.",
+   "value": 95765475,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "TAK",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 21.19,
+   "close_date": "2026-11-05",
+   "rsi": 72.7,
+   "volume": 4438161,
+   "name": "Takeda Pharmaceutical Company Limited",
+   "value": 94044632,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "VYX",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 9.86,
+   "close_date": "2026-11-05",
+   "rsi": 72.3,
+   "volume": 9055196,
+   "name": "NCR Voyix Corporation",
+   "value": 89284233,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "QTWO",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 75.62,
+   "close_date": "2026-11-05",
+   "rsi": 77.3,
+   "volume": 1148179,
+   "name": "Q2 Holdings, Inc.",
+   "value": 86825296,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "FA",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 23.13,
+   "close_date": "2026-11-05",
+   "rsi": 71.7,
+   "volume": 3697889,
+   "name": "First Advantage Corporation",
+   "value": 85532173,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "VERX",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 17.59,
+   "close_date": "2026-11-05",
+   "rsi": 77.9,
+   "volume": 4785376,
+   "name": "Vertex, Inc.",
+   "value": 84174764,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "AMX",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 25.11,
+   "close_date": "2026-11-05",
+   "rsi": 69.3,
+   "volume": 3327512,
+   "name": "America Movil, S.A.B. de C.V.",
+   "value": 83553826,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "AVA",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 40.91,
+   "close_date": "2026-11-05",
+   "rsi": 77.4,
+   "volume": 2039487,
+   "name": "Avista Corporation",
+   "value": 83435413,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "LBTYA",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 9.71,
+   "close_date": "2026-11-05",
+   "rsi": 66.4,
+   "volume": 8543094,
+   "name": "Liberty Global Ltd.",
+   "value": 82953443,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "MBGL",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 19.86,
+   "close_date": "2026-11-05",
+   "rsi": 61.8,
+   "volume": 4101651,
+   "name": "Mobility Global Inc.",
+   "value": 81458789,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "FSK",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 11.66,
+   "close_date": "2026-11-05",
+   "rsi": 62.8,
+   "volume": 6893209,
+   "name": "FS KKR Capital Corp.",
+   "value": 80374817,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "ORI",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 40.39,
+   "close_date": "2026-11-05",
+   "rsi": 60.9,
+   "volume": 1985158,
+   "name": "Old Republic International Corporation",
+   "value": 80180532,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "RLI",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 69.72,
+   "close_date": "2026-11-05",
+   "rsi": 75.1,
+   "volume": 1126161,
+   "name": "RLI Corp.",
+   "value": 78515945,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "MTG",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 29.35,
+   "close_date": "2026-11-05",
+   "rsi": 58.6,
+   "volume": 2662804,
+   "name": "MGIC Investment Corporation",
+   "value": 78153297,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "PRVA",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 23.94,
+   "close_date": "2026-11-05",
+   "rsi": 70.4,
+   "volume": 3193852,
+   "name": "Privia Health Group, Inc.",
+   "value": 76460817,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "OBDC",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 10.81,
+   "close_date": "2026-11-05",
+   "rsi": 61.6,
+   "volume": 7044909,
+   "name": "Blue Owl Capital Corporation",
+   "value": 76155466,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "MWA",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 24.63,
+   "close_date": "2026-11-05",
+   "rsi": 72.2,
+   "volume": 3001857,
+   "name": "MUELLER WATER PRODUCTS",
+   "value": 73935738,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "BWMN",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 43.0,
+   "close_date": "2026-11-05",
+   "rsi": 86.3,
+   "volume": 1683467,
+   "name": "Bowman Consulting Group Ltd.",
+   "value": 72389081,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "TU",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 9.42,
+   "close_date": "2026-11-05",
+   "rsi": 67.4,
+   "volume": 7613069,
+   "name": "Telus Corporation",
+   "value": 71715110,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "SGHC",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 11.56,
+   "close_date": "2026-11-05",
+   "rsi": 55.3,
+   "volume": 5973054,
+   "name": "Super Group (SGHC) Limited",
+   "value": 69048504,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "LINE",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 39.53,
+   "close_date": "2026-11-05",
+   "rsi": 71.0,
+   "volume": 1741347,
+   "name": "Lineage, Inc.",
+   "value": 68835447,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "EPRT",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 28.34,
+   "close_date": "2026-11-05",
+   "rsi": 66.1,
+   "volume": 2379387,
+   "name": "Essential Properties Realty Trust, Inc.",
+   "value": 67431828,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "PTLO",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 7.02,
+   "close_date": "2026-11-05",
+   "rsi": 85.1,
+   "volume": 9222233,
+   "name": "Portillo's Inc.",
+   "value": 64740076,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "ZTO",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 20.77,
+   "close_date": "2026-11-05",
+   "rsi": 59.6,
+   "volume": 2882148,
+   "name": "ZTO Express (Cayman) Inc.",
+   "value": 59862214,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "ATAT",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 35.11,
+   "close_date": "2026-11-05",
+   "rsi": 60.7,
+   "volume": 1573474,
+   "name": "Atour Lifestyle Holdings Limited",
+   "value": 55244672,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "HELE",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 37.77,
+   "close_date": "2026-11-05",
+   "rsi": 76.8,
+   "volume": 1359309,
+   "name": "Helen of Troy Limited",
+   "value": 51341101,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "PRKS",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 37.86,
+   "close_date": "2026-11-05",
+   "rsi": 66.7,
+   "volume": 1327536,
+   "name": "United Parks & Resorts Inc.",
+   "value": 50260513,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "BOBS",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 19.47,
+   "close_date": "2026-11-05",
+   "rsi": 77.6,
+   "volume": 2532357,
+   "name": "Bob's Discount Furniture, Inc.",
+   "value": 49304991,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "WD",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 39.83,
+   "close_date": "2026-11-05",
+   "rsi": 67.9,
+   "volume": 1205972,
+   "name": "Walker & Dunlop, Inc",
+   "value": 48033865,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "RDN",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 37.27,
+   "close_date": "2026-11-05",
+   "rsi": 66.7,
+   "volume": 1265346,
+   "name": "Radian Group Inc.",
+   "value": 47159445,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "GPGI",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 13.62,
+   "close_date": "2026-11-05",
+   "rsi": 62.4,
+   "volume": 3408129,
+   "name": "GPGI, Inc.",
+   "value": 46418717,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "PAR",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 19.18,
+   "close_date": "2026-11-05",
+   "rsi": 69.6,
+   "volume": 2407166,
+   "name": "PAR Technology Corporation",
+   "value": 46169444,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "CERT",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 12.18,
+   "close_date": "2026-11-05",
+   "rsi": 73.2,
+   "volume": 3731632,
+   "name": "Certara, Inc.",
+   "value": 45451278,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "NTST",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 18.84,
+   "close_date": "2026-11-05",
+   "rsi": 65.1,
+   "volume": 2409494,
+   "name": "NetSTREIT Corp.",
+   "value": 45394867,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "QNST",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 20.32,
+   "close_date": "2026-11-05",
+   "rsi": 78.3,
+   "volume": 2153120,
+   "name": "QuinStreet, Inc.",
+   "value": 43751398,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "HMC",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 36.26,
+   "close_date": "2026-11-05",
+   "rsi": 72.8,
+   "volume": 1151120,
+   "name": "Honda Motor Company, Ltd.",
+   "value": 41739611,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "LILAK",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 8.91,
+   "close_date": "2026-11-05",
+   "rsi": 63.9,
+   "volume": 4592938,
+   "name": "Liberty Latin America Ltd.",
+   "value": 40923078,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "COLL",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 25.16,
+   "close_date": "2026-11-05",
+   "rsi": 68.1,
+   "volume": 1572957,
+   "name": "Collegium Pharmaceutical, Inc.",
+   "value": 39575598,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "ARDT",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 15.9,
+   "close_date": "2026-11-05",
+   "rsi": 81.8,
+   "volume": 2470702,
+   "name": "Ardent Health, Inc.",
+   "value": 39284162,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "UPBD",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 24.88,
+   "close_date": "2026-11-05",
+   "rsi": 85.0,
+   "volume": 1570980,
+   "name": "Upbound Group, Inc.",
+   "value": 39085982,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "FMS",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 23.66,
+   "close_date": "2026-11-05",
+   "rsi": 60.8,
+   "volume": 1471030,
+   "name": "Fresenius Medical Care AG",
+   "value": 34804570,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "AHCO",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 7.41,
+   "close_date": "2026-11-05",
+   "rsi": 74.4,
+   "volume": 4625630,
+   "name": "AdaptHealth Corp.",
+   "value": 34275918,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "CRCT",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 9.25,
+   "close_date": "2026-11-05",
+   "rsi": 83.4,
+   "volume": 3657351,
+   "name": "Cricut, Inc.",
+   "value": 33830497,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "EVC",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 7.5,
+   "close_date": "2026-11-05",
+   "rsi": 62.8,
+   "volume": 4483230,
+   "name": "Entravision Communications Corporation",
+   "value": 33624225,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "LBTYK",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 9.52,
+   "close_date": "2026-11-05",
+   "rsi": 66.8,
+   "volume": 3470431,
+   "name": "Liberty Global Ltd.",
+   "value": 33038503,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "AAUC",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 21.79,
+   "close_date": "2026-11-05",
+   "rsi": 59.4,
+   "volume": 1495134,
+   "name": "Allied Gold Corporation",
+   "value": 32578970,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "SBGI",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 14.17,
+   "close_date": "2026-11-05",
+   "rsi": 65.8,
+   "volume": 2221315,
+   "name": "Sinclair, Inc.",
+   "value": 31476034,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "VIPS",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 13.97,
+   "close_date": "2026-11-05",
+   "rsi": 66.8,
+   "volume": 2233527,
+   "name": "Vipshop Holdings Limited",
+   "value": 31202372,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "CARS",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 13.56,
+   "close_date": "2026-11-05",
+   "rsi": 78.5,
+   "volume": 2204633,
+   "name": "Cars.com Inc.",
+   "value": 29894823,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "DTIL",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 9.87,
+   "close_date": "2026-11-05",
+   "rsi": 78.2,
+   "volume": 2911977,
+   "name": "Precision BioSciences, Inc.",
+   "value": 28741213,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "SPNT",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 26.27,
+   "close_date": "2026-11-05",
+   "rsi": 63.8,
+   "volume": 1089925,
+   "name": "SiriusPoint Ltd.",
+   "value": 28632330,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "DLX",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 27.7,
+   "close_date": "2026-11-05",
+   "rsi": 73.1,
+   "volume": 1023186,
+   "name": "Deluxe Corporation",
+   "value": 28342252,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "NVRI",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 23.36,
+   "close_date": "2026-11-05",
+   "rsi": 71.2,
+   "volume": 1173903,
+   "name": "Enviri Corporation",
+   "value": 27422374,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "ONT",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 19.42,
+   "close_date": "2026-11-05",
+   "rsi": 77.6,
+   "volume": 1222262,
+   "name": "Onterris, Inc.",
+   "value": 23736328,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "DOLE",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 13.84,
+   "close_date": "2026-11-05",
+   "rsi": 62.7,
+   "volume": 1549136,
+   "name": "Dole plc",
+   "value": 21440042,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "MNSO",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 11.04,
+   "close_date": "2026-11-05",
+   "rsi": 67.3,
+   "volume": 1851060,
+   "name": "MINISO Group Holding Limited",
+   "value": 20435702,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "ESRT",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 5.3,
+   "close_date": "2026-11-05",
+   "rsi": 73.2,
+   "volume": 3804905,
+   "name": "Empire State Realty Trust, Inc.",
+   "value": 20165996,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "JBGS",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 12.45,
+   "close_date": "2026-11-05",
+   "rsi": 66.6,
+   "volume": 1540864,
+   "name": "JBG SMITH Properties",
+   "value": 19183757,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "GOOS",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 8.96,
+   "close_date": "2026-11-05",
+   "rsi": 70.3,
+   "volume": 2107773,
+   "name": "Canada Goose Holdings Inc. Subordinate Voting Shares",
+   "value": 18885646,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "EDHL",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 6.08,
+   "close_date": "2026-11-05",
+   "rsi": 72.2,
+   "volume": 3087434,
+   "name": "Everbright Digital Holding Limited",
+   "value": 18771599,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "TBI",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 12.36,
+   "close_date": "2026-11-05",
+   "rsi": 78.9,
+   "volume": 1496470,
+   "name": "TrueBlue, Inc.",
+   "value": 18496369,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "ACEL",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 13.77,
+   "close_date": "2026-11-05",
+   "rsi": 84.3,
+   "volume": 1193894,
+   "name": "Accel Entertainment, Inc.",
+   "value": 16439920,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "ALIT",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 12.82,
+   "close_date": "2026-11-05",
+   "rsi": 68.7,
+   "volume": 1024485,
+   "name": "Alight, Inc.",
+   "value": 13133898,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "FACT",
+   "setups": [
+    "breakout_20d"
+   ],
+   "price": 10.81,
+   "close_date": "2026-11-05",
+   "rsi": 81.0,
+   "volume": 1197129,
+   "name": "FACT II Acquisition Corp.",
+   "value": 12940964,
+   "labels": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  }
+ ],
+ "watch": [
+  "AEHL",
+  "EFX",
+  "RPRX",
+  "MGNI",
+  "BAH",
+  "ADMA",
+  "GCT",
+  "LFTO",
+  "APP",
+  "COST",
+  "U",
+  "ACN",
+  "PEP",
+  "MSI",
+  "NEM",
+  "MCK",
+  "FSLR",
+  "SAP",
+  "DUK",
+  "FWONK",
+  "EW",
+  "CMCSA",
+  "CMG",
+  "PDD",
+  "KDP"
+ ],
+ "orb_universe": 1864,
+ "hinweis": "Ein Scan ist eine Liste von Charts, die eine Regel erfüllen – keine Kaufliste."
+}

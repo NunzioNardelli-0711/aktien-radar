@@ -1,0 +1,22 @@
+{
+ "errors": [],
+ "phase": "after-cutoff",
+ "last_cycle": "2026-11-06T20:41:07.677628+00:00",
+ "message": "Einstiegsfenster vorbei: 21 Einstiege, 638 ORB-Treffer",
+ "ok": true,
+ "date": "2026-11-06",
+ "watch": 25,
+ "entries_triggered": 21,
+ "orb_hits": 638,
+ "orb_last": "2026-11-06T20:20:45.000198+00:00",
+ "setups_date": "2026-11-06",
+ "universe_updated": "2026-11-06T13:41:33.093907+00:00",
+ "universe_size": 5936,
+ "cycle_seconds": 0.0,
+ "app_url": "https://nunzionardelli-0711.github.io/aktien-radar/",
+ "version": "1.0.0",
+ "calendar_years": [
+  2026,
+  2027
+ ]
+}

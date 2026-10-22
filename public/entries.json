@@ -1,0 +1,1414 @@
+{
+ "date": "2026-11-06",
+ "updated": "2026-11-06T20:41:07.677628+00:00",
+ "items": [
+  {
+   "symbol": "ACN",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 10:50 schloss bei 259,95 $ über dem Spannen-Hoch 259,26 $",
+   "level": 259.26,
+   "opening_range": {
+    "high": 259.26,
+    "low": 255.87
+   },
+   "last": {
+    "bar_start": "10:50",
+    "close": 259.95,
+    "vs_level_pct": 0.27
+   },
+   "checked": "2026-11-06T15:55:45.000149+00:00",
+   "bars": 17,
+   "trigger": {
+    "time_et": "10:55",
+    "time_berlin": "16:55",
+    "bar_start": "10:50",
+    "price": 259.95,
+    "pct_over": 0.27,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 259.95,
+    "stop": 257.56,
+    "target": 262.34,
+    "entry_time": "10:55 AM",
+    "risk_per_share": 2.39,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261106-ACN-e",
+    "p_target": 0.5128,
+    "p_stop": 0.3902,
+    "p_neither": 0.097,
+    "p_green": 0.5614,
+    "avg_R": 0.122,
+    "median_close": 260.16,
+    "p5_close": 254.56,
+    "p95_close": 266.0,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 59,
+    "verdict": "Tendenz zum Ziel",
+    "verdict_en": "Leans toward the target: target first 51.3 % vs stop first 39.0 %.",
+    "history": {
+     "sessions": 59,
+     "triggered": 32,
+     "target": 14,
+     "stop": 11,
+     "close": 7,
+     "avg_R": 0.042
+    }
+   },
+   "pushed": true,
+   "name": "Accenture plc",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "AEHL",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 09:50 schloss bei 13,62 $ über dem Spannen-Hoch 13,41 $",
+   "level": 13.41,
+   "opening_range": {
+    "high": 13.41,
+    "low": 10.47
+   },
+   "last": {
+    "bar_start": "09:50",
+    "close": 13.62,
+    "vs_level_pct": 1.58
+   },
+   "checked": "2026-11-06T14:55:45.000144+00:00",
+   "bars": 5,
+   "trigger": {
+    "time_et": "09:55",
+    "time_berlin": "15:55",
+    "bar_start": "09:50",
+    "price": 13.62,
+    "pct_over": 1.58,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 13.62,
+    "stop": 11.94,
+    "target": 15.3,
+    "entry_time": "9:55 AM",
+    "risk_per_share": 1.68,
+    "target_r": 1.0
+   },
+   "tm": {
+    "error": "only 5 full session(s) of AEHL before 2026-11-06 in the data; the time machine needs at least 20"
+   },
+   "push_note": "Kein Push: Time Machine „nicht verfügbar“",
+   "name": "Antelope Enterprise Holdings Limited",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Zurück über 20-Tage-Linie"
+   ]
+  },
+  {
+   "symbol": "APP",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 09:50 schloss bei 373,47 $ über dem Spannen-Hoch 367,88 $",
+   "level": 367.88,
+   "opening_range": {
+    "high": 367.88,
+    "low": 348.95
+   },
+   "last": {
+    "bar_start": "09:50",
+    "close": 373.47,
+    "vs_level_pct": 1.52
+   },
+   "checked": "2026-11-06T14:55:45.000144+00:00",
+   "bars": 5,
+   "trigger": {
+    "time_et": "09:55",
+    "time_berlin": "15:55",
+    "bar_start": "09:50",
+    "price": 373.47,
+    "pct_over": 1.52,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 373.47,
+    "stop": 358.41,
+    "target": 388.53,
+    "entry_time": "9:55 AM",
+    "risk_per_share": 15.06,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261106-APP-e",
+    "p_target": 0.0604,
+    "p_stop": 0.0524,
+    "p_neither": 0.8872,
+    "p_green": 0.4924,
+    "avg_R": -0.003,
+    "median_close": 373.33,
+    "p5_close": 360.88,
+    "p95_close": 386.33,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 59,
+    "verdict": "Etwa ein Münzwurf",
+    "verdict_en": "Close to a coin flip: target first 6.0 % vs stop first 5.2 %.",
+    "history": {
+     "sessions": 59,
+     "triggered": 35,
+     "target": 13,
+     "stop": 17,
+     "close": 5,
+     "avg_R": -0.132
+    }
+   },
+   "push_note": "Kein Push: Time Machine „Etwa ein Münzwurf“",
+   "name": "Applovin Corporation",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "CMCSA",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 09:50 schloss bei 24,47 $ über dem Spannen-Hoch 24,39 $",
+   "level": 24.39,
+   "opening_range": {
+    "high": 24.39,
+    "low": 24.08
+   },
+   "last": {
+    "bar_start": "09:50",
+    "close": 24.47,
+    "vs_level_pct": 0.33
+   },
+   "checked": "2026-11-06T14:55:45.000144+00:00",
+   "bars": 5,
+   "trigger": {
+    "time_et": "09:55",
+    "time_berlin": "15:55",
+    "bar_start": "09:50",
+    "price": 24.47,
+    "pct_over": 0.33,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 24.47,
+    "stop": 24.23,
+    "target": 24.71,
+    "entry_time": "9:55 AM",
+    "risk_per_share": 0.24,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261106-CMCSA-e",
+    "p_target": 0.4501,
+    "p_stop": 0.4305,
+    "p_neither": 0.1194,
+    "p_green": 0.5123,
+    "avg_R": 0.022,
+    "median_close": 24.45,
+    "p5_close": 23.88,
+    "p95_close": 25.02,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 59,
+    "verdict": "Etwa ein Münzwurf",
+    "verdict_en": "Close to a coin flip: target first 45.0 % vs stop first 43.0 %.",
+    "history": {
+     "sessions": 59,
+     "triggered": 29,
+     "target": 12,
+     "stop": 8,
+     "close": 9,
+     "avg_R": 0.123
+    }
+   },
+   "push_note": "Kein Push: Time Machine „Etwa ein Münzwurf“",
+   "name": "Comcast Corporation",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "CMG",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 10:05 schloss bei 34,85 $ über dem Spannen-Hoch 34,76 $",
+   "level": 34.76,
+   "opening_range": {
+    "high": 34.76,
+    "low": 34.17
+   },
+   "last": {
+    "bar_start": "10:05",
+    "close": 34.85,
+    "vs_level_pct": 0.24
+   },
+   "checked": "2026-11-06T15:10:45.000172+00:00",
+   "bars": 8,
+   "trigger": {
+    "time_et": "10:10",
+    "time_berlin": "16:10",
+    "bar_start": "10:05",
+    "price": 34.85,
+    "pct_over": 0.24,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 34.85,
+    "stop": 34.46,
+    "target": 35.24,
+    "entry_time": "10:10 AM",
+    "risk_per_share": 0.39,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261106-CMG-e",
+    "p_target": 0.456,
+    "p_stop": 0.3834,
+    "p_neither": 0.1606,
+    "p_green": 0.5317,
+    "avg_R": 0.071,
+    "median_close": 34.87,
+    "p5_close": 34.05,
+    "p95_close": 35.73,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 59,
+    "verdict": "Etwa ein Münzwurf",
+    "verdict_en": "Close to a coin flip: target first 45.6 % vs stop first 38.3 %.",
+    "history": {
+     "sessions": 59,
+     "triggered": 30,
+     "target": 9,
+     "stop": 9,
+     "close": 12,
+     "avg_R": -0.047
+    }
+   },
+   "push_note": "Kein Push: Time Machine „Etwa ein Münzwurf“",
+   "name": "Chipotle Mexican Grill, Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "COST",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 09:50 schloss bei 1.056,39 $ über dem Spannen-Hoch 1.051,07 $",
+   "level": 1051.07,
+   "opening_range": {
+    "high": 1051.07,
+    "low": 1043.0
+   },
+   "last": {
+    "bar_start": "09:50",
+    "close": 1056.39,
+    "vs_level_pct": 0.51
+   },
+   "checked": "2026-11-06T14:55:45.000144+00:00",
+   "bars": 5,
+   "trigger": {
+    "time_et": "09:55",
+    "time_berlin": "15:55",
+    "bar_start": "09:50",
+    "price": 1056.39,
+    "pct_over": 0.51,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 1056.39,
+    "stop": 1047.03,
+    "target": 1065.75,
+    "entry_time": "9:55 AM",
+    "risk_per_share": 9.36,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261106-COST-e",
+    "p_target": 0.2911,
+    "p_stop": 0.2399,
+    "p_neither": 0.469,
+    "p_green": 0.5084,
+    "avg_R": 0.038,
+    "median_close": 1056.47,
+    "p5_close": 1042.72,
+    "p95_close": 1070.44,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 59,
+    "verdict": "Etwa ein Münzwurf",
+    "verdict_en": "Close to a coin flip: target first 29.1 % vs stop first 24.0 %.",
+    "history": {
+     "sessions": 59,
+     "triggered": 31,
+     "target": 13,
+     "stop": 9,
+     "close": 9,
+     "avg_R": 0.152
+    }
+   },
+   "push_note": "Kein Push: Time Machine „Etwa ein Münzwurf“",
+   "name": "Costco Wholesale Corporation",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "DUK",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 10:05 schloss bei 128,24 $ über dem Spannen-Hoch 127,96 $",
+   "level": 127.96,
+   "opening_range": {
+    "high": 127.96,
+    "low": 126.72
+   },
+   "last": {
+    "bar_start": "10:05",
+    "close": 128.24,
+    "vs_level_pct": 0.22
+   },
+   "checked": "2026-11-06T15:10:45.000172+00:00",
+   "bars": 8,
+   "trigger": {
+    "time_et": "10:10",
+    "time_berlin": "16:10",
+    "bar_start": "10:05",
+    "price": 128.24,
+    "pct_over": 0.22,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 128.24,
+    "stop": 127.34,
+    "target": 129.14,
+    "entry_time": "10:10 AM",
+    "risk_per_share": 0.9,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261106-DUK-e",
+    "p_target": 0.3419,
+    "p_stop": 0.2997,
+    "p_neither": 0.3584,
+    "p_green": 0.5243,
+    "avg_R": 0.044,
+    "median_close": 128.31,
+    "p5_close": 126.81,
+    "p95_close": 129.82,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 59,
+    "verdict": "Etwa ein Münzwurf",
+    "verdict_en": "Close to a coin flip: target first 34.2 % vs stop first 30.0 %.",
+    "history": {
+     "sessions": 59,
+     "triggered": 36,
+     "target": 12,
+     "stop": 18,
+     "close": 6,
+     "avg_R": -0.174
+    }
+   },
+   "push_note": "Kein Push: Time Machine „Etwa ein Münzwurf“",
+   "name": "Duke Energy Corporation (Holding Company)",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "EFX",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 10:15 schloss bei 190,68 $ über dem Spannen-Hoch 190,00 $",
+   "level": 190.0,
+   "opening_range": {
+    "high": 190.0,
+    "low": 186.99
+   },
+   "last": {
+    "bar_start": "10:15",
+    "close": 190.68,
+    "vs_level_pct": 0.36
+   },
+   "checked": "2026-11-06T15:20:45.000155+00:00",
+   "bars": 10,
+   "trigger": {
+    "time_et": "10:20",
+    "time_berlin": "16:20",
+    "bar_start": "10:15",
+    "price": 190.68,
+    "pct_over": 0.36,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 190.68,
+    "stop": 188.49,
+    "target": 192.87,
+    "entry_time": "10:20 AM",
+    "risk_per_share": 2.19,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261106-EFX-e",
+    "p_target": 0.4452,
+    "p_stop": 0.419,
+    "p_neither": 0.1358,
+    "p_green": 0.5136,
+    "avg_R": 0.026,
+    "median_close": 190.77,
+    "p5_close": 185.79,
+    "p95_close": 195.82,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 56,
+    "verdict": "Etwa ein Münzwurf",
+    "verdict_en": "Close to a coin flip: target first 44.5 % vs stop first 41.9 %.",
+    "history": {
+     "sessions": 56,
+     "triggered": 27,
+     "target": 13,
+     "stop": 12,
+     "close": 2,
+     "avg_R": 0.064
+    }
+   },
+   "push_note": "Kein Push: Time Machine „Etwa ein Münzwurf“",
+   "name": "Equifax, Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Bullenflagge"
+   ]
+  },
+  {
+   "symbol": "EW",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 09:50 schloss bei 99,92 $ über dem Spannen-Hoch 99,47 $",
+   "level": 99.47,
+   "opening_range": {
+    "high": 99.47,
+    "low": 98.5
+   },
+   "last": {
+    "bar_start": "09:50",
+    "close": 99.92,
+    "vs_level_pct": 0.45
+   },
+   "checked": "2026-11-06T14:55:45.000144+00:00",
+   "bars": 5,
+   "trigger": {
+    "time_et": "09:55",
+    "time_berlin": "15:55",
+    "bar_start": "09:50",
+    "price": 99.92,
+    "pct_over": 0.45,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 99.92,
+    "stop": 98.98,
+    "target": 100.86,
+    "entry_time": "9:55 AM",
+    "risk_per_share": 0.94,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261106-EW-e",
+    "p_target": 0.4041,
+    "p_stop": 0.4495,
+    "p_neither": 0.1464,
+    "p_green": 0.4808,
+    "avg_R": -0.043,
+    "median_close": 99.92,
+    "p5_close": 97.54,
+    "p95_close": 102.08,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 59,
+    "verdict": "Etwa ein Münzwurf",
+    "verdict_en": "Close to a coin flip: target first 40.4 % vs stop first 45.0 %.",
+    "history": {
+     "sessions": 59,
+     "triggered": 35,
+     "target": 11,
+     "stop": 11,
+     "close": 13,
+     "avg_R": -0.021
+    }
+   },
+   "push_note": "Kein Push: Time Machine „Etwa ein Münzwurf“",
+   "name": "Edwards Lifesciences Corporation",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "FSLR",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 09:45 schloss bei 200,43 $ über dem Spannen-Hoch 199,34 $",
+   "level": 199.34,
+   "opening_range": {
+    "high": 199.34,
+    "low": 193.0
+   },
+   "last": {
+    "bar_start": "09:45",
+    "close": 200.43,
+    "vs_level_pct": 0.54
+   },
+   "checked": "2026-11-06T14:50:45.000151+00:00",
+   "bars": 4,
+   "trigger": {
+    "time_et": "09:50",
+    "time_berlin": "15:50",
+    "bar_start": "09:45",
+    "price": 200.43,
+    "pct_over": 0.54,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 200.43,
+    "stop": 196.17,
+    "target": 204.69,
+    "entry_time": "9:50 AM",
+    "risk_per_share": 4.26,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261106-FSLR-e",
+    "p_target": 0.2923,
+    "p_stop": 0.3709,
+    "p_neither": 0.3368,
+    "p_green": 0.4432,
+    "avg_R": -0.097,
+    "median_close": 199.66,
+    "p5_close": 192.46,
+    "p95_close": 206.95,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 59,
+    "verdict": "Tendenz zum Stop",
+    "verdict_en": "Leans toward the stop: target first 29.2 % vs stop first 37.1 %.",
+    "history": {
+     "sessions": 59,
+     "triggered": 31,
+     "target": 9,
+     "stop": 13,
+     "close": 9,
+     "avg_R": -0.119
+    }
+   },
+   "push_note": "Kein Push: Time Machine „Tendenz zum Stop“",
+   "name": "First Solar, Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "FWONK",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 09:50 schloss bei 105,36 $ über dem Spannen-Hoch 105,29 $",
+   "level": 105.29,
+   "opening_range": {
+    "high": 105.29,
+    "low": 103.72
+   },
+   "last": {
+    "bar_start": "09:50",
+    "close": 105.36,
+    "vs_level_pct": 0.07
+   },
+   "checked": "2026-11-06T14:55:45.000144+00:00",
+   "bars": 5,
+   "trigger": {
+    "time_et": "09:55",
+    "time_berlin": "15:55",
+    "bar_start": "09:50",
+    "price": 105.36,
+    "pct_over": 0.07,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 105.36,
+    "stop": 104.5,
+    "target": 106.22,
+    "entry_time": "9:55 AM",
+    "risk_per_share": 0.86,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261106-FWONK-e",
+    "p_target": 0.4975,
+    "p_stop": 0.4675,
+    "p_neither": 0.035,
+    "p_green": 0.5149,
+    "avg_R": 0.031,
+    "median_close": 105.33,
+    "p5_close": 102.81,
+    "p95_close": 107.97,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 55,
+    "verdict": "Etwa ein Münzwurf",
+    "verdict_en": "Close to a coin flip: target first 49.8 % vs stop first 46.8 %.",
+    "history": {
+     "sessions": 55,
+     "triggered": 27,
+     "target": 8,
+     "stop": 14,
+     "close": 5,
+     "avg_R": -0.191
+    }
+   },
+   "push_note": "Kein Push: Time Machine „Etwa ein Münzwurf“",
+   "name": "Liberty Media Corporation",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "GCT",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 09:45 schloss bei 63,50 $ über dem Spannen-Hoch 63,37 $",
+   "level": 63.37,
+   "opening_range": {
+    "high": 63.37,
+    "low": 62.03
+   },
+   "last": {
+    "bar_start": "09:45",
+    "close": 63.5,
+    "vs_level_pct": 0.21
+   },
+   "checked": "2026-11-06T14:50:45.000151+00:00",
+   "bars": 4,
+   "trigger": {
+    "time_et": "09:50",
+    "time_berlin": "15:50",
+    "bar_start": "09:45",
+    "price": 63.5,
+    "pct_over": 0.21,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 63.5,
+    "stop": 62.7,
+    "target": 64.3,
+    "entry_time": "9:50 AM",
+    "risk_per_share": 0.8,
+    "target_r": 1.0
+   },
+   "tm": {
+    "error": "only 19 full session(s) of GCT before 2026-11-06 in the data; the time machine needs at least 20"
+   },
+   "push_note": "Kein Push: Time Machine „nicht verfügbar“",
+   "name": "GigaCloud Technology Inc",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Zurück über 20-Tage-Linie"
+   ]
+  },
+  {
+   "symbol": "KDP",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 09:50 schloss bei 36,27 $ über dem Spannen-Hoch 36,20 $",
+   "level": 36.2,
+   "opening_range": {
+    "high": 36.2,
+    "low": 35.71
+   },
+   "last": {
+    "bar_start": "09:50",
+    "close": 36.27,
+    "vs_level_pct": 0.19
+   },
+   "checked": "2026-11-06T14:55:45.000144+00:00",
+   "bars": 5,
+   "trigger": {
+    "time_et": "09:55",
+    "time_berlin": "15:55",
+    "bar_start": "09:50",
+    "price": 36.27,
+    "pct_over": 0.19,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 36.27,
+    "stop": 35.95,
+    "target": 36.59,
+    "entry_time": "9:55 AM",
+    "risk_per_share": 0.32,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261106-KDP-e",
+    "p_target": 0.4853,
+    "p_stop": 0.4015,
+    "p_neither": 0.1132,
+    "p_green": 0.5439,
+    "avg_R": 0.086,
+    "median_close": 36.31,
+    "p5_close": 35.56,
+    "p95_close": 37.05,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 59,
+    "verdict": "Etwa ein Münzwurf",
+    "verdict_en": "Close to a coin flip: target first 48.5 % vs stop first 40.2 %.",
+    "history": {
+     "sessions": 59,
+     "triggered": 35,
+     "target": 18,
+     "stop": 9,
+     "close": 8,
+     "avg_R": 0.26
+    }
+   },
+   "push_note": "Kein Push: Time Machine „Etwa ein Münzwurf“",
+   "name": "Keurig Dr Pepper Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "LFTO",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 11:05 schloss bei 18,22 $ über dem Spannen-Hoch 18,05 $",
+   "level": 18.05,
+   "opening_range": {
+    "high": 18.05,
+    "low": 16.27
+   },
+   "last": {
+    "bar_start": "11:05",
+    "close": 18.22,
+    "vs_level_pct": 0.97
+   },
+   "checked": "2026-11-06T16:10:45.000166+00:00",
+   "bars": 20,
+   "trigger": {
+    "time_et": "11:10",
+    "time_berlin": "17:10",
+    "bar_start": "11:05",
+    "price": 18.22,
+    "pct_over": 0.97,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 18.22,
+    "stop": 17.16,
+    "target": 19.28,
+    "entry_time": "11:10 AM",
+    "risk_per_share": 1.06,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261106-LFTO-e",
+    "p_target": 0.027,
+    "p_stop": 0.0437,
+    "p_neither": 0.9293,
+    "p_green": 0.4032,
+    "avg_R": -0.104,
+    "median_close": 18.1,
+    "p5_close": 17.32,
+    "p95_close": 18.94,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 20,
+    "verdict": "Tendenz zum Stop",
+    "verdict_en": "Leans toward the stop: target first 2.7 % vs stop first 4.4 %.",
+    "history": {
+     "sessions": 20,
+     "triggered": 9,
+     "target": 5,
+     "stop": 4,
+     "close": 0,
+     "avg_R": 0.111
+    }
+   },
+   "push_note": "Kein Push: Time Machine „Tendenz zum Stop“",
+   "name": "Liftoff Mobile, Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Zurück über 20-Tage-Linie"
+   ]
+  },
+  {
+   "symbol": "MGNI",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 09:45 schloss bei 27,67 $ über dem Spannen-Hoch 27,43 $",
+   "level": 27.43,
+   "opening_range": {
+    "high": 27.43,
+    "low": 26.67
+   },
+   "last": {
+    "bar_start": "09:45",
+    "close": 27.67,
+    "vs_level_pct": 0.86
+   },
+   "checked": "2026-11-06T14:50:45.000151+00:00",
+   "bars": 4,
+   "trigger": {
+    "time_et": "09:50",
+    "time_berlin": "15:50",
+    "bar_start": "09:45",
+    "price": 27.67,
+    "pct_over": 0.86,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 27.67,
+    "stop": 27.05,
+    "target": 28.29,
+    "entry_time": "9:50 AM",
+    "risk_per_share": 0.62,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261106-MGNI-e",
+    "p_target": 0.3055,
+    "p_stop": 0.3229,
+    "p_neither": 0.3716,
+    "p_green": 0.476,
+    "avg_R": -0.032,
+    "median_close": 27.62,
+    "p5_close": 26.61,
+    "p95_close": 28.73,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 59,
+    "verdict": "Etwa ein Münzwurf",
+    "verdict_en": "Close to a coin flip: target first 30.6 % vs stop first 32.3 %.",
+    "history": {
+     "sessions": 59,
+     "triggered": 31,
+     "target": 13,
+     "stop": 14,
+     "close": 4,
+     "avg_R": -0.087
+    }
+   },
+   "push_note": "Kein Push: Time Machine „Etwa ein Münzwurf“",
+   "name": "Magnite, Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Zurück über 20-Tage-Linie"
+   ]
+  },
+  {
+   "symbol": "NEM",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 09:45 schloss bei 120,97 $ über dem Spannen-Hoch 120,75 $",
+   "level": 120.75,
+   "opening_range": {
+    "high": 120.75,
+    "low": 118.41
+   },
+   "last": {
+    "bar_start": "09:45",
+    "close": 120.97,
+    "vs_level_pct": 0.18
+   },
+   "checked": "2026-11-06T14:50:45.000151+00:00",
+   "bars": 4,
+   "trigger": {
+    "time_et": "09:50",
+    "time_berlin": "15:50",
+    "bar_start": "09:45",
+    "price": 120.97,
+    "pct_over": 0.18,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 120.97,
+    "stop": 119.58,
+    "target": 122.36,
+    "entry_time": "9:50 AM",
+    "risk_per_share": 1.39,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261106-NEM-e",
+    "p_target": 0.4433,
+    "p_stop": 0.4064,
+    "p_neither": 0.1503,
+    "p_green": 0.5294,
+    "avg_R": 0.048,
+    "median_close": 121.23,
+    "p5_close": 118.17,
+    "p95_close": 124.26,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 59,
+    "verdict": "Etwa ein Münzwurf",
+    "verdict_en": "Close to a coin flip: target first 44.3 % vs stop first 40.6 %.",
+    "history": {
+     "sessions": 59,
+     "triggered": 37,
+     "target": 11,
+     "stop": 15,
+     "close": 11,
+     "avg_R": -0.157
+    }
+   },
+   "push_note": "Kein Push: Time Machine „Etwa ein Münzwurf“",
+   "name": "Newmont Corporation",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "PDD",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 09:50 schloss bei 83,92 $ über dem Spannen-Hoch 83,61 $",
+   "level": 83.61,
+   "opening_range": {
+    "high": 83.61,
+    "low": 82.25
+   },
+   "last": {
+    "bar_start": "09:50",
+    "close": 83.92,
+    "vs_level_pct": 0.37
+   },
+   "checked": "2026-11-06T14:55:45.000144+00:00",
+   "bars": 5,
+   "trigger": {
+    "time_et": "09:55",
+    "time_berlin": "15:55",
+    "bar_start": "09:50",
+    "price": 83.92,
+    "pct_over": 0.37,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 83.92,
+    "stop": 82.93,
+    "target": 84.91,
+    "entry_time": "9:55 AM",
+    "risk_per_share": 0.99,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261106-PDD-e",
+    "p_target": 0.2999,
+    "p_stop": 0.2401,
+    "p_neither": 0.46,
+    "p_green": 0.5314,
+    "avg_R": 0.062,
+    "median_close": 84.0,
+    "p5_close": 82.51,
+    "p95_close": 85.51,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 59,
+    "verdict": "Tendenz zum Ziel",
+    "verdict_en": "Leans toward the target: target first 30.0 % vs stop first 24.0 %.",
+    "history": {
+     "sessions": 59,
+     "triggered": 27,
+     "target": 6,
+     "stop": 6,
+     "close": 15,
+     "avg_R": -0.09
+    }
+   },
+   "pushed": true,
+   "name": "PDD Holdings Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "PEP",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 09:50 schloss bei 140,16 $ über dem Spannen-Hoch 139,95 $",
+   "level": 139.95,
+   "opening_range": {
+    "high": 139.95,
+    "low": 138.3
+   },
+   "last": {
+    "bar_start": "09:50",
+    "close": 140.16,
+    "vs_level_pct": 0.15
+   },
+   "checked": "2026-11-06T14:55:45.000144+00:00",
+   "bars": 5,
+   "trigger": {
+    "time_et": "09:55",
+    "time_berlin": "15:55",
+    "bar_start": "09:50",
+    "price": 140.16,
+    "pct_over": 0.15,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 140.16,
+    "stop": 139.12,
+    "target": 141.2,
+    "entry_time": "9:55 AM",
+    "risk_per_share": 1.04,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261106-PEP-e",
+    "p_target": 0.4183,
+    "p_stop": 0.3698,
+    "p_neither": 0.2119,
+    "p_green": 0.5228,
+    "avg_R": 0.048,
+    "median_close": 140.17,
+    "p5_close": 138.12,
+    "p95_close": 142.22,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 59,
+    "verdict": "Etwa ein Münzwurf",
+    "verdict_en": "Close to a coin flip: target first 41.8 % vs stop first 37.0 %.",
+    "history": {
+     "sessions": 59,
+     "triggered": 35,
+     "target": 15,
+     "stop": 14,
+     "close": 6,
+     "avg_R": 0.074
+    }
+   },
+   "push_note": "Kein Push: Time Machine „Etwa ein Münzwurf“",
+   "name": "PepsiCo, Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "RPRX",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 09:50 schloss bei 67,83 $ über dem Spannen-Hoch 67,55 $",
+   "level": 67.55,
+   "opening_range": {
+    "high": 67.55,
+    "low": 66.52
+   },
+   "last": {
+    "bar_start": "09:50",
+    "close": 67.83,
+    "vs_level_pct": 0.42
+   },
+   "checked": "2026-11-06T14:55:45.000144+00:00",
+   "bars": 5,
+   "trigger": {
+    "time_et": "09:55",
+    "time_berlin": "15:55",
+    "bar_start": "09:50",
+    "price": 67.83,
+    "pct_over": 0.42,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 67.83,
+    "stop": 67.03,
+    "target": 68.63,
+    "entry_time": "9:55 AM",
+    "risk_per_share": 0.8,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261106-RPRX-e",
+    "p_target": 0.2832,
+    "p_stop": 0.278,
+    "p_neither": 0.4388,
+    "p_green": 0.5153,
+    "avg_R": 0.021,
+    "median_close": 67.88,
+    "p5_close": 66.66,
+    "p95_close": 69.11,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 59,
+    "verdict": "Etwa ein Münzwurf",
+    "verdict_en": "Close to a coin flip: target first 28.3 % vs stop first 27.8 %.",
+    "history": {
+     "sessions": 59,
+     "triggered": 37,
+     "target": 16,
+     "stop": 12,
+     "close": 9,
+     "avg_R": 0.092
+    }
+   },
+   "push_note": "Kein Push: Time Machine „Etwa ein Münzwurf“",
+   "name": "Royalty Pharma plc",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Bullenflagge"
+   ]
+  },
+  {
+   "symbol": "SAP",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 09:45 schloss bei 235,51 $ über dem Spannen-Hoch 235,25 $",
+   "level": 235.25,
+   "opening_range": {
+    "high": 235.25,
+    "low": 233.37
+   },
+   "last": {
+    "bar_start": "09:45",
+    "close": 235.51,
+    "vs_level_pct": 0.11
+   },
+   "checked": "2026-11-06T14:50:45.000151+00:00",
+   "bars": 4,
+   "trigger": {
+    "time_et": "09:50",
+    "time_berlin": "15:50",
+    "bar_start": "09:45",
+    "price": 235.51,
+    "pct_over": 0.11,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 235.51,
+    "stop": 234.31,
+    "target": 236.71,
+    "entry_time": "9:50 AM",
+    "risk_per_share": 1.2,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261106-SAP-e",
+    "p_target": 0.4961,
+    "p_stop": 0.5003,
+    "p_neither": 0.0036,
+    "p_green": 0.4975,
+    "avg_R": -0.005,
+    "median_close": 235.27,
+    "p5_close": 231.0,
+    "p95_close": 239.78,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 59,
+    "verdict": "Etwa ein Münzwurf",
+    "verdict_en": "Close to a coin flip: target first 49.6 % vs stop first 50.0 %.",
+    "history": {
+     "sessions": 59,
+     "triggered": 37,
+     "target": 10,
+     "stop": 22,
+     "close": 5,
+     "avg_R": -0.328
+    }
+   },
+   "push_note": "Kein Push: Time Machine „Etwa ein Münzwurf“",
+   "name": "SAP SE ADS",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "U",
+   "status": "triggered",
+   "status_de": "Einstieg ausgelöst",
+   "reason": "Kerze 11:50 schloss bei 52,58 $ über dem Spannen-Hoch 52,50 $",
+   "level": 52.5,
+   "opening_range": {
+    "high": 52.5,
+    "low": 49.07
+   },
+   "last": {
+    "bar_start": "11:50",
+    "close": 52.58,
+    "vs_level_pct": 0.15
+   },
+   "checked": "2026-11-06T16:55:45.000147+00:00",
+   "bars": 29,
+   "trigger": {
+    "time_et": "11:55",
+    "time_berlin": "17:55",
+    "bar_start": "11:50",
+    "price": 52.58,
+    "pct_over": 0.15,
+    "minutes_since": 0
+   },
+   "plan": {
+    "entry": 52.58,
+    "stop": 50.78,
+    "target": 54.38,
+    "entry_time": "11:55 AM",
+    "risk_per_share": 1.8,
+    "target_r": 1.0
+   },
+   "tm": {
+    "id": "20261106-U-e",
+    "p_target": 0.0529,
+    "p_stop": 0.0775,
+    "p_neither": 0.8696,
+    "p_green": 0.4754,
+    "avg_R": -0.034,
+    "median_close": 52.52,
+    "p5_close": 50.87,
+    "p95_close": 54.11,
+    "until": "15:55",
+    "replays": 10000,
+    "pool_sessions": 59,
+    "verdict": "Tendenz zum Stop",
+    "verdict_en": "Leans toward the stop: target first 5.3 % vs stop first 7.8 %.",
+    "history": {
+     "sessions": 59,
+     "triggered": 32,
+     "target": 14,
+     "stop": 10,
+     "close": 8,
+     "avg_R": 0.126
+    }
+   },
+   "push_note": "Kein Push: Time Machine „Tendenz zum Stop“",
+   "name": "Unity Software Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "ADMA",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 13,20 $ bis 15:30 ET",
+   "level": 13.2,
+   "opening_range": {
+    "high": 13.2,
+    "low": 12.76
+   },
+   "last": {
+    "bar_start": "15:25",
+    "close": 12.9,
+    "vs_level_pct": -2.23
+   },
+   "checked": "2026-11-06T20:30:45.000174+00:00",
+   "bars": 72,
+   "name": "ADMA Biologics Inc",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Zurück über 20-Tage-Linie"
+   ]
+  },
+  {
+   "symbol": "BAH",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 87,20 $ bis 15:30 ET",
+   "level": 87.2,
+   "opening_range": {
+    "high": 87.2,
+    "low": 84.55
+   },
+   "last": {
+    "bar_start": "15:25",
+    "close": 85.25,
+    "vs_level_pct": -2.24
+   },
+   "checked": "2026-11-06T20:30:45.000174+00:00",
+   "bars": 72,
+   "name": "Booz Allen Hamilton Holding Corporation",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch",
+    "Bullenflagge"
+   ]
+  },
+  {
+   "symbol": "MCK",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 1.070,15 $ bis 15:30 ET",
+   "level": 1070.15,
+   "opening_range": {
+    "high": 1070.15,
+    "low": 1046.7
+   },
+   "last": {
+    "bar_start": "15:25",
+    "close": 1062.11,
+    "vs_level_pct": -0.75
+   },
+   "checked": "2026-11-06T20:30:45.000174+00:00",
+   "bars": 72,
+   "name": "McKesson Corporation",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  },
+  {
+   "symbol": "MSI",
+   "status": "expired",
+   "status_de": "verfallen",
+   "reason": "Kein Schluss über 518,58 $ bis 15:30 ET",
+   "level": 518.58,
+   "opening_range": {
+    "high": 518.58,
+    "low": 510.15
+   },
+   "last": {
+    "bar_start": "15:25",
+    "close": 515.91,
+    "vs_level_pct": -0.51
+   },
+   "checked": "2026-11-06T20:30:45.000174+00:00",
+   "bars": 72,
+   "name": "Motorola Solutions, Inc.",
+   "source": "Setup-Scanner",
+   "setups": [
+    "Ausbruch über 20-Tage-Hoch"
+   ]
+  }
+ ],
+ "window": [
+  "09:45",
+  "15:30"
+ ],
+ "plan_rule": "Stop = Mitte der Eröffnungsspanne, Ziel = 1R, glatt bis 15:55 ET",
+ "disclaimer": "Regelbasierte Signale aus freien, teils verzögerten Daten. Keine Anlageberatung, es wird nichts gekauft. Daytrading verliert bei den meisten Menschen Geld."
+}
