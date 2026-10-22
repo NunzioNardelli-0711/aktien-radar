@@ -1,0 +1,488 @@
+{
+ "created_by": "trader-timemachine",
+ "created_at": "2026-10-27T18:50:45Z",
+ "source": "yahoo",
+ "data": {
+  "symbol": "YUMC",
+  "interval": "5m",
+  "range": "60d",
+  "last_bar": "2026-10-27 14:45 ET",
+  "dropped": {
+   "no_price": 1,
+   "off_grid": 1,
+   "not_complete": 0,
+   "outside_hours": 0
+  },
+  "short_sessions_left_out": []
+ },
+ "plan": {
+  "symbol": "YUMC",
+  "side": "buy",
+  "date": "2026-10-27",
+  "setup": "orb",
+  "entry": 45.42,
+  "entry_time": "2:50 PM",
+  "entry_bar": 63,
+  "stop": 45.23,
+  "target": 45.61,
+  "risk_per_share": 0.19,
+  "target_r": 1.0,
+  "opening_range": {
+   "minutes": 15
+  },
+  "stop_rule": "pct",
+  "interval": "5m",
+  "flat_by": "15:55",
+  "from": "aktien-radar"
+ },
+ "mc": {
+  "replays": 10000,
+  "seed": 19,
+  "window": 2,
+  "bars_left": 13,
+  "p_target": 0.1587,
+  "p_stop": 0.2017,
+  "p_neither": 0.6396,
+  "p_green": 0.4837,
+  "median_close": 45.42,
+  "p5_close": 45.18,
+  "p95_close": 45.65,
+  "avg_R": -0.035,
+  "r_at_target": 1.0,
+  "band_paths": 2000,
+  "bands": [
+   [
+    45.42,
+    45.42,
+    45.42,
+    45.42,
+    45.42
+   ],
+   [
+    45.36,
+    45.4,
+    45.42,
+    45.44,
+    45.46
+   ],
+   [
+    45.33,
+    45.39,
+    45.42,
+    45.45,
+    45.49
+   ],
+   [
+    45.31,
+    45.38,
+    45.42,
+    45.45,
+    45.5
+   ],
+   [
+    45.3,
+    45.37,
+    45.42,
+    45.46,
+    45.52
+   ],
+   [
+    45.29,
+    45.37,
+    45.42,
+    45.46,
+    45.53
+   ],
+   [
+    45.27,
+    45.36,
+    45.41,
+    45.47,
+    45.55
+   ],
+   [
+    45.27,
+    45.36,
+    45.41,
+    45.47,
+    45.56
+   ],
+   [
+    45.26,
+    45.35,
+    45.42,
+    45.48,
+    45.57
+   ],
+   [
+    45.24,
+    45.35,
+    45.42,
+    45.48,
+    45.58
+   ],
+   [
+    45.23,
+    45.34,
+    45.42,
+    45.49,
+    45.59
+   ],
+   [
+    45.22,
+    45.33,
+    45.42,
+    45.49,
+    45.61
+   ],
+   [
+    45.2,
+    45.33,
+    45.42,
+    45.5,
+    45.62
+   ],
+   [
+    45.18,
+    45.32,
+    45.42,
+    45.51,
+    45.64
+   ]
+  ],
+  "hist": {
+   "lo": 45.07,
+   "hi": 45.74,
+   "bins": [
+    82,
+    95,
+    117,
+    161,
+    212,
+    300,
+    400,
+    494,
+    605,
+    666,
+    733,
+    804,
+    807,
+    755,
+    739,
+    692,
+    532,
+    450,
+    394,
+    288,
+    216,
+    145,
+    95,
+    62
+   ]
+  },
+  "until": "15:55",
+  "pool_sessions": 59,
+  "pool_from": "2026-08-04",
+  "pool_to": "2026-10-26",
+  "band_times": [
+   "14:50",
+   "14:55",
+   "15:00",
+   "15:05",
+   "15:10",
+   "15:15",
+   "15:20",
+   "15:25",
+   "15:30",
+   "15:35",
+   "15:40",
+   "15:45",
+   "15:50",
+   "15:55"
+  ]
+ },
+ "history": {
+  "sessions": 59,
+  "triggered": 26,
+  "target": 9,
+  "stop": 14,
+  "close": 3,
+  "green": 11,
+  "avg_R": -0.195,
+  "rule": {
+   "setup": "orb",
+   "or_minutes": 15,
+   "stop_rule": "pct",
+   "target_r": 1.0,
+   "stop_pct": 0.4183
+  },
+  "trades": [
+   {
+    "date": "2026-08-04",
+    "time": "12:45 PM",
+    "entry": 48.18,
+    "stop": 47.97,
+    "target": 48.39,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-08-06",
+    "time": "11:00 AM",
+    "entry": 48.08,
+    "stop": 47.87,
+    "target": 48.29,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-08-10",
+    "time": "10:40 AM",
+    "entry": 48.19,
+    "stop": 47.98,
+    "target": 48.4,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-08-12",
+    "time": "9:55 AM",
+    "entry": 47.78,
+    "stop": 47.58,
+    "target": 47.98,
+    "outcome": "close",
+    "R": 0.25
+   },
+   {
+    "date": "2026-08-13",
+    "time": "10:05 AM",
+    "entry": 48.2,
+    "stop": 47.99,
+    "target": 48.41,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-08-14",
+    "time": "10:20 AM",
+    "entry": 47.51,
+    "stop": 47.31,
+    "target": 47.71,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-08-18",
+    "time": "9:50 AM",
+    "entry": 47.0,
+    "stop": 46.8,
+    "target": 47.2,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-08-19",
+    "time": "9:50 AM",
+    "entry": 47.53,
+    "stop": 47.33,
+    "target": 47.73,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-08-20",
+    "time": "9:50 AM",
+    "entry": 48.06,
+    "stop": 47.85,
+    "target": 48.27,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-08-21",
+    "time": "10:20 AM",
+    "entry": 49.28,
+    "stop": 49.07,
+    "target": 49.49,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-08-24",
+    "time": "10:55 AM",
+    "entry": 48.4,
+    "stop": 48.19,
+    "target": 48.61,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-08-25",
+    "time": "12:55 PM",
+    "entry": 48.25,
+    "stop": 48.04,
+    "target": 48.46,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-09-01",
+    "time": "10:05 AM",
+    "entry": 44.86,
+    "stop": 44.67,
+    "target": 45.05,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-09-02",
+    "time": "9:55 AM",
+    "entry": 45.28,
+    "stop": 45.09,
+    "target": 45.47,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-09-08",
+    "time": "10:20 AM",
+    "entry": 43.72,
+    "stop": 43.53,
+    "target": 43.91,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-09-14",
+    "time": "9:55 AM",
+    "entry": 42.66,
+    "stop": 42.48,
+    "target": 42.84,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-09-24",
+    "time": "9:50 AM",
+    "entry": 41.27,
+    "stop": 41.09,
+    "target": 41.45,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-10-06",
+    "time": "11:50 AM",
+    "entry": 40.79,
+    "stop": 40.61,
+    "target": 40.97,
+    "outcome": "close",
+    "R": -0.58
+   },
+   {
+    "date": "2026-10-08",
+    "time": "9:55 AM",
+    "entry": 41.61,
+    "stop": 41.43,
+    "target": 41.79,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-10-12",
+    "time": "12:00 PM",
+    "entry": 42.61,
+    "stop": 42.43,
+    "target": 42.79,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-10-15",
+    "time": "10:10 AM",
+    "entry": 44.94,
+    "stop": 44.75,
+    "target": 45.13,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-10-16",
+    "time": "10:00 AM",
+    "entry": 45.25,
+    "stop": 45.06,
+    "target": 45.44,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-10-19",
+    "time": "2:35 PM",
+    "entry": 44.97,
+    "stop": 44.78,
+    "target": 45.16,
+    "outcome": "close",
+    "R": 0.26
+   },
+   {
+    "date": "2026-10-20",
+    "time": "9:50 AM",
+    "entry": 45.33,
+    "stop": 45.14,
+    "target": 45.52,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-10-22",
+    "time": "9:50 AM",
+    "entry": 44.69,
+    "stop": 44.5,
+    "target": 44.88,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-10-26",
+    "time": "9:55 AM",
+    "entry": 45.35,
+    "stop": 45.16,
+    "target": 45.54,
+    "outcome": "target",
+    "R": 1.0
+   }
+  ]
+ },
+ "verdict": "Leans toward the stop: target first 15.9 % vs stop first 20.2 %.",
+ "verdict_notes": [
+  "64.0 % of the replays hit neither by 3:55 PM; the price at 3:55 PM decides those."
+ ],
+ "warnings": [],
+ "note": "A simulation built from YUMC's own last 59 full sessions. It is not a prediction: earnings, news and halts can do things those sessions never did. Same seed, same numbers.",
+ "summary": {
+  "id": "20261027-YUMC-e",
+  "p_target": 0.1587,
+  "p_stop": 0.2017,
+  "p_neither": 0.6396,
+  "p_green": 0.4837,
+  "avg_R": -0.035,
+  "median_close": 45.42,
+  "p5_close": 45.18,
+  "p95_close": 45.65,
+  "until": "15:55",
+  "replays": 10000,
+  "pool_sessions": 59,
+  "verdict": "Tendenz zum Stop",
+  "verdict_en": "Leans toward the stop: target first 15.9 % vs stop first 20.2 %.",
+  "history": {
+   "sessions": 59,
+   "triggered": 26,
+   "target": 9,
+   "stop": 14,
+   "close": 3,
+   "avg_R": -0.195
+  }
+ },
+ "kind": "e",
+ "disclaimer": "Regelbasierte Signale aus freien, teils verzögerten Daten. Keine Anlageberatung, es wird nichts gekauft. Daytrading verliert bei den meisten Menschen Geld."
+}

@@ -1,0 +1,699 @@
+{
+ "created_by": "trader-timemachine",
+ "created_at": "2026-11-09T18:10:45Z",
+ "source": "yahoo",
+ "data": {
+  "symbol": "AMLX",
+  "interval": "5m",
+  "range": "60d",
+  "last_bar": "2026-11-09 13:05 ET",
+  "dropped": {
+   "no_price": 8,
+   "off_grid": 1,
+   "not_complete": 0,
+   "outside_hours": 0
+  },
+  "short_sessions_left_out": [
+   {
+    "date": "2026-09-16",
+    "bars": 77
+   },
+   {
+    "date": "2026-09-29",
+    "bars": 77
+   },
+   {
+    "date": "2026-10-22",
+    "bars": 76
+   },
+   {
+    "date": "2026-10-26",
+    "bars": 77
+   },
+   {
+    "date": "2026-10-27",
+    "bars": 77
+   },
+   {
+    "date": "2026-10-29",
+    "bars": 77
+   }
+  ]
+ },
+ "plan": {
+  "symbol": "AMLX",
+  "side": "buy",
+  "date": "2026-11-09",
+  "setup": "orb",
+  "entry": 30.03,
+  "entry_time": "1:10 PM",
+  "entry_bar": 43,
+  "stop": 29.37,
+  "target": 30.69,
+  "risk_per_share": 0.66,
+  "target_r": 1.0,
+  "opening_range": {
+   "minutes": 15
+  },
+  "stop_rule": "or_mid",
+  "interval": "5m",
+  "flat_by": "15:55",
+  "from": "aktien-radar"
+ },
+ "mc": {
+  "replays": 10000,
+  "seed": 19,
+  "window": 2,
+  "bars_left": 33,
+  "p_target": 0.1897,
+  "p_stop": 0.2147,
+  "p_neither": 0.5956,
+  "p_green": 0.4784,
+  "median_close": 30.0,
+  "p5_close": 29.17,
+  "p95_close": 30.86,
+  "avg_R": -0.034,
+  "r_at_target": 1.0,
+  "band_paths": 2000,
+  "bands": [
+   [
+    30.03,
+    30.03,
+    30.03,
+    30.03,
+    30.03
+   ],
+   [
+    29.86,
+    29.98,
+    30.03,
+    30.07,
+    30.18
+   ],
+   [
+    29.8,
+    29.94,
+    30.02,
+    30.1,
+    30.24
+   ],
+   [
+    29.76,
+    29.92,
+    30.02,
+    30.11,
+    30.29
+   ],
+   [
+    29.72,
+    29.89,
+    30.01,
+    30.12,
+    30.32
+   ],
+   [
+    29.68,
+    29.88,
+    30.01,
+    30.13,
+    30.34
+   ],
+   [
+    29.65,
+    29.87,
+    30.01,
+    30.14,
+    30.36
+   ],
+   [
+    29.64,
+    29.86,
+    30.0,
+    30.14,
+    30.4
+   ],
+   [
+    29.61,
+    29.84,
+    29.99,
+    30.14,
+    30.41
+   ],
+   [
+    29.58,
+    29.83,
+    29.98,
+    30.15,
+    30.43
+   ],
+   [
+    29.57,
+    29.8,
+    29.98,
+    30.16,
+    30.42
+   ],
+   [
+    29.55,
+    29.79,
+    29.98,
+    30.17,
+    30.45
+   ],
+   [
+    29.51,
+    29.79,
+    29.98,
+    30.17,
+    30.45
+   ],
+   [
+    29.51,
+    29.79,
+    29.97,
+    30.17,
+    30.47
+   ],
+   [
+    29.47,
+    29.78,
+    29.97,
+    30.18,
+    30.47
+   ],
+   [
+    29.45,
+    29.77,
+    29.97,
+    30.18,
+    30.47
+   ],
+   [
+    29.43,
+    29.76,
+    29.97,
+    30.19,
+    30.49
+   ],
+   [
+    29.43,
+    29.74,
+    29.96,
+    30.19,
+    30.51
+   ],
+   [
+    29.42,
+    29.74,
+    29.97,
+    30.21,
+    30.52
+   ],
+   [
+    29.41,
+    29.73,
+    29.97,
+    30.2,
+    30.53
+   ],
+   [
+    29.4,
+    29.73,
+    29.97,
+    30.21,
+    30.56
+   ],
+   [
+    29.37,
+    29.72,
+    29.98,
+    30.23,
+    30.58
+   ],
+   [
+    29.35,
+    29.71,
+    29.98,
+    30.23,
+    30.6
+   ],
+   [
+    29.35,
+    29.71,
+    29.98,
+    30.24,
+    30.61
+   ],
+   [
+    29.32,
+    29.71,
+    29.98,
+    30.26,
+    30.66
+   ],
+   [
+    29.31,
+    29.7,
+    29.97,
+    30.27,
+    30.67
+   ],
+   [
+    29.27,
+    29.69,
+    29.97,
+    30.27,
+    30.68
+   ],
+   [
+    29.26,
+    29.69,
+    29.98,
+    30.28,
+    30.71
+   ],
+   [
+    29.25,
+    29.69,
+    29.98,
+    30.29,
+    30.74
+   ],
+   [
+    29.22,
+    29.67,
+    29.99,
+    30.29,
+    30.75
+   ],
+   [
+    29.21,
+    29.66,
+    30.0,
+    30.31,
+    30.76
+   ],
+   [
+    29.19,
+    29.66,
+    30.01,
+    30.34,
+    30.81
+   ],
+   [
+    29.19,
+    29.65,
+    30.0,
+    30.33,
+    30.81
+   ],
+   [
+    29.17,
+    29.63,
+    29.98,
+    30.34,
+    30.86
+   ]
+  ],
+  "hist": {
+   "lo": 28.8,
+   "hi": 31.25,
+   "bins": [
+    103,
+    103,
+    136,
+    190,
+    284,
+    396,
+    442,
+    552,
+    626,
+    718,
+    796,
+    781,
+    824,
+    721,
+    645,
+    569,
+    524,
+    407,
+    331,
+    244,
+    202,
+    120,
+    80,
+    53
+   ]
+  },
+  "until": "15:55",
+  "pool_sessions": 53,
+  "pool_from": "2026-08-17",
+  "pool_to": "2026-11-06",
+  "band_times": [
+   "13:10",
+   "13:15",
+   "13:20",
+   "13:25",
+   "13:30",
+   "13:35",
+   "13:40",
+   "13:45",
+   "13:50",
+   "13:55",
+   "14:00",
+   "14:05",
+   "14:10",
+   "14:15",
+   "14:20",
+   "14:25",
+   "14:30",
+   "14:35",
+   "14:40",
+   "14:45",
+   "14:50",
+   "14:55",
+   "15:00",
+   "15:05",
+   "15:10",
+   "15:15",
+   "15:20",
+   "15:25",
+   "15:30",
+   "15:35",
+   "15:40",
+   "15:45",
+   "15:50",
+   "15:55"
+  ]
+ },
+ "history": {
+  "sessions": 53,
+  "triggered": 29,
+  "target": 12,
+  "stop": 12,
+  "close": 5,
+  "green": 14,
+  "avg_R": -0.04,
+  "rule": {
+   "setup": "orb",
+   "or_minutes": 15,
+   "stop_rule": "or_mid",
+   "target_r": 1.0
+  },
+  "trades": [
+   {
+    "date": "2026-08-18",
+    "time": "10:00 AM",
+    "entry": 31.1,
+    "stop": 29.34,
+    "target": 32.86,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-08-19",
+    "time": "10:00 AM",
+    "entry": 37.45,
+    "stop": 36.23,
+    "target": 38.67,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-08-20",
+    "time": "12:00 PM",
+    "entry": 39.97,
+    "stop": 38.65,
+    "target": 41.29,
+    "outcome": "close",
+    "R": -0.11
+   },
+   {
+    "date": "2026-08-21",
+    "time": "10:20 AM",
+    "entry": 40.91,
+    "stop": 39.89,
+    "target": 41.93,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-08-25",
+    "time": "9:50 AM",
+    "entry": 38.74,
+    "stop": 38.38,
+    "target": 39.1,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-08-26",
+    "time": "3:35 PM",
+    "entry": 37.18,
+    "stop": 36.47,
+    "target": 37.89,
+    "outcome": "close",
+    "R": 0.01
+   },
+   {
+    "date": "2026-08-27",
+    "time": "9:50 AM",
+    "entry": 37.3,
+    "stop": 36.88,
+    "target": 37.72,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-09-04",
+    "time": "11:55 AM",
+    "entry": 34.06,
+    "stop": 33.71,
+    "target": 34.41,
+    "outcome": "close",
+    "R": 0.17
+   },
+   {
+    "date": "2026-09-08",
+    "time": "9:55 AM",
+    "entry": 33.98,
+    "stop": 33.45,
+    "target": 34.51,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-09-09",
+    "time": "10:05 AM",
+    "entry": 34.22,
+    "stop": 33.85,
+    "target": 34.59,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-09-10",
+    "time": "10:05 AM",
+    "entry": 32.22,
+    "stop": 31.8,
+    "target": 32.64,
+    "outcome": "close",
+    "R": -0.48
+   },
+   {
+    "date": "2026-09-11",
+    "time": "9:50 AM",
+    "entry": 32.96,
+    "stop": 32.48,
+    "target": 33.44,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-09-14",
+    "time": "9:50 AM",
+    "entry": 32.01,
+    "stop": 31.78,
+    "target": 32.24,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-09-17",
+    "time": "10:00 AM",
+    "entry": 33.84,
+    "stop": 33.51,
+    "target": 34.17,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-09-21",
+    "time": "9:55 AM",
+    "entry": 33.08,
+    "stop": 32.51,
+    "target": 33.65,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-09-22",
+    "time": "9:55 AM",
+    "entry": 33.04,
+    "stop": 32.51,
+    "target": 33.57,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-09-28",
+    "time": "10:25 AM",
+    "entry": 29.52,
+    "stop": 29.22,
+    "target": 29.82,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-10-02",
+    "time": "10:00 AM",
+    "entry": 28.7,
+    "stop": 28.34,
+    "target": 29.06,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-10-07",
+    "time": "9:50 AM",
+    "entry": 27.99,
+    "stop": 27.58,
+    "target": 28.4,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-10-08",
+    "time": "2:35 PM",
+    "entry": 27.24,
+    "stop": 27.04,
+    "target": 27.44,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-10-09",
+    "time": "9:55 AM",
+    "entry": 27.53,
+    "stop": 27.26,
+    "target": 27.8,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-10-13",
+    "time": "10:05 AM",
+    "entry": 27.67,
+    "stop": 27.35,
+    "target": 27.99,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-10-14",
+    "time": "9:50 AM",
+    "entry": 27.56,
+    "stop": 26.85,
+    "target": 28.27,
+    "outcome": "close",
+    "R": -0.74
+   },
+   {
+    "date": "2026-10-15",
+    "time": "10:00 AM",
+    "entry": 28.17,
+    "stop": 27.76,
+    "target": 28.58,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-10-19",
+    "time": "12:45 PM",
+    "entry": 26.95,
+    "stop": 26.62,
+    "target": 27.28,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-10-20",
+    "time": "9:55 AM",
+    "entry": 27.96,
+    "stop": 27.53,
+    "target": 28.39,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-10-21",
+    "time": "10:25 AM",
+    "entry": 29.61,
+    "stop": 29.2,
+    "target": 30.02,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-10-30",
+    "time": "10:50 AM",
+    "entry": 28.69,
+    "stop": 28.4,
+    "target": 28.98,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-11-06",
+    "time": "10:15 AM",
+    "entry": 28.52,
+    "stop": 27.87,
+    "target": 29.17,
+    "outcome": "target",
+    "R": 1.0
+   }
+  ]
+ },
+ "verdict": "Close to a coin flip: target first 19.0 % vs stop first 21.5 %.",
+ "verdict_notes": [
+  "59.6 % of the replays hit neither by 3:55 PM; the price at 3:55 PM decides those."
+ ],
+ "warnings": [],
+ "note": "A simulation built from AMLX's own last 53 full sessions. It is not a prediction: earnings, news and halts can do things those sessions never did. Same seed, same numbers.",
+ "summary": {
+  "id": "20261109-AMLX-e",
+  "p_target": 0.1897,
+  "p_stop": 0.2147,
+  "p_neither": 0.5956,
+  "p_green": 0.4784,
+  "avg_R": -0.034,
+  "median_close": 30.0,
+  "p5_close": 29.17,
+  "p95_close": 30.86,
+  "until": "15:55",
+  "replays": 10000,
+  "pool_sessions": 53,
+  "verdict": "Etwa ein Münzwurf",
+  "verdict_en": "Close to a coin flip: target first 19.0 % vs stop first 21.5 %.",
+  "history": {
+   "sessions": 53,
+   "triggered": 29,
+   "target": 12,
+   "stop": 12,
+   "close": 5,
+   "avg_R": -0.04
+  }
+ },
+ "kind": "e",
+ "disclaimer": "Regelbasierte Signale aus freien, teils verzögerten Daten. Keine Anlageberatung, es wird nichts gekauft. Daytrading verliert bei den meisten Menschen Geld."
+}

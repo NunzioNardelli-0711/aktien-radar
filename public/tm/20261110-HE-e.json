@@ -1,0 +1,650 @@
+{
+ "created_by": "trader-timemachine",
+ "created_at": "2026-11-10T17:40:45Z",
+ "source": "yahoo",
+ "data": {
+  "symbol": "HE",
+  "interval": "5m",
+  "range": "60d",
+  "last_bar": "2026-11-10 12:35 ET",
+  "dropped": {
+   "no_price": 1,
+   "off_grid": 1,
+   "not_complete": 0,
+   "outside_hours": 0
+  },
+  "short_sessions_left_out": []
+ },
+ "plan": {
+  "symbol": "HE",
+  "side": "buy",
+  "date": "2026-11-10",
+  "setup": "orb",
+  "entry": 9.03,
+  "entry_time": "12:40 PM",
+  "entry_bar": 37,
+  "stop": 8.9,
+  "target": 9.16,
+  "risk_per_share": 0.13,
+  "target_r": 1.0,
+  "opening_range": {
+   "minutes": 15
+  },
+  "stop_rule": "or_mid",
+  "interval": "5m",
+  "flat_by": "15:55",
+  "from": "aktien-radar"
+ },
+ "mc": {
+  "replays": 10000,
+  "seed": 19,
+  "window": 2,
+  "bars_left": 39,
+  "p_target": 0.1446,
+  "p_stop": 0.2277,
+  "p_neither": 0.6277,
+  "p_green": 0.4517,
+  "median_close": 9.02,
+  "p5_close": 8.86,
+  "p95_close": 9.19,
+  "avg_R": -0.088,
+  "r_at_target": 1.0,
+  "band_paths": 2000,
+  "bands": [
+   [
+    9.03,
+    9.03,
+    9.03,
+    9.03,
+    9.03
+   ],
+   [
+    9.01,
+    9.02,
+    9.03,
+    9.04,
+    9.05
+   ],
+   [
+    9.0,
+    9.01,
+    9.03,
+    9.04,
+    9.07
+   ],
+   [
+    8.99,
+    9.01,
+    9.03,
+    9.04,
+    9.07
+   ],
+   [
+    8.98,
+    9.01,
+    9.03,
+    9.04,
+    9.08
+   ],
+   [
+    8.97,
+    9.0,
+    9.02,
+    9.05,
+    9.08
+   ],
+   [
+    8.97,
+    9.0,
+    9.02,
+    9.05,
+    9.09
+   ],
+   [
+    8.96,
+    9.0,
+    9.02,
+    9.05,
+    9.09
+   ],
+   [
+    8.95,
+    8.99,
+    9.02,
+    9.05,
+    9.09
+   ],
+   [
+    8.94,
+    8.99,
+    9.02,
+    9.04,
+    9.09
+   ],
+   [
+    8.94,
+    8.99,
+    9.02,
+    9.05,
+    9.09
+   ],
+   [
+    8.94,
+    8.99,
+    9.02,
+    9.05,
+    9.1
+   ],
+   [
+    8.93,
+    8.98,
+    9.02,
+    9.05,
+    9.1
+   ],
+   [
+    8.93,
+    8.98,
+    9.02,
+    9.05,
+    9.1
+   ],
+   [
+    8.93,
+    8.98,
+    9.02,
+    9.05,
+    9.11
+   ],
+   [
+    8.93,
+    8.98,
+    9.02,
+    9.06,
+    9.11
+   ],
+   [
+    8.92,
+    8.98,
+    9.02,
+    9.06,
+    9.11
+   ],
+   [
+    8.92,
+    8.98,
+    9.02,
+    9.06,
+    9.12
+   ],
+   [
+    8.91,
+    8.98,
+    9.02,
+    9.06,
+    9.12
+   ],
+   [
+    8.91,
+    8.98,
+    9.02,
+    9.06,
+    9.13
+   ],
+   [
+    8.91,
+    8.98,
+    9.02,
+    9.06,
+    9.13
+   ],
+   [
+    8.91,
+    8.97,
+    9.02,
+    9.06,
+    9.13
+   ],
+   [
+    8.91,
+    8.97,
+    9.02,
+    9.06,
+    9.13
+   ],
+   [
+    8.9,
+    8.97,
+    9.02,
+    9.06,
+    9.13
+   ],
+   [
+    8.91,
+    8.97,
+    9.02,
+    9.07,
+    9.14
+   ],
+   [
+    8.9,
+    8.97,
+    9.02,
+    9.07,
+    9.14
+   ],
+   [
+    8.9,
+    8.97,
+    9.02,
+    9.07,
+    9.14
+   ],
+   [
+    8.9,
+    8.97,
+    9.01,
+    9.07,
+    9.14
+   ],
+   [
+    8.89,
+    8.97,
+    9.01,
+    9.07,
+    9.14
+   ],
+   [
+    8.89,
+    8.96,
+    9.01,
+    9.07,
+    9.14
+   ],
+   [
+    8.89,
+    8.97,
+    9.02,
+    9.07,
+    9.15
+   ],
+   [
+    8.89,
+    8.97,
+    9.02,
+    9.07,
+    9.16
+   ],
+   [
+    8.89,
+    8.97,
+    9.02,
+    9.08,
+    9.16
+   ],
+   [
+    8.88,
+    8.97,
+    9.02,
+    9.08,
+    9.16
+   ],
+   [
+    8.88,
+    8.97,
+    9.02,
+    9.08,
+    9.16
+   ],
+   [
+    8.88,
+    8.96,
+    9.02,
+    9.08,
+    9.17
+   ],
+   [
+    8.87,
+    8.96,
+    9.02,
+    9.08,
+    9.17
+   ],
+   [
+    8.87,
+    8.96,
+    9.02,
+    9.08,
+    9.17
+   ],
+   [
+    8.87,
+    8.96,
+    9.02,
+    9.08,
+    9.18
+   ],
+   [
+    8.86,
+    8.96,
+    9.02,
+    9.08,
+    9.18
+   ]
+  ],
+  "hist": {
+   "lo": 8.78,
+   "hi": 9.26,
+   "bins": [
+    102,
+    83,
+    139,
+    198,
+    246,
+    354,
+    467,
+    531,
+    645,
+    762,
+    789,
+    843,
+    771,
+    753,
+    682,
+    575,
+    519,
+    417,
+    295,
+    228,
+    195,
+    120,
+    73,
+    60
+   ]
+  },
+  "until": "15:55",
+  "pool_sessions": 59,
+  "pool_from": "2026-08-18",
+  "pool_to": "2026-11-09",
+  "band_times": [
+   "12:40",
+   "12:45",
+   "12:50",
+   "12:55",
+   "13:00",
+   "13:05",
+   "13:10",
+   "13:15",
+   "13:20",
+   "13:25",
+   "13:30",
+   "13:35",
+   "13:40",
+   "13:45",
+   "13:50",
+   "13:55",
+   "14:00",
+   "14:05",
+   "14:10",
+   "14:15",
+   "14:20",
+   "14:25",
+   "14:30",
+   "14:35",
+   "14:40",
+   "14:45",
+   "14:50",
+   "14:55",
+   "15:00",
+   "15:05",
+   "15:10",
+   "15:15",
+   "15:20",
+   "15:25",
+   "15:30",
+   "15:35",
+   "15:40",
+   "15:45",
+   "15:50",
+   "15:55"
+  ]
+ },
+ "history": {
+  "sessions": 59,
+  "triggered": 21,
+  "target": 10,
+  "stop": 8,
+  "close": 3,
+  "green": 12,
+  "avg_R": 0.118,
+  "rule": {
+   "setup": "orb",
+   "or_minutes": 15,
+   "stop_rule": "or_mid",
+   "target_r": 1.0
+  },
+  "trades": [
+   {
+    "date": "2026-08-19",
+    "time": "9:55 AM",
+    "entry": 11.77,
+    "stop": 11.67,
+    "target": 11.87,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-08-26",
+    "time": "9:50 AM",
+    "entry": 11.39,
+    "stop": 11.31,
+    "target": 11.47,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-08-27",
+    "time": "11:15 AM",
+    "entry": 11.44,
+    "stop": 11.39,
+    "target": 11.49,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-08-28",
+    "time": "9:50 AM",
+    "entry": 11.58,
+    "stop": 11.52,
+    "target": 11.64,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-09-03",
+    "time": "2:55 PM",
+    "entry": 11.07,
+    "stop": 11.02,
+    "target": 11.12,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-09-04",
+    "time": "11:40 AM",
+    "entry": 11.11,
+    "stop": 11.04,
+    "target": 11.18,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-09-08",
+    "time": "1:35 PM",
+    "entry": 10.98,
+    "stop": 10.87,
+    "target": 11.09,
+    "outcome": "close",
+    "R": 0.05
+   },
+   {
+    "date": "2026-09-10",
+    "time": "12:30 PM",
+    "entry": 10.51,
+    "stop": 10.38,
+    "target": 10.64,
+    "outcome": "close",
+    "R": -0.04
+   },
+   {
+    "date": "2026-09-22",
+    "time": "10:15 AM",
+    "entry": 9.7,
+    "stop": 9.64,
+    "target": 9.76,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-09-29",
+    "time": "9:50 AM",
+    "entry": 9.01,
+    "stop": 8.91,
+    "target": 9.11,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-10-01",
+    "time": "12:00 PM",
+    "entry": 8.9,
+    "stop": 8.78,
+    "target": 9.02,
+    "outcome": "close",
+    "R": 0.46
+   },
+   {
+    "date": "2026-10-05",
+    "time": "10:10 AM",
+    "entry": 9.03,
+    "stop": 8.88,
+    "target": 9.18,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-10-09",
+    "time": "11:20 AM",
+    "entry": 8.85,
+    "stop": 8.8,
+    "target": 8.9,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-10-16",
+    "time": "9:50 AM",
+    "entry": 8.63,
+    "stop": 8.55,
+    "target": 8.71,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-10-20",
+    "time": "9:50 AM",
+    "entry": 8.62,
+    "stop": 8.52,
+    "target": 8.72,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-10-22",
+    "time": "9:50 AM",
+    "entry": 8.76,
+    "stop": 8.71,
+    "target": 8.81,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-10-27",
+    "time": "10:10 AM",
+    "entry": 8.44,
+    "stop": 8.27,
+    "target": 8.61,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-10-28",
+    "time": "12:45 PM",
+    "entry": 8.38,
+    "stop": 8.28,
+    "target": 8.48,
+    "outcome": "stop",
+    "R": -1.0
+   },
+   {
+    "date": "2026-10-30",
+    "time": "1:55 PM",
+    "entry": 8.61,
+    "stop": 8.56,
+    "target": 8.66,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-11-06",
+    "time": "10:05 AM",
+    "entry": 8.35,
+    "stop": 8.26,
+    "target": 8.44,
+    "outcome": "target",
+    "R": 1.0
+   },
+   {
+    "date": "2026-11-09",
+    "time": "10:15 AM",
+    "entry": 9.48,
+    "stop": 9.13,
+    "target": 9.83,
+    "outcome": "stop",
+    "R": -1.0
+   }
+  ]
+ },
+ "verdict": "Leans toward the stop: target first 14.5 % vs stop first 22.8 %.",
+ "verdict_notes": [
+  "62.8 % of the replays hit neither by 3:55 PM; the price at 3:55 PM decides those."
+ ],
+ "warnings": [],
+ "note": "A simulation built from HE's own last 59 full sessions. It is not a prediction: earnings, news and halts can do things those sessions never did. Same seed, same numbers.",
+ "summary": {
+  "id": "20261110-HE-e",
+  "p_target": 0.1446,
+  "p_stop": 0.2277,
+  "p_neither": 0.6277,
+  "p_green": 0.4517,
+  "avg_R": -0.088,
+  "median_close": 9.02,
+  "p5_close": 8.86,
+  "p95_close": 9.19,
+  "until": "15:55",
+  "replays": 10000,
+  "pool_sessions": 59,
+  "verdict": "Tendenz zum Stop",
+  "verdict_en": "Leans toward the stop: target first 14.5 % vs stop first 22.8 %.",
+  "history": {
+   "sessions": 59,
+   "triggered": 21,
+   "target": 10,
+   "stop": 8,
+   "close": 3,
+   "avg_R": 0.118
+  }
+ },
+ "kind": "e",
+ "disclaimer": "Regelbasierte Signale aus freien, teils verzögerten Daten. Keine Anlageberatung, es wird nichts gekauft. Daytrading verliert bei den meisten Menschen Geld."
+}
