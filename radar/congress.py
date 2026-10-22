@@ -6,6 +6,7 @@ Meldung ein PDF ("Periodic Transaction Report", PTR). Abgeordnete müssen Gesch�
 Das ist öffentlich und kein Insiderwissen. Zum Lesen der PDFs wird `pdftotext` (poppler)
 gebraucht; eingescannte Papiermeldungen lassen sich nicht lesen und erscheinen nur als Link.
 """
+import re
 import tempfile
 from datetime import date, datetime, timedelta
 
@@ -33,9 +34,18 @@ class Net:
         return report
 
 
+def _short(asset: str | None) -> str | None:
+    """'Applied Materials, Inc. - Common Stock' -> 'Applied Materials, Inc.'"""
+    if not asset:
+        return asset
+    n = re.split(r" - |\s+(?:Class [A-Z] )?(?:New )?(?:Common Stock|Common Shares|Ordinary Shares|American Depositary)",
+                 asset)[0].strip().rstrip(",")
+    return n or asset
+
+
 def _row(r: dict) -> dict:
     return {
-        "owner": OWNER_DE.get(r.get("owner_name"), r.get("owner_name")), "asset": r.get("asset"),
+        "owner": OWNER_DE.get(r.get("owner_name"), r.get("owner_name")), "asset": _short(r.get("asset")),
         "ticker": r.get("ticker"), "asset_type": ASSET_DE.get(r.get("asset_type"), r.get("asset_type")),
         "type": r.get("type"), "type_de": TYPE_DE.get(r.get("type"), r.get("type_name")),
         "date": r.get("date"), "amount": r.get("amount"), "amount_low": r.get("amount_low"),

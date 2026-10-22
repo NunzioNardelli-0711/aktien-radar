@@ -1,5 +1,5 @@
 // Service Worker: App-Gerüst offline verfügbar, Daten immer frisch aus dem Netz.
-const CACHE = "radar-v1";
+const CACHE = "radar-v2";
 const SHELL = ["./", "index.html", "style.css", "app.js", "manifest.webmanifest",
   "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png"];
 

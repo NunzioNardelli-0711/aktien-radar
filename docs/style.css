@@ -93,7 +93,9 @@ a.card:active { transform: scale(.985); }
 table { width: 100%; border-collapse: collapse; font-size: 14px; }
 td, th { padding: 9px 0; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
 th { color: var(--muted); font-weight: 500; font-size: 12.5px; }
-td.r, th.r { text-align: right; white-space: nowrap; }
+td.r, th.r { text-align: right; overflow-wrap: anywhere; }
+td.r.num, th.r { white-space: nowrap; }
+td + td, th + th { padding-left: 10px; }
 tr:last-child td { border-bottom: 0; }
 
 .hero { display: flex; gap: 14px; align-items: center; }
@@ -122,18 +124,40 @@ ul.pc.con li::before { content: "–"; color: var(--red); }
 
 .tabs {
   position: fixed; left: 0; right: 0; bottom: 0; z-index: 5;
-  display: grid; grid-template-columns: repeat(4, 1fr);
+  display: grid; grid-template-columns: repeat(6, 1fr);
   padding: 6px 6px calc(6px + env(safe-area-inset-bottom));
   background: color-mix(in srgb, var(--surface) 92%, transparent);
   backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
   border-top: 1px solid var(--line);
 }
-.tabs a { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 6px 0; color: var(--muted); font-size: 11px; border-radius: 10px; min-height: 48px; justify-content: center; }
+.tabs a { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 6px 0; color: var(--muted); font-size: 10.5px; white-space: nowrap; border-radius: 10px; min-height: 48px; justify-content: center; }
 .tabs a .ico { font-size: 19px; line-height: 1; filter: grayscale(1); opacity: .7; }
 .tabs a.on { color: var(--text); }
 .tabs a.on .ico { filter: none; opacity: 1; }
 
 @media (min-width: 900px) {
-  .tabs { left: 50%; right: auto; transform: translateX(-50%); bottom: 16px; width: 420px; border: 1px solid var(--line); border-radius: 18px; }
+  .tabs { left: 50%; right: auto; transform: translateX(-50%); bottom: 16px; width: 600px; border: 1px solid var(--line); border-radius: 18px; }
 }
+/* Daytrading & Kongress */
+.tag.ok { color: var(--green); border-color: color-mix(in srgb, var(--green) 40%, var(--line)); }
+.tag.dim { opacity: .65; }
+.tag.warn { color: var(--yellow); }
+.odds { display: flex; height: 10px; border-radius: 6px; overflow: hidden; background: var(--line); margin: 8px 0 4px; }
+.odds i { display: block; height: 100%; }
+.odds .t { background: var(--green); } .odds .s { background: var(--red); } .odds .n { background: var(--muted); opacity: .55; }
+.legend { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 12px; color: var(--muted); }
+.legend b { color: var(--text); font-weight: 700; }
+.kpis { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.kpi { background: var(--surface-2); border-radius: 12px; padding: 10px; text-align: center; }
+.kpi .v { font-size: 22px; font-weight: 800; }
+.kpi .l { font-size: 11.5px; color: var(--muted); }
+.kpi.t .v { color: var(--green); } .kpi.s .v { color: var(--red); }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 10px; }
+.fan { width: 100%; height: auto; display: block; }
+.fan text { font: 10.5px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; fill: var(--muted); }
+.buy { color: var(--green); font-weight: 700; } .sell { color: var(--red); font-weight: 700; }
+.trow { padding: 8px 0; border-bottom: 1px solid var(--line); font-size: 14px; }
+.trow:last-child { border-bottom: 0; }
+.scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }

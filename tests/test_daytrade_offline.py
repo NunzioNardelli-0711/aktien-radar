@@ -135,7 +135,8 @@ def test_daytrade(sent):
           f"{tm['p_stop']:.1%}, offen {tm['p_neither']:.1%} → {tm['verdict']} | Historie {tm['history']}")
     pushes = [s for s in sent if s[0].startswith("🎯")]
     triggered = [x for x in e.values() if x["status"] == "triggered"]
-    assert len(pushes) == len(triggered) >= 1, (pushes, triggered)
+    assert 1 <= len(pushes) <= len(triggered), (pushes, triggered)
+    assert "alt" in e["XOM"]["push_note"], e["XOM"]          # 9:50-Signal erst um 10:12 gesehen -> kein Push
     tsla = [p for p in pushes if "TSLA" in p[0]]
     assert len(tsla) == 1 and tsla[0][2]["priority"] == 4 and "#/tm/" in tsla[0][2]["click"], tsla
     assert tsla[0][1].startswith("TSLA Corp.:"), tsla[0][1]
@@ -156,6 +157,9 @@ def test_daytrade(sent):
     st = store.load("public", "status")
     assert st["ok"] and st["phase"] == "open" and st["entries_triggered"] >= 1, st
 
+    snapshot = {n: store.load("public", n) for n in ("setups", "entries", "orb", "status")}
+    store.save("state", "sample_snapshot", snapshot)
+
     # 5) Ergebnis der Integration = Ergebnis des Original-Werkzeugs (gleicher Plan, Seed, Daten)
     from radar.vendor.daytrader import timemachine as TM
     plan = daytrade.make_plan("TSLA", "2026-10-19", 364.18, "10:15 AM", 362.18, 354.47)
@@ -174,7 +178,20 @@ def test_daytrade(sent):
         {i["symbol"]: i["status"] for i in items}
     assert store.load("public", "status")["phase"] == "after-cutoff"
 
-    # 7) Wochenende / Feiertag: nichts tun
+    # 7) Push-Regeln: enge Spanne -> Mindest-Stop, ungünstige Time Machine -> kein Push
+    p = daytrade.make_plan("ABC", "2026-10-19", 45.88, "10:10 AM", 45.87, 45.50)
+    assert p["stop"] == 45.68 and p["stop_rule"] == "or_mid", p
+    p = daytrade.make_plan("ABC", "2026-10-19", 45.88, "10:10 AM", 45.87, 45.85)
+    assert p["stop"] == 45.69 and p["stop_rule"] == "pct" and p["target"] == 46.07, p
+    day0 = {"pushes": 0}
+    good = {"trigger": {"minutes_since": 1}, "tm": {"p_target": 0.45, "p_stop": 0.30, "verdict": "x"}}
+    bad = {"trigger": {"minutes_since": 1}, "tm": {"p_target": 0.30, "p_stop": 0.45, "verdict": "Tendenz zum Stop"}}
+    assert daytrade.push_block_reason(good, False, day0) is None
+    assert "Tendenz zum Stop" in daytrade.push_block_reason(bad, False, day0)
+    assert daytrade.push_block_reason(bad, True, day0) is None          # eigene Liste: immer Push
+    assert "alt" in daytrade.push_block_reason(dict(good, trigger={"minutes_since": 30}), True, day0)
+
+    # 8) Wochenende / Feiertag: nichts tun
     assert daytrade.cycle(net, ny("2026-11-26 10:30"))["phase"] == "closed"   # Thanksgiving
 
 
@@ -288,9 +305,10 @@ def save_samples():
     sample = ROOT / "docs" / "sample"
     sample.mkdir(parents=True, exist_ok=True)
     dt_store = TMP / "public"
+    snap = json.loads((TMP / "state" / "sample_snapshot.json").read_text())   # Stand 10:25 New York
     for name in ("setups", "entries", "orb"):
-        shutil.copy(dt_store / f"{name}.json", sample / f"{name}.json")
-    st = json.loads((dt_store / "status.json").read_text())
+        (sample / f"{name}.json").write_text(json.dumps(snap[name], ensure_ascii=False, indent=1))
+    st = snap["status"]
     (sample / "status-daytrade.json").write_text(json.dumps(dict(st, errors=[], ok=True), ensure_ascii=False, indent=1))
     if (sample / "tm").exists():
         shutil.rmtree(sample / "tm")

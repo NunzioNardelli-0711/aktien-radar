@@ -253,12 +253,14 @@ def verdict_de(mc: dict) -> str:
 def make_plan(sym: str, day: str, price: float, entry_time: str, or_high: float, or_low: float) -> dict:
     """Ausstiegsplan wie im trader-exit-Beispiel: Stop in der Mitte der Spanne, Ziel 1R, glatt bis 15:55."""
     stop = TM.cents_away((or_high + or_low) / 2, True)
-    if price - stop < 0.02:            # sehr enge Spanne: mindestens 1 % Abstand
-        stop = TM.cents_away(price * 0.99, True)
+    rule = "or_mid"
+    floor = TM.cents_away(price * (1 - config.DT_MIN_RISK_PCT / 100), True)
+    if stop > floor:                   # Spanne zu eng: Stop auf Mindestabstand, Historie mit gleichem %-Abstand
+        stop, rule = floor, "pct"
     target = round(price + config.DT_TARGET_R * (price - stop), 2)
     raw = {"symbol": sym, "side": "buy", "date": day, "entry": price, "stop": stop, "target": target,
            "entry_time": entry_time, "setup": "orb", "opening_range": {"minutes": config.DT_ORB_MINUTES},
-           "stop_rule": "or_mid", "interval": "5m", "flat_by": config.DT_FLAT_BY}
+           "stop_rule": rule, "interval": "5m", "flat_by": config.DT_FLAT_BY}
     return TM.normalize_plan(raw, "aktien-radar")
 
 
@@ -410,6 +412,22 @@ def scan_orb(net, day: dict, now) -> list[dict]:
     return new
 
 
+def push_block_reason(item: dict, own: bool, day: dict) -> str | None:
+    """Grund, warum ein Einstieg nur in der App steht (None = Push senden)."""
+    age = item["trigger"].get("minutes_since") or 0
+    if age > config.DT_MAX_SIGNAL_AGE_MIN:
+        return f"Signal war beim Prüfen schon {age} Min. alt – kein Push"
+    if day["pushes"] >= config.DT_MAX_ENTRY_PUSHES:
+        return "Tageslimit für Pushes erreicht"
+    tm = item.get("tm") or {}
+    if config.DT_PUSH_ONLY_FAVORABLE and not own:
+        lv = None if tm.get("error") or "p_target" not in tm else TM.lean(
+            {"p_target": tm["p_target"], "p_stop": tm["p_stop"], "r_at_target": config.DT_TARGET_R})
+        if lv is None or lv[0] < TM.COIN_FLIP:
+            return f"Kein Push: Time Machine „{tm.get('verdict', 'nicht verfügbar')}“"
+    return None
+
+
 def entry_push(item: dict, day: dict) -> bool:
     w = next((x for x in day["watch"] if x["symbol"] == item["symbol"]), {})
     t, plan, tm = item["trigger"], item.get("plan") or {}, item.get("tm") or {}
@@ -485,10 +503,14 @@ def cycle(net, now) -> dict:
         new_entries = check_entries(net, day, now)
         if et <= after + timedelta(minutes=1) and _orb_due(day, et):
             new_orb = scan_orb(net, day, now)
+    own = {w["symbol"] for w in day["watch"] if w["source"] == "eigene Liste"}
     for item in new_entries:
-        if day["pushes"] < config.DT_MAX_ENTRY_PUSHES:
-            item["pushed"] = entry_push(item, day)
-            day["pushes"] += 1
+        why = push_block_reason(item, item["symbol"] in own, day)
+        if why:
+            item["push_note"] = why
+            continue
+        item["pushed"] = entry_push(item, day)
+        day["pushes"] += 1
     store.save("state", "dt_day", day)
     publish_public(day, now)
     phase = "pre-open" if et < first_bar else ("open" if et <= after else "after-cutoff")

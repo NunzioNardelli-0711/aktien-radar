@@ -5,31 +5,39 @@
 
   // ---- Datenquelle bestimmen ---------------------------------------------
   const params = new URLSearchParams(location.search);
-  const DATA = (() => {
+  // Radar: Branch "data"; Daytrading: Branch "daytrade"; Kongress: Branch "congress"
+  const RAW = (() => {
     if (params.get("data")) return params.get("data").replace(/\/?$/, "/");
     const host = location.hostname;
     if (host.endsWith(".github.io")) {
       const owner = host.split(".")[0];
       const repo = location.pathname.split("/").filter(Boolean)[0] || `${owner}.github.io`;
-      return `https://raw.githubusercontent.com/${owner}/${repo}/data/public/`;
+      return `https://raw.githubusercontent.com/${owner}/${repo}/`;
     }
     return "sample/"; // lokale Vorschau mit Beispieldaten
   })();
-  const DEMO = DATA === "sample/";
+  const DEMO = RAW === "sample/";
+  const DATA = DEMO ? RAW : `${RAW}data/public/`;
+  const SAMPLE_STATUS = { daytrade: "status-daytrade", congress: "status-congress" };
+  const url = (name, branch) => {
+    if (DEMO) return `sample/${branch !== "data" && name === "status" ? SAMPLE_STATUS[branch] : name}.json`;
+    return `${RAW}${branch}/public/${name}.json`;
+  };
 
   const $view = document.getElementById("view");
   const $pill = document.getElementById("statusPill");
   const cache = {};
 
-  async function load(name, fresh = false) {
-    if (!fresh && cache[name] && Date.now() - cache[name].t < 30000) return cache[name].d;
-    const r = await fetch(`${DATA}${name}.json?t=${Math.floor(Date.now() / 60000)}`, { cache: "no-store" });
+  async function load(name, branch = "data", fresh = false) {
+    const key = `${branch}/${name}`;
+    if (!fresh && cache[key] && Date.now() - cache[key].t < 30000) return cache[key].d;
+    const r = await fetch(`${url(name, branch)}?t=${Math.floor(Date.now() / 60000)}`, { cache: "no-store" });
     if (!r.ok) throw new Error(`${name}: HTTP ${r.status}`);
     const d = await r.json();
-    cache[name] = { d, t: Date.now() };
+    cache[key] = { d, t: Date.now() };
     return d;
   }
-  const tryLoad = (name) => load(name).catch(() => null);
+  const tryLoad = (name, branch = "data") => load(name, branch).catch(() => null);
 
   // ---- Formatierung --------------------------------------------------------
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -186,8 +194,154 @@
       <p class="note" style="margin-top:18px">${esc(a.disclaimer)}</p>`;
   }
 
+
+  // ---- Daytrading (USA) ----------------------------------------------------
+  const ENTRY_TAG = { triggered: "ok", waiting: "", expired: "dim", "no-data": "dim", error: "warn" };
+  const usd = (x) => (x == null ? "–" : `${nf(x)} $`);
+  const pc0 = (x) => (x == null ? "–" : `${nf(x * 100, 0)} %`);
+  const h24 = (t) => { const m = /^(\d{1,2}):(\d{2})\s*([AP])M$/i.exec(String(t || "").trim()); if (!m) return t || "";
+    let h = +m[1] % 12; if (m[3].toUpperCase() === "P") h += 12; return `${String(h).padStart(2, "0")}:${m[2]}`; };
+  const nyNow = () => new Date().toLocaleTimeString("de-DE", { timeZone: "America/New_York", hour: "2-digit", minute: "2-digit" });
+
+  function oddsBar(tm) {
+    if (!tm || tm.error) return tm?.error ? `<p class="note">Time Machine nicht möglich: ${esc(tm.error)}</p>` : "";
+    return `<div class="odds" role="img" aria-label="Ziel zuerst ${pc0(tm.p_target)}, Stop zuerst ${pc0(tm.p_stop)}, offen ${pc0(tm.p_neither)}">
+        <i class="t" style="width:${tm.p_target * 100}%"></i><i class="s" style="width:${tm.p_stop * 100}%"></i><i class="n" style="width:${tm.p_neither * 100}%"></i></div>
+      <div class="legend"><span>Ziel zuerst <b>${pc0(tm.p_target)}</b></span><span>Stop zuerst <b>${pc0(tm.p_stop)}</b></span><span>offen <b>${pc0(tm.p_neither)}</b></span><span>→ <b>${esc(tm.verdict)}</b></span></div>`;
+  }
+
+  function entryCard(e) {
+    const t = e.trigger, p = e.plan;
+    const href = e.tm?.id ? `#/tm/${encodeURIComponent(e.tm.id)}` : null;
+    const body = `<div class="row"><div class="grow"><div class="sym">${esc(e.symbol)} <span class="tag ${ENTRY_TAG[e.status] ?? ""}">${esc(e.status_de || e.status)}</span></div>
+        <div class="name">${esc(e.name)}${e.setups?.length ? " · " + esc(e.setups.join(", ")) : ""}</div></div>
+        ${t ? `<div style="text-align:right"><div class="chg up num">${usd(t.price)}</div><div class="name num">${esc(t.time_et)} ET · ${esc(t.time_berlin)} bei dir</div></div>` : ""}</div>
+      <p class="note" style="margin:8px 0 0">${esc(e.reason || "")}</p>
+      ${p ? `<div class="meta"><span>Stop ${usd(p.stop)}</span><span>Ziel ${usd(p.target)} (${nf(p.target_r, 0)}R)</span><span>Risiko ${usd(p.risk_per_share)}/Aktie</span></div>` : ""}
+      ${t ? oddsBar(e.tm) : ""}${e.push_note ? `<p class="note" style="margin:6px 0 0">🔕 ${esc(e.push_note)}</p>` : e.pushed ? `<p class="note" style="margin:6px 0 0">🔔 Push gesendet</p>` : ""}`;
+    return href ? `<a class="card" href="${href}">${body}</a>` : `<div class="card">${body}</div>`;
+  }
+
+  async function daytrade() {
+    const [st, en, orb, se] = await Promise.all([tryLoad("status", "daytrade"), tryLoad("entries", "daytrade"),
+      tryLoad("orb", "daytrade"), tryLoad("setups", "daytrade")]);
+    let html = `<h1>Daytrading USA</h1><p class="sub">${esc(st?.message || "Noch keine Daten – der erste Lauf startet vor der US-Eröffnung (15:30 Uhr bei dir).")}
+      ${st?.last_cycle ? ` · Takt ${ago(st.last_cycle)}` : ""} · New York ${nyNow()}</p>`;
+    const items = en?.items || [];
+    html += `<h2>Entry-Timer · ${items.length} Setups im Blick</h2>`;
+    html += items.length ? items.map(entryCard).join("")
+      : empty("Noch keine beobachteten Setups", "Vor Börsenstart sucht der Scanner die besten Setups, ab 9:50 New York (15:50 bei dir) prüft der Entry-Timer jede 5-Minuten-Kerze.");
+    if (en?.plan_rule) html += `<p class="note">Einstieg = erste 5-Min.-Kerze, die über dem Hoch der ersten 15 Minuten schließt (${esc(en.window?.[0])}–${esc(en.window?.[1])} ET). Plan: ${esc(en.plan_rule)}.</p>`;
+
+    const hits = orb?.hits || [];
+    const c = orb?.counts;
+    html += `<h2>Opening-Range-Breakouts · ${hits.length}</h2>`;
+    if (c) html += `<p class="note">${c.scanned ?? 0} liquide Aktien geprüft, Stand ${esc(c.as_of || "–")} ET${c.unconfirmed ? `, ${c.unconfirmed} nicht mehr bestätigt` : ""}.</p>`;
+    html += hits.length ? `<div class="card scroll"><table><tr><th>Zeit (ET)</th><th>Aktie</th><th class="r">Kurs</th><th class="r">Time Machine</th></tr>
+      ${hits.slice().reverse().slice(0, 60).map((h) => `<tr><td class="num">${esc(h.time_et)}<br><span class="name">${esc(h.time_berlin)} MEZ</span></td>
+        <td><b>${esc(h.symbol)}</b><br><span class="name">${esc(h.name)}</span></td>
+        <td class="r num">${usd(h.price)}<br><span class="name">${pct(h.pct_over, 2)}</span></td>
+        <td class="r" style="font-size:13px">${h.tm?.id ? `<a href="#/tm/${encodeURIComponent(h.tm.id)}">${esc(h.tm.verdict)} ›</a>` : "–"}</td></tr>`).join("")}</table></div>`
+      : empty("Noch keine Ausbrüche", "Der ORB-Scan läuft ab 9:50 New York alle 10 Minuten, ab 11 Uhr alle 30 Minuten.");
+
+    const sh = se?.hits || [];
+    html += `<h2>Setups vor Börsenstart · ${se?.hits_total ?? 0}</h2>`;
+    if (se) {
+      html += `<p class="note">${nf(se.scanned, 0)} von ${nf(se.universe, 0)} US-Aktien geprüft (ab ${nf(se.filters?.min_price, 0)} $ und ${nf((se.filters?.min_volume || 0) / 1e6, 0)} Mio. Stück Volumen), Schlusskurse bis ${se.as_of ? new Date(se.as_of).toLocaleDateString("de-DE") : "–"}.</p>
+        <div class="chips">${Object.entries(se.per_setup || {}).map(([k, v]) => `<span class="tag">${esc(k)}: ${v}</span>`).join("")}</div>`;
+    }
+    html += sh.length ? `<div class="card scroll"><table><tr><th>Aktie</th><th>Setup</th><th class="r">Kurs</th><th class="r">RSI</th></tr>
+      ${sh.slice(0, 40).map((h) => `<tr><td><b>${esc(h.symbol)}</b>${(se.watch || []).includes(h.symbol) ? " 👁" : ""}<br><span class="name">${esc(h.name)}</span></td>
+        <td style="font-size:13px">${esc((h.labels || []).join(", "))}</td><td class="r num">${usd(h.price)}</td><td class="r num">${nf(h.rsi, 0)}</td></tr>`).join("")}</table></div>
+      <p class="note">👁 = wird vom Entry-Timer beobachtet. ${esc(se.hinweis || "")}</p>`
+      : empty("Noch keine Setups", "Sie werden an jedem US-Handelstag vor Börsenstart berechnet.");
+    html += `<p class="note" style="margin-top:18px">${esc(en?.disclaimer || "Keine Anlageberatung.")}</p>`;
+    return html;
+  }
+
+  function fanChart(tm) {
+    const m = tm.mc, p = tm.plan, bands = m.bands || [], times = m.band_times || [];
+    if (bands.length < 2) return "";
+    const W = 400, H = 230, L = 46, R = 8, T = 10, B = 22;
+    const vals = bands.flat().concat([p.stop, p.target, p.entry]);
+    let lo = Math.min(...vals), hi = Math.max(...vals);
+    const pad = (hi - lo) * 0.06 || 1; lo -= pad; hi += pad;
+    const x = (i) => L + (i / (bands.length - 1)) * (W - L - R);
+    const y = (v) => T + (hi - v) / (hi - lo) * (H - T - B);
+    const area = (a, b) => bands.map((q, i) => `${x(i)},${y(q[a])}`).join(" ") + " " + bands.map((q, i) => `${x(i)},${y(q[b])}`).reverse().join(" ");
+    const line = (k) => bands.map((q, i) => `${x(i)},${y(q[k])}`).join(" ");
+    const hl = (v, col, lab) => `<line x1="${L}" x2="${W - R}" y1="${y(v)}" y2="${y(v)}" stroke="${col}" stroke-dasharray="4 4" stroke-width="1.3"/>
+      <text x="${L - 6}" y="${y(v) + 3.5}" text-anchor="end" style="fill:${col}">${nf(v)}</text><text x="${W - R - 2}" y="${y(v) - 4}" text-anchor="end" style="fill:${col}">${lab}</text>`;
+    const ticks = [0, Math.floor((bands.length - 1) / 2), bands.length - 1];
+    return `<svg class="fan" viewBox="0 0 ${W} ${H}" role="img" aria-label="Fächer der 2.000 simulierten Kursverläufe">
+      <polygon points="${area(0, 4)}" fill="var(--accent)" opacity=".14"/>
+      <polygon points="${area(1, 3)}" fill="var(--accent)" opacity=".28"/>
+      <polyline points="${line(2)}" fill="none" stroke="var(--accent)" stroke-width="2"/>
+      ${hl(p.target, "var(--green)", "Ziel")}${hl(p.stop, "var(--red)", "Stop")}
+      <text x="${L - 6}" y="${y(p.entry) + 3.5}" text-anchor="end">${nf(p.entry)}</text>
+      ${ticks.map((i) => `<text x="${x(i)}" y="${H - 8}" text-anchor="${i === 0 ? "start" : i === bands.length - 1 ? "end" : "middle"}">${esc(times[i] || "")} ET</text>`).join("")}
+    </svg><p class="note">Linie = Median, dunkle Fläche = mittlere Hälfte, helle Fläche = 90 % der Verläufe.</p>`;
+  }
+
+  async function tmDetail(id) {
+    const tm = await load(`tm/${id}`, "daytrade");
+    const p = tm.plan, m = tm.mc, h = tm.history || {}, s = tm.summary || {};
+    const trades = (h.trades || []).slice(-12).reverse();
+    const OUT = { target: "Ziel", stop: "Stop", close: "offen" };
+    return `<a class="back" href="#/daytrade">‹ Daytrading</a>
+      <div class="card"><div class="row"><div class="grow"><div class="sym" style="font-size:20px">${esc(p.symbol)} · Time Machine</div>
+        <div class="name">${tm.kind === "o" ? "ORB-Scanner" : "Entry-Timer"} · ${new Date(p.date).toLocaleDateString("de-DE", { weekday: "long", day: "2-digit", month: "long" })}</div></div></div>
+        <div class="meta"><span>Einstieg <b>${usd(p.entry)}</b> um ${esc(h24(p.entry_time))} ET</span><span>Stop ${usd(p.stop)}</span><span>Ziel ${usd(p.target)} (${nf(p.target_r, 0)}R)</span><span>glatt bis ${esc(m.until)} ET</span></div></div>
+      <h2>${nf(m.replays, 0)} Durchläufe des restlichen Handelstags</h2>
+      <div class="kpis"><div class="kpi t"><div class="v num">${pc0(m.p_target)}</div><div class="l">Ziel zuerst</div></div>
+        <div class="kpi s"><div class="v num">${pc0(m.p_stop)}</div><div class="l">Stop zuerst</div></div>
+        <div class="kpi"><div class="v num">${pc0(m.p_neither)}</div><div class="l">bis ${esc(m.until)} offen</div></div></div>
+      <div class="card" style="margin-top:10px"><b>${esc(s.verdict || "")}</b>
+        <p class="note" style="margin:6px 0 0">Im Plus am Ende: ${pc0(m.p_green)} · Ø Ergebnis ${nf(m.avg_R, 2)} R · Kurs um ${esc(m.until)}: Median ${usd(m.median_close)}, 90 % zwischen ${usd(m.p5_close)} und ${usd(m.p95_close)}</p></div>
+      <div class="card">${fanChart(tm)}</div>
+      <h2>Wie oft hat dieselbe Regel früher funktioniert?</h2>
+      <div class="card">${h.triggered ? `<p style="margin:0">In den letzten <b>${h.sessions}</b> Handelstagen hat dieselbe Regel <b>${h.triggered}×</b> ausgelöst:
+        <span class="buy">${h.target}× Ziel</span>, <span class="sell">${h.stop}× Stop</span>, ${h.close}× offen. Ø ${nf(h.avg_R, 2)} R.</p>
+        <table style="margin-top:8px"><tr><th>Tag</th><th class="r">Einstieg</th><th class="r">Ergebnis</th></tr>
+        ${trades.map((x) => `<tr><td class="num">${new Date(x.date).toLocaleDateString("de-DE", { day: "2-digit", month: "2-digit" })} · ${esc(h24(x.time))}</td><td class="r num">${usd(x.entry)}</td>
+          <td class="r num ${x.outcome === "target" ? "buy" : x.outcome === "stop" ? "sell" : ""}">${OUT[x.outcome] || x.outcome} (${nf(x.R, 2)} R)</td></tr>`).join("")}</table>`
+        : `<span class="note">${esc(h.note || "Die Regel hat in den vergangenen Tagen nicht ausgelöst.")}</span>`}</div>
+      <p class="note">Jeder Durchlauf setzt den Rest des Tages aus echten 5-Minuten-Kerzen dieser Aktie zur gleichen Uhrzeit zusammen (${m.pool_sessions} Handelstage, ${esc(m.pool_from)} bis ${esc(m.pool_to)}). Berührt eine Kerze Stop und Ziel, zählt der Stop. Eine Simulation ist keine Prognose: Zahlen, Nachrichten oder Handelsstopps können anders verlaufen als in den letzten 60 Tagen.</p>
+      <p class="note">${esc(tm.disclaimer || "")}</p>`;
+  }
+
+  // ---- Kongress -----------------------------------------------------------
+  async function kongress() {
+    const c = await tryLoad("congress", "congress");
+    const fil = c?.filings || [];
+    let html = `<h1>Kongress-Aktiengeschäfte</h1><p class="sub">Meldungen von Abgeordneten des US-Repräsentantenhauses · aktualisiert ${dateTime(c?.updated)}</p>
+      <p class="note">⚠️ ${esc(c?.hinweis || "Öffentliche Pflichtmeldungen, bis zu 45 Tage nach dem Geschäft.")}</p>`;
+    const top = c?.top || [];
+    if (top.length) {
+      html += `<h2>Meistgehandelt (30 Tage)</h2><div class="card scroll"><table><tr><th>Ticker</th><th class="r">Käufe</th><th class="r">Verkäufe</th><th>Wer</th></tr>
+        ${top.slice(0, 12).map((t) => `<tr><td><b>${esc(t.ticker)}</b><br><span class="note">${esc(t.asset || "")}</span></td><td class="r num buy">${t.kaeufe}</td><td class="r num sell">${t.verkaeufe}</td>
+          <td style="font-size:12.5px">${esc(t.members.map((m) => m.replace(/^Hon\.\s*/, "")).slice(0, 3).join(", "))}${t.members.length > 3 ? " …" : ""}</td></tr>`).join("")}</table></div>`;
+    }
+    html += `<h2>Neueste Meldungen · ${fil.length}</h2>`;
+    html += fil.length ? fil.slice(0, 80).map((f) => `<div class="card">
+        <div class="row"><div class="grow"><div class="sym">${f.focus ? "⭐ " : ""}${esc(f.name.replace(/^Hon\.\s*/, ""))} <span class="tag">${esc(f.district)}</span></div>
+          <div class="name">gemeldet ${new Date(f.filed).toLocaleDateString("de-DE")} · <a href="${esc(f.url)}" target="_blank" rel="noopener">PDF</a></div></div></div>
+        ${f.rows.length ? f.rows.slice(0, 12).map((r) => `<div class="trow"><span class="${r.type === "P" ? "buy" : r.type?.startsWith("S") ? "sell" : ""}">${esc(r.type_de)}</span>
+            <b>${esc(r.ticker || "")}</b> ${esc(r.asset || "")}${r.asset_type && r.asset_type !== "Aktie" ? ` <span class="tag">${esc(r.asset_type)}</span>` : ""}
+            <div class="meta" style="margin-top:2px"><span>${esc(r.amount || "")}</span><span>gehandelt ${r.date ? new Date(r.date).toLocaleDateString("de-DE") : "–"}</span>
+            ${r.days_to_disclose != null ? `<span class="${r.late ? "err" : ""}">${r.days_to_disclose} Tage bis zur Meldung${r.late ? " (verspätet)" : ""}</span>` : ""}<span>${esc(r.owner || "")}</span></div>
+            ${r.option ? `<div class="note">${r.option.contracts} ${r.option.kind === "call" ? "Call" : "Put"}-Optionen, Basispreis ${nf(r.option.strike)} $, Verfall ${new Date(r.option.expires).toLocaleDateString("de-DE")}</div>` : ""}</div>`).join("")
+            + (f.rows.length > 12 ? `<p class="note">… und ${f.rows.length - 12} weitere Positionen im PDF.</p>` : "")
+          : `<p class="note" style="margin:8px 0 0">Nicht automatisch lesbar (z. B. eingescannte Papiermeldung) – bitte das PDF öffnen.</p>`}
+      </div>`).join("") : empty("Noch keine Meldungen", "Das Archiv des House Clerk wird dreimal pro Werktag geprüft.");
+    html += `<p class="note">${esc(c?.senat || "")} Quelle: ${esc(c?.quelle || "disclosures-clerk.house.gov")}.</p>`;
+    return html;
+  }
+
   async function status() {
-    const s = (await tryLoad("status")) || {};
+    const [s0, dt, cg] = await Promise.all([tryLoad("status"), tryLoad("status", "daytrade"), tryLoad("status", "congress")]);
+    const s = s0 || {};
+    const dtErr = (dt?.errors || []).slice(0, 3);
     const errs = s.errors || [];
     const sc = s.selfcheck;
     return `<h1>Systemstatus</h1>${DEMO ? `<p class="note">Vorschau mit Beispieldaten.</p>` : ""}
@@ -203,6 +357,13 @@
         <tr><td>Version</td><td class="r">${esc(s.version || "–")}</td></tr>
       </table></div>
       ${sc && sc.problems.length ? `<div class="card">${sc.problems.map((p) => `<p class="err" style="margin:4px 0">• ${esc(p)}</p>`).join("")}</div>` : ""}
+      <h2>Daytrading & Kongress</h2>
+      <div class="card"><table>
+        <tr><td>Daytrading-Takt</td><td class="r">${ago(dt?.last_cycle)}</td></tr>
+        <tr><td>Stand</td><td class="r">${esc(dt?.message || "–")}</td></tr>
+        <tr><td>US-Aktien im Scanner</td><td class="r num">${dt?.universe_size ? nf(dt.universe_size, 0) : "–"}</td></tr>
+        <tr><td>Kongress-Meldungen</td><td class="r">${ago(cg?.congress_last)}${cg?.congress_filings != null ? ` · ${cg.congress_filings} im Archiv` : ""}</td></tr>
+      </table>${dtErr.length ? dtErr.map((e) => `<p style="margin:6px 0 0"><b>${dateTime(e.time)}</b> · Daytrading<br><span class="note">${esc(e.message)}</span></p>`).join("") : ""}</div>
       <h2>Letzte Fehler</h2>
       <div class="card">${errs.length ? errs.slice(0, 5).map((e) => `<p style="margin:4px 0"><b>${dateTime(e.time)}</b> · ${esc(e.job)}<br><span class="note">${esc(e.message)}</span></p>`).join("") : `<span class="note">Keine Fehler protokolliert.</span>`}</div>
       <h2>So funktioniert's</h2>
@@ -211,6 +372,8 @@
         <p>• Alarm bei Tagesanstieg ≥ 10 % und Volumen ≥ 2× des 20-Tage-Schnitts (auf den Handelstag hochgerechnet). Pro Aktie und Tag gibt es höchstens einen weiteren Alarm, wenn sie nochmals 5 %-Punkte zulegt.</p>
         <p>• Die Bewertung ist regelbasiert: Volumen, Nachrichtenlage, RSI, Trend, Wachstum, Bewertung im Branchenvergleich und Verschuldung.</p>
         <p>• Die Push-Nachricht selbst kommt über die App <b>ntfy</b> auf den Sperrbildschirm. Ein Tippen darauf öffnet hier die passende Analyse.</p>
+        <p>• <b>Daytrading (nur US-Börsen):</b> Vor Börsenstart durchsucht der Setup-Scanner rund 5.900 US-Aktien. Ab 9:50 New York (15:50 bei dir) prüft der Entry-Timer alle 5 Minuten die beobachteten Setups und meldet den Einstieg per Push; die Time Machine spielt jeden Einstieg 10.000-mal durch. Es wird nie automatisch gekauft.</p>
+        <p>• <b>Kongress:</b> Dreimal pro Werktag werden neue Pflichtmeldungen von US-Abgeordneten gelesen; neue Aktiengeschäfte kommen als Sammel-Push.</p>
         <p><b>Wichtig:</b> Das Radar ist eine Entscheidungshilfe, keine Anlageberatung.</p>
       </div>`;
   }
@@ -218,11 +381,15 @@
   // ---- Router --------------------------------------------------------------
   async function render() {
     const hash = location.hash || "#/";
-    const tab = hash.startsWith("#/watch") ? "watch" : hash.startsWith("#/history") ? "history" : hash.startsWith("#/status") ? "status" : "home";
+    const tab = hash.startsWith("#/watch") ? "watch" : hash.startsWith("#/history") ? "history" : hash.startsWith("#/status") ? "status"
+      : hash.startsWith("#/daytrade") || hash.startsWith("#/tm/") ? "daytrade" : hash.startsWith("#/kongress") ? "kongress" : "home";
     document.querySelectorAll(".tabs a").forEach((a) => a.classList.toggle("on", a.dataset.tab === tab && !hash.startsWith("#/a/")));
     try {
       let html;
       if (hash.startsWith("#/a/")) html = await detail(decodeURIComponent(hash.slice(4)));
+      else if (hash.startsWith("#/tm/")) html = await tmDetail(decodeURIComponent(hash.slice(5)));
+      else if (tab === "daytrade") html = await daytrade();
+      else if (tab === "kongress") html = await kongress();
       else if (tab === "watch") html = await watch();
       else if (tab === "history") html = await history();
       else if (tab === "status") html = await status();
@@ -248,7 +415,7 @@
   $pill.addEventListener("click", () => { location.hash = "#/status"; });
   window.addEventListener("hashchange", () => { render(); window.scrollTo(0, 0); });
   document.addEventListener("visibilitychange", () => { if (!document.hidden) { Object.keys(cache).forEach((k) => delete cache[k]); render(); } });
-  setInterval(() => { if (!document.hidden && !location.hash.startsWith("#/a/")) { Object.keys(cache).forEach((k) => delete cache[k]); render(); } }, 60000);
+  setInterval(() => { if (!document.hidden && !/^#\/(a|tm)\//.test(location.hash)) { Object.keys(cache).forEach((k) => delete cache[k]); render(); } }, 60000);
   if ("serviceWorker" in navigator && !DEMO) navigator.serviceWorker.register("sw.js").catch(() => {});
   render();
 })();

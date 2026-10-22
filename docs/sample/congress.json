@@ -45,7 +45,7 @@
    "rows": [
     {
      "owner": "gemeinsam",
-     "asset": "Applied Materials, Inc. - Common Stock",
+     "asset": "Applied Materials, Inc.",
      "ticker": "AMAT",
      "asset_type": "Aktie",
      "type": "S",
@@ -62,7 +62,7 @@
     },
     {
      "owner": "gemeinsam",
-     "asset": "McDonald's Corporation Common Stock",
+     "asset": "McDonald's Corporation",
      "ticker": "MCD",
      "asset_type": "Aktie",
      "type": "S (partial)",
@@ -91,7 +91,7 @@
    "rows": [
     {
      "owner": "selbst",
-     "asset": "Berkshire Hathaway Inc. New Common Stock",
+     "asset": "Berkshire Hathaway Inc.",
      "ticker": "BRK.B",
      "asset_type": "Aktie",
      "type": "S (partial)",
@@ -108,7 +108,7 @@
     },
     {
      "owner": "selbst",
-     "asset": "Biogen Inc. - Common Stock",
+     "asset": "Biogen Inc.",
      "ticker": "BIIB",
      "asset_type": "Aktie",
      "type": "S (partial)",
@@ -159,7 +159,7 @@
     },
     {
      "owner": "selbst",
-     "asset": "Chevron Corporation Common Stock",
+     "asset": "Chevron Corporation",
      "ticker": "CVX",
      "asset_type": "Aktie",
      "type": "P",
@@ -176,7 +176,7 @@
     },
     {
      "owner": "selbst",
-     "asset": "Chubb Limited Common Stock",
+     "asset": "Chubb Limited",
      "ticker": "CB",
      "asset_type": "Aktie",
      "type": "S (partial)",
@@ -193,7 +193,7 @@
     },
     {
      "owner": "selbst",
-     "asset": "Corning Incorporated Common Stock",
+     "asset": "Corning Incorporated",
      "ticker": "GLW",
      "asset_type": "Aktie",
      "type": "P",
@@ -210,7 +210,7 @@
     },
     {
      "owner": "selbst",
-     "asset": "International Business Machines Corporation Common Stock",
+     "asset": "International Business Machines Corporation",
      "ticker": "IBM",
      "asset_type": "Aktie",
      "type": "S",
@@ -294,7 +294,7 @@
    "rows": [
     {
      "owner": "Ehepartner",
-     "asset": "Bloom Energy Corporation Class A Common Stock",
+     "asset": "Bloom Energy Corporation",
      "ticker": "BE",
      "asset_type": "Aktie",
      "type": "P",
@@ -311,7 +311,7 @@
     },
     {
      "owner": "Ehepartner",
-     "asset": "Bloom Energy Corporation Class A Common Stock",
+     "asset": "Bloom Energy Corporation",
      "ticker": "BE",
      "asset_type": "Option",
      "type": "P",
@@ -334,7 +334,7 @@
     },
     {
      "owner": "Ehepartner",
-     "asset": "Bloom Energy Corporation Class A Common Stock",
+     "asset": "Bloom Energy Corporation",
      "ticker": "BE",
      "asset_type": "Aktie",
      "type": "P",
@@ -351,7 +351,7 @@
     },
     {
      "owner": "Ehepartner",
-     "asset": "Bloom Energy Corporation Class A Common Stock",
+     "asset": "Bloom Energy Corporation",
      "ticker": "BE",
      "asset_type": "Option",
      "type": "P",
@@ -374,7 +374,7 @@
     },
     {
      "owner": "Ehepartner",
-     "asset": "Intel Corporation - Common Stock",
+     "asset": "Intel Corporation",
      "ticker": "INTC",
      "asset_type": "Option",
      "type": "P",
@@ -397,7 +397,7 @@
     },
     {
      "owner": "Ehepartner",
-     "asset": "Intel Corporation - Common Stock",
+     "asset": "Intel Corporation",
      "ticker": "INTC",
      "asset_type": "Aktie",
      "type": "P",
@@ -436,7 +436,7 @@
  "top": [
   {
    "ticker": "AMAT",
-   "asset": "Applied Materials, Inc. - Common Stock",
+   "asset": "Applied Materials, Inc.",
    "kaeufe": 0,
    "verkaeufe": 1,
    "members": [
@@ -463,7 +463,7 @@
   },
   {
    "ticker": "BIIB",
-   "asset": "Biogen Inc. - Common Stock",
+   "asset": "Biogen Inc.",
    "kaeufe": 0,
    "verkaeufe": 1,
    "members": [
@@ -472,7 +472,7 @@
   },
   {
    "ticker": "BRK.B",
-   "asset": "Berkshire Hathaway Inc. New Common Stock",
+   "asset": "Berkshire Hathaway Inc.",
    "kaeufe": 0,
    "verkaeufe": 1,
    "members": [
@@ -481,7 +481,7 @@
   },
   {
    "ticker": "CB",
-   "asset": "Chubb Limited Common Stock",
+   "asset": "Chubb Limited",
    "kaeufe": 0,
    "verkaeufe": 1,
    "members": [
@@ -490,7 +490,7 @@
   },
   {
    "ticker": "CVX",
-   "asset": "Chevron Corporation Common Stock",
+   "asset": "Chevron Corporation",
    "kaeufe": 1,
    "verkaeufe": 0,
    "members": [
@@ -499,7 +499,7 @@
   },
   {
    "ticker": "GLW",
-   "asset": "Corning Incorporated Common Stock",
+   "asset": "Corning Incorporated",
    "kaeufe": 1,
    "verkaeufe": 0,
    "members": [
@@ -508,7 +508,7 @@
   },
   {
    "ticker": "IBM",
-   "asset": "International Business Machines Corporation Common Stock",
+   "asset": "International Business Machines Corporation",
    "kaeufe": 0,
    "verkaeufe": 1,
    "members": [
@@ -517,7 +517,7 @@
   },
   {
    "ticker": "MCD",
-   "asset": "McDonald's Corporation Common Stock",
+   "asset": "McDonald's Corporation",
    "kaeufe": 0,
    "verkaeufe": 1,
    "members": [

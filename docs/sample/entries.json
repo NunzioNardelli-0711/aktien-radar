@@ -1,6 +1,6 @@
 {
  "date": "2026-10-19",
- "updated": "2026-10-19T19:40:45+00:00",
+ "updated": "2026-10-19T14:25:45+00:00",
  "items": [
   {
    "symbol": "CCL",
@@ -38,7 +38,7 @@
    "tm": {
     "error": "no data for CCL: offline"
    },
-   "pushed": true,
+   "push_note": "Kein Push: Time Machine „nicht verfügbar“",
    "name": "CCL Corp.",
    "source": "Setup-Scanner",
    "setups": [
@@ -143,7 +143,7 @@
    "tm": {
     "error": "no data for XOM: offline"
    },
-   "pushed": true,
+   "push_note": "Signal war beim Prüfen schon 22 Min. alt – kein Push",
    "name": "XOM Corp.",
    "source": "Setup-Scanner",
    "setups": [
@@ -152,9 +152,9 @@
   },
   {
    "symbol": "BAC",
-   "status": "expired",
-   "status_de": "verfallen",
-   "reason": "Kein Schluss über 51,53 $ bis 15:30 ET",
+   "status": "waiting",
+   "status_de": "wartet",
+   "reason": "Letzter Schluss 51,22 $ (10:20), 0,31 $ unter dem Spannen-Hoch 51,53 $",
    "level": 51.53,
    "opening_range": {
     "high": 51.53,
@@ -165,7 +165,7 @@
     "close": 51.22,
     "vs_level_pct": -0.61
    },
-   "checked": "2026-10-19T19:40:45+00:00",
+   "checked": "2026-10-19T14:25:45+00:00",
    "bars": 11,
    "name": "BAC Corp.",
    "source": "Setup-Scanner",
@@ -175,9 +175,9 @@
   },
   {
    "symbol": "F",
-   "status": "expired",
-   "status_de": "verfallen",
-   "reason": "Kein Schluss über 12,43 $ bis 15:30 ET",
+   "status": "waiting",
+   "status_de": "wartet",
+   "reason": "Letzter Schluss 12,39 $ (10:20), 0,04 $ unter dem Spannen-Hoch 12,43 $",
    "level": 12.43,
    "opening_range": {
     "high": 12.43,
@@ -188,7 +188,7 @@
     "close": 12.39,
     "vs_level_pct": -0.36
    },
-   "checked": "2026-10-19T19:40:45+00:00",
+   "checked": "2026-10-19T14:25:45+00:00",
    "bars": 11,
    "name": "F Corp.",
    "source": "Setup-Scanner",
@@ -198,9 +198,9 @@
   },
   {
    "symbol": "JPM",
-   "status": "expired",
-   "status_de": "verfallen",
-   "reason": "Kein Schluss über 341,01 $ bis 15:30 ET",
+   "status": "waiting",
+   "status_de": "wartet",
+   "reason": "Letzter Schluss 337,89 $ (10:20), 3,12 $ unter dem Spannen-Hoch 341,01 $",
    "level": 341.01,
    "opening_range": {
     "high": 341.01,
@@ -211,7 +211,7 @@
     "close": 337.89,
     "vs_level_pct": -0.92
    },
-   "checked": "2026-10-19T19:40:45+00:00",
+   "checked": "2026-10-19T14:25:45+00:00",
    "bars": 11,
    "name": "JPM Corp.",
    "source": "Setup-Scanner",
@@ -221,9 +221,9 @@
   },
   {
    "symbol": "KO",
-   "status": "expired",
-   "status_de": "verfallen",
-   "reason": "Kein Schluss über 93,75 $ bis 15:30 ET",
+   "status": "waiting",
+   "status_de": "wartet",
+   "reason": "Letzter Schluss 93,66 $ (10:20), 0,09 $ unter dem Spannen-Hoch 93,75 $",
    "level": 93.75,
    "opening_range": {
     "high": 93.75,
@@ -234,7 +234,7 @@
     "close": 93.66,
     "vs_level_pct": -0.1
    },
-   "checked": "2026-10-19T19:40:45+00:00",
+   "checked": "2026-10-19T14:25:45+00:00",
    "bars": 11,
    "name": "KO Corp.",
    "source": "Setup-Scanner",
@@ -244,9 +244,9 @@
   },
   {
    "symbol": "RIVN",
-   "status": "expired",
-   "status_de": "verfallen",
-   "reason": "Kein Schluss über 12,52 $ bis 15:30 ET",
+   "status": "waiting",
+   "status_de": "wartet",
+   "reason": "Letzter Schluss 12,28 $ (10:20), 0,24 $ unter dem Spannen-Hoch 12,52 $",
    "level": 12.52,
    "opening_range": {
     "high": 12.52,
@@ -257,7 +257,7 @@
     "close": 12.28,
     "vs_level_pct": -1.88
    },
-   "checked": "2026-10-19T19:40:45+00:00",
+   "checked": "2026-10-19T14:25:45+00:00",
    "bars": 11,
    "name": "RIVN Corp.",
    "source": "Setup-Scanner",

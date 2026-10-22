@@ -57,12 +57,15 @@ DT_NO_ENTRIES_BEFORE = "09:45"    # Einstiegs-Fenster (New Yorker Zeit)
 DT_NO_ENTRIES_AFTER = "15:30"
 DT_ENTRY_WATCH_MAX = 25           # so viele Setups beobachtet der Entry-Timer Kerze für Kerze
 DT_SETUP_PRIORITY = ["breakout_20d", "bull_flag", "oversold_bounce", "reclaim_ma20", "oversold"]
+DT_MIN_RISK_PCT = 0.4            # Stop mindestens 0,4 % unter dem Einstieg (enge Spannen = Rauschen)
 DT_TARGET_R = 1.0                 # Kursziel = Einstieg + 1 × Risiko (Stop = Mitte der Spanne)
 DT_FLAT_BY = "15:55"              # Time Machine: Position spätestens hier glattstellen
 DT_TM_REPLAYS = 10_000
 DT_TM_SEED = 19
 DT_TM_ORB_TOP = 5                 # Time Machine zusätzlich für die 5 umsatzstärksten ORB-Treffer
 DT_MAX_ENTRY_PUSHES = 10          # Obergrenze Einstiegs-Pushes pro Tag
+DT_PUSH_ONLY_FAVORABLE = True     # Push nur, wenn die Time Machine zum Ziel tendiert (eigene Liste immer)
+DT_MAX_SIGNAL_AGE_MIN = 15        # ältere Einstiegssignale (z. B. nach verspätetem Start) nur in der App
 DT_CYCLE_MINUTES = 5              # Takt der Daytrading-Schleife
 DT_PAUSE = 0.3                    # Pause zwischen Abrufen (Yahoo schonen)
 DT_MAX_CYCLE_ERRORS = 6           # so viele Fehler in Folge, dann bricht der Lauf ab
