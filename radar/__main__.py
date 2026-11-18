@@ -1,4 +1,4 @@
-"""Aufruf: python -m radar scan | daily | weekly | test-alert | selfcheck
+"""Aufruf: python -m radar scan | scan-loop [--max-minutes N] | daily | weekly | test-alert | selfcheck
                           | daytrade [--max-minutes N] | daytrade-once | congress | smoke"""
 import argparse
 import sys
@@ -8,11 +8,11 @@ from . import jobs
 
 def main() -> int:
     p = argparse.ArgumentParser(prog="radar")
-    p.add_argument("command", choices=["scan", "daily", "weekly", "test-alert", "selfcheck",
+    p.add_argument("command", choices=["scan", "scan-loop", "daily", "weekly", "test-alert", "selfcheck",
                                        "daytrade", "daytrade-once", "congress", "smoke"])
     p.add_argument("--push", action="store_true", help="bei selfcheck Probleme per Push melden")
     p.add_argument("--max-minutes", type=float, default=330,
-                   help="daytrade: Laufzeit-Grenze in Minuten (danach übernimmt der nächste Lauf)")
+                   help="daytrade/scan-loop: Laufzeit-Grenze in Minuten (danach übernimmt der nächste Lauf)")
     args = p.parse_args()
 
     if args.command == "test-alert":
@@ -37,6 +37,10 @@ def main() -> int:
 
     from .provider import YahooProvider
     provider = YahooProvider()
+    if args.command == "scan-loop":
+        from . import scanloop
+        print(scanloop.session(provider, max_minutes=args.max_minutes))
+        return 0
     fn = {"scan": jobs.scan, "daily": jobs.daily, "weekly": jobs.weekly}[args.command]
     jobs.run_guarded(args.command, fn, provider)
     return 0

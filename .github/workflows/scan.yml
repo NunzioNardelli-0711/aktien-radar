@@ -3,12 +3,19 @@ name: Scan (alle 5 Minuten)
 on:
   schedule:
     # Mo–Fr 06:00–21:55 UTC deckt Xetra und US-Börsen in Sommer- und Winterzeit ab.
-    # Der Code prüft selbst, welche Börse gerade offen ist.
+    # Der Code prüft selbst, welche Börse gerade offen ist. GitHub startet diese Cron-Jobs oft nur
+    # wenige Male am Tag – deshalb scannt ein Lauf in einer Schleife alle 5 Minuten (bis ~5,5 Std.)
+    # und startet danach selbst den Nachfolger (radar/scanloop.py). Der Cron ist nur der Starter.
     - cron: "*/5 6-21 * * 1-5"
   workflow_dispatch:
+    inputs:
+      max_minutes:
+        description: "Laufzeit-Grenze in Minuten"
+        default: "330"
 
 permissions:
   contents: write
+  actions: write     # Nachfolger bzw. verschlafenen Daytrading-Lauf starten
 
 concurrency:
   group: radar-store
@@ -17,7 +24,7 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -26,7 +33,7 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - name: Scan
-        run: bash .github/scripts/with-store.sh scan
+        run: bash .github/scripts/with-store.sh scan-loop --max-minutes "${{ inputs.max_minutes || '330' }}"
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
