@@ -3,7 +3,12 @@
 Hintergrund: GitHub startet die Cron-Jobs ("*/5") oft nur ein- bis fünfmal am Tag und mit
 Stunden Verspätung. Deshalb hält ein einzelner Lauf jetzt bis zu ~5,5 Std. durch, veröffentlicht
 nach jedem Scan (radar/gitstore.py) und startet vor Ablauf selbst den Nachfolger
-(workflow_dispatch). Die Cron-Einträge sind nur noch der Starter am Morgen.
+(workflow_dispatch). Die Cron-Einträge sind nur noch der Starter.
+
+Weil GitHub den Morgen-Cron teils erst am Nachmittag startet (19.11.: erster Lauf 15:21 UTC,
+Xetra blieb ungescannt), überbrückt die Kette werktags auch die Nacht: Ist die nächste Eröffnung
+höchstens OVERNIGHT_BRIDGE entfernt, wartet der Lauf und startet vor Ablauf den Nachfolger.
+Vor dem Wochenende endet die Kette; montags startet sie wieder per Cron.
 
 Weil die Schleife die Concurrency-Gruppe "radar-store" belegt, übernimmt sie auch den
 Tageslauf (falls heute noch keiner lief), die Selbstprüfung zu den Zeiten von health.yml und stößt den Daytrading-Lauf an, falls GitHub
@@ -23,6 +28,7 @@ WAIT_FOR_OPEN = timedelta(minutes=120)        # so lange vor Börsenstart wartet
 SELFCHECK_SLOTS_UTC = ((12, 7), (18, 7))      # wie in .github/workflows/health.yml
 DAYTRADE_FROM_UTC = (12, 31)                  # erster Cron-Termin in daytrade.yml
 DAYTRADE_UNTIL_UTC = (19, 0)
+OVERNIGHT_BRIDGE = timedelta(hours=14)        # Abend -> nächster Morgen, nicht übers Wochenende
 
 
 def minutes_to_next_open(now) -> float | None:
@@ -39,6 +45,31 @@ def minutes_to_next_open(now) -> float | None:
             mins = (op - loc).total_seconds() / 60
             best = mins if best is None else min(best, mins)
     return best
+
+
+def minutes_to_next_open_any(now, days: int = 4) -> float | None:
+    """Minuten bis zur nächsten Eröffnung irgendeiner Börse, auch an Folgetagen (0, wenn offen)."""
+    best = None
+    for m, spec in MARKETS.items():
+        if is_open(m, now):
+            return 0.0
+        loc = local_now(m, now)
+        for d in range(days + 1):
+            day = loc + timedelta(days=d)
+            if day.weekday() >= 5:
+                continue
+            op = day.replace(hour=spec["open"].hour, minute=spec["open"].minute, second=0, microsecond=0)
+            if op > loc:
+                mins = (op - loc).total_seconds() / 60
+                best = mins if best is None else min(best, mins)
+                break
+    return best
+
+
+def bridging(now) -> bool:
+    """Lohnt es, auf die nächste Eröffnung zu warten (über Nacht, aber nicht übers Wochenende)?"""
+    nxt = minutes_to_next_open_any(now)
+    return nxt is not None and nxt <= OVERNIGHT_BRIDGE.total_seconds() / 60
 
 
 def next_tick(now) -> datetime:
@@ -103,13 +134,22 @@ def session(provider, max_minutes: float = 330, now_fn=utcnow, sleep_fn=time.sle
     start = now_fn()
     scans, errors = 0, 0
     # Prüftermine, die vor dem Start lagen, holt health.yml bzw. der Nachfolger nicht nach.
-    done_slots = {s for s in SELFCHECK_SLOTS_UTC if _due(start, s)}
+    done_slots = {(start.date(), s) for s in SELFCHECK_SLOTS_UTC if _due(start, s)}
     daytrade_checked = daily_tried = False
     while True:
         now = now_fn()
         wait = minutes_to_next_open(now)
-        if wait is None or wait > WAIT_FOR_OPEN.total_seconds() / 60:
+        idle = wait is None or wait > WAIT_FOR_OPEN.total_seconds() / 60
+        if idle and not bridging(now):
             return {"scans": scans, "errors": errors, "reason": "keine Börse mehr offen"}
+        if idle:                        # Nacht überbrücken: nur warten, Nachfolger rechtzeitig starten
+            wake = min(now + timedelta(minutes=30), start + timedelta(minutes=max_minutes))
+            if wake >= start + timedelta(minutes=max_minutes):
+                if bridging(wake):
+                    dispatch_fn("scan.yml")
+                return {"scans": scans, "errors": errors, "reason": "Laufzeit-Grenze erreicht, Nachfolger gestartet"}
+            sleep_fn(max(1.0, (wake - now).total_seconds()))
+            continue
         if not daily_tried and now.weekday() < 5 and daily_missing(now):
             daily_tried = True          # höchstens ein Versuch pro Lauf
             try:
@@ -127,8 +167,8 @@ def session(provider, max_minutes: float = 330, now_fn=utcnow, sleep_fn=time.sle
             scans += 1
             publish_fn("scan")
         for slot in SELFCHECK_SLOTS_UTC:
-            if slot not in done_slots and _due(now, slot) and now.weekday() < 5:
-                done_slots.add(slot)
+            if (now.date(), slot) not in done_slots and _due(now, slot) and now.weekday() < 5:
+                done_slots.add((now.date(), slot))
                 try:
                     selfcheck_fn()
                 except Exception as exc:
@@ -144,7 +184,7 @@ def session(provider, max_minutes: float = 330, now_fn=utcnow, sleep_fn=time.sle
         wake = next_tick(now_fn())
         if wake - start > timedelta(minutes=max_minutes):
             later = minutes_to_next_open(wake)
-            if later is not None and later <= WAIT_FOR_OPEN.total_seconds() / 60:
+            if (later is not None and later <= WAIT_FOR_OPEN.total_seconds() / 60) or bridging(wake):
                 dispatch_fn("scan.yml")
             return {"scans": scans, "errors": errors, "reason": "Laufzeit-Grenze erreicht, Nachfolger gestartet"}
         while True:

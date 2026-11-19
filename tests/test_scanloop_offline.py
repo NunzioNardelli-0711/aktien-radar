@@ -62,14 +62,26 @@ def main():
     res, log, clock = run(datetime(2026, 11, 18, 12, 30, tzinfo=timezone.utc), max_minutes=600,
                           daytrade_ran=False, watchlist_today=False)
     print("Lauf 2:", res, len(log["scan"]), "Scans", log["dispatch"])
-    assert res["reason"] == "keine Börse mehr offen"
+    assert "Nachfolger" in res["reason"], res                    # überbrückt die Nacht
     assert log["scan"][-1] == datetime(2026, 11, 18, 20, 55, 20, tzinfo=timezone.utc), log["scan"][-1]
-    assert log["dispatch"] == ["daytrade.yml"], log["dispatch"]     # verschlafenen Daytrading-Lauf angestoßen
+    assert log["dispatch"] == ["daytrade.yml", "scan.yml"], log["dispatch"]  # verschlafenen Daytrading-Lauf angestoßen
     assert [t.hour for t in log["selfcheck"]] == [18]               # 12:07 lag vor dem Start
     assert len(log["daily"]) == 1                                   # Tageslauf nachgeholt
 
-    # Abends / Wochenende: sofort beenden
-    for t in (datetime(2026, 11, 18, 21, 30, tzinfo=timezone.utc), datetime(2026, 11, 21, 10, 0, tzinfo=timezone.utc)):
+    # Nacht werktags: warten, ohne zu scannen, und rechtzeitig den Nachfolger starten
+    res, log, clock = run(datetime(2026, 11, 18, 21, 30, tzinfo=timezone.utc), watchlist_today=True)
+    assert not log["scan"] and not log["daily"] and log["dispatch"] == ["scan.yml"], (res, log)
+    assert clock.now() <= datetime(2026, 11, 19, 3, 0, tzinfo=timezone.utc), clock.now()
+    res, log, clock = run(datetime(2026, 11, 19, 2, 20, tzinfo=timezone.utc))
+    assert not log["scan"] and log["dispatch"] == ["scan.yml"], (res, log)
+    # Nachfolger am Morgen: Tageslauf vor Xetra-Start, erster Scan 08:00 UTC
+    res, log, clock = run(datetime(2026, 11, 19, 7, 50, tzinfo=timezone.utc), watchlist_today=False)
+    assert len(log["daily"]) == 1 and log["scan"][0].hour == 8 and log["scan"][0].minute == 0, log
+    assert len(log["selfcheck"]) == 1 and log["selfcheck"][0].hour == 12, log["selfcheck"]
+    print("Nacht-Überbrückung: ok")
+
+    # Freitagabend / Wochenende: sofort beenden
+    for t in (datetime(2026, 11, 20, 21, 30, tzinfo=timezone.utc), datetime(2026, 11, 21, 10, 0, tzinfo=timezone.utc)):
         res, log, _ = run(t)
         assert not log["scan"] and res["reason"] == "keine Börse mehr offen", (t, res)
     print("Scan-Schleife: alle Tests bestanden.")
