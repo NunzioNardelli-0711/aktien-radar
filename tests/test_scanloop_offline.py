@@ -84,6 +84,25 @@ def main():
     for t in (datetime(2026, 11, 20, 21, 30, tzinfo=timezone.utc), datetime(2026, 11, 21, 10, 0, tzinfo=timezone.utc)):
         res, log, _ = run(t)
         assert not log["scan"] and res["reason"] == "keine Börse mehr offen", (t, res)
+        assert log["dispatch"] == ["wake.yml"], (t, log["dispatch"])   # Weckdienst übernimmt
+
+    # Weckdienst: Fr 21:00 UTC -> Etappen bis Mo 06:10 UTC, dann scan.yml (Xetra 08:00 UTC)
+    t = datetime(2026, 11, 20, 21, 0, tzinfo=timezone.utc)
+    hops = 0
+    while True:
+        clock, sent = Clock(t), []
+        res = scanloop.wake(max_minutes=330, now_fn=clock.now, sleep_fn=clock.sleep,
+                            dispatch_fn=lambda wf: sent.append(wf) or True)
+        assert len(sent) == 1, sent
+        hops += 1
+        t = clock.now()
+        if sent == ["scan.yml"]:
+            break
+        assert sent == ["wake.yml"] and hops < 20, (sent, hops)
+    assert t == datetime(2026, 11, 23, 6, 10, tzinfo=timezone.utc), t
+    res, log, _ = run(t, watchlist_today=False)                 # Montag: Kette läuft ab Xetra-Start
+    assert log["scan"][0] == datetime(2026, 11, 23, 8, 0, 20, tzinfo=timezone.utc), log["scan"][0]
+    print(f"Weckdienst: ok ({hops} Etappen)")
     print("Scan-Schleife: alle Tests bestanden.")
 
 

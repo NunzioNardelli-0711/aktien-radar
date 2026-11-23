@@ -1,4 +1,4 @@
-"""Aufruf: python -m radar scan | scan-loop [--max-minutes N] | daily | weekly | test-alert | selfcheck
+"""Aufruf: python -m radar scan | scan-loop [--max-minutes N] | wake [--max-minutes N] | daily | weekly | test-alert | selfcheck
                           | daytrade [--max-minutes N] | daytrade-once | congress | smoke"""
 import argparse
 import sys
@@ -9,7 +9,7 @@ from . import jobs
 def main() -> int:
     p = argparse.ArgumentParser(prog="radar")
     p.add_argument("command", choices=["scan", "scan-loop", "daily", "weekly", "test-alert", "selfcheck",
-                                       "daytrade", "daytrade-once", "congress", "smoke"])
+                                       "daytrade", "daytrade-once", "congress", "smoke", "wake"])
     p.add_argument("--push", action="store_true", help="bei selfcheck Probleme per Push melden")
     p.add_argument("--max-minutes", type=float, default=330,
                    help="daytrade/scan-loop: Laufzeit-Grenze in Minuten (danach übernimmt der nächste Lauf)")
@@ -29,6 +29,10 @@ def main() -> int:
             jobs.run_guarded("daytrade", daytrade.cycle, net, daytrade.utcnow())
         else:
             print(daytrade.session(net, max_minutes=args.max_minutes))
+        return 0
+    if args.command == "wake":
+        from . import scanloop
+        print(scanloop.wake(max_minutes=args.max_minutes))
         return 0
     if args.command == "congress":
         from . import congress

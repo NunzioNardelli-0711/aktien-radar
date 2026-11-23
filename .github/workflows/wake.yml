@@ -1,0 +1,39 @@
+name: Weckdienst (Scan-Kette nach dem Wochenende)
+
+# Die Scan-Schleife endet freitags nach US-Börsenschluss und startet diesen Weckdienst.
+# Er wartet in Etappen (je bis ~5,5 Std.) bis kurz vor der nächsten Eröffnung und startet dann
+# scan.yml. Eigene Concurrency-Gruppe: blockiert Wochenlauf, Tageslauf und Selbstprüfung nicht.
+# Der Cron ist nur eine zusätzliche Absicherung (GitHub startet Crons oft stark verspätet).
+
+on:
+  schedule:
+    - cron: "0 4 * * 1"
+  workflow_dispatch:
+    inputs:
+      max_minutes:
+        description: "Laufzeit-Grenze in Minuten"
+        default: "330"
+
+permissions:
+  contents: read
+  actions: write     # scan.yml bzw. eigenen Nachfolger starten
+
+concurrency:
+  group: radar-wake
+  cancel-in-progress: false
+
+jobs:
+  wake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Warten und Scan-Kette starten
+        run: python -m radar wake --max-minutes "${{ inputs.max_minutes || '330' }}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

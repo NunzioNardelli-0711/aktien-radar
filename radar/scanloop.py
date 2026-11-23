@@ -8,7 +8,10 @@ nach jedem Scan (radar/gitstore.py) und startet vor Ablauf selbst den Nachfolger
 Weil GitHub den Morgen-Cron teils erst am Nachmittag startet (19.11.: erster Lauf 15:21 UTC,
 Xetra blieb ungescannt), überbrückt die Kette werktags auch die Nacht: Ist die nächste Eröffnung
 höchstens OVERNIGHT_BRIDGE entfernt, wartet der Lauf und startet vor Ablauf den Nachfolger.
-Vor dem Wochenende endet die Kette; montags startet sie wieder per Cron.
+Vor dem Wochenende endet die Kette und übergibt an den Weckdienst (wake.yml, eigene
+Concurrency-Gruppe, blockiert also Wochenlauf & Co. nicht): Er wartet in Etappen bis kurz vor
+der nächsten Eröffnung und startet dann scan.yml – denn auch der Montags-Cron kam am 23.11.
+erst um 17:32 UTC, Xetra blieb ungescannt.
 
 Weil die Schleife die Concurrency-Gruppe "radar-store" belegt, übernimmt sie auch den
 Tageslauf (falls heute noch keiner lief), die Selbstprüfung zu den Zeiten von health.yml und stößt den Daytrading-Lauf an, falls GitHub
@@ -141,6 +144,8 @@ def session(provider, max_minutes: float = 330, now_fn=utcnow, sleep_fn=time.sle
         wait = minutes_to_next_open(now)
         idle = wait is None or wait > WAIT_FOR_OPEN.total_seconds() / 60
         if idle and not bridging(now):
+            if minutes_to_next_open_any(now) is not None:
+                dispatch_fn("wake.yml")     # Wochenende: Weckdienst startet die Kette wieder
             return {"scans": scans, "errors": errors, "reason": "keine Börse mehr offen"}
         if idle:                        # Nacht überbrücken: nur warten, Nachfolger rechtzeitig starten
             wake = min(now + timedelta(minutes=30), start + timedelta(minutes=max_minutes))
@@ -192,3 +197,29 @@ def session(provider, max_minutes: float = 330, now_fn=utcnow, sleep_fn=time.sle
             if left <= 0:
                 break
             sleep_fn(min(left, 600))
+
+
+WAKE_LEAD = timedelta(minutes=110)            # so lange vor der Eröffnung startet der Weckdienst scan.yml
+
+
+def wake(max_minutes: float = 330, now_fn=utcnow, sleep_fn=time.sleep, dispatch_fn=dispatch) -> dict:
+    """Weckdienst (wake.yml): wartet bis kurz vor der nächsten Eröffnung und startet dann scan.yml.
+
+    Läuft in eigener Concurrency-Gruppe und hält den Datenspeicher nicht. Reicht die Laufzeit nicht
+    bis zum Weckzeitpunkt, startet er sich selbst als Nachfolger.
+    """
+    start = now_fn()
+    nxt = minutes_to_next_open_any(start)
+    if nxt is None:
+        return {"reason": "keine Eröffnung in Sicht"}
+    target = start + timedelta(minutes=nxt) - WAKE_LEAD
+    limit = start + timedelta(minutes=max_minutes)
+    if target > limit:
+        while now_fn() < limit:
+            sleep_fn(min(600.0, max(1.0, (limit - now_fn()).total_seconds())))
+        dispatch_fn("wake.yml")
+        return {"reason": "Laufzeit-Grenze erreicht, Weckdienst-Nachfolger gestartet"}
+    while now_fn() < target:
+        sleep_fn(min(600.0, max(1.0, (target - now_fn()).total_seconds())))
+    dispatch_fn("scan.yml")
+    return {"reason": "scan.yml gestartet"}
